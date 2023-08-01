@@ -1,0 +1,10 @@
+{
+  "itemName" : "lumins-ancientsolariumore",
+  "price" : 55,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "lumins-ancientsolariumore.png",
+  "description" : "The ancient solarium... It's blazingly hot to the touch, but is concetrated in magical particles.",
+  "shortdescription" : "Ancient Solarium Ore",
+  "itemTags" : [ "reagent" ]
+}

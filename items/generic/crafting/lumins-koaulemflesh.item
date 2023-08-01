@@ -1,0 +1,10 @@
+{
+  "itemName" : "lumins-koaulemflesh",
+  "price" : 850,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "lumins-koaulemflesh.png",
+  "description" : "A repulsive blob of flesh torn away from K'Oaulem, immediately grown into an independent cell.",
+  "shortdescription" : "^#FFFF00;K'Oaulem Flesh^reset;",
+  "itemTags" : [ "reagent" ]
+}

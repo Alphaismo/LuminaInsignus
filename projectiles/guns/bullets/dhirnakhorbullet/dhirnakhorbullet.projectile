@@ -1,0 +1,22 @@
+{
+  "projectileName" : "dhirnakhorbullet",
+  "image" : "dhirnakhorbullet.png",
+  "physics" : "laser",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKind" : "plasma",
+  "pointLight" : false,
+  "flippable" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "power" : 6.50,
+  "speed" : 500,
+  "knockback" : 0,
+  "lightColor" : [94, 77, 127],
+  "fullbright" : true
+}

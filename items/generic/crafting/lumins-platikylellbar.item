@@ -1,0 +1,10 @@
+{
+  "itemName" : "lumins-platikylellbar",
+  "price" : 70,
+  "rarity" : "Unommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "lumins-platikylellbar.png",
+  "description" : "Two metals fused together into this monstrosity; but frankly it became even more strong.",
+  "shortdescription" : "Platisteel-Infused Kylell",
+  "itemTags" : [ "reagent" ]
+}

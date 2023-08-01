@@ -1,0 +1,17 @@
+[
+    {
+        "op" : "add",
+        "path" : "/boomboxidDescription",
+        "value" : "That cross-stitch is quite stupid either way."
+    },
+    {
+        "op" : "add",
+        "path" : "/ceebeDescription",
+        "value" : "I dislike this kind of cross-stitch, let alone being delicately well-made."
+    },
+    {
+        "op" : "add",
+        "path" : "/andarhanDescription",
+        "value" : "They display vermin as signs of pride? Pffft..."
+    }
+]

@@ -1,0 +1,98 @@
+{
+    "type" : "apex-ylsuthiroutpostrebelcommander",
+    "baseType" : "outpostcivilian",
+  
+    "npcname" : "Ruslan",
+    "identity" : {
+      "gender" : "male",
+      "hairGroup" : "hairmale",
+      "hairType" : "1",
+      "facialHairGroup" : "beardmale",
+      "facialHairType" : "17",
+      "bodyDirectives" : "?replace;6f2919=2a251e;e0975c=74726f;a85636=53504d?replace;735e3a=5c6d86;f7e7b2=ecfeff;a38d59=829fc6;d9c189=c1e4eb",
+      "hairDirectives":"?replace;6f2919=2a251e;e0975c=74726f;a85636=53504d",
+      "facialHairDirectives":"?replace;6f2919=2a251e;e0975c=74726f;a85636=53504d",
+      "emoteDirectives":"?replace;6f2919=2a251e;e0975c=74726f;a85636=53504d?replace;735e3a=5c6d86;f7e7b2=ecfeff;a38d59=829fc6;d9c189=c1e4eb"
+    },
+  
+    "scriptConfig" : {
+      "offeredQuests" : [ ],
+      "turnInQuests" : [ ],
+  
+      "dialogMode": "tutorial",
+      "dialog" : {
+        "converse" : {
+          "default" : {
+            "default" : [
+              "Hello."
+            ]
+          },
+          "apex" : {
+            "default" : [
+              "I'm not one of Athena nor I want to be, but I can provide support as to them as to my fellow rebels.",
+              "At least I can freely say this; \nHere, in Vervas Tharaau, comrade; \nBig Ape is a false god, and Miniknog are heretics.",
+              "William and his \"Cassowary\" Squad rescued us from Miniknog concetration camp. In exchange we now, instead, work for them.",
+              "If independence is slavery, then guess what, comrade... I find happiness in this slavery.",
+              "I've heard that long ago, Miniknog betrayed USCM by tampering with the \"Project Parasprite\". \nAnd we guessed... why not weaponize this incident against them?",
+              "We rebels fight for the freedom of our people. What is it that you fight for?",
+              "Times have never been tougher, but we must not lose hope.",
+              "It's always good to remember what you were fighting for, comrade.",
+              "Big Ape can't see us here. That will be at our advantage, comrade.",
+              "The Miniknog will never know that \"Operation Apeslayer\" and our own Parasprite army will commence inside Big Ape's musky anus that is their true stronghold, blyat.",
+              "Many of us rebels and Athena members have lost family and friends to the Miniknog. We won't rest until they're defeated forever!",
+              "The Miniknog will never reach this place, as Velrui-Thareu recalls. But I can't selfishly hide here for long as I have to save my people.",
+              "We're preparing a huge surprise for Big Ape. It may... no... WILL be glitchy...",
+              "Does your kind have a callous dictator too?"
+            ],
+            "apex" : [
+              "Feel free to rest for a brief while, soldier. Even then we will resume our duties.",
+              "At least I can freely say this; \nHere, in Vervas Tharaau, comrade; \nBig Ape is a false god, and Miniknog are heretics.",
+              "We both know we will never forgive Miniknog for what they did to us, and our families, and our society in general.",
+              "With this Nhar'Duunr caring for us like comrades, our hope returns stronger.",
+              "If independence is slavery, then guess what, comrade... I find happiness in this slavery.",
+              "If we fight hard enough, our kind will one day be free of oppression.",
+              "Are you here to support our never-ending struggle against the Miniknog?",
+              "I've never felt so free, and one day I may share this freedom with my people, comrade.",
+              "The only thing in Unbound I find redeeming, is that they also fight against the Miniknog with sheer strength and will, something that we're yet to grasp.",
+              "The Miniknog will never know that \"Operation Apeslayer\" and our own Parasprite army will commence inside Big Ape's musky anus that is their true stronghold, blyat.",
+              "Are you a fellow rebel, comrade?",
+              "I've lost my wife, son and twin brother to the Miniknog, comrade. I will make them pay in blood!",
+              "\"No force in this universe can equal the Miniknog!\", they said over and over again, comrade. Tonight we will blyat prove them wrong!"
+            ],
+            "sylethii" : [
+              "They look down on you all as enemies of the Miniknog too?",
+              "Such resilient body you have, comrade. Sexy indeed, blyat!",
+              "Perhaps we could team up and defeat the Miniknog together?",
+              "We fight for the freedom of our people. What do you fight for, Sylethii?",
+              "Your maso and our skills could be the key to our freedom and your world's liberation.",
+              "It's always good to remember what you were fighting for.",
+              "I don't know why I find it funny in imagining both genders having similar genitalia during evolut- oh sorry. \nAre you here to put the Miniknog's tyranny to it's end too, comrade?",
+              "Does your kind have a callous dictator too?"
+            ],
+            "nharduunr" : [
+              "Be careful with the the Miniknog. \nThey won't hesitate capturing and experimenting on you, delivering you a fate worse than death, comrade.",
+              "They, long ago, did an excellent job making Velrui-Thareu the way he is today, comrade. Cheers for them!",
+              "To sacrifice everything to create a powerful tower may be the Miniknog's wet dream. Luckily for us they only found a dry nightmare.",
+              "We're concerned you may not be familiar with the tyrant we call \"Big Ape\".",
+              "Your kind may possess a power to erase Miniknog from history. I've heard only comrade \"Vherul-Khavlenas\" is capable of doing so.",
+              "Big Ape wanted to fully exterminate all of your kind. It blinds him so we can act.",
+              "I'm thankful your kind doesn't have any callous dictators."
+            ]
+          }
+        }
+      }
+    },
+  
+    "items" : {
+      "override" : [
+        [0, [
+            {
+              "head" : [ { "name" : "berethead", "parameters" : { "colorIndex" : 11 } } ],
+              "chest" : [ { "name" : "novatier6schest", "parameters" : { "colorIndex" : 0 } } ],
+              "legs" : [ { "name" : "mediclegs", "parameters" : { "colorIndex" : 1 } } ]
+            }
+          ] ]
+      ]
+    }
+  }
+  

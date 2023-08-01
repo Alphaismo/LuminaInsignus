@@ -1,0 +1,87 @@
+{
+    "type" : "novakid-luminainsignuspatman",
+    "baseType" : "outpostcivilian",
+  
+    "npcname" : "Patman",
+    "identity" : {
+        "bodyDirectives" : "?replace;fff8b5=c7ffdc;fde03f=59f4a4;f6b919=0cd6b8;806319=0c2b4b",
+        "facialHairDirectives" : "?replace;fff8b5=c7ffdc;fde03f=59f4a4;f6b919=0cd6b8;806319=0c2b4b",
+        "emoteDirectives" : "?replace;fff8b5=c7ffdc;fde03f=59f4a4;f6b919=0cd6b8;806319=0c2b4b?replace;dc1f00=e7efa1;951500=697447;be1b00=abb573;f32200=ffffe0",
+        "hairDirectives" : "?replace;fff8b5=c7ffdc;fde03f=59f4a4;f6b919=0cd6b8;806319=0c2b4b",
+		"species": "novakid",
+        "gender" : "male",
+        "facialHairGroup" : "brand",
+        "facialHairType" : "0",
+        "hairGroup" : "hair",
+        "hairType" : "male1",
+        "personalityHeadOffset" : [-1,0],
+        "personalityArmIdle" : "idle.2",
+        "personalityIdle" : "idle.2"
+    },
+
+	"damageTeamType" : "ghostly",
+
+    "scriptConfig" : {
+      "offeredQuests" : [ ],
+      "turnInQuests" : [ ],
+
+      "personalities" : [
+        [1.0, { "personality" : "ambitious", "reactions" : {} }]
+      ],
+
+      "dialogMode": "tutorial",
+      "dialog" : {
+        "converse" : {
+            "default" : {
+                "default" : [
+                    "Hello."
+                    ]
+                },
+            "novakid" : {
+                "default" : [
+                    "Hi im ^green;<selfname>^reset;, comparing to me im always right and you are dumb and always wrong.",
+                    "hi i made this i helped i am awesome and helpful hello", // He indeed helped me make RGB for XXx_FaZe-Pu55ySL4Y3R_xXX
+                    "Its not Yomints its <selfname>.",
+                    "Brongus drive.",
+                    "Guns here or there are not airsoft im not dumb.",
+                    "Un momento de la <selfname>.",
+                    "Simulador de portal mech.",
+                    "^red;-1/10^reset; \nThis mod is cringe, rat shit and not awesome it doesnt add Poop Yomint.",
+                    "Big Chungus is funny",
+                    "Not gonna lie. I expected 24/7 urethral talk here, \nbut... I'm relieved... or am I?",
+                    "We're doing a little amount of trolling.",
+                    "It's Dub's fault he got banned from Brongus drive xddddddddddd.",
+                    "I am the weakest Serbian. Don't even dare try to test my patience.",
+                    "cum.",
+                    "Oh look the moron has another tuppwerware comeback.",
+                    "Lego light brick.",
+                    "No I did not accept his requested permission to be a mod contributor NPC! \nPressure him in deleting me from the mod.",
+                    "Nice cock, king.",
+                    "Illegal firearms at a cheap price?",
+                    "big chunus",
+                    "number 1 Naruto fan Joe Naruto best Naruto XD"
+                    ]
+                }
+            }
+        }
+    },
+
+    "items" : {
+      "override" : [
+        [0, [
+            {
+                "head" : [
+                    { "name" : "luminsnovakid-luminainsignuspatmanvisor", "parameters" : { "colorIndex" : 0 } }
+                ],
+                "chest" : [
+                    { "name" : "luminsnovakid-luminainsignuspatmanchest", "parameters" : { "colorIndex" : 0 } }
+                ],
+                "legs" : [
+                    { "name" : "luminsnovakid-luminainsignuspatmanlegs", "parameters" : { "colorIndex" : 0 } }
+                ]
+            }
+          ] ]
+      ]
+    }
+}
+  

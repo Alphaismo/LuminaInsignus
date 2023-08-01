@@ -1,0 +1,38 @@
+{
+  "lumins-neocultisttreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.96, "pool" : "money"},
+        {"weight" : 0.01, "item" : [ "lumins-neocultisthead", 1]},
+        {"weight" : 0.01, "item" : [ "lumins-neocultistjustmask", 1]},
+        {"weight" : 0.01, "item" : [ "lumins-neocultistchest", 1]},
+        {"weight" : 0.01, "item" : [ "lumins-neocultistlegs", 1]},
+        {"weight" : 0.50, "item" : [ "neocultist-sentinel", 1]},
+        {"weight" : 0.2, "item" : [ "nanowrap", 1]}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  "lumins-neocultistsnipertreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.96, "pool" : "money"},
+        {"weight" : 0.01, "item" : [ "lumins-neocultistsniperhead", 1]},
+        {"weight" : 0.01, "item" : [ "lumins-neocultistchest", 1]},
+        {"weight" : 0.01, "item" : [ "lumins-neocultistlegs", 1]},
+        {"weight" : 0.050, "item" : [ "neocultist-tenebris", 1]},
+        {"weight" : 0.045, "item" : [ "neocultist-megalodon", 1]},
+        {"weight" : 0.2, "item" : [ "nanowrap", 1]}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+}

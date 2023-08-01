@@ -1,0 +1,102 @@
+{
+  "itemName" : "ceebe-lancer",
+  "price" : 1180,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Vastly improved from Dread AR lines.",
+  "shortdescription" : "LB-C2 \"Lancer\"",
+  "tooltipKind" : "gun",
+  "category" : "assaultRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","lightbrickcity"],
+  "level" : 6,
+
+  "inventoryIcon" : [
+    { "image" : "ceebe-lancer.png" }
+  ],
+
+  "animation" : "/items/active/weapons/ranged/animation/lumins-fullbrightranged.animation",
+  "animationParts" : {
+    "middle" : "ceebe-lancer.png",
+    "middleFullbright" : "ceebe-lancerfullbright.png",
+    "muzzleFlash" : "/items/active/weapons/ranged/lightbrickcity/ceebe-muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/lumins-plasma1.ogg"]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [127, 72, 110]
+      }
+    }
+  },
+
+  "baseOffset" : [0.5, 0.125],
+  "muzzleOffset" : [2.2, 0.36],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.065,
+    "baseDps" : 20,
+    "energyUsage" : 16,
+    "projectileCount" : 1,
+    "inaccuracy" : 0.03,
+    "fireType" : "auto",
+
+    "projectileType" : "ceebebullet",
+    "projectileParameters" : {
+      "speed": 500,
+      "knockbackRange" : 10
+    },
+    "muzzleFlashVariants" : 1,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      },
+      "cooldown" : {
+        "duration" : 0.05,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      }
+    }
+  },
+
+  "altAbilityType" : "lumins-napalm",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

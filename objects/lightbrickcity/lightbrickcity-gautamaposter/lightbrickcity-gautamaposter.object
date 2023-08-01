@@ -1,0 +1,42 @@
+{
+  "objectName" : "lightbrickcity-gautamaposter",
+  "colonyTags" : ["lightbrickcity","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+
+  "shortdescription" : "Gautama Poster",
+  "description" : "A poster of a gautama.",
+  "race" : "generic",
+
+  "apexDescription" : "Whoever came up with this must've sniffed something.",
+  "avianDescription" : "I'm... I'm just confused... What is this?",
+  "floranDescription" : "Funny possse.",
+  "glitchDescription" : "Puzzled. What the hell is \"Gautama\"?.",
+  "humanDescription" : "No wonder any society would do something as flustering as Lightbrick will. Especially this poster with this kinda pose.",
+  "hylotlDescription" : "So Lightbrick City tend to adore surrealism?",
+  "novakidDescription" : "I wonder what the rest of his mighty tricks he has...",
+
+  "boomboxidDescription" : "I saw Thoras posters too, but the latter is not as common as that.",
+  "ceebeDescription" : "Ahhh yeah... Gautama.",
+  "sylethiiDescription" : "A poster of a man standing on laptop with a single hand. I can do that too.",
+  "orthiridDescription" : "A poster of a man standing on laptop with a single hand. I can do that too.",
+  "driianDescription" : "This poster gives me goosebumps, and a question; is this really possible?",
+  "andarhanDescription" : "The mere delusion.",
+  "nharduunrDescription" : "There's some kind of superstition behind this pose.",
+  "ginrhinDescription" : "Incomprehensible.",
+
+  "inventoryIcon" : "lightbrickcity-gautamapostericon.png",
+  "orientations" : [
+    {
+      "image" : "lightbrickcity-gautamaposter.png:<color>",
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

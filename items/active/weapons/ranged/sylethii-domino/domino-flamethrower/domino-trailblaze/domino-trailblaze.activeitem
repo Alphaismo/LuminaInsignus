@@ -1,0 +1,44 @@
+{
+  "itemName" : "domino-trailblaze",
+  "level" : 6,
+  "price" : 1500,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Ignite everything!",
+  "shortdescription" : "\"Trailblaze\"",
+  "tooltipKind" : "gun",
+  "category" : "Flamethrower",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","sylethii-domino"],
+
+  "inventoryIcon" : "domino-trailblaze.png",
+
+  "animation" : "/items/active/weapons/ranged/animation/lumins-fullbrightranged.animation",
+  "animationParts" : {
+    "middle" : "domino-trailblaze.png",
+    "middleFullbright" : "domino-trailblazefullbright.png",
+    "muzzleFlash" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fireStart" : [ "/sfx/gun/flamethrower_start.ogg" ],
+      "fireLoop" : [ "/sfx/gun/flamethrower_loop.ogg" ],
+      "fireEnd" : [ "/sfx/gun/flamethrower_stop.ogg" ]
+    }
+  },
+  "baseOffset" : [1.0, 0],
+  "muzzleOffset" : [2.4, 0.257],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbilityType" : "domino-flamethrower",
+  "primaryAbility" : {
+    "baseDps" : 15,
+    "energyUsage" : 30,
+    "speed" : 60
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

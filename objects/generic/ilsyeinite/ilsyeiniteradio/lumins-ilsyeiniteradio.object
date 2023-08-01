@@ -1,0 +1,94 @@
+{
+  "objectName" : "lumins-ilsyeiniteradio",
+  "colonyTags" : ["ilsyeinite","electronic"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 150,
+  "printable" : false,
+
+  "description" : "A radio.",
+  "shortdescription" : "Ilsyeinite Radio",
+  "race" : "generic",
+
+  "floranDescription" : "Radio box for newsss and musssic.",
+  "glitchDescription" : "Unamused. Rather too mundane to be considered a luxurious use of that material.",
+  "novakidDescription" : "Just some fancy music box.",
+
+  "lightColor" : [0, 0, 0],
+
+  "inventoryIcon" : "lumins-ilsyeiniteradioicon.png",
+  "animation" : "lumins-ilsyeiniteradio.animation",
+  "orientations" : [
+    {
+      "image" : "lumins-ilsyeiniteradio.png:default.off",
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+      "animationCycle" : 0.5,
+      "direction" : "right",
+
+      "animationParts" : {
+        "bg" : "lumins-ilsyeiniteradio.png",
+        "fg" : "lumins-ilsyeiniteradiolit.png"
+      },
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+      "image" : "lumins-ilsyeiniteradioleft.png:default.off",
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+      "animationCycle" : 0.5,
+      "direction" : "left",
+	  "flipImages" : true,
+
+      "animationParts" : {
+        "bg" : "lumins-ilsyeiniteradioleft.png",
+        "fg" : "lumins-ilsyeiniteradiolitleft.png"
+      },
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/speaker_toggle.ogg" ],
+      "off" : [ "/sfx/objects/speaker_toggle.ogg" ]
+    }
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [
+    "/objects/wired/light/light.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ],
+  "defaultLightState" : false,
+
+  "soundEffect" : "/sfx/objects/clubdecks1.ogg",
+
+  "npcToy" : {
+    "influence" : [
+      "hylotlmusic",
+      "hylotlmusic",
+      "hylotlmusic",
+      "hylotlmusicFinished"
+    ],
+    "defaultReactions" : {
+      "hylotlmusic" : [
+        [1.0, "hylotldance"]
+      ],
+      "hylotlmusicFinished" : [
+        [1.0, "hylotldance"],
+        [1.0, "smile"],
+        [1.0, "laugh"]
+      ]
+    },
+    "randomStandXRange" : [-4, 4],
+    "maxNpcs" : 4
+  }
+}

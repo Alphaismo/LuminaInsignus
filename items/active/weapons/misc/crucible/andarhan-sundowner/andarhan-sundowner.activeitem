@@ -1,0 +1,62 @@
+{
+  "itemName" : "andarhan-sundowner",
+  "price" : 960,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "The unstable greatsword that slaughtered the countless. \nIt used to belong to ^#FDBD01;S'ytn Vos^reset;' grandfather on ^red;his journey to avenge his daughter's death^reset;.",
+  "shortdescription" : "^#FDBD01;The Sundowner^reset;",
+  "tooltipKind" : "xraiizy_longtooltip",
+  "category" : "Crucible",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "melee", "crucible"],
+  "level" : 8,
+
+  "inventoryIcon" : "andarhan-sundownericon.png",
+
+  "animation" : "andarhan-sundowner.animation",
+  "animationParts" : {
+    "blade" : "andarhan-sundowner.png",
+    "bladeFullbright" : "andarhan-sundownerfullbright.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/crucible/Return1.ogg", "/sfx/melee/crucible/Return2.ogg", "/sfx/melee/crucible/Return3.ogg", "/sfx/melee/crucible/Return4.ogg", "/sfx/melee/crucible/Return5.ogg" ],
+      "fire2" : [ "/sfx/melee/crucible/Return1.ogg", "/sfx/melee/crucible/Return2.ogg", "/sfx/melee/crucible/Return3.ogg", "/sfx/melee/crucible/Return4.ogg", "/sfx/melee/crucible/Return5.ogg" ],
+      "fire3" : [ "/sfx/melee/crucible/Return1.ogg", "/sfx/melee/crucible/Return2.ogg", "/sfx/melee/crucible/Return3.ogg", "/sfx/melee/crucible/Return4.ogg", "/sfx/melee/crucible/Return5.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/energymeleeweapon.lua"],
+
+  "activeTime" : 6.0,
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "damageConfig" : {
+      "damageSourceKind" : "falling",
+      "knockbackMode" : "facing",
+      "statusEffects" : [ "burning" ],
+      "timeout" : 0.3
+  },
+    "fireTime" : 0.83,
+    "baseDps" : 11.5,
+
+    "stances" : {
+      "windup1" : {
+        "duration" : 0.15
+      }
+    }
+  },
+
+  "altAbilityType" : "kunaiblast",
+  "altAbility" : {
+    "elementalConfig" : {
+      "physical" : { "projectileType" : "andarhan-sundownergrenade" }
+    }
+  },
+
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

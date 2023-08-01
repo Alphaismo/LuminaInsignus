@@ -1,0 +1,59 @@
+{
+    "type" : "cassowaryscientist-sylethii",
+    "baseType" : "outpostcivilian",
+  
+    "npcname" : "Lehi",
+    "identity" : {
+      "gender" : "male"
+    },
+
+    "personalities" : [
+        [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+    
+    "scriptConfig" : {
+      "behaviorConfig" : {
+        "greetingChance" : 0
+      },
+  
+      "dialogMode": "tutorial",
+      "dialog" : {
+        "converse" : {
+            "default" : {
+              "default" : [
+                "Hello."
+              ]
+            },
+          "sylethii" : {
+            "default" : [
+              "Some time ago, our crew found a Parasprite wandering aimlessly in USCM ruins. We've decided to modify it.",
+              "Behind the scenes I managed to clone my own DNA, while I drank my own real blood. It tastes great by the way.",
+              "I don't find Glitch's name \"Hopebolt\" funny. Those who do are small dick energy assholes.",
+              "Neju's veins are fragile; wherever I poked at, it erupted and started to bleed. I'm researching for her cure.",
+              "I'm not a fan of human scientists in Apeslayer Inventor groups, but if whatever I must save them from headache, I will be here, anytime, anywhere.",
+              "While they work on programming an \"Apeslayer\" virus, we are making our own Parasprite, using this large, pure sample as a base."
+            ]
+          }
+        }
+      }
+    },
+  
+    "items" : {
+      "override" : [
+        [0, [
+            {
+              "head" : [
+                { "name" : "scientisthead" }
+              ],
+              "chest" : [
+                { "name" : "scientistchest" , "parameters" : { "colorIndex" : 8 } }
+              ],
+              "legs" : [
+                { "name" : "scientistlegs", "parameters" : { "colorIndex" : 1 } }
+              ]
+            }
+          ] ]
+      ]
+    }
+  }
+  

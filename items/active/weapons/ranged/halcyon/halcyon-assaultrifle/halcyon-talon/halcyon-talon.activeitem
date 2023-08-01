@@ -1,0 +1,105 @@
+{
+  "itemName" : "halcyon-talon",
+  "price" : 1080,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "One of LS-iV Series Assault Rifles, used by Halcyon infantry.",
+  "shortdescription" : "LS-iV2 \"Talon\"",
+  "tooltipKind" : "gun",
+  "category" : "assaultRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","halcyon"],
+  "level" : 6,
+
+  "inventoryIcon" : [
+    { "image" : "halcyon-talon.png" }
+  ],
+
+  "animation" : "/items/active/weapons/ranged/animation/lumins-fullbrightranged.animation",
+  "animationParts" : {
+    "middle" : "halcyon-talon.png",
+    "middleFullbright" : "halcyon-talonfullbright.png",
+    "muzzleFlash" : "/items/active/weapons/ranged/halcyon/halcyon-muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/andarhanhalcyon-plasma3.ogg"]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [0, 121, 155]
+      }
+    }
+  },
+
+  "baseOffset" : [0.4, 0.0],
+  "muzzleOffset" : [2.25, 0.35],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.12,
+    "baseDps" : 35.5,
+    "energyUsage" : 36,
+    "projectileCount" : 2,
+    "inaccuracy" : 0.04,
+    "fireType" : "auto",
+
+    "projectileType" : "halcyonbullet",
+    "projectileParameters" : {
+      "speed": 500,
+      "knockbackRange" : 10
+    },
+    "muzzleFlashVariants" : 1,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "weaponOffset" : [-0.1, 0],
+        "recoil" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      },
+      "cooldown" : {
+        "duration" : 0.05,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+        "weaponOffset" : [-0.1, 0],
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      }
+    }
+  },
+
+  // "altAbilityType" : "flamethrower",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,73 @@
+{
+    "type" : "human-ylsuthiroutpostguard",
+    "baseType" : "outpostcivilian",
+  
+    "identity" : {
+        "gender" : "male"
+    },
+
+    "movementParameters" : {
+      "walkSpeed" : 5.0
+    },
+
+    "scriptConfig" : {
+      "offeredQuests" : [ ],
+      "turnInQuests" : [ ],
+      
+      "behaviorConfig" : {
+        "greetingChance" : 0
+      },
+
+      "reactions" : { "spontaneous" : [ ] },
+
+      "dialogMode": "tutorial",
+      "dialog" : {
+        "converse" : {
+          "default" : {
+            "default" : [
+              "I'm sorry, but the elevator is off-limits to refugees."
+            ]
+          },
+          "human" : {
+            "default" : [
+              "I'm sorry, but the elevator is off-limits to refugees.",
+              "Why can't we tell Neju that the elevator is off-limits? She ignores us and tries to break through!",
+              "We can only let high-ranked personnel in.",
+              "Anywhere else in Yls'Uthir is dangerous. We can't allow casualties.",
+              "The planet is hospitable, but that doesn't mean we can let you enter the elevator."
+            ],
+            "nharduunr" : [
+              "We can only let Velrui-Thareu in.",
+              "No matter the headmaster's permission, we can't let you enter the elevator.",
+              "We can only let high-ranked personnel in.",
+              "Anywhere else in Yls'Uthir is dangerous. We can't allow casualties.",
+              "The planet is hospitable, but that doesn't mean we can let you enter the elevator."
+            ],
+            "human" : [
+              "We can only let Ace Commander William in.",
+              "Sorry, <entityname>, but the elevator is off-limits to anyone else.",
+              "We can only let high-ranked personnel in.",
+              "Anywhere else in Yls'Uthir is dangerous. We can't allow casualties.",
+              "The planet is hospitable, but that doesn't mean we can let you enter the elevator."
+            ]
+          }
+        }
+      }
+    },
+
+    "items" : {
+      "override" : [
+        [0, [
+            {
+              "head" : [ { "name" : "pathfinderhead", "parameters" : { "colorIndex" : 0 } } ],
+              "chest" : [ { "name" : "pathfinderchest", "parameters" : { "colorIndex" : 0 } } ],
+              "legs" : [ { "name" : "pathfinderlegs", "parameters" : { "colorIndex" : 0 } } ],
+              "primary" : [
+                "npcassaultrifle"
+              ]
+            }
+          ] ]
+      ]
+    }
+  }
+  

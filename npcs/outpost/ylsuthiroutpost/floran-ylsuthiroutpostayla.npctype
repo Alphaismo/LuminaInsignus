@@ -1,0 +1,95 @@
+{
+  "type" : "floran-ylsuthiroutpostayla",
+  "baseType" : "outpostcivilian",
+
+  "npcname" : "Ayla",
+  "identity" : {
+    "hairDirectives" : "?replace;f32200=ebac59;dc1f00=c25a2c;be1b00=8d291b?replace;f7e7b2=7eabd9;d9c189=5583cf;a38d59=305ba6;735e3a=22386b",
+    "bodyDirectives" : "?replace;6f2919=542f64;e0975c=ac6ab7;ffca8a=cb86d6;a85636=7e498c?replace;f7e7b2=7eabd9;d9c189=5583cf;a38d59=305ba6;735e3a=22386b",
+    "emoteDirectives" : "?replace;6f2919=542f64;e0975c=ac6ab7;ffca8a=cb86d6;a85636=7e498c?replace;f7e7b2=7eabd9;d9c189=5583cf;a38d59=305ba6;735e3a=22386b",
+    "gender" : "female",
+    "hairGroup" : "hair",
+    "hairType" : "lumins-7",
+    "personalityHeadOffset" : [-1,0],
+    "personalityArmOffset" : [0,0],
+    "personalityArmIdle" : "idle.2",
+    "personalityIdle" : "idle.2"
+  },
+
+  "scriptConfig" : {
+    "offeredQuests" : [ ],
+    "turnInQuests" : [ ],
+
+    "personalities" : [
+    [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+
+    "dialogMode": "tutorial",
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Hello."
+          ]
+        },
+        "floran" : {
+          "default" : [
+            "Floran's name isss \n\"<selfname> Echreine\", Sssemi-retired Greenfinger of Lionheart Tribe. Floran helped people essscape to glowing men'sss ssskyscraper.",
+            "Floran and Itenlen are great huntersss. They ressspect us.",
+            "Do you know the thrill of ssstabbing giant dreaded monstersss dwelling in thisss planet crosssssing your path?",
+            "Glowing man Velrui-Thareu isss an expert of hunting too.",
+            "Floran doesssn't know what \"Lightbrick City\" isss...",
+            "Guardsss are ssscared of Floran and Itenlen. We gain sssatisfaction from it.",
+            "Songbolt isss a pro at flirting with anyone, including Floran. Floran lovesss it.",
+            "Gangssstalkers can't get Floran now! Ready to ssstab them anyway if they find me!",
+            "Violence isss alwaysss the question, not anssswer. And Floran's anssswer isss yes!"
+          ],
+          "floran" : [
+            "Floran's name isss \n\"<selfname> Echreine\", Sssemi-retired Greenfinger of Lionheart Tribe. Floran helped people essscape to glowing men'sss ssskyscraper.",
+            "Floran and Itenlen are great huntersss. They ressspect us.",
+            "Oh. You have the thrill of ssstabbing anything in your path. Have you tried Ylsss'Uthiran variety?",
+            "Be sure to ssstab anything bigger that moves in Ylsss'Uthir.",
+            "Floran ain't afraid of anything.",
+            "Floran hasss alot of meat to sell. Meat of variousss Ylsss'Uhtiran monstersss of courssse. Want sssome for free?",
+            "Ssstab ssscary monstersss, life very good."
+          ],
+          "hylotl" : [
+            "Don't worry, fish face. Floran ressspects everyone around here.",
+            "Floran and Itenlen are great huntersss. They ressspect us.",
+            "Do you know the thrill of ssstabbing giant dreaded monstersss dwelling in thisss planet crosssssing your path?",
+            "Monsssters here are violent. Be sssure you get prepared to not get mauled to death.",
+            "Not all fish faces are assssholes to Floran or Floran's kind.",
+            "Floran alssso valuesss honor. But Floran isss sssuperior in that.",
+            "Peace ain't Floran's cup of tea. But neither isss war."
+          ],
+          "andarhan" : [
+            "Floran don't fear nor ssstab anyone here. You won't have to worry, robot.",
+            "You're being hunted down too?",
+            "USCM may be your opportunity to ssstab again.",
+            "Floran ressspects you as a warrior. May you do the sssame?"
+          ],
+          "dhirnakhor" : [
+            "Anyone may help you. Count your luck on.",
+            "Floran didn't confronted any Dhir'Nakhor legionsss.",
+            "Oh. You have the thrill of ssstabbing anything in your path. Have you tried Ylsss'Uthiran variety?",
+            "Be sure to ssstab anything bigger that moves in Ylsss'Uthir."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "traineechest", "parameters" : { "colorIndex" : 11 } } ],
+            "legs" : [ { "name" : "deadbeatstrapslegs", "parameters" : { "colorIndex" : 1 } } ]
+          }
+        ] ]
+    ]
+  }
+}

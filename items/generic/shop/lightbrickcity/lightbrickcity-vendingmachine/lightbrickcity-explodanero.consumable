@@ -1,0 +1,16 @@
+{
+  "itemName" : "lightbrickcity-explodanero",
+  "rarity" : "Common",
+  "price" : 40,
+  "category" : "drink",
+  "inventoryIcon" : "lightbrickcity-explodanero.png",
+  "description" : "Defuses the thirst in seconds, and no sugar whatsoever!",
+  "shortdescription" : "Exploda Nero",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 30
+    }
+  ] ],
+  "emitters" : [ "drinking" ]
+}

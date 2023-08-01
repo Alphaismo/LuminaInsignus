@@ -1,0 +1,102 @@
+{
+  "itemName" : "andarhan-geist",
+  "price" : 1080,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A staple assault rifle, manufactured for and by Andarhans.",
+  "shortdescription" : "S'Ro-09 \"Geist\"",
+  "tooltipKind" : "gun",
+  "category" : "assaultRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","andarhan"],
+  "level" : 6,
+
+  "inventoryIcon" : [
+    { "image" : "andarhan-geist.png" }
+  ],
+
+  "animation" : "/items/active/weapons/ranged/animation/lumins-fullbrightranged.animation",
+  "animationParts" : {
+    "middle" : "andarhan-geist.png",
+    "middleFullbright" : "andarhan-geistfullbright.png",
+    "muzzleFlash" : "/items/active/weapons/ranged/andarhan/andarhan-muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/andarhanhalcyon-plasma3.ogg"]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [155, 53, 0]
+      }
+    }
+  },
+
+  "baseOffset" : [0.9, 0.1],
+  "muzzleOffset" : [2.30, 0.25],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.10,
+    "baseDps" : 10,
+    "energyUsage" : 29,
+    "projectileCount" : 1,
+    "inaccuracy" : 0.02,
+    "fireType" : "auto",
+
+    "projectileType" : "andarhanbullet",
+    "projectileParameters" : {
+      "speed": 500,
+      "knockbackRange" : 5
+    },
+    "muzzleFlashVariants" : 1,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      },
+      "cooldown" : {
+        "duration" : 0.05,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      }
+    }
+  },
+
+  // "altAbilityType" : "shrapnelbomb",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

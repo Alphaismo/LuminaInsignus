@@ -1,0 +1,39 @@
+{
+  "objectName" : "lumins-ilsyeinitecloset",
+  "colonyTags" : ["ilsyeinite","storage"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 160,
+  "description" : "Unusual closet made of such expensive materal, and has wardrobe built-in too.",
+  "shortdescription" : "Ilsyeinite Closet",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "floranDescription" : "Floran can hide in that clossset.",
+  "glitchDescription" : "Interested. I wonder how rich the manufacturers of these closets are?",
+  "novakidDescription" : "This closet can store so many stuff, but can it run Doom?",
+
+  "inventoryIcon" : "lumins-ilsyeinitecloseticon.png",
+  "orientations" : [
+    {
+      "leftImage" : "lumins-ilsyeiniteclosetleft.png:<color>.<key>",
+      "rightImage" : "lumins-ilsyeiniteclosetright.png:<color>.<key>",
+
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodendoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodendoor_close.ogg" ],
+  "slotCount" : 64,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

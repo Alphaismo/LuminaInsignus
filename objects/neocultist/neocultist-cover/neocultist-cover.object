@@ -1,0 +1,51 @@
+{
+    "objectName" : "neocultist-cover",
+    "colonyTags" : ["neocultist"],
+    "rarity" : "Rare",
+    "category" : "decorative",
+    "price" : 600,
+    "health" : 8,
+    "description" : "The metal cover used by Neo Occasus cultists to cover themselves behind.",
+    "shortdescription" : "Neo Cultist Cover",
+    "race" : "human",
+  
+    "floranDescription" : "Ssstupid hiding... Floran ssstab!",
+    "glitchDescription" : "Surprised. The metal used to manufacture these covers were surprisingly durable against magitek arsenal.",
+    "novakidDescription" : "This might work. Like hiding from Mad Dog McCree's grenade launcher... If he has one! Ha!",
+    
+    "sylethiiDescription" : "Neo Occasus-manufactured metal covers. This might work.",
+    "boomboxidDescription" : "Ayyy purple cover.",
+    "nharduunrDescription" : "I wouldn't mind primitive protection against magical elements. There's some wisdom put through.",
+  
+    "inventoryIcon" : "neocultist-covericon.png",
+     "orientations" : [
+      {
+        "image" : "neocultist-cover.png:<color>",
+        "imagePosition" : [-32, 0],
+        "frames" : 1,
+        "animationCycle" : 1.0,
+        "flipImages" : false,
+        "renderLayer" : "Player+6",
+        "direction" : "left",
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ],
+        "collision" : "solid",
+        "collisionSpaces" : [ [-1, 0], [-2, 0], [-2, 1], [-2, 2] ]
+      },
+      {
+        "image" : "neocultist-cover.png:<color>",
+        "imagePosition" : [-32, 0],
+        "frames" : 1,
+        "animationCycle" : 1.0,
+        "flipImages" : true,
+        "renderLayer" : "Player+6",
+        "direction" : "right",
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ],
+        "collision" : "solid",
+        "collisionSpaces" : [ [1, 0], [2, 0], [2, 1], [2, 2] ]
+      }
+    ]
+  
+  }
+  

@@ -1,0 +1,28 @@
+{
+  "itemName" : "vrekhiirisotto",
+  "rarity" : "Rare",
+  "price" : 300,
+  "category" : "preparedFood",
+  "inventoryIcon" : "vrekhiirisotto.png",
+  "description" : "Served with fairly large pieces of Vre'Khii meat, wrapped in Mylhar leaves.",
+  "shortdescription" : "Vre'Khii Risotto",
+  "effects" : [ [
+    {
+        "effect" : "ragefood",
+        "duration" : 675
+    },
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 675
+    }
+  ] ],
+  "foodValue" : 55,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

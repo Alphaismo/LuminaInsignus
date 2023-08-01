@@ -1,0 +1,22 @@
+{
+  "projectileName" : "andarhanbullet",
+  "image" : "andarhanbullet.png",
+  "physics" : "laser",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKind" : "plasma",
+  "pointLight" : false,
+  "flippable" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "power" : 3.5,
+  "speed" : 75,
+  "knockback" : 0,
+  "lightColor" : [155, 53, 0],
+  "fullbright" : true
+}

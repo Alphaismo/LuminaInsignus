@@ -1,0 +1,24 @@
+{
+  "materialId" : 31391,
+  "materialName" : "ylsuthirwall",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "ylsuthirwall",
+  "description" : "A sleek metal wall panel.",
+  "shortdescription" : "Yls'Uthiran Wall Panel",
+  "glitchDescription" : "Impressed. These amusing patterns surely looks cool.",
+  "floranDescription" : "Metal panel makess ssmooth wall.",
+  "novakidDescription" : "A panel made outta metal.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "ylsuthirwall.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2630
+  }
+}

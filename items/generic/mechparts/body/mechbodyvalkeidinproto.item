@@ -1,0 +1,15 @@
+{
+  "itemName" : "mechbodyvalkeidinproto",
+  "price" : 6400,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbody",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mechbodyvalkeidinproto.png",
+  "description" : "A prototype open-top mech body, designed for Valkeidin pilots.",
+  "shortdescription" : "Whirlwind-00 Mech Body",
+  "itemTags" : [ ],
+
+  "mechPart" : ["body", "valkeidinproto"]
+}

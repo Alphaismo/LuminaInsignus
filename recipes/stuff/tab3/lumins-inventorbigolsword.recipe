@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 10 }
+  ],
+	"output" : { "item" : "lumins-inventorbigolsword", "count" : 1 },
+	"groups" : [ "lumins-inventorcrafter", "lumins-inventortab3" ]
+}

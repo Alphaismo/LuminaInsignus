@@ -1,0 +1,23 @@
+{
+  "projectileName" : "dominolargebullet",
+  "image" : "dominolargebullet.png",
+  "physics" : "laser",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKind" : "plasma",
+  "pointLight" : false,
+  "flippable" : true,
+  "piercing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "power" : 9.5,
+  "speed" : 500,
+  "knockback" : 0,
+  "lightColor" : [45, 93, 128],
+  "fullbright" : true
+}

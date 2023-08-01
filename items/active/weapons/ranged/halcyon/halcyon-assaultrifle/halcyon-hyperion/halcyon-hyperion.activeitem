@@ -1,0 +1,107 @@
+{
+  "itemName" : "halcyon-hyperion",
+  "price" : 1080,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "An old gangster classic, reimagined for the modern age.",
+  "shortdescription" : "LS-iV3 \"Hyperion\"",
+  "tooltipKind" : "gun",
+  "category" : "assaultRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","halcyon"],
+  "level" : 6,
+
+  "inventoryIcon" : [
+    { "image" : "halcyon-hyperion.png" }
+  ],
+
+  "animation" : "/items/active/weapons/ranged/animation/lumins-fullbrightranged.animation",
+  "animationParts" : {
+    "middle" : "halcyon-hyperion.png",
+    "middleFullbright" : "halcyon-hyperionfullbright.png",
+    "muzzleFlash" : "/items/active/weapons/ranged/halcyon/halcyon-muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/andarhanhalcyon-plasma2.ogg"]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [0, 121, 155]
+      }
+    }
+  },
+
+  "baseOffset" : [0.6, 0.125],
+  "muzzleOffset" : [2.0, 0.35],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.16,
+    "baseDps" : 20,
+    "energyUsage" : 29,
+    "projectileCount" : 1,
+    "inaccuracy" : 0.03,
+    "fireType" : "auto",
+
+    "projectileType" : "halcyonbullet",
+    "projectileParameters" : {
+      "knockbackRange" : 10
+    },
+    "muzzleFlashVariants" : 1,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+        "weaponOffset" : [-0.1, 0],
+        "recoil" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      },
+      "cooldown" : {
+        "duration" : 0.05,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+        "weaponOffset" : [-0.1, 0],
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      }
+    }
+  },
+
+  "altAbilityType" : "halcyon-grenadelauncher",
+  "projectileParameters" : {
+    "speed": 5
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

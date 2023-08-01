@@ -1,0 +1,105 @@
+{
+  "itemName" : "ilsyeinite-stryker",
+  "price" : 1080,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "",
+  "shortdescription" : "\"Stryker\"",
+  "tooltipKind" : "gun",
+  "category" : "assaultRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","ilsyeinite"],
+  "level" : 6,
+
+  "inventoryIcon" : [
+    { "image" : "ilsyeinite-stryker.png" }
+  ],
+
+  "animation" : "/items/active/weapons/ranged/animation/lumins-fullbrightranged.animation",
+  "animationParts" : {
+    "middle" : "ilsyeinite-stryker.png",
+    "middleFullbright" : "ilsyeinite-strykerfullbright.png",
+    "muzzleFlash" : "/items/active/weapons/ranged/lumins-ilsyeinite/ilsyeinite-muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/lumins-plasma6.ogg"]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [29, 62, 122]
+      }
+    }
+  },
+
+  "baseOffset" : [1.0, 0.1],
+  "muzzleOffset" : [2.25, 0.27],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.15,
+    "baseDps" : 20.5,
+    "energyUsage" : 28,
+    "projectileCount" : 1,
+    "inaccuracy" : 0.01,
+    "fireType" : "auto",
+
+    "projectileType" : "lumins-ilsyeinitebullet",
+    "projectileParameters" : {
+      "piercing" : true,
+      "knockbackRange" : 10
+    },
+    "muzzleFlashVariants" : 3,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "weaponOffset" : [-0.1, 0],
+        "recoil" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      },
+      "cooldown" : {
+        "duration" : 0.05,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+        "weaponOffset" : [-0.1, 0],
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      }
+    }
+  },
+  
+  "altAbilityType": "lumins-flashlight",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

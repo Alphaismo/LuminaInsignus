@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "lumins-ancientsolariumstar", "count" : 2 },
+    { "item" : "solariumstar", "count" : 2 },
+    { "item" : "lumins-platinumbar", "count" : 1 },
+    { "item" : "lumins-ophiuchiumbar", "count" : 1 },
+    { "item" : "essence", "count" : 50 }
+  ],
+  "output" : { "item" : "lumins-ilsyeinitebar", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "lumins-inventorcrafter2", "lumins-inventortab4" ]
+}

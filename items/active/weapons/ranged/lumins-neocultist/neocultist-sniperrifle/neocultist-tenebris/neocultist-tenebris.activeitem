@@ -1,0 +1,99 @@
+{
+  "itemName" : "neocultist-tenebris",
+  "price" : 1080,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "The darkness that consumes light... at your hands.",
+  "shortdescription" : "OCS-S'Iv-218i \"Tenebris\"",
+  "tooltipKind" : "gun",
+  "category" : "sniperRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","neocultist"],
+  "level" : 6,
+
+  "inventoryIcon" : [
+    { "image" : "neocultist-tenebris.png" }
+  ],
+
+  "animation" : "/items/active/weapons/ranged/animation/lumins-fullbrightranged.animation",
+    "animationParts" : {
+      "middle" : "neocultist-tenebris.png",
+      "middleFullbright" : "neocultist-tenebrisfullbright.png",
+      "muzzleFlash" : "/items/active/weapons/ranged/lumins-neocultist/neocultist-muzzleflash.png"
+    },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/lumins-plasma4.ogg"]
+    }
+  },
+
+  "baseOffset" : [1.5, 0.35],
+  "muzzleOffset" : [2.9, -0.2],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 1.3,
+    "baseDps" : 28.5,
+    "energyUsage" : 30,
+    "inaccuracy" : 0,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "neocultistsniperbullet",
+    "projectileParameters" : {
+      "speed": 500,
+      "knockbackRange" : 10
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+          
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+        "weaponOffset" : [-0.15, 0],
+        "recoil" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false,
+          
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      },
+      "cooldown" : {
+        "duration" : 0.25,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+        "weaponOffset" : [-0.15, 0],
+
+        "allowRotate" : false,
+        "allowFlip" : false,
+          
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      }
+    }
+  },
+
+  // "altAbilityType" : "piercingshot",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

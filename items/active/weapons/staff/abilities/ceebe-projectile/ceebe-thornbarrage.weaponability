@@ -1,0 +1,23 @@
+{
+  "ability" : {
+    "type" : "ceebe-thornbarrage",
+    "name" : "Thorn Barrage",
+    "scripts" : ["/items/active/weapons/staff/abilities/controlprojectile/plasmabarrage.lua"],
+    "class" : "ControlProjectile",
+
+    "energyCost" : 100,
+
+    "maxCastRange" : 25,
+
+    "projectileCount" : 5,
+    "projectileDistance" : 3,
+    "projectileType" : "ceebethorn",
+    "projectileParameters" : {
+      "baseDamage" : 50
+    },
+    "triggerSound" : ["/sfx/projectiles/ceebe-thorn.ogg"],
+
+    "projectileDelayFirst" : 1.0,
+    "projectileDelayEach" : 0.25
+  }
+}

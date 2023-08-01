@@ -1,0 +1,78 @@
+{
+    "itemName" : "ylsuthir-olnardhar",
+    "price" : 4800,
+    "level" : 8,
+    "maxStack" : 1,
+    "rarity" : "Essential",
+    "description" : "Legend said it's used solely by assassins and executioners to permanently kill a Nhar'Duunr. It doesn't disappoint in ^red;killing anything else with sheer ease^reset;.",
+    "shortdescription" : "Olnar'dhar",
+    "category" : "dagger",
+    "twoHanded" : true,
+    "radioMessagesOnPickup" : [ "pickupolnardhar" ],
+    "itemTags" : ["weapon", "melee", "dagger", "ylsuthir"],
+  
+    "inventoryIcon" : "ylsuthir-olnardharicon.png",
+  
+    "animation" : "ylsuthir-olnardhar.animation",
+    "animationParts" : {
+      "handle": "handle.png",
+      "handleFullbright" : "handlefullbright.png",
+      "blade" : "blade.png"
+    },
+    "animationCustom" : {
+      "sounds" : {
+        "fire" : ["/sfx/melee/mech_energysword_swing1.ogg", "/sfx/melee/mech_energysword_swing2.ogg", "/sfx/melee/mech_energysword_swing3.ogg", "/sfx/melee/mech_energysword_swing4.ogg"]
+      }
+    },
+  
+    "scripts" : ["/items/active/weapons/melee/energymeleeweapon.lua"],
+  
+    "activeTime" : 5.5,
+  
+    "elementalType" : "physical",
+    "primaryAbility" : {
+        "scripts" : ["/items/active/weapons/melee/meleeslash.lua"],
+        "class" : "MeleeSlash",
+    
+        "fireTime" : 0.85,
+        "baseDps" : 25.0,
+        "damageConfig" : {
+          "damageSourceKind" : "dagger",
+          "statusEffects" : ["l6doomed"],
+          "knockbackMode" : "aim",
+          "knockback" : 10,
+          "timeoutGroup" : "primary"
+        },
+        "stances" : {
+            "idle" : {
+              "armRotation" : -90,
+              "weaponRotation" : -10,
+              "weaponOffset" : [0, 2.25],
+        
+              "allowFlip" : true,
+              "allowRotate" : true
+            },
+            "windup" : {
+              "duration" : 0.05,
+              "armRotation" : -20,
+              "weaponRotation" : -20,
+              "weaponOffset" : [0, 2.25],
+        
+              "allowFlip" : true,
+              "allowRotate" : false
+            },
+            "fire" : {
+              "duration" : 0.2,
+              "armRotation" : -135,
+              "weaponRotation" : 40,
+              "weaponOffset" : [0, 2.5],
+        
+              "allowFlip" : true,
+              "allowRotate" : false
+            }
+        }
+      },
+  
+    "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  }
+  

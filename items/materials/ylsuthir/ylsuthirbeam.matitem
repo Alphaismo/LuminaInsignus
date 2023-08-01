@@ -1,0 +1,15 @@
+{
+  "itemName" : "ylsuthirbeam",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "ylsuthirbeam.png",
+  "description" : "A beam used in several constructions.",
+  "shortdescription" : "Yls'Uthiran Beam",
+  "glitchdescription" : "Impressed. It's surprisingly strong. It can support even the heaviest thingamajigs.",
+  "florandescription" : "Floran broke jaw. Definitely not ham.",
+  "novakiddescription" : "Made for holdin' everythin' together.",
+  "nharduunrDescription" : "Really convenient to make most heavy buildings or something suspended in the air, including Vervas Tharaau.",
+
+  "materialId" : 31392
+}

@@ -1,0 +1,40 @@
+{
+  "objectName" : "lightbrickcity-halfbodyposter2",
+  "colonyTags" : ["lightbrickcity","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 55,
+
+  "shortdescription" : "Half-Body Muscle Poster",
+  "description" : "This poster depicts muscular Sylethii.",
+  "race" : "generic",
+
+  "apexDescription" : "This man surely is strong, since judging by muscles.",
+  "avianDescription" : "By Kluex, I've never seen any Sylethiis as muscular as him.",
+  "floranDescription" : "Floran would love to make gainsss too.",
+  "glitchDescription" : "Amused. I've heard this Sylethii is the sole survivor of some tribe of sorts.",
+  "humanDescription" : "Woah. He's so badass!",
+  "hylotlDescription" : "Well, since he... doesn't have breasts I suppose that he's topless, nobody would ever mistake him as a girl.",
+  "novakidDescription" : "Mighty fine muscles, partner.",
+
+  "boomboxidDescription" : "This dude can rock fucking boulders. Nice!",
+  "ceebeDescription" : "She's just as beautiful as ever. I surely dreamed to become like this.",
+  "sylethiiDescription" : "We value this body type and androg- is that Uhei?",
+  "orthiridDescription" : "He's still alive with Ieii. Even to this day they surely are fighting together, even otherwise.",
+  "driianDescription" : "I've heard this Sylethii is the sole survivor of some tribe of sorts.",
+  "ginrhinDescription" : "Uhei Kyle the \"Gestalt Marksman\" confirmed.",
+
+  "inventoryIcon" : "lightbrickcity-halfbodyposter2icon.png",
+  "orientations" : [
+    {
+      "image" : "lightbrickcity-halfbodyposter2.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

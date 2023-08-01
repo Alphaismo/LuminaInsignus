@@ -1,0 +1,8 @@
+{
+  "itemName" : "lumins-jumpgateamulet",
+  "rarity" : "Legendary",
+  "category" : "quest",
+  "inventoryIcon" : "lumins-jumpgateamulet.png",
+  "description" : "It could open up a portal to other planets. But someone needs it.",
+  "shortdescription" : "Jumpgate Portal Amulet"
+}

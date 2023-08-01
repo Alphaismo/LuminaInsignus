@@ -1,0 +1,95 @@
+{
+    "type" : "human-ylsuthiroutpost-protectoratewilliam",
+    "baseType" : "outpostcivilian",
+  
+    "npcname" : "William",
+    "identity" : {
+      "gender" : "male",
+      "hairGroup" : "hair",
+      "hairType" : "lumins-male4",
+      "bodyDirectives" : "?replace;ffe2c5=fff7ec;ffc181=f9d3a9;c7815b=b37c5d;d39c6c=d3a57c?replace;dc1f00=e6e6e6;951500=6f6f6f;be1b00=979797",
+      "emoteDirectives" : "?replace;ffe2c5=fff7ec;ffc181=f9d3a9;c7815b=b37c5d;d39c6c=d3a57c?replace;dc1f00=e6e6e6;951500=6f6f6f;be1b00=979797",
+      "hairDirectives" : "?replace;735e3a=555555;d9c189=b8b8b8;a38d59=828282?replace;dc1f00=e6e6e6;951500=6f6f6f;be1b00=979797"
+    },
+  
+    "scriptConfig" : {
+      "offeredQuests" : [ ],
+      "turnInQuests" : [ ],
+  
+      "dialogMode": "tutorial",
+      "dialog" : {
+        "converse" : {
+          "default" : {
+            "default" : [
+              "Hello."
+            ]
+          },
+          "human" : {
+            "default" : [
+              "We were lucky enough to escape Earth alive.",
+              "We've lost signals with other colony ships. Only god knows what happened to them.",
+              "See those ships flying over there... sort of legion? \nThat's our Terrene Protectorate Colony Ship \"Cassowary\", and several scout ships.",
+              "My name's <selfname>, Cassowary Ace Commander. We've heard about Yls'Uthir and decided to give it a visit.",
+              "Earth's not only Ruin's chew toy. This entity destroyed countless planets, and may even destroy Yls'Uthir. I'll be thankful to those who put this thing to death.",
+              "Velrui-Thareu taught me how to socialize with women. I'm thankful he actually helps me, unlike others that, instead, tells me to \"grow a pair\" or something like this.",
+              "There's \"Neo Occasus\" going around, killing aliens they confront. If we don't stop them immediately, they may even kill us for \"not joining their cause\".",
+              "I fear nothing, pal. Losing Earth is enough for me to start losing hope."
+            ],
+            "human" : [
+              "Esther Bright believed you were the one who was able to escape dying Earth alive as well. Lucky her that she was right.",
+              "We've heard about this legendary place, said to be once inhabited by mysterious \"Nhar'Duunr\".",
+              "This Nhar'Duunr, the elder of that building, isn't actually fond of colonists and won't hesitate exterminating them. We acknowledge him we aren't here to truly colonize this place, or a whole planet.",
+              "Where the hell are my manners... My name's <selfname>, Cassowary Ace Commander. We've discovered Vervas Tharaau decades ago.",
+              "There's \"Neo Occasus\" going around, killing aliens they confront. If we don't stop them immediately, they may even kill us for \"not joining their cause\".",
+              "I fear nothing, pal. Losing Earth is enough for me to start losing hope.",
+              "Have any information about Terrene Protectorate remnants, <entityname>?"
+            ],
+            "ceebe" : [
+              "Well I'm not actually this fond of women. Especially your kind who were designed to be bad girls.",
+              "That \"Lightbrick City\" must've really treated you with highest regard above else.",
+              "Prehaps with you, we could... repopulate human race?",
+              "You sure are a credit to your race. By virtue of being a captain, perhaps.",
+              "An odd sight indeed. There are three... \nmale Ceebes?",
+              "When I was your age, I kept my innocence for a Glitch future wife.",
+              "If you've got access to Lightbrick City's goods, mind sharing these with us- I mean Vervas Tharaau?",
+              "\"A swiss army knife of sexual life.\" \nWhat. I just made a description for you Ceebes.",
+              "There's \"Neo Occasus\" going around, killing aliens they confront. If we don't stop them immediately, they may even kill us for \"not joining their cause\".",
+              "I fear nothing, pal. Losing Earth is enough for me to start losing hope."
+            ],
+            "andarhan" : [
+              "Let's hope you don't cause any ruckus in neither Vervas Tharaau nor \"Cassowary\".",
+              "Of all Andarhans, you were the only one to redeem. Or there are another like you who redeemed as well?",
+              "Your military is truly impressive. \"Cassowary\" may use some of that.",
+              "I wonder why your kind shows their humility only to synthetics.",
+              "Never thought that you Andarhans are competitive racist robots. Oh, sorry about that.",
+              "We've faced your kind, but unlucky that we faced ones that tried to kill us all.",
+              "You gotta watch out for humans in colonies. They won't welcome you at all. Luckily they will, instead, monitor your current behavior.",
+              "Perhaps, with you and your potential, we together can bring Neo Occasus to justice.",
+              "Universe-wide wipeout of all life except synthetic ones is not a good idea, pal.",
+              "There's \"Neo Occasus\" going around, killing aliens they confront. Oh by the way... I just think I found a perfect job for you; to kill these truly evil bastards.",
+              "I fear nothing, pal. Losing Earth is enough for me to start losing hope."
+            ],
+            "nharduunr" : [
+              "So you were alive too?",
+              "There's so many fascinating techs here. But we're yet to receive Velrui-Thareu's permission to study.",
+              "Your civilization is advanced. We're kind of... jealous.",
+              "So there was another precursor, after all...",
+              "You know... your race may cut us up, like we can't them."
+            ]
+          }
+        }
+      }
+    },
+  
+    "items" : {
+      "override" : [
+        [0, [
+            {
+              "chest" : [ { "name" : "lumins-williamprotectoratechest", "parameters" : { "colorIndex" : 0 } } ],
+              "legs" : [ { "name" : "lumins-williamprotectoratepants", "parameters" : { "colorIndex" : 0 } } ]
+            }
+          ] ]
+      ]
+    }
+  }
+  

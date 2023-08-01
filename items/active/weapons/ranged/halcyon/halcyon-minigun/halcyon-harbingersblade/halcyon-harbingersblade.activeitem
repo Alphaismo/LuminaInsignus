@@ -1,0 +1,104 @@
+{
+  "itemName" : "halcyon-harbingersblade",
+  "price" : 2160,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Made out of destroyed remains of \"Harbinger\" Prototype weapons.",
+  "shortdescription" : "RK-87 \"Harbinger's Blade\"",
+  "tooltipKind" : "gun",
+  "category" : "Minigun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","halcyon"],
+  "level" : 6,
+
+  "inventoryIcon" : [
+    { "image" : "halcyon-harbingersbladeicon.png" }
+  ],
+
+    "animation": "halcyon-harbingersblade.animation",
+    "animationParts": {
+      "middle": "halcyon-harbingersblade.png",
+      "middleFullbright": "halcyon-harbingersbladefullbright.png",
+       "muzzleFlash": "/items/active/weapons/ranged/halcyon/halcyon-muzzleflash.png"
+    },
+    "animationCustom" : {
+        "sounds" : {
+          "fire" : ["/sfx/gun/andarhanhalcyon-plasma1.ogg"]
+        },
+        "lights" : {
+          "muzzleFlash" : {
+            "color" : [0, 121, 155]
+          }
+        }
+      },
+    
+    "baseOffset": [ 0.8, -0.9 ],
+    "muzzleOffset": [ 3.3, 0.2 ],
+
+    "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+    "elementalType": "physical",
+
+    "primaryAbility": {
+      "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+      "class" : "GunFire",
+
+      "fireTime": 0.03,
+      "baseDps": 25,
+      "energyUsage": 65,
+      "inaccuracy": 0.03,
+      "projectileCount": 1,
+      "fireType": "auto",
+
+      "projectileType": "halcyonbullet",
+      "projectileParameters": {
+        "speed": 500,
+        "knockbackRange" : 10
+      },
+      "stances": {
+        "idle": {
+          "armRotation": 0,
+          "weaponRotation": 0,
+          "weaponOffset" : [0, 0],
+          "twoHanded": true,
+          "allowRotate": true,
+          "allowFlip": true,
+          
+          "frontArmFrame" : "swim.2",
+          "backArmFrame" : "rotation"
+        },
+        "fire": {
+          "duration": 0,
+          "armRotation": 0.75,
+          "weaponRotation": 0.75,
+          "weaponOffset" : [-0.1, 0],
+          "twoHanded": true,
+          "recoil" : true,
+          "allowRotate": true,
+          "allowFlip": true,
+  
+          "animationStates" : {
+            "firing" : "fire",
+            "holyshit" : "lmfao"
+          },
+          
+          "frontArmFrame" : "swim.2",
+          "backArmFrame" : "rotation"
+        },
+        "cooldown": {
+          "duration": 0.02,
+          "armRotation": 0.75,
+          "weaponRotation": 0.75,
+          "weaponOffset" : [-0.1, 0],
+          "twoHanded": true,
+          "allowRotate": true,
+          "allowFlip": true,
+          
+          "frontArmFrame" : "swim.2",
+          "backArmFrame" : "rotation"
+        }
+      }
+    },
+  
+    "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

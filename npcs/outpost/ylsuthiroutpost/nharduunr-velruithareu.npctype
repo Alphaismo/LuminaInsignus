@@ -1,0 +1,155 @@
+{
+  "type" : "nharduunr-velruithareu",
+  "baseType" : "outpostcivilian",
+
+  "npcname" : "Velrui-Thareu",
+  "identity" : {
+    "bodyDirectives" : "?replace;ffe2c5=0094FF;d39c6c=004E87;c7815b=002038;ffc181=0077CC?replace;dc1f00=A7CDE5;951500=7894A5;be1b00=9ABDD3",
+    "facialHairDirectives" : "?replace;ffe2c5=0094FF;d39c6c=004E87;c7815b=002038;ffc181=0077CC?replace;dc1f00=A7CDE5;951500=7894A5;be1b00=9ABDD3",
+    "gender" : "male",
+    "personalityHeadOffset" : [-1,0],
+    "personalityArmIdle" : "idle.2",
+    "personalityIdle" : "idle.2"
+  },
+
+  "scriptConfig" : {
+    "chatPortrait" : "/interface/chatbubbles/nharduunr-velruithareu.png:<frame>",
+
+    "offeredQuests" : [ ],
+    "turnInQuests" : [ ],
+
+    "personalities" : [
+    [1.0, { "personality" : "ambitious", "reactions" : {} }]
+    ],
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+
+    "dialogMode": "tutorial",
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "I, ^#87FFFF;<selfname>^reset;, greet all those who found this sacred place.",
+            "I welcome all to Vervas Tharaau.",
+            "As long as nobody else could find this place, feel comfortable. \nI will protect you all and this place.",
+            "You can call me ^#87FFFF;<selfname>^reset;, the emperor of Mal'Khurdan.",
+            "Long ago, I ruled Vervas Tharaau with both faith and fists, but ensured I stay humble if possible.",
+            "Yes I know that \"Sisters of Ragnarok\", those responsible for our near-extinction, were betrayed by Dhir'Nakhors, for a good reason.",
+            "Alyunn-Ghanvoa and Vherul-Khavlenas are alive. \nI'm sure of it.",
+            "I don't know what \"Nhar'Duunrism\" is. Otherwise... for a religion, it's really silly and ridiculous."
+          ],
+          "andarhan" : [
+            "I, ^#87FFFF;<selfname>^reset;, greet all those who found this sacred place.",
+            "I welcome all to Vervas Tharaau.",
+            "As long as nobody else could find this place, feel comfortable. \nI will protect you all and this place.",
+            "You can call me ^#87FFFF;<selfname>^reset;, the emperor of Mal'Khurdan.",
+            "I'm relieved you were a deserter and not an actual intruder.",
+            "As I have nothing to lose and was readying to die with dignity. Never knew you were teasing my destiny.",
+            "We aren't hostile to your kind. I feel sorry that your kin stay to the roots set by that eons-long grim fate.",
+            "We've never had an Andarhan who came here for peace before. For you, maybe; this place is a rehab, showing that not all organic life is a threat to your race.",
+            "One day we may open your brothers' eyes and help them see that we are not their threat.",
+            "You may use the ancient hate for organic lifeforms for a greater purpose; especially to punish the worst offenders."
+          ],
+          "nharduunr" : [
+            "I, ^#87FFFF;<selfname>^reset;, greet all those who found this sacred place.",
+            "I welcome all to Vervas Tharaau.",
+            "As long as nobody else could find this place, feel comfortable. \nI will protect you all and this place.",
+            "You can call me ^#87FFFF;<selfname>^reset;, the emperor of Mal'Khurdan.",
+            "I am very glad you live. Hardly any Nhar'Duunr managed to get out alive.",
+            "Welcome to reunion, <entityname>.",
+            "Don't mind the mortal aliens in Vervas Tharaau. I will make sure they behave well before you even arrive.",
+            "Just try not to pay attention to Usen's silly cult involving our kind, let alone humility.",
+            "We are close to extinction. If you surely have... \"an occupation planned\", meet me at throne room."
+          ],
+          "ginrhin" : [
+            "I, ^#87FFFF;<selfname>^reset;, greet all those who found this sacred place.",
+            "I welcome all to Vervas Tharaau.",
+            "As long as nobody else could find this place, feel comfortable. \nI will protect you all and this place.",
+            "You can call me ^#87FFFF;<selfname>^reset;, the emperor of Mal'Khurdan.",
+            "Greetings, Ginr'hin Unit <entityname>. We don't need you to state your identification number, as this place is defunct after Ragnarok.",
+            "So you're here for maintenance? I have a Glitch woman at our side that might do the trick.",
+            "I may not be fond of your kind, but I'm humbled you became a captain and serve aliens valiantly.",
+            "Your potential surprises me, <entityname>. I'm proud of you.",
+            "Vherul-Dhess is not here... He's off somewhere. Perhaps the Glitch outsider might help you."
+          ],
+
+          // Vanilla
+
+          "apex" : [
+            "You're not the only one here around, aren't you?",
+            "The torment your kind faced in the hands of a tyrant, let alone digital... That's something I will not allow.",
+            "I may assist you in the insurrection against this \"Miniknog\", if not for I'm far weakened...",
+            ".",
+            ".",
+            ".",
+            "."
+          ],
+          "avian" : [
+            "I surely have no idea what \"Kluex\" is.",
+            ".",
+            ".",
+            ".",
+            ".",
+            "."
+          ],
+          "floran" : [
+            "I respect your culture, Floran.",
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            "."
+          ],
+          "glitch" : [
+            "I know all those who broke free of the programming as well, especially most of the Ginr'hin.",
+            "Trust me... I am not a Glitch.",
+            ".",
+            ".",
+            ".",
+            "."
+          ],
+          "human" : [
+            "Even even if I have no trust on humans, I have the ones that I can trust, like William.",
+            ".",
+            ".",
+            ".",
+            ".",
+            "."
+          ],
+          "hylotl" : [
+            "Do not let pride and pacifism consume you, Hylotl.",
+            "Yes, we are a warrior race who have honor. Unlike you, however; we do not let hedonism get on our way.",
+            ".",
+            ".",
+            ".",
+            "."
+          ],
+          "novakid" : [
+            "This energy reeking from you... It's unlike my kind has ever seen before.",
+            "You and I... except I have even more childish desires than you do.",
+            "Your concept of justice is... weird.",
+            "I'm not sure about it, but I've seen a familiar kind, not different from yours... and the one I never know.",
+            ".",
+            ".",
+            "."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "lumins-noclotheshead", "parameters" : { "colorIndex" : 0 } } ],
+            "chest" : [ { "name" : "lumins-noclotheschest", "parameters" : { "colorIndex" : 0 } } ],
+            "legs" : [ { "name" : "lumins-noclotheslegs", "parameters" : { "colorIndex" : 0 } } ],
+            "back" : [ { "name" : "velruithareuofmalkhurdanback", "parameters" : { "colorIndex" : 0 } } ]
+          }
+        ] ]
+    ]
+  }
+}

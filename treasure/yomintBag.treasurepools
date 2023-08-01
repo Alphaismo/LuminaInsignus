@@ -1,0 +1,21 @@
+  // ==============================================================================================
+  //                                     Yomints
+  // ==============================================================================================
+  {
+    "yomintBag" : [
+      [1, {
+        "poolRounds" : [
+          [0.3, 4],
+          [0.1, 3]
+        ],
+      "pool" : [
+      {"weight" : 0.5, "item" : "yomint-red" },
+      {"weight" : 0.5, "item" : "yomint-purple" },
+      {"weight" : 0.5, "item" : "yomint-blue" },
+      {"weight" : 0.5, "item" : "yomint-green" },
+      {"weight" : 0.5, "item" : "yomint-yellow" },
+      {"weight" : 0.5, "item" : "yomint-orange" }
+        ]
+      } ]
+    ]
+  }

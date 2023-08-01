@@ -1,0 +1,31 @@
+{
+    "verticalOrigin" : 10,
+  
+    "layers" : [
+      {
+        "kind" : "ylsuthiroutpostships",
+        "offset" : [0, -100],
+        "parallax" : [8.5, 5.5],
+        "minSpeed" : 1050,
+        "maxSpeed" : 1050,
+        "unlit" : true
+      },
+      {
+        "kind" : "ylsuthiroutpostclouds",
+        "offset" : [0, 90],
+        "parallax" : [6.5, 3.7],
+        "fadePercent" : 0.05,
+        "minSpeed" : -1250,
+        "maxSpeed" : -1250
+      },
+      {
+        "kind" : "ylsuthiroutpostclouds2",
+        "offset" : [0, 260],
+        "parallax" : [9.5, 6.0],
+        "fadePercent" : 0.05,
+        "minSpeed" : -950,
+        "maxSpeed" : -950
+      }
+    ]
+  }
+  

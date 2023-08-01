@@ -1,0 +1,15 @@
+{
+  "itemName" : "mechbodysylethii",
+  "price" : 9600,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbody",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mechbodysylethii.png",
+  "description" : "This intimidating mech body was manufactured by none other than Domino Arsenal.",
+  "shortdescription" : "Onslaught Mech Body",
+  "itemTags" : [ ],
+
+  "mechPart" : ["body", "sylethii"]
+}

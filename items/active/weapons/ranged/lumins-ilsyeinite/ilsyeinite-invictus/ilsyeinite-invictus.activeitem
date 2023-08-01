@@ -1,0 +1,105 @@
+{
+  "itemName" : "ilsyeinite-invictus",
+  "price" : 1080,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "An experimental hybrid rifle that uses both ballistic and energy bullets.",
+  "shortdescription" : "\"Invictus\"",
+  "tooltipKind" : "gun",
+  "category" : "assaultRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","ilsyeinite"],
+  "level" : 6,
+
+  "inventoryIcon" : [
+    { "image" : "ilsyeinite-invictus.png" }
+  ],
+
+  "animation" : "/items/active/weapons/ranged/animation/lumins-fullbrightranged.animation",
+  "animationParts" : {
+    "middle" : "ilsyeinite-invictus.png",
+    "middleFullbright" : "",
+    "muzzleFlash" : "/items/active/weapons/ranged/lumins-ilsyeinite/ilsyeinite-muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/lumins-ballistic1.ogg"]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [29, 62, 122]
+      }
+    }
+  },
+
+  "baseOffset" : [0.8, 0.1],
+  "muzzleOffset" : [2.25, 0.27],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.11,
+    "baseDps" : 20.5,
+    "energyUsage" : 30,
+    "projectileCount" : 1,
+    "inaccuracy" : 0.01,
+    "fireType" : "auto",
+
+    "projectileType" : "bullet-4",
+    "projectileParameters" : {
+      "speed": 500,
+      "knockbackRange" : 10
+    },
+    "muzzleFlashVariants" : 3,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "weaponOffset" : [-0.1, 0],
+        "recoil" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      },
+      "cooldown" : {
+        "duration" : 0.05,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+        "weaponOffset" : [-0.1, 0],
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      }
+    }
+  },
+  
+  "altAbilityType": "ilsyeinite-invictusswitch",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

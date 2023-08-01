@@ -1,0 +1,30 @@
+{
+    "objectName" : "ylsuthir-outpostelevator",
+    "colonyTags" : ["ylsuthiroutpost"],
+    "rarity" : "Legendary",
+    "category" : "decorative",
+    "price" : 0,
+    "printable" : false,
+  
+    "description" : "If not for these guards, I suppose I could be able to enter.",
+    "shortdescription" : "Vervas Tharaau Elevator",
+    "race" : "generic",
+  
+    "floranDescription" : "Floran would ssstab thesse guardssss and explore the Ylsss'Uthir, but can't.",
+    "glitchDescription" : "Critical / Frustrated. What do they want, so I can enter?",
+    "ginrhinDescription" : "Alert: Cassowary Protectorate Guards detected. \nUnable to proceed.",
+  
+    "inventoryIcon" : "ylsuthir-outpostelevatoricon.png",
+    "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "ylsuthir-outpostelevator.png", "fullbright" : true }, { "image" : "ylsuthir-outpostelevatorlit.png" } ],
+        "imagePosition" : [-24, 0],
+        "frames" : 1,
+        "animationCycle" : 0.2,
+  
+        "spaceScan" : 0.1,
+        "anchors" : [ "background" ]
+  
+      }
+    ]
+  }

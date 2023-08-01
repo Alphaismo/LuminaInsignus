@@ -1,0 +1,99 @@
+{
+  "itemName" : "boomboxid-faze",
+  "price" : 4580,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "An oddly enough ancestral weapon. Legends say that with the gun closer to your vicinity, you will get alot of women.",
+  "shortdescription" : "XXx_FaZe-Pu55ySL4Y3R_xXX",
+  // "tooltipKind" : "xraiizy_base",
+  "category" : "BFG",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","bfg"],
+  "level" : 8,
+
+  "inventoryIcon" : [
+    { "image" : "boomboxid-faze.png" }
+  ],
+
+  "animation" : "boomboxid-faze.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "boomboxid-faze.png",
+    "middleFullbright" : "boomboxid-fazefullbright.png",
+    "barrel" : "",
+    "muzzleFlash" : "fazemuzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/bfg/boomboxidfaze-rhadurleviathan.ogg"]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [155, 120, 155]
+      }
+    }
+  },
+
+  "baseOffset" : [0.85, 0.0],
+  "muzzleOffset" : [1.95, 0.10],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/misc/bfg/boomboxid-faze/FazePussyslayer.lua"],
+    "class" : "FazePussyslayer",
+
+    "fireTime" : 3.0,
+    "baseDps" : 45,
+    "energyUsage" : 40,
+    "projectileCount" : 1,
+    "inaccuracy" : 0.0,
+    "fireType" : "auto",
+
+    "projectileType" : "boomboxid-fazeball",
+    "projectileParameters" : {
+      "knockback" : 20
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "backArmFrame" : "swim.4"
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+            
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      },
+      "cooldown" : {
+        "duration" : 0.2,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+            
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,23 @@
+{
+  "projectileName" : "neocultistsniperbullet",
+  "image" : "neocultistsniperbullet.png",
+  "physics" : "laser",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKind" : "plasma",
+  "pointLight" : false,
+  "flippable" : true,
+  "piercing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "power" : 30.0,
+  "speed" : 500,
+  "knockback" : 0,
+  "lightColor" : [253, 143, 77],
+  "fullbright" : true
+}

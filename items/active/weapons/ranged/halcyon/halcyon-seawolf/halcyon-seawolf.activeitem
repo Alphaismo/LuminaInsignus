@@ -1,0 +1,51 @@
+{
+  "itemName" : "halcyon-seawolf",
+  "price" : 640,
+  "inventoryIcon" : "halcyon-seawolficon.png",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "tooltipKind" : "bow",
+  "category" : "bow",
+  "description" : "Seems to draw inspirations from Driians' bows, except it's made for the military.",
+  "shortdescription" : "R-81 \"Seawolf\"",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","halcyon","bow"],
+
+  "level" : 6,
+
+  "animation" : "/items/active/weapons/ranged/animation/lumins-fullbrightbow.animation",
+  "animationParts" : {
+    "bow" : "halcyon-seawolf.png",
+    "bowFullbright" : "halcyon-seawolffullbright.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : {
+      "bow" : { "properties" : {
+        "offset" : [0.25, 0.125]
+      }},
+      "bowFullbright" : { "properties" : {
+        "offset" : [0.25, 0.125]
+      }}
+    }},
+    "sounds" : {
+      "draw" : [ "/sfx/gun/bow_draw1.ogg", "/sfx/gun/bow_draw2.ogg", "/sfx/gun/bow_draw3.ogg" ],
+      "release" : [ "/sfx/gun/bow_loose.ogg" ],
+      "perfectRelease" : [ "/sfx/gun/bow_loose_perfect.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+    "fireOffset" : [1.75, 0.125],
+    "projectileType" : "halcyon-seawolfarrow",
+    "powerProjectileType" : "halcyon-seawolfarrowcharged",
+    "projectileParameters" : {
+      "power" : 13.0,
+      "speed" : 200
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildbow.lua"
+}

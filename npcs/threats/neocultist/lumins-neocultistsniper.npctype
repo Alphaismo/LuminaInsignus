@@ -1,0 +1,32 @@
+{
+  "type" : "lumins-neocultistsniper",
+  "baseType" : "hostile",
+
+  "persistent" : true,
+
+  "dropPools" : [ "lumins-neocultistsnipertreasure" ],
+	
+	"identity" : {
+    "species" : "human"
+  },
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : "/dialog/lumins-neocultistsniper.config:attack"
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "lumins-neocultistsniperhead" } ],
+            "chest" : [ { "name" : "lumins-neocultistchest" } ],
+            "legs" : [ { "name" : "lumins-neocultistlegs" } ],
+            "back" : [ { "name" : "lumins-neocultistsniperback" } ],
+            "primary" : [ "neocultist-tenebris", "neocultist-megalodonnpc" ]
+          }
+        ] ]
+    ]
+  }
+}

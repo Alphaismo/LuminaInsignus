@@ -1,0 +1,64 @@
+{
+    "type" : "human-lightbrickcitysheikh",
+    "baseType" : "outpostcivilian",
+  
+    "identity" : {
+        "name" : "Sheikh",
+        "species" : "human",
+        "gender" : "male",
+        "hairGroup" : "hair",
+        "hairType" : "lumins-2",
+        "bodyDirectives":"?replace;c7815b=ac7261;d39c6c=cc9582;ffe2c5=fbe1d4;ffc181=f6baa2?replace;951500=471962;dc1f00=7c41b8;be1b00=6c2f90",
+        "emoteDirectives":"?replace;c7815b=ac7261;d39c6c=cc9582;ffe2c5=fbe1d4;ffc181=f6baa2?replace;951500=471962;dc1f00=7c41b8;be1b00=6c2f90",
+        "hairDirectives":"?replace;a38d59=525269;735e3a=3e4352;d9c189=6f6d85?replace;951500=471962;dc1f00=7c41b8;be1b00=6c2f90"
+    },
+
+    "damageTeamType" : "ghostly",
+
+    "scriptConfig" : {
+      "offeredQuests" : [ ],
+      "turnInQuests" : [ ],
+
+      "personalities" : [
+        [1.0, { "personality" : "flirty", "reactions" : {} }]
+      ],
+
+      "dialogMode": "tutorial",
+      "dialog" : {
+        "converse" : {
+            "default" : {
+                "default" : [
+                    "Hello."
+                    ]
+                },
+            "human" : {
+                "default" : [
+                    "I love you sexy goy.",
+                    "I know the place that we're gonna get laid in.",
+                    "Oy vey.",
+                    "Babe I'm so horny.",
+                    "(Insert any emoji with hearts for eyes here.)",
+                    "Marry me!!!!",
+                    "We can secretly meet in a hotel, both of us book separate rooms, then do the gay things, and exploring each others sexuality."
+                    ]
+                }
+            }
+        }
+    },
+
+    "items" : {
+      "override" : [
+        [0, [
+            {
+              "chest" : [
+                { "name" : "conceptchest" }
+              ],
+              "legs" : [
+                { "name" : "lumins-jeans4legs" }
+              ]
+            }
+          ] ]
+      ]
+    }
+}
+  

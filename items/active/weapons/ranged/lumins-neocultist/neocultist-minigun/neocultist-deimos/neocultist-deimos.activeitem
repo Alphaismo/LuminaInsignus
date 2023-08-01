@@ -1,0 +1,105 @@
+{
+  "itemName" : "neocultist-deimos",
+  "price" : 2160,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "More powerful counterpart of another Neo Occasus minigun, \"Phobos\". Concentrating into it's brutal efficiency.",
+  "shortdescription" : "OCS-817R.2 \"Deimos\"",
+  "tooltipKind" : "gun",
+  "category" : "Minigun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","neocultist"],
+  "level" : 6,
+
+  "inventoryIcon" : [
+    { "image" : "neocultist-deimosicon.png" }
+  ],
+
+    "animation": "neocultist-deimos.animation",
+    "animationParts": {
+      "middle": "neocultist-deimos.png",
+      "middleFullbright": "neocultist-deimosfullbright.png",
+       "muzzleFlash": "/items/active/weapons/ranged/lumins-neocultist/neocultist-muzzleflash2.png"
+    },
+    "animationCustom" : {
+        "sounds" : {
+          "fire" : ["/sfx/gun/lumins-plasma6.ogg"]
+        },
+        "lights" : {
+          "muzzleFlash" : {
+            "color" : [127, 105, 39]
+          }
+        }
+      },
+    
+    "baseOffset": [ 1.5, -0.6 ],
+    "muzzleOffset": [ 2.7, 0.0 ],
+
+    "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+    "elementalType" : "physical",
+
+    "primaryAbility" : {
+      "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+      "class" : "GunFire",
+
+      "fireTime" : 0.02,
+      "baseDps" : 30,
+      "energyUsage" : 67.5,
+      "inaccuracy" : 0.03,
+      "projectileCount" : 1,
+      "fireType" : "auto",
+
+      "projectileType" : "neocultistbullet",
+      "projectileParameters" : {
+        "speed" : 500,
+        "knockbackRange" : 10
+      },
+      
+      "stances": {
+        "idle": {
+          "armRotation": 0,
+          "weaponRotation": 0,
+          "weaponOffset" : [0, 0],
+          "twoHanded": true,
+          "allowRotate": true,
+          "allowFlip": true,
+          
+          "frontArmFrame" : "swim.2",
+          "backArmFrame" : "rotation"
+        },
+        "fire": {
+          "duration": 0,
+          "armRotation": 0.75,
+          "weaponRotation": 0.75,
+          "weaponOffset" : [-0.1, 0],
+          "twoHanded": true,
+          "recoil" : true,
+          "allowRotate": true,
+          "allowFlip": true,
+  
+          "animationStates" : {
+            "firing" : "fire",
+            "holyshit" : "lmfao"
+          },
+          
+          "frontArmFrame" : "swim.2",
+          "backArmFrame" : "rotation"
+        },
+        "cooldown": {
+          "duration": 0.02,
+          "armRotation": 0.75,
+          "weaponRotation": 0.75,
+          "weaponOffset" : [-0.1, 0],
+          "twoHanded": true,
+          "allowRotate": true,
+          "allowFlip": true,
+          
+          "frontArmFrame" : "swim.2",
+          "backArmFrame" : "rotation"
+        }
+      }
+    },
+  
+    "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

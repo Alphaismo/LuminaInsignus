@@ -1,0 +1,45 @@
+{
+    "objectName" : "neocultist-strangedevice",
+    "colonyTags" : ["neocultist","evil"],
+    "rarity" : "Legendary",
+    "category" : "decorative",
+    "price" : 300,
+    "description" : "Nobody knows what this... thing... does.",
+    "shortdescription" : "Strange Device",
+    "race" : "human",
+  
+    "floranDescription" : "Ridiculousssly ssstupid-looking machine.",
+    "glitchDescription" : "Horrified. I don't want to know what this does.",
+    "novakidDescription" : "This bucket o' bolts ain't gonna work without proper ID card luckily.",
+    "ceebeDescription" : "What is this thing?",
+    "orthiridDescription" : "What is tha purpose of this device.",
+    "andarhanDescription" : "We have similar \"Planetary Euthanasia\"-classed device like this, but we only use it against K'Oaulem-infested planets.",
+    "rhadurDescription" : "I don't want to know what is this metal scrap's function! I want to dismantle and sell every pieces of it!",
+    "nharduunrDescription" : "It appears to be a Planet Destabilizer, which renders a target planet fully uninhabitable.",
+    "ginrhinDescription" : "Planet Destabilizer of Neo Occasus origin confirmed. Destroy immediately.",
+  
+    "inventoryIcon" : "neocultist-strangedeviceicon.png",
+    "orientations" : [
+        {
+          "imageLayers" : [ { "image" : "neocultist-strangedevice.png:<color>", "fullbright" : true }, { "image" : "neocultist-strangedevicelit.png:<color>" } ],
+          "imagePosition" : [-16, 0],
+    
+          "spaceScan" : 0.1,
+          "flipImages" : true,
+          "direction" : "left",
+          "anchors" : [ "bottom" ]
+        },
+        {
+          "imageLayers" : [ { "image" : "neocultist-strangedevice.png:<color>", "fullbright" : true }, { "image" : "neocultist-strangedevicelit.png:<color>" } ],
+          "imagePosition" : [-16, 0],
+    
+          "spaceScan" : 0.1,
+          "direction" : "right",
+          "anchors" : [ "bottom" ]
+        }
+      ],
+  
+    "soundEffect" : "/sfx/objects/boosterflame.ogg"
+  
+  }
+  

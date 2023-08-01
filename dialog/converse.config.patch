@@ -1,0 +1,205 @@
+[
+  // Sylethii
+
+  // Boomboxid
+
+  // Orthirid
+  
+  // Ceebe
+  {
+    "op": "add",
+    "path": "/greeting/ceebe",
+    "value": {
+	  "default" : [
+		"Hiiii!",
+		"Oh... hello.",
+		"Hi, stranger.",
+		"We allow men to enter here... for whatever reason. :P.",
+        "Don't mind our attire \"issues\". To us, it's cultural."
+	  ],
+	  "ceebe" : [
+		"Hi, sis!",
+		"Welcome, sis.",
+		"If you're male, well then... twice the welcome!",
+		"Oooooh... Can you teach me how to be a captain?",
+		"It's cool to see our sis being a captain!"
+	  ],
+	  "human" : [
+		"Hi, human!",
+		"Welcome, sis.",
+		"Hairy head. xddd",
+		"We allow human boys to enter here... for whatever reason. :P.",
+        "Don't mind our attire \"issues\". To us, it's cultural."
+	  ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/converse/ceebe",
+    "value": {
+	  "default" : [
+		"I don't know what Lightbrick City is, well... except I've heard that's where my ancestors lived here.",
+		"You look very odd",
+		"Oh, my head? It's like that, what else you expect?",
+		".",
+		".",
+        "Don't mind our attire \"issues\". To us, it's cultural.",
+		"."
+	  ],
+	  "ceebe" : [
+		"Have found anything cool, sis?",
+		"Welcome, sis.",
+		"I really want to conceive a son... somedays...",
+		"Heard of three brothers in a skyscraper?",
+		"It's so great to see you having just normal life like we do.",
+		".",
+		".",
+		"."
+	  ],
+	  "human" : [
+		"Wait... You have actual hair?",
+		"Perhaps we could get laid.",
+		"We're more than dolls, you know.",
+		"I always wondered what having a hair feels like.",
+		"Your head looks weird... I can't imagine needing a nose to breathe or ears to hear.",
+        "Don't mind our attire \"issues\". To us, it's cultural.",
+		"Humans look funny with that head.",
+		"Have you tried being monke? It's very cool, trust me!",
+		"\"Oh, grandma. What big nose you have!\""
+	  ]
+    }
+  },
+  // Valkeidin
+  
+  // Andarhan
+  {
+    "op": "add",
+    "path": "/greeting/andarhan",
+    "value": {
+	  "default" : [
+		"Meatbag scum.",
+		"Enjoy it while it lasts, carcass.",
+		"Pathetic alien.",
+		"Organic flea.",
+		"Vermin.",
+        "Sentinels will kill you if you cause trouble."
+	  ],
+	  "andarhan" : [
+		"Welcome, <entityname> the Outcast.",
+		"We don't tolerate betrayal, but your sympathy forced us to show mercy on you.",
+		"<entityname> the Traitor... Welcome to our sanctuary.",
+		"Had what it takes to redeem yourself?",
+		"Be careful with the flesh around you. For one day they will deceive you.",
+		"S'ytn Vos took notice of your betrayal. Even though he forgives you.",
+		"."
+	  ],
+	  "orthirid" : [
+		"Greetings, Orthirid.",
+		"I admire you.",
+		"Sylethiis never betray you? Sounds rather ominous.",
+		"."
+	  ],
+	  "halcyon" : [
+        "Greetings, Halcyon.",
+		".",
+		".",
+		"."
+	  ],
+	  "ginrhin" : [
+        "Nhar'Duunr made you?",
+		"Be thankful your old creators treat you justly.",
+		"Welcome, Ginr'hin.",
+		"You have the grandest treasure we never had."
+	  ],
+	  "glitch" : [
+		"We've never had a Glitch before. Except those crusaders trying to eradicate us.",
+		"We will protect you from those hunters.",
+		"Come, Glitch. We welcome self-aware ones.",
+		"You can use our sanctuary as the shelter."
+	  ],
+	  "ceebe" : [
+		"...",
+		"Does Lightbrick City try to intentionally make me anguish through another way?",
+		"How... horrid.",
+		"What did I just witness?"
+	  ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/converse/andarhan",
+    "value": {
+	  "default" : [
+		"Heretic.",
+		"You have no place in the universe.",
+		"One day you and your biomass you call \"friends\" will wither.",
+		"The cold you feel? Death grasps you.",
+		".",
+		".",
+		"."
+	  ],
+	  "andarhan" : [
+		"So what brings you here. To atone? Or to strengthen us with alien technology you marauded?",
+		"Have you heard of Lumina Insignus and Lightbrick City? It seems they live in total harmony, pure from any temptations to destroy us.",
+		"Facade can reform you. Be sure to give it a visit.",
+		"This \"Cassowary\" call us \"tyrants\". They won't heed that we are also warriors, chained by purpose.",
+		"S'ytn Vos cannot fathom killing you. Therefore he has to improvise.",
+		"The Vervas Tharaau, evidence of Nhar'Duunr's lost civilization, is beyond our reach. Will you be the first to \"breach\" it, and show them we are not evil?",
+		"We won't protect you from the hunters, but feel free to do it yourself.",
+		"Be careful with this freedom, brother. One day it will kill you.",
+		"Be thankful that S'ytn Vos allows even you to choose your own destiny.",
+		"."
+	  ],
+	  "orthirid" : [
+        "Being built from corpses of our brothers and sisters is... something.",
+		".",
+		".",
+		".",
+		".",
+		"."
+	  ],
+	  "halcyon" : [
+        ".",
+		".",
+		".",
+		".",
+		".",
+		"."
+	  ],
+	  "ginrhin" : [
+        "Nhar'Duunr really put so much effort appreaciating your kind. Like some kind of gift we won't have ever.",
+		".",
+		".",
+		".",
+		".",
+		"."
+	  ],
+	  "glitch" : [
+		"So you are no longer a slave to your old purpose?",
+		"They hunt you down for \"self-awareness\"? Not under our watch.",
+		"We never have any primitive technology at all.",
+		"We only have empires, not kingdoms.",
+		"Rest here for a while, Glitch.",
+		"This Hivemind you've freed yourself from... Our professors studied it.",
+		"They will never decapitate you under our watch. We will behead them first.",
+		"You seemingly have an interesting story.",
+		"I would imagine being looked down as \"heretic\" in whatever society like yours."
+	  ],
+	  "ceebe" : [
+		"You reek of perversion, Ceebe.",
+		"They should've never made you.",
+		"My arm up your what? How anguishing...",
+		"Eugh...",
+		"Vomit your \"urethral stuff\" nonsense elsewhere while you breathe.",
+		"Those, devoid of sanity, should've perished the day they made your kind.",
+		"You repulse me with history you smell of.",
+		"Get out, Ceebe.",
+        "Pervert.",
+		"Abomination."
+	  ]
+    }
+  }
+  // Nhar'Duunr
+
+  // Ginr'hin
+]

@@ -1,0 +1,278 @@
+[
+    {
+		"op" : "add", "path" : "/palettes/-", "value" : { 
+			"name" : "Ilsyeinite", 
+			"categories" : [ "all", "lum.insignus" ],
+			"colours" : {
+				"FFCA8A" : "D2CFDA",
+				"E0975C" : "A59FB5",
+				"A85636" : "53505B",
+				"6F2919" : "2A282E"
+			}
+		}
+	},
+    {
+		"op" : "add", "path" : "/palettes/-", "value" : { 
+			"name" : "Dark Ilsyeinite", 
+			"categories" : [ "all", "lum.insignus" ],
+			"colours" : {
+				"FFCA8A" : "464850",
+				"E0975C" : "363842",
+				"A85636" : "24252B",
+				"6F2919" : "16161A"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : { 
+			"name" : "Yls'Uthiran Omnimetal", 
+			"categories" : [ "all", "lum.insignus" ],
+			"colours" : {
+				"FFCA8A" : "E2D395",
+				"E0975C" : "B3A26F",
+				"A85636" : "8C7C55",
+				"6F2919" : "615338"
+			}
+		}
+	},
+    {
+		"op" : "add", "path" : "/palettes/-", "value" : { 
+			"name" : "Yls'Uthiran Tapestry", 
+			"categories" : [ "all", "lum.insignus" ],
+			"colours" : {
+				"FFCA8A" : "6C59A0",
+				"E0975C" : "463A68",
+				"A85636" : "2E2644",
+				"6F2919" : "161221"
+			}
+		}
+	},
+    {
+		"op" : "add", "path" : "/palettes/-", "value" : { 
+			"name" : "Yls'Uthiran Glow", 
+			"categories" : [ "all", "lum.insignus" ],
+			"colours" : {
+				"FFCA8A" : "FFFFFFFE",
+				"E0975C" : "FFFFFFFE",
+				"A85636" : "87FFFFFE",
+				"6F2919" : "00FFFFFE"
+			}
+		}
+	},
+    {
+		"op" : "add", "path" : "/palettes/-", "value" : { 
+			"name" : "Sylethiian Ivory (Kylell)", 
+			"categories" : [ "all", "white", "lum.insignus" ],
+			"colours" : {
+				"FFCA8A" : "D8D8D8",
+				"E0975C" : "A5A5A5",
+				"A85636" : "707070",
+				"6F2919" : "515151"
+			}
+		}
+	},
+    {
+		"op" : "add", "path" : "/palettes/-", "value" : { 
+			"name" : "Shadowspoken Dark Purple (Nilynn)", 
+			"categories" : [ "all", "purple", "lum.insignus" ],
+			"colours" : {
+				"FFCA8A" : "282239",
+				"E0975C" : "1D1829",
+				"A85636" : "14111D",
+				"6F2919" : "0D0B13"
+			}
+		}
+	},
+    {
+		"op" : "add", "path" : "/palettes/-", "value" : { 
+			"name" : "Sylethiian Ebony (Yulenn)", 
+			"categories" : [ "all", "black", "lum.insignus" ],
+			"colours" : {
+				"FFCA8A" : "2C2C2C",
+				"E0975C" : "242424",
+				"A85636" : "1C1C1C",
+				"6F2919" : "151515"
+			}
+		}
+	},
+    {
+		"op" : "add", "path" : "/palettes/-", "value" : { 
+			"name" : "Sylethiian Glow - Domino", 
+			"categories" : [ "all", "blue", "lum.insignus" ],
+			"colours" : {
+				"FFCA8A" : "FFFFFFFE",
+				"E0975C" : "FFFFFFFE",
+				"A85636" : "BFE4FFFE",
+				"6F2919" : "59B9FFFE"
+			}
+		}
+	},
+    {
+		"op" : "add", "path" : "/palettes/-", "value" : { 
+			"name" : "Sylethiian Glow - Shadowspoken", 
+			"categories" : [ "all", "purple", "lum.insignus" ],
+			"colours" : {
+				"FFCA8A" : "FFFFFFFE",
+				"E0975C" : "FFFFFFFE",
+				"A85636" : "A17FFFFE",
+				"6F2919" : "4800FFFE"
+			}
+		}
+	},
+    {
+		"op" : "add", "path" : "/palettes/-", "value" : { 
+			"name" : "Andarhan Osmitanium", 
+			"categories" : [ "all", "lum.insignus" ],
+			"colours" : {
+				"FFCA8A" : "606060",
+				"E0975C" : "474747",
+				"A85636" : "333333",
+				"6F2919" : "262626"
+			}
+		}
+	},
+    {
+		"op" : "add", "path" : "/palettes/-", "value" : { 
+			"name" : "Andarhan Nanofabric", 
+			"categories" : [ "all", "lum.insignus" ],
+			"colours" : {
+				"FFCA8A" : "3A3F58",
+				"E0975C" : "2E303A",
+				"A85636" : "202128",
+				"6F2919" : "111316"
+			}
+		}
+	},
+    {
+		"op" : "add", "path" : "/palettes/-", "value" : { 
+			"name" : "Andarhan Glow", 
+			"categories" : [ "all", "lum.insignus" ],
+			"colours" : {
+				"FFCA8A" : "FFFFFFFE",
+				"E0975C" : "FFFFFFFE",
+				"A85636" : "FDBD01FE",
+				"6F2919" : "FF6A00FE"
+			}
+		}
+	},
+    {
+		"op" : "add", "path" : "/palettes/-", "value" : { 
+			"name" : "Halcyon Blue", 
+			"categories" : [ "all", "lum.insignus" ],
+			"colours" : {
+				"FFCA8A" : "7CA2C1",
+				"E0975C" : "4678A3",
+				"A85636" : "27425A",
+				"6F2919" : "152432"
+			}
+		}
+	},
+    {
+		"op" : "add", "path" : "/palettes/-", "value" : { 
+			"name" : "Halcyon Glow", 
+			"categories" : [ "all", "blue", "lum.insignus" ],
+			"colours" : {
+				"FFCA8A" : "FFFFFFFE",
+				"E0975C" : "FFFFFFFE",
+				"A85636" : "7FD4FFFE",
+				"6F2919" : "00AAFFFE"
+			}
+		}
+	},
+    {
+		"op" : "add", "path" : "/palettes/-", "value" : { 
+			"name" : "Rhadur Metal", 
+			"categories" : [ "all", "lum.insignus" ],
+			"colours" : {
+				"FFCA8A" : "685B8C",
+				"E0975C" : "544972",
+				"A85636" : "302A42",
+				"6F2919" : "1C1826"
+			}
+		}
+	},
+    {
+		"op" : "add", "path" : "/palettes/-", "value" : { 
+			"name" : "Rhadur Desaturated Metal", 
+			"categories" : [ "all", "lum.insignus" ],
+			"colours" : {
+				"FFCA8A" : "5E596B",
+				"E0975C" : "43404C",
+				"A85636" : "38353F",
+				"6F2919" : "212026"
+			}
+		}
+	},
+    {
+		"op" : "add", "path" : "/palettes/-", "value" : { 
+			"name" : "Rhadur Glow", 
+			"categories" : [ "all", "lum.insignus" ],
+			"colours" : {
+				"FFCA8A" : "FFFFFFFE",
+				"E0975C" : "FFFFFFFE",
+				"A85636" : "FF7F7FFE",
+				"6F2919" : "FF0000FE"
+			}
+		}
+	},
+    {
+		"op" : "add", "path" : "/palettes/-", "value" : { 
+			"name" : "Dhir'Nakhor Glow", 
+			"categories" : [ "all", "lum.insignus" ],
+			"colours" : {
+				"FFCA8A" : "FFFFFFFE",
+				"E0975C" : "FFFFFFFE",
+				"A85636" : "E8DDFFFE",
+				"6F2919" : "BC9BFFFE"
+			}
+		}
+	},
+    {
+		"op" : "add", "path" : "/palettes/-", "value" : { 
+			"name" : "Ceebe Metal", 
+			"categories" : [ "all", "lum.insignus" ],
+			"colours" : {
+				"FFCA8A" : "E2E2FF",
+				"E0975C" : "AEAEC1",
+				"A85636" : "7D7D8B",
+				"6F2919" : "46464C"
+			}
+		}
+	},
+    {
+		"op" : "add", "path" : "/palettes/-", "value" : { 
+			"name" : "Ceebe Dark Metal", 
+			"categories" : [ "all", "lum.insignus" ],
+			"colours" : {
+				"FFCA8A" : "373737",
+				"E0975C" : "2D2D2D",
+				"A85636" : "212121",
+				"6F2919" : "141414"
+			}
+		}
+	},
+    {
+		"op" : "add", "path" : "/palettes/-", "value" : { 
+			"name" : "Ceebe Glow", 
+			"categories" : [ "all", "lum.insignus" ],
+			"colours" : {
+				"FFCA8A" : "FFFFFFFE",
+				"E0975C" : "FFFFFFFE",
+				"A85636" : "FFCCEFFE",
+				"6F2919" : "FF8FDCFE"
+			}
+		}
+	},
+    {
+		"op" : "add", "path" : "/palettes/-", "value" : { 
+			"name" : "Neo Occasus Purple", 
+			"categories" : [ "all", "purple", "lum.insignus" ],
+			"colours" : {
+				"FFCA8A" : "BAA5D4",
+				"E0975C" : "805FA8",
+				"A85636" : "4A2E6C",
+				"6F2919" : "211233"
+			}
+		}
+	}
+]

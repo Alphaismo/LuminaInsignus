@@ -1,0 +1,102 @@
+{
+    "itemName" : "neocultist-sentinel",
+    "price" : 1080,
+    "maxStack" : 1,
+    "rarity" : "Rare",
+    "description" : "One of Neo Occasus' Solarium-powered ARs.",
+    "shortdescription" : "OCS-N.O-1R \"Sentinel\"",
+    "tooltipKind" : "gun",
+    "category" : "assaultRifle",
+    "twoHanded" : true,
+    "itemTags" : ["weapon","ranged","neocultist"],
+    "level" : 6,
+  
+    "inventoryIcon" : [
+      { "image" : "neocultist-sentinel.png" }
+    ],
+  
+    "animation" : "/items/active/weapons/ranged/animation/lumins-fullbrightranged.animation",
+    "animationParts" : {
+      "middle" : "neocultist-sentinel.png",
+      "middleFullbright" : "neocultist-sentinelfullbright.png",
+      "muzzleFlash" : "/items/active/weapons/ranged/lumins-neocultist/neocultist-muzzleflash.png"
+    },
+    "animationCustom" : {
+      "sounds" : {
+        "fire" : ["/sfx/gun/lumins-plasma1.ogg"]
+      },
+      "lights" : {
+        "muzzleFlash" : {
+          "color" : [127, 105, 39]
+        }
+      }
+    },
+  
+    "baseOffset" : [0.8, 0.125],
+    "muzzleOffset" : [2.0, 0.35],
+  
+    "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  
+    "elementalType" : "physical",
+  
+    "primaryAbility" : {
+      "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+      "class" : "GunFire",
+  
+      "fireTime" : 0.045,
+      "baseDps" : 25,
+      "energyUsage" : 36,
+      "projectileCount" : 1,
+      "inaccuracy" : 0.03,
+      "fireType" : "auto",
+  
+      "projectileType" : "neocultistbullet",
+      "projectileParameters" : {
+        "knockbackRange" : 10
+      },
+      "muzzleFlashVariants" : 1,
+  
+      "stances" : {
+        "idle" : {
+          "armRotation" : 0,
+          "weaponRotation" : 0,
+          "twoHanded" : true,
+  
+          "allowRotate" : true,
+          "allowFlip" : true,
+          
+          "frontArmFrame" : "run.2",
+              "backArmFrame" : "swim.4"
+        },
+        "fire" : {
+          "duration" : 0,
+          "armRotation" : 2,
+          "weaponRotation" : 2,
+          "twoHanded" : true,
+  
+          "allowRotate" : true,
+          "allowFlip" : true,
+          
+          "frontArmFrame" : "run.2",
+              "backArmFrame" : "swim.4"
+        },
+        "cooldown" : {
+          "duration" : 0.05,
+          "armRotation" : 2,
+          "weaponRotation" : 2,
+          "twoHanded" : true,
+  
+          "allowRotate" : true,
+          "allowFlip" : true,
+          
+          "frontArmFrame" : "run.2",
+              "backArmFrame" : "swim.4"
+        }
+      }
+    },
+  
+    // "altAbilityType" : "shrapnelbomb",
+  
+    "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  }
+  

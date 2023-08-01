@@ -1,0 +1,35 @@
+{
+  "objectName" : "dhirnakhor-prometheus",
+  "colonyTags" : ["dhirnakhor","evil","magitek","military"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "Used by Dhir'Nakhor militaries, it's been long since infamous.",
+  "shortdescription" : "Prometheus",
+  "race" : "dhirnakhor",
+  "printable" : false,
+
+  "floranDescription" : "A temporary prop.",
+  "glitchDescription" : "A temporary prop.",
+
+  "inventoryIcon" : "dhirnakhor-prometheusicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "dhirnakhor-prometheus.png:<color>", "fullbright" : true }, { "image" : "dhirnakhor-prometheuslit.png:<color>" } ],
+        "imagePosition" : [-92, 0],
+  
+        "spaceScan" : 0.1,
+        "flipImages" : true,
+        "direction" : "left",
+        "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "dhirnakhor-prometheus.png:<color>", "fullbright" : true }, { "image" : "dhirnakhor-prometheuslit.png:<color>" } ],
+        "imagePosition" : [-92, 0],
+  
+        "spaceScan" : 0.1,
+        "direction" : "right",
+        "anchors" : [ "bottom" ]
+    }
+  ]
+}

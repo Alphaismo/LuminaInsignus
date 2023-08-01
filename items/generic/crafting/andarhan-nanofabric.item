@@ -1,0 +1,10 @@
+{
+  "itemName" : "andarhan-nanofabric",
+  "price" : 800,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "andarhan-nanofabric.png",
+  "description" : "Feels unorthodoxly smooth... Like touching an alien dolphin.",
+  "shortdescription" : "Andarhan Nanofabric",
+  "itemTags" : [ "reagent" ]
+}

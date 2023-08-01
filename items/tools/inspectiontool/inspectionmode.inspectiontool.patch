@@ -1,0 +1,56 @@
+[
+    { "op" : "add",
+        "path" : "/outOfRangeText/boomboxid",
+        "value" : [
+          "Aughhhh... bitch...",
+          "This schmancy glass won't get closer itself.",
+          "I'll need to get there to magnify it.",
+          "Plankton won't burn itself in the sunlight."
+        ]
+      },
+      { "op" : "add",
+        "path" : "/nothingThereText/boomboxid",
+        "value" : [
+          "I can see Gautamas from afar with my eye and this thing together...",
+          "Bullshit...",
+          "Oh wow! Nothing!",
+          "Meh... nothing here."
+        ]
+    },
+    { "op" : "add",
+        "path" : "/outOfRangeText/ceebe",
+        "value" : [
+          "I don't think it works like that.",
+          "I can't see anything from it.",
+          "Why won't this thing work?",
+          "Supposedly I should get closer..."
+        ]
+      },
+      { "op" : "add",
+        "path" : "/nothingThereText/ceebe",
+        "value" : [
+          "What is this thing anyway?",
+          "Hmmmmmmmm...",
+          "Uhhhh...",
+          "What...?"
+        ]
+    },
+    { "op" : "add",
+        "path" : "/outOfRangeText/ginrhin",
+        "value" : [
+          "Insufficient range.",
+          "Error.",
+          "An error occured attempting to scan from primitive magnifying glass.",
+          "This unit must get closer in order to scan the target."
+        ]
+      },
+      { "op" : "add",
+        "path" : "/nothingThereText/ginrhin",
+        "value" : [
+          "Unable to detect anything.",
+          "Nothing there.",
+          "No data acquired.",
+          "Insufficient data."
+        ]
+    }
+]

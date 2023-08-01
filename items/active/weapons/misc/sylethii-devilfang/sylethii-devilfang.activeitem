@@ -1,0 +1,43 @@
+{
+  "itemName" : "sylethii-devilfang",
+  "price" : 960,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "The cursed weapon of Sylethii origin, wielded by a very powerful woman.",
+  "shortdescription" : "Devilfang",
+  // "tooltipKind" : "sword",
+  "category" : "Naginata-Halberd",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","finn"],
+
+  "inventoryIcon" : "sylethii-devilfang.png",
+
+  "animation" : "sylethii-devilfang.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "sylethii-devilfang.png",
+    "bladeFullbright" : "sylethii-devilfangfullbright.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : 0.95,
+    "baseDps" : 10.5
+  },
+
+  "altAbilityType" : "flurry",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

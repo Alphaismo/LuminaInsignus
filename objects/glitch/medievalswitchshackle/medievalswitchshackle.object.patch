@@ -1,0 +1,32 @@
+[
+    {
+        "op" : "add",
+        "path" : "/boomboxidDescription",
+        "value" : "Ayyy... That's a secret switch!"
+    },
+    {
+        "op" : "add",
+        "path" : "/ceebeDescription",
+        "value" : "I wish I could be placed in-- Wait a minute... one of these shackles could move."
+    },
+    {
+        "op" : "add",
+        "path" : "/sylethiiDescription",
+        "value" : "There must be something off with the shackle."
+    },
+    {
+        "op" : "add",
+        "path" : "/orthiridDescription",
+        "value" : "With one of shackles being intentionally \"weak\" must mean one thing..."
+    },
+    {
+        "op" : "add",
+        "path" : "/andarhanDescription",
+        "value" : "There must be a mechanism activated by a pull of the shackle."
+    },
+    {
+        "op" : "add",
+        "path" : "/nharduunrDescription",
+        "value" : "There's something... off..."
+    }
+]

@@ -1,0 +1,38 @@
+{
+  "objectName" : "ylsuthir-largedoorbg",
+  "colonyTags" : ["ylsuthir","pretty"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 250,
+  "description" : "Unusual door. I wonder what's behind this...",
+  "shortdescription" : "Yls'Uthiran Large Door (BG)",
+  "race" : "nharduunr",
+
+  "floranDescription" : "Floran wantsss to know what's behind the door.",
+  "glitchDescription" : "Jealous. All these times passed, and door still works like a charm.",
+  "novakidDescription" : "Now that's a mighty door, partner!",
+  "nharduunrDescription" : "Our technology is not perfect, but still flawless, even to this day.",
+  "ginrhinDescription" : "The large door of Yls'Uthiran craftsmanship confirmed.",
+
+  "inventoryIcon" : "ylsuthir-largedoorbgicon.png",
+  "orientations" : [
+	{
+	  "imageLayers" : [ { "image" : "ylsuthir-largedoorbg.png:<color>", "fullbright" : true }, { "image" : "ylsuthir-largedoorbglit.png:<color>" } ],
+      "imagePosition" : [-24, 0],
+
+      "spaceScan" : 0.1,
+      "flipImages" : true,
+      "direction" : "left",
+      "anchors" : [ "background" ]
+    },
+	{
+	  "imageLayers" : [ { "image" : "ylsuthir-largedoorbg.png:<color>", "fullbright" : true }, { "image" : "ylsuthir-largedoorbglit.png:<color>" } ],
+      "imagePosition" : [-24, 0],
+
+      "spaceScan" : 0.1,
+      "direction" : "right",
+      "anchors" : [ "background" ]
+    }
+  ]
+}

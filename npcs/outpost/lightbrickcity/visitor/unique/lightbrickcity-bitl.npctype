@@ -1,0 +1,57 @@
+{
+  "type" : "lightbrickcity-bitl",
+  "baseType" : "outpostcivilian",
+
+  "npcname" : "Bitl",
+  "identity" : {
+      "gender" : "female",
+      "hairGroup" : "hair",
+      "hairType" : "lumins-6"
+  },
+
+  "scriptConfig" : {
+    "offeredQuests" : [ ],
+    "turnInQuests" : [ ],
+
+    "reactions" : { "spontaneous" : [ ] },
+    "personalities" : [
+    [1.0, { "personality" : "emo", "reactions" : {} }]
+    ],
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+
+    "dialogMode": "tutorial",
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "D'iz s'thlung'holhz lhond muj... Ih d'unt lek 'em diz mohkc uhz deh du e'ch uthel'h. Bhoth Ih ghosht Ih khen gut uhlohng wizht iht.", // These strangers around me... I don't like them this much as they do each other. But I guess I can get along with it.
+            "Plos kip d'iz chldhn ewh fm muh! Ih onhl'e ghott Vietnuhm floshbekz fhom dem!", // Please keep these children away from me! I only get Vietnam flashbacks from them!
+            "H'oeh! Ih chun tokh'! W'hotkh whouh duh phku'kh uhl y'lheughen utk, cunt!", // Hey! I can talk! Watch where the fuck you laughing at, cunt!
+            "Dehs's shthleht kolhnelh iz lhohd uz phku'kh!.. Ih'wh ghut nuh schlup phoh Twoht'floh muths.", // This street corner is loud as fuck!.. I've got no good sleep for 24 months...
+            "Gohm meh u'k pehpehl. Ih ghinnuh whl'it Shukschpelhuh tu phlovh huw phku'kh-esh whlohn y'uhl!", // Give me a paper. I'm gonna write Shakespearen to prove how fucking wrong you are!
+            "Ih huvnt schun phepl ut t'hul khulen muh \"Whule\" nuhl \"Bhemb'hoh\" uhn dhei'leh bhe'sus. Dhot'sh khundheh uh'n meh ghud veib.", // I haven't seen people at all calling me "Whore" nor "Bimbo" on daily basis. That's kinda on my good vibe.
+            "Bitch.", // Bitch.
+            "Ih luvh khittehs. ^red;<3^reset;", // I love kittens. <3
+            "Miuh schucstehs luvh 'elhe, hunhlikh muh.", // My sisters live here, unlike me.
+            "Finn thlueh tu lhuphe muh un whinthehl. Ih ghuv 'eln uhe uh pehpehlkhut lol.", // Finn tried to rape me on winter. I gave her eye a papercut lol.
+            "Kleimuhthen' hut lhehd uh pheileh thell bott sum dhleghonhs." // Clementine had read a fairy tale about some dragons.
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "lightbrickcity-bitlhead", "parameters" : { "colorIndex" : 0 } } ],
+            "chest" : [ { "name" : "lightbrickcity-bitlarms", "parameters" : { "colorIndex" : 0 } } ],
+            "legs" : [ { "name" : "lightbrickcity-bitlbody", "parameters" : { "colorIndex" : 0 } } ]
+          }
+        ] ]
+    ]
+  }
+}

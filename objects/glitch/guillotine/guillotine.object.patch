@@ -1,0 +1,37 @@
+[
+    {
+        "op" : "add",
+        "path" : "/boomboxidDescription",
+        "value" : "Of all methods to execute Glitches, like lethal injections, short circuiting, firing squad, buzzsaw lingchi, dismantling alive... why decapitation?"
+    },
+    {
+        "op" : "add",
+        "path" : "/ceebeDescription",
+        "value" : "Ceebes, like me, get rid of the blade. Aaaaaaand... we have naughty times."
+    },
+    {
+        "op" : "add",
+        "path" : "/sylethiiDescription",
+        "value" : "This thing is too barbaric. And we only behead corpses of highly-prestiged Sekiuj for memorium."
+    },
+    {
+        "op" : "add",
+        "path" : "/orthiridDescription",
+        "value" : "Decapitation, and guillotines obviously, is illegal in Yeiloj."
+    },
+    {
+        "op" : "add",
+        "path" : "/andarhanDescription",
+        "value" : "Andarhans have several efficient forms of target disposal, but the primitive guillotine is not one of them. And it never will be."
+    },
+    {
+        "op" : "add",
+        "path" : "/dhirnakhorDescription",
+        "value" : "We only behead heretics and beyond-disobedient prisoners. But as for sadistic entertainment for Glitch to witness? It's MORAL EVENT HORIZON!"
+    },
+    {
+        "op" : "add",
+        "path" : "/nharduunrDescription",
+        "value" : "I can't die by being beheaded, so this thing against the Nhar'Duunr is ineffective."
+    }
+]

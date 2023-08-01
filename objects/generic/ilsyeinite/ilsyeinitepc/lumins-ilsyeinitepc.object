@@ -1,0 +1,62 @@
+{
+  "objectName" : "lumins-ilsyeinitepc",
+  "colonyTags" : ["ilsyeinite","electronic"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 255,
+  "lightColor" : [36, 73, 105],
+  
+  "description" : "Who would've guessed that even PCs can be made out of Ilsyeinite?.",
+  "shortdescription" : "Ilsyeinite PC",
+  "race" : "generic",
+
+  "floranDescription" : "Floran don't know how to ussse it.",
+  "glitchDescription" : "Jealous. I wish I had the antivirus like this PC does.",
+  "novakidDescription" : "Whoever rocked parts in this mighty machine must've made sure it goes on for eons.",
+  "boomboxidDescription" : "200,000 Pixels for that? Ooof! Anyways... can it run Doom?",
+  "ceebeDescription" : "It's as powerful as, if not all, Gaming PCs made in Lightbrick City.",
+  "nharduunrDescription" : "Even that tends to glitch up wherever I get my hands closer to it.",
+  "ginrhinDescription" : "The efficiency of the PC made of Ilsyeinite is staggering and impressive.",
+
+  "inventoryIcon" : "lumins-ilsyeinitepcicon.png",
+  "orientations" : [
+    {
+      "image" : "lumins-ilsyeinitepc.png:default.off",
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+      "animationCycle" : 0.5,
+      "direction" : "right",
+
+      "animationParts" : {
+        "bg" : "lumins-ilsyeinitepc.png",
+        "fg" : "lumins-ilsyeinitepclit.png"
+      },
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+      "image" : "lumins-ilsyeinitepcleft.png:default.off",
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+      "animationCycle" : 0.5,
+      "direction" : "left",
+	  "flipImages" : true,
+
+      "animationParts" : {
+        "bg" : "lumins-ilsyeinitepcleft.png",
+        "fg" : "lumins-ilsyeinitepclitleft.png"
+      },
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "lumins-ilsyeinitepc.animation",
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "interactive" : true
+}

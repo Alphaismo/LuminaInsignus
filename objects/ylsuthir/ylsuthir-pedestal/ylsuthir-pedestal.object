@@ -1,0 +1,46 @@
+{
+  "objectName" : "ylsuthir-pedestal",
+  "colonyTags" : ["nharduunr","ylsuthir","pedestal"],
+  "rarity" : "Rare",
+  "description" : "This chandelier is made of wrought-iron. It looks expensive.",
+  "shortdescription" : "Yls'Uthiran Pedestal",
+  "race" : "nharduunr",
+
+  "category" : "light",
+  "price" : 120,
+  "lightColor" : [0, 85, 85],
+
+  "floranDescription" : "Sssstrange pedessstal.",
+  "glitchDescription" : "Confused. I have zero ideas what this pedestal does.",
+  "orthiridDescription" : "Not familiar with this pedestal's mechanism: It hovers the object placed here.",
+  "raegshiaDescription" : "I'm not that all-knowing when it comes to Yls'Uthiran technology... and this pedestal.",
+  "valkeidinDescription" : "Irritating-looking pedestal.",
+  "sylethiiDescription" : "I'm not familiar with this thing. Looks so alien...",
+  "driianDescription" : "Fancy-looking pedestal...",
+  "quekhriiDescription" : "Such an odd pedestal...",
+  "qkhadranDescription" : "Never thought even those demons can place their treasure to such pedestal.",
+  "ceebeDescription" : "I have no idea what is this supposed to be...",
+  "nharduunrDescription" : "We place relics in these pedestals.",
+  "ginrhinDescription" : "Registration Complete: Ancient Hover Pedestal.",
+
+  "inventoryIcon" : "ylsuthir-pedestalicon.png",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "ylsuthir-pedestal.png:<color>", "fullbright" : true }, { "image" : "ylsuthir-pedestallit.png:<color>" } ],
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "flipImages" : true,
+      "direction" : "left",
+      "anchors" : [ "bottom" ]
+    },
+    {
+	  "imageLayers" : [ { "image" : "ylsuthir-pedestal.png:<color>", "fullbright" : true }, { "image" : "ylsuthir-pedestallit.png:<color>" } ],
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "direction" : "right",
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

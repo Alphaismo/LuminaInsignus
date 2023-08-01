@@ -1,0 +1,10 @@
+{
+  "itemName" : "lumins-platinumore",
+  "price" : 65,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "lumins-platinumore.png",
+  "description" : "The unrefined platisteel ore, it may use a wash to gloss again.",
+  "shortdescription" : "Platisteel Ore",
+  "itemTags" : [ "reagent" ]
+}

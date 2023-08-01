@@ -1,0 +1,13 @@
+{
+  "itemName" : "ylsuthir-vervastharaauaccesscard",
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "ID Card",
+  "tooltipKind" : "tool",
+  "inventoryIcon" : "ylsuthir-vervastharaauaccesscard.png",
+  "largeImage" : "ylsuthir-vervastharaauaccesscardlarge.png",
+  "description" : "Judging by the profile, it belongs to ^#87FFFF;Velrui-Thareu^reset;.",
+  "shortdescription" : "^#87FFFF;V.Th. 'Emperor' ID Card^reset;"
+
+}

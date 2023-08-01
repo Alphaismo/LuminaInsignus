@@ -1,0 +1,37 @@
+[
+  {
+    "op": "add",
+    "path": "/boomboxidDescription",
+    "value": "Surely this ship can't blast music, but it's do or die, m8."
+  },
+  {
+    "op": "add",
+    "path": "/ceebeDescription",
+    "value": "Just as I hoped This ship is my way out of here."
+  },
+  {
+    "op": "add",
+    "path": "/sylethiiDescription",
+    "value": "Just as I hoped This ship is my way out of here."
+  },
+  {
+    "op": "add",
+    "path": "/orthiridDescription",
+    "value": "Just as I hoped This ship is my way out of here."
+  },
+  {
+    "op": "add",
+    "path": "/valkeidinDescription",
+    "value": "Just as I hoped This ship is my way out of here."
+  },
+  {
+    "op": "add",
+    "path": "/andarhanDescription",
+    "value": "The only way to get out of this dying place..."
+  },
+  {
+    "op": "add",
+    "path": "/nharduunrDescription",
+    "value": "Just as I hoped This ship is my way out of here."
+  }
+]

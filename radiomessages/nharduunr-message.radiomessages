@@ -1,0 +1,26 @@
+{
+  // VELRUI-THAREU
+  "encounterylsuthiroutpostteleporter" : {
+    "type" : "quest",
+    "senderName" : "???",
+    "portraitImage" : "/interface/chatbubbles/nharduunr-velruithareustatic.png:<frame>",
+    "text" : "I never expected another visitor... First Cassowary Crew, then refugees from eclectic nations, now you. I guess it's gonna be the first time coming face to face.",
+    "persistTime" : 5.0
+  },
+  "pickupolnardhar" : {
+    "type" : "quest",
+    "senderName" : "Velrui-Thareu",
+    "portraitImage" : "/interface/chatbubbles/nharduunr-velruithareu.png:<frame>",
+    "text" : "The ^red;Olnar'dhar^reset;, a Legendary Dagger of Yls'Uthiran origin. I outlawed it for anyone else from wielding it due to it's raw power and purpose. I may grant you a permission to wield it. This will come in handy.",
+    "persistTime" : 5.0
+  },
+
+  // PHONK'S BASTION - VELRUI-THAREU (LUMINA INSIGNUS X RAIIZY'S FORGE ADDON)
+  "ylsuthirphonkbastionvisit" : {
+    "type" : "quest",
+    "senderName" : "Velrui-Thareu",
+    "portraitImage" : "/interface/chatbubbles/nharduunr-velruithareu.png:<frame>",
+    "text" : "I'm relieved that ^#87FFFF;Vherul-Khavlenas^reset; is actually alive. Anyway... He's an esteemed hitman, and Retired Emperor of Varaie. For nifty price of 500,000 pixels: If you, let's just say, wish your ex-girlfriend to perish for leaving you to another man, he is the one.",
+    "persistTime" : 5.0
+  }
+}

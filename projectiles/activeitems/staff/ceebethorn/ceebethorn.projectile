@@ -1,0 +1,48 @@
+{
+  "projectileName" : "ceebethorn",
+  "physics" : "default",
+  "timeToLive" : 3,
+  "image" : "ceebethorn.png",
+  "animationCycle" : 0.3,
+  "lightColor" : [127, 72, 110],
+  "frameNumber" : 4,
+  "speed" : 1,
+  "power" : 100,
+  "damageKind" : "default",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+
+  "fullbright" : true,
+  "emitters" : ["energyweapon"],
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/gun/impact_plasma.ogg"
+      ]
+    },
+    {
+      "action" : "loop",
+      "count" : 5,
+      "body" : [
+        {
+          "action" : "particle",
+          "specification" : "energyblade",
+          "time" : 0.1,
+          "repeat" : true
+        },
+        {
+          "action" : "particle",
+          "specification" : "energyblade2",
+          "time" : 0.1,
+          "repeat" : true
+        }
+      ]
+    }
+  ],
+
+  "bounces" : 0,
+
+  "scripts" : [ "/projectiles/activeitems/staff/ceebethorn/ceebethorn.lua" ],
+
+  "triggerSpeed" : 150
+}

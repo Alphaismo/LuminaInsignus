@@ -1,0 +1,30 @@
+{
+  "itemName" : "ceebesword",
+  "price" : 500,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Why it needs a description?",
+  "shortdescription" : "Big Banger",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+  "inventoryIcon" : "ceebesword.png",
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "ceebesword.png",
+	"bladeFullbright" : "ceebesword.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.89,
+    "baseDps" : 7
+  },
+  "altAbilityType" : "downstab",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

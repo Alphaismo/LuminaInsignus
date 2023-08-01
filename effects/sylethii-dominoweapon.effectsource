@@ -1,0 +1,21 @@
+{
+  "kind" : "sylethii-dominoweapon",
+  "location" : "mouth",
+  "definition" : {
+    "duration" : 0.2,
+    "durationVariance" : 0.1,
+    "loops" : true,
+    "start" : {
+      "particles" : [ ],
+      "sounds" : [ [ ] ]
+    },
+    "particles" : [
+      [ "sylethii-dominoenergy" ], [ "sylethii-dominoenergy2" ]
+    ],
+    "sounds" : [ [ ] ],
+    "stop" : {
+      "particles" : [ ],
+      "sounds" : [ [ ] ]
+    }
+  }
+}

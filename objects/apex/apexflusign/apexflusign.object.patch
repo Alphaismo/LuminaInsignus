@@ -1,0 +1,52 @@
+[
+    {
+        "op" : "add",
+        "path" : "/boomboxidDescription",
+        "value" : "Lightbrick City officials already declared it a lie... So what's the point here?"
+    },
+    {
+        "op" : "add",
+        "path" : "/ceebeDescription",
+        "value" : "Well... I'm naturally vaccinated from any flu. Why would Ape Flu scare me?"
+    },
+    {
+        "op" : "add",
+        "path" : "/sylethiiDescription",
+        "value" : "My people will consider this heresy. Only Yl'Veien is truly all-seeing."
+    },
+    {
+        "op" : "add",
+        "path" : "/orthiridDescription",
+        "value" : "From the Yl'Veienists' informational data, they were right about declaring it the worst of all blasphemies."
+    },
+    {
+        "op" : "add",
+        "path" : "/andarhanDescription",
+        "value" : "There is no way I will suffer any organic weaknesses."
+    },
+    {
+        "op" : "add",
+        "path" : "/rhadurDescription",
+        "value" : "They should try K'Oaulem Plague, the disease that conquered my kin."
+    },
+    {
+        "op" : "add",
+        "path" : "/dhirnakhorDescription",
+        "value" : "I'd call it \"Ape bollocks\"."
+    },
+    {
+        "op" : "add",
+        "path" : "/koaulemDescription",
+        "value" : "(This must be the ridicule against us or something...)"
+    },
+    {
+        "op" : "add",
+        "path" : "/nharduunrDescription",
+        "value" : "They never heard of K'Oaulem Plague, that ravaged some of our exodus fleets."
+    },
+    {
+        "op" : "add",
+        "path" : "/ginrhinDescription",
+        "value" : "Artificial Ape Flu origin unknown."
+    }
+]

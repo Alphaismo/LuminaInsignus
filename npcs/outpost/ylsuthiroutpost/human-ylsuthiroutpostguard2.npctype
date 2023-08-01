@@ -1,0 +1,39 @@
+{
+    "type" : "human-ylsuthiroutpostguard2",
+    "baseType" : "human-ylsuthiroutpostguard",
+  
+    "identity" : {
+        "gender" : "male",
+        "hairGroup" : "hair",
+        "hairType" : "lumins-male2"
+    },
+
+    "scriptConfig" : {
+      "offeredQuests" : [ ],
+      "turnInQuests" : [ ],
+      
+      "behaviorConfig" : {
+        "greetingChance" : 0
+      },
+
+      "reactions" : { "spontaneous" : [ ] },
+
+      "dialogMode": "tutorial"
+    },
+
+    "items" : {
+      "override" : [
+        [0, [
+            {
+              "head" : [ { "name" : "lumins-noclotheshead", "parameters" : { "colorIndex" : 0 } } ],
+              "chest" : [ { "name" : "pathfinderchest", "parameters" : { "colorIndex" : 0 } } ],
+              "legs" : [ { "name" : "pathfinderlegs", "parameters" : { "colorIndex" : 0 } } ],
+              "primary" : [
+                "npcassaultrifle"
+              ]
+            }
+          ] ]
+      ]
+    }
+  }
+  

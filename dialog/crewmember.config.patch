@@ -1,0 +1,41 @@
+[
+	{
+		"op": "add",
+		"path": "/converse/sylethii",
+		"value": {
+			"default": [
+				"There are no places unworthy for adventures.",
+				"Flying through space, running into dangers... This is my life.",
+				"Life aboard a spaceship... Is anything more exciting?",
+				"Don't worry, you'll be safe with me around!",
+				"What lies next on the road ahead? Adventure, intrigue, pillaging? Not pillaging, right?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/converse/boomboxid",
+		"value": {
+			"default": [
+				"Blastin' music for da adventures, motherfucker!",
+				"I've got brothers and sisters in Lightbrick City. Hopefully I'll return asap.",
+				"Ahoi? Wanna Darude - Sandstorm?",
+				"Chill... Those negus' ears'll blow up faster than they'll kill ya'.",
+				"Have you've seen 2 liters of Nebucola floatin'? That's my doing."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/converse/nharduunr",
+		"value": {
+			"default": [
+				"So your spirit wants adventure? Be my guest.",
+				"I hope to see Yls'Uthir once again.",
+				"There are someone besides us in Mal'Khurdan... What it might be?",
+				".",
+				"."
+			]
+		}
+	}
+]

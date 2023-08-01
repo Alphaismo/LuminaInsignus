@@ -1,0 +1,69 @@
+{
+  "objectName" : "domino-largedoor",
+  "colonyTags" : ["sylethii-domino","door","pretty"],
+  "rarity" : "Legendary",
+  "category" : "door",
+  "printable" : false,
+  "price" : 175,
+  "description" : "The standard-issue airlock door of Domino's design.",
+  "shortdescription" : "Domino Airlock Door",
+  "race" : "sylethii",
+
+  "floranDescription" : "Ssshiny door.",
+  "glitchDescription" : "Intrigued. Is it used for like... a bunker?",
+  "novakidDescription" : "Such mighty tech for something as humbly simple as a door.",
+  "sylethiiDescription" : "These doors surely can and will survive even blast from Dhir'Nakhorian tanks.",
+  "orthiridDescription" : "The standard-issue airlock door of Domino Arsenal. It has it's many uses.",
+  "andarhanDescription" : "It's still laughably pathetic against the Soldrive beam drills.",
+  "ginrhinDescription" : "The much-promised durability of the otherwise reverse-engineered Yls'Uthiran design.",
+
+  "inventoryIcon" : "domino-largedooricon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "domino-largedoor.png:default", "fullbright" : true }, { "image" : "domino-largedoorlit.png:default" } ],
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+     
+      "direction" : "right",
+     
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "domino-largedoor.png:default", "fullbright" : true }, { "image" : "domino-largedoorlit.png:default" } ],
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+     
+      "direction" : "right",
+     
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/lumins-fullbrightlockingdoor.animation",
+  
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "domino-largedoor.png",
+    "doorlit" : "domino-largedoorlit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "inputNodes" : [ [-1, 7] ],
+  "outputNodes" : [ [1, 0] ]
+}

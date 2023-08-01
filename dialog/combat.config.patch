@@ -1,0 +1,73 @@
+[
+	{
+		"op": "add",
+		"path": "/attack/boomboxid",
+		"value": {
+			"default": [
+				"U wot m8?",
+				"(TL;DR of Ezekiel 25:17 Verse)",
+				"C'mon bring it, busta!",
+				"Earrape!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/killedTarget/boomboxid",
+		"value": {
+			"default": [
+				"Rekt, motherfucker!",
+				"GG.",
+				"Phew!",
+				"Another victory!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/lostTarget/boomboxid",
+		"value": {
+			"default": [
+				"Shit...",
+				"Zamn.",
+				"Aight GTFO.",
+				"Lol."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/attack/andarhan",
+		"value": {
+			"default": [
+				"No mercy for the weak!",
+				"For the paradise!",
+				"I will protect my brothers!",
+				"For the emperor's name!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/killedTarget/andarhan",
+		"value": {
+			"default": [
+				"I glorified my brothers.",
+				"Blood for blood. Your debt is paid.",
+				"You are terminated.",
+				"We are death, destroyers of worlds."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/lostTarget/andarhan",
+		"value": {
+			"default": [
+				"Cowardice won't save you.",
+				"One day we will find you again.",
+				"Run all you want. Death will hunt you down."
+			]
+		}
+	}
+]

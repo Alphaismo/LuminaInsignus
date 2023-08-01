@@ -1,0 +1,16 @@
+{
+  "itemName" : "lightbrickcity-exploda",
+  "rarity" : "Common",
+  "price" : 40,
+  "category" : "drink",
+  "inventoryIcon" : "lightbrickcity-exploda.png",
+  "description" : "Defuses the thirst in seconds!",
+  "shortdescription" : "Exploda",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 30
+    }
+  ] ],
+  "emitters" : [ "drinking" ]
+}

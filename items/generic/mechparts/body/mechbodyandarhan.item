@@ -1,0 +1,15 @@
+{
+  "itemName" : "mechbodyandarhan",
+  "price" : 9600,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbody",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mechbodyandarhan.png",
+  "description" : "A terminated Praetorian unit, repurposed as mech body by Andarhans.",
+  "shortdescription" : "Praetorian Mech Body",
+  "itemTags" : [ ],
+
+  "mechPart" : ["body", "andarhan"]
+}

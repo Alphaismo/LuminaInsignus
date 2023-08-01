@@ -1,0 +1,56 @@
+{
+  "objectName" : "ylsuthir-ceilinglight",
+  "colonyTags" : ["light"],
+  "rarity" : "Legendary",
+  "category" : "light",
+  "lightColor" : [200, 255, 255],
+  "price" : 60,
+  "description" : "A simple but brightest light.",
+  "shortdescription" : "Yls'Uthiran Ceiling Light",
+  "race" : "nharduunr",
+
+  "apexDescription" : "These lights are commonly used on ships.",
+  "avianDescription" : "A vibrant light.",
+  "floranDescription" : "Ship light is harsh on Floran eyesss.",
+  "glitchDescription" : "Impressed. This lighting fixture generates more light than heat.",
+  "humanDescription" : "A bright, white light.",
+  "hylotlDescription" : "A bright, white light. It creates a neutral atmosphere.",
+  "novakidDescription" : "That's one bright lightbulb.",
+
+  "inventoryIcon" : "ylsuthir-ceilinglighticon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "ylsuthir-ceilinglight.png:<color>.<frame>", "fullbright" : true }, { "image" : "ylsuthir-ceilinglightlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "ylsuthir-ceilinglight.png:<color>.<frame>", "fullbright" : true }, { "image" : "ylsuthir-ceilinglightlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+  
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "ylsuthir-ceilinglight.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+  
+}

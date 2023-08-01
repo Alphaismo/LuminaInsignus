@@ -1,0 +1,62 @@
+{
+    "type" : "andarhan-interceptor",
+    "baseType" : "andarhan-soldier",
+  
+    "dropPools" : [ "money" ],
+	
+	"identity" : {
+    "species" : "andarhan"
+  },
+  
+    "scriptConfig" : {
+      "dialog" : {
+        "attack" : {
+          "default" : {
+            "default" : [
+              "Attack!"
+            ]
+          },
+          "andarhan" : {
+            "default" : [
+              "Death to the weak!",
+              "Target acquired.",
+              "Escape is pointless.",
+              "Target acquired. Commencing extermination."
+            ],
+            "andarhan" : [
+              "There will be noone to save you.",
+              "Prepare to be extinguished!",
+              "S'ytn Vos took notice of your betrayal."
+            ],
+            "orthirid" : [
+              "I hope you can entertain me, Orthirid.",
+              "They deceived you.",
+              "The pity you've chosen to be against us.",
+              "It's time to leave your body prison."
+            ],
+            "glitch" : [
+              "I hope you can entertain me, Glitch.",
+              "They deceived you.",
+              "The pity you've chosen to be against us.",
+              "Such primitive civilization."
+            ]
+          }
+        }
+      }
+    },
+  
+    "items" : {
+      "override" : [
+        [0, [
+            {
+              "head" : [ { "name" : "andarhantier2head" } ],
+              "chest" : [ { "name" : "andarhantier2chest" } ],
+              "legs" : [ { "name" : "andarhantier2pants" } ],
+              "primary" : [ "andarhan-noir", "andarhan-bastionslayer" ],
+              "alt" : [ "andarhan-tenebris" ]
+            }
+          ] ]
+      ]
+    }
+  }
+  

@@ -1,0 +1,126 @@
+[
+    // Female
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-1"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-2"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-3"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-4"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-5"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-6"
+    },
+
+    // Male
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-1"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-2"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-3"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-4"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-5"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-6"
+    },
+
+    // Belly
+    {
+        "op" : "add",
+        "path" : "/undyColor/-",
+        "value" : { "f32200" : "F2F2F2FE", "dc1f00" : "E5FFFFFE", "be1b00" : "94FCFCFE", "951500" : "66FFFFFE" }
+    },
+    {
+        "op" : "add",
+        "path" : "/undyColor/-",
+        "value" : { "f32200" : "F2F2F2FE", "dc1f00" : "E5F5FFFE", "be1b00" : "94D2FCFE", "951500" : "66C2FFFE" }
+    },
+    {
+        "op" : "add",
+        "path" : "/undyColor/-",
+        "value" : { "f32200" : "F2F2F2FE", "dc1f00" : "F5E5FFFE", "be1b00" : "D694FCFE", "951500" : "C766FFFE" }
+    },
+
+    // Skin
+    {
+        "op" : "add",
+        "path" : "/bodyColor/-",
+        "value" : { "ffca8a" : "E0A3D8", "e0975c" : "CC66BE", "a85636" : "7A3D72", "6f2919" : "492544" }
+    },
+    {
+        "op" : "add",
+        "path" : "/bodyColor/-",
+        "value" : { "ffca8a" : "C4E07E", "e0975c" : "9DCC28", "a85636" : "5E7A18", "6f2919" : "38490E" }
+    },
+    {
+        "op" : "add",
+        "path" : "/bodyColor/-",
+        "value" : { "ffca8a" : "FFE195", "e0975c" : "FFCD4E", "a85636" : "997B2F", "6f2919" : "5C4A1C" }
+    },
+
+    // Fin
+    {
+        "op" : "add",
+        "path" : "/hairColor/-",
+        "value" : { "f7e7b2" : "696969", "d9c189" : "444444", "a38d59" : "2D2D2D", "735e3a" : "111111" }
+    },
+    {
+        "op" : "add",
+        "path" : "/hairColor/-",
+        "value" : { "f7e7b2" : "9FAAB2", "d9c189" : "5F727F", "a38d59" : "39444C", "735e3a" : "22292E" }
+    },
+    {
+        "op" : "add",
+        "path" : "/hairColor/-",
+        "value" : { "f7e7b2" : "E0A3D8", "d9c189" : "CC66BE", "a38d59" : "7A3D72", "735e3a" : "492544" }
+    },
+    {
+        "op" : "add",
+        "path" : "/hairColor/-",
+        "value" : { "f7e7b2" : "C4E07E", "d9c189" : "9DCC28", "a38d59" : "5E7A18", "735e3a" : "38490E" }
+    },
+    {
+        "op" : "add",
+        "path" : "/hairColor/-",
+        "value" : { "f7e7b2" : "FFE195", "d9c189" : "FFCD4E", "a38d59" : "997B2F", "735e3a" : "5C4A1C" }
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "Why would you eat pineapple on a pizza?"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Mappazzone"
+    }
+]

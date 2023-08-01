@@ -1,0 +1,104 @@
+{
+  "itemName" : "boomboxid-gotham",
+  "price" : 2160,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "TODO.",
+  "shortdescription" : "LB-P00715-1 \"Gotham\"",
+  "tooltipKind" : "gun",
+  "category" : "Minigun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","lightbrickcity"],
+  "level" : 6,
+
+  "inventoryIcon" : [
+    { "image" : "boomboxid-gothamicon.png" }
+  ],
+
+    "animation": "boomboxid-gotham.animation",
+    "animationParts": {
+      "middle": "boomboxid-gotham.png",
+      "middleFullbright": "boomboxid-gothamfullbright.png",
+       "muzzleFlash": "/items/active/weapons/ranged/lightbrickcity/boomboxid-muzzleflash.png"
+    },
+    "animationCustom" : {
+        "sounds" : {
+          "fire" : ["/sfx/gun/lumins-plasma2.ogg"]
+        },
+        "lights" : {
+          "muzzleFlash" : {
+            "color" : [32, 155, 0]
+          }
+        }
+      },
+    
+    "baseOffset": [ 1.5, -0.6 ],
+    "muzzleOffset": [ 2.8, 0.0 ],
+
+    "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+    "elementalType": "physical",
+
+    "primaryAbility": {
+      "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+      "class" : "GunFire",
+
+      "fireTime": 0.03,
+      "baseDps": 20,
+      "energyUsage": 65,
+      "inaccuracy": 0.02,
+      "projectileCount": 1,
+      "fireType": "auto",
+
+      "projectileType": "boomboxidbullet",
+      "projectileParameters": {
+        "speed": 500,
+        "knockbackRange" : 10
+      },
+      "stances": {
+        "idle": {
+          "armRotation": 0,
+          "weaponRotation": 0,
+          "weaponOffset" : [0, 0],
+          "twoHanded": true,
+          "allowRotate": true,
+          "allowFlip": true,
+          
+          "frontArmFrame" : "swim.2",
+          "backArmFrame" : "rotation"
+        },
+        "fire": {
+          "duration": 0,
+          "armRotation": 0.75,
+          "weaponRotation": 0.75,
+          "weaponOffset" : [-0.1, 0],
+          "twoHanded": true,
+          "recoil" : true,
+          "allowRotate": true,
+          "allowFlip": true,
+  
+          "animationStates" : {
+            "firing" : "fire",
+            "holyshit" : "lmfao"
+          },
+          
+          "frontArmFrame" : "swim.2",
+          "backArmFrame" : "rotation"
+        },
+        "cooldown": {
+          "duration": 0.02,
+          "armRotation": 0.75,
+          "weaponRotation": 0.75,
+          "weaponOffset" : [-0.1, 0],
+          "twoHanded": true,
+          "allowRotate": true,
+          "allowFlip": true,
+          
+          "frontArmFrame" : "swim.2",
+          "backArmFrame" : "rotation"
+        }
+      }
+    },
+  
+    "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

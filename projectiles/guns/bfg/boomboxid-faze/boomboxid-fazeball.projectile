@@ -1,0 +1,20 @@
+{
+  "projectileName" : "boomboxid-fazeball",
+  "image" : "boomboxid-fazeball.png",
+  "fullbright" : true,
+  "animationCycle" : 0.25,
+  "frameNumber" : 4,
+  "physics" : "laser",
+  "timeToLive" : 4,
+  "power" : 100,
+  "speed" : 45,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/boomboxid-fazeexplosion/boomboxid-fazeexplosion.config"
+    }
+  ],
+  "lightColor" : [155, 120, 155],
+  "damageKind" : "plasmabullet",
+  "statusEffects" : ["burning"] //boomboxid-fazed
+}

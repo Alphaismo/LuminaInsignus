@@ -1,0 +1,10 @@
+{
+  "itemName" : "lumins-ilsyeinitebar",
+  "price" : 700,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "lumins-ilsyeinitebar.png",
+  "description" : "Extremely strong alloy, used in construction of Lumina Insignus.",
+  "shortdescription" : "^#3A7CF4;Ilsyeinite^reset;",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,91 @@
+{
+  "itemName" : "andarhan-noir",
+  "price" : 1080,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Favored by Andarhan Interceptors for it's lightness... and effectiveness.",
+  "shortdescription" : "S'Fi-8 \"Noir\"",
+  "tooltipKind" : "gun",
+  "category" : "machinePistol",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","andarhan"],
+  "level" : 6,
+
+  "inventoryIcon" : [
+    { "image" : "andarhan-noir.png" }
+  ],
+
+  "animation" : "/items/active/weapons/ranged/animation/lumins-fullbrightranged.animation",
+  "animationParts" : {
+    "middle" : "andarhan-noir.png",
+    "middleFullbright" : "andarhan-noirfullbright.png",
+    "muzzleFlash" : "/items/active/weapons/ranged/andarhan/andarhan-muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/andarhanhalcyon-plasma1.ogg"]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [155, 53, 0]
+      }
+    }
+  },
+
+  "baseOffset" : [0.3, -0.10],
+  "muzzleOffset" : [0.50, 0.35],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.10,
+    "baseDps" : 6.5,
+    "energyUsage" : 20,
+    "inaccuracy" : 0.03,
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "andarhanbullet",
+    "projectileParameters" : {
+      "speed": 500,
+      "knockbackRange" : 5
+    },
+    "muzzleFlashVariants" : 1,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

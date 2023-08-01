@@ -1,0 +1,134 @@
+[
+    // Female
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-1"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-2"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-3"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-4"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-5"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-6"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-7"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-8"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-9"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-10"
+    },
+
+    // Male
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-1"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-2"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-3"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-4"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-5"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-6"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-7"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-8"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-9"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-10"
+    },
+    
+    // Flower
+    {
+        "op": "add",
+        "path": "/hairColor/-",
+        "value": {
+        "f32200": "EBFF8CFE",
+        "dc1f00": "D4FF00FE",
+        "be1b00": "9FBF00FE" 
+        }
+    },
+    {
+        "op": "add",
+        "path": "/hairColor/-",
+        "value": {
+        "f32200": "00D8FFFE",
+        "dc1f00": "0097FFFE",
+        "be1b00": "006DD3FE" 
+        }
+    },
+    {
+        "op": "add",
+        "path": "/hairColor/-",
+        "value": {
+        "f32200": "FF99F1FE",
+        "dc1f00": "FF00FFFE",
+        "be1b00": "BF00BFFE" 
+        }
+    }
+]

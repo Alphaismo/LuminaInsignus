@@ -1,0 +1,52 @@
+{
+  "objectName" : "ylsuthir-server",
+  "colonyTags" : ["nharduunr","ylsuthir"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 100,
+  "description" : "Super futuristic for an ancient... server cabinet?",
+  "shortdescription" : "Yls'Uthiran Server",
+  "race" : "nharduunr",
+
+  "floranDescription" : "Fabulousss cabinet. Delicate data memoriesss.",
+  "glitchDescription" : "Jealous. I really wonder why Glitch would not remember as much as these cabinets...",
+  "orthiridDescription" : "It could fit 500 Petabytes worth of data.",
+  "raegshiaDescription" : "I'm not that all-knowing when it comes to Yls'Uthiran technology... and this thing.",
+  "valkeidinDescription" : "I wonder how many bitcoins they even mined now before that existed.",
+  "sylethiiDescription" : "Of all 500 Petabyte data, it contains research documents about 'Domino Armaments'. But I'm yet to find a way to delete it.",
+  "driianDescription" : "Okay... That's an odd-looking server cabinet.",
+  "quekhriiDescription" : "I am sure this cabinet's memory is not infinite, but how many years it would take to shit all memory space out in THAT?",
+  "qkhadranDescription" : "What heresy do they possess in this cabinet.",
+  "ceebeDescription" : "Is that supposed to be a fridge... or comically large gaming PC?",
+  "nharduunrDescription" : "So many data, even today it is preserved for generations.",
+  "ginrhinDescription" : "Extraction Failed: Data Classified.",
+  "andarhanDescription" : "There is ton of data there that S'ytn Vos studied about. All worth scavenging...",
+
+  "inventoryIcon" : "ylsuthir-servericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "ylsuthir-server.png", "fullbright" : true }, { "image" : "ylsuthir-serverlit.png" } ],
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "lightPosition" : [0, 1],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "ylsuthir-server.png", "fullbright" : true }, { "image" : "ylsuthir-serverlit.png" } ],
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "lightPosition" : [0, 1],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/server_loop.ogg",
+  "soundEffectRangeMultiplier" : 0.5
+}

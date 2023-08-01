@@ -1,0 +1,15 @@
+{
+  "itemName" : "mechbodyboomboxid",
+  "price" : 9600,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbody",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mechbodyboomboxid.png",
+  "description" : "A badass, loud mech body, perfected by Lightbrick City's engineers.",
+  "shortdescription" : "Blast Mech Body",
+  "itemTags" : [ ],
+
+  "mechPart" : ["body", "boomboxid"]
+}

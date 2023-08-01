@@ -1,0 +1,23 @@
+{
+  "materialId" : 31389,
+  "materialName" : "ylsuthirplatform",
+  "collisionKind" : "platform",
+  "itemDrop" : "ylsuthirplatform",
+  "shortdescription" : "Yls'Uthiran Platform",
+  "description" : "A simple, but super strong platform commonly found in several buildings in Yls'Uthir.",
+  "glitchDescription" : "Facinated. These platforms are light and favoured for their portability.",
+  "floranDescription" : "Jusst another metal platform.",
+  "novakidDescription" : "Pretty strange lookin' metal platform.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "ylsuthirplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

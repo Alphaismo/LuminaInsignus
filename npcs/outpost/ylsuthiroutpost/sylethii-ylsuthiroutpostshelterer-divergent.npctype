@@ -1,0 +1,75 @@
+{
+  "type" : "sylethii-ylsuthiroutpostshelterer-divergent",
+  "baseType" : "outpostcivilian",
+  
+  "npcname" : "Neju",
+  "identity" : {
+    "bodyDirectives":"?replace;ffe2c5=e1b98d;d39c6c=9e6a4d;c7815b=784930;ffc181=c88959?replace;951500=FFD800FE;be1b00=FFE97CFE;dc1f00=FFF0A8FE",
+    "hairDirectives":"?replace;d9c189=425879;735e3a=242247;a38d59=343965?replace;951500=FFD800FE;be1b00=FFE97CFE;dc1f00=FFF0A8FE",
+    "gender" : "female",
+    "personality" : "anxious",
+    "personalityHeadOffset" : [-1,0],
+    "personalityIdle" : "idle.2",
+    "personalityArmIdle" : "idle.5",
+    "hairGroup" : "hair",
+    "hairType" : "11"
+  },
+
+  "scriptConfig" : {
+    "offeredQuests" : [ ],
+    "turnInQuests" : [ ],
+
+    "dialogMode": "tutorial",
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "I do like cold... just not this one...",
+            "I feel like... I want to sleep with this Nethith'Thuyinn so bad...",
+            "I heard the flora of Yls'Uthir i-is so beautiful. \nIf not for security gu- I m-mean, meanies, I could've go and enjoy the warmth of it.",
+            "Usen's a cute guy... I really w-want to marry him.",
+            "I-I can cook a Nebulime-Veshrel stew.",
+            "Have you've... uhhhh... seen my notebook?",
+            "My sis has a short temper, she is extremely rude and aggressive to everyone around her... \nBut deep inside and to me, she's a caring person who gets everything done..."
+          ],
+          "sylethii" : [
+            "Not many Sekiujs are in Vervas Tharaau. I've got my own reasons, but don't know why...",
+            "We are taking shelter from Andarhans. I... I've lost count how much we've been here.",
+            "W-What are those ships...",
+            "Our caretaker, a-an Orthirid Shadowspoken Priest, is somewhere...",
+            "Don't get me wrong. I like these clothes, but they're... \nthey're modest.",
+            "I miss Yeilara so much...",
+            "My sis has a short temper, she is extremely rude and aggressive to everyone around her... \nBut deep inside and to me, she's a caring person who gets everything done..."
+          ],
+          "andarhan" : [
+            "W... What are you... what're you doing here?",
+            "He, ummm... the \"Enlightened of Vervas Tharaau\", noted your presence here. \nI hope you're friendly...",
+            "Your emperor doesn't kill his own kind? I guess he must've h-had seen his own die to someone else?",
+            "I'm so s-sorry, robot. I-I don't want to anger y-you.",
+            "Maybe... I can comfort you.",
+            "Oh. You can't eat my Nebulime-Veshrel stew? Oh well, maybe you can give it to anyone else around?.."
+          ],
+          "nharduunr" : [
+            "I love snuggling in Velrui-Thareu. So soooooft...",
+            "Oh... Another Nethith'Thuyinn... h-hi.",
+            "D-Don't mind me... I'm just cold... \nUmmm... ^red;W-wanna use me?^reset;",
+            "I always dreamed of floating.",
+            "You look kind and beautiful...",
+            "Oh. You can't eat my Nebulime-Veshrel stew? Oh well, maybe you can give it to anyone else around?.."
+          ]
+        }
+      }
+    }
+  },
+  
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "workoutchest", "parameters" : { "colorIndex" : 3 } } ],
+            "legs" : [ { "name" : "jeans3legs", "parameters" : { "colorIndex" : 1 } } ]
+          }
+        ] ]
+    ]
+  }
+}

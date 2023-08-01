@@ -1,0 +1,278 @@
+[
+    // Sylethii
+
+    {
+		"op": "add",
+		"path": "/accuse/sylethii",
+		"value": {
+			"default" : [
+				"I'd fracture this thieving hand with a hammer myself.",
+				"You don't WANT us to punish you for larceny.",
+				"Maraud one more time. I dare you.",
+				"TODO.",
+				"TODO."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/alert/sylethii",
+		"value": {
+			"default" : [
+				"TODO.",
+				"Guards, get rid of this thief!",
+				"TODO.",
+				"TODO.",
+				"TODO."
+			]
+		}
+	},
+
+    // Boomboxid
+
+    {
+		"op": "add",
+		"path": "/accuse/boomboxid",
+		"value": {
+			"default" : [
+				"Oyy what the fuck are you doing.",
+				"Ay! Steal someone else's stuff, dumbass.",
+				"'Ese shit don't belong to you, bumbum.",
+				"Oh you schmuck shit. Why y'stealing?",
+				"(Vine Boom SFX)"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/alert/boomboxid",
+		"value": {
+			"default" : [
+				"U wot m8. Guards!",
+				"Guards, can y'get rid of dat thief from our crib!",
+				"Get dat thief, guards!",
+				"Shit... All the 9001 [kromer] down the drain. Guards...",
+				"L + Plundered + No wenches + Marooned + You have scurvy."
+			]
+		}
+	},
+
+    // Ceebe
+
+    {
+		"op": "add",
+		"path": "/accuse/ceebe",
+		"value": {
+			"default" : [
+				"E-ey! Stop stealing from us!",
+				"Even I can't stomach thievery like that!",
+				"Y'can't be fucking serious! Why you up and stole this?",
+				"What the- What the fuck are you doing? P-Please put it back!",
+				"Eeek! P-Put that back, please!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/alert/ceebe",
+		"value": {
+			"default" : [
+				"A m-marauder! Guards!",
+				"TODO.",
+				"TODO.",
+				"TODO.",
+				"TODO."
+			]
+		}
+	},
+
+    // Orthirid
+
+    {
+		"op": "add",
+		"path": "/accuse/orthirid",
+		"value": {
+			"default" : [
+				"You think you can get away with this... don't you?",
+				"Do not make me warn Sekiuj guards, thief.",
+				"You want to know what we do to marauders like you in Yeilara?",
+				"TODO.",
+				"TODO."
+			]
+		}
+	},
+
+    // Valkeidin
+
+    {
+		"op": "add",
+		"path": "/accuse/valkeidin",
+		"value": {
+			"default" : [
+				"TODO.",
+				"TODO.",
+				"TODO.",
+				"TODO.",
+				"TODO."
+			]
+		}
+	},
+    {
+		"op": "add",
+		"path": "/alert/valkeidin",
+		"value": {
+			"default" : [
+				"TODO.",
+				"TODO.",
+				"TODO.",
+				"TODO.",
+				"TODO."
+			]
+		}
+	},
+
+    // Andarhan
+
+    {
+		"op": "add",
+		"path": "/accuse/andarhan",
+		"value": {
+			"default" : [
+				"You think you can get away with this... don't you?",
+				"Even we kill thieves of our kind. So refrain from doing it.",
+				"You've come to steal from us? You think we've softened up?.",
+				"You won't know alive what S'ytn Vos does to thieves like you.",
+				"TODO."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/alert/andarhan",
+		"value": {
+			"default" : [
+				"A typical meatbag. Guards, kill the thief.",
+				"Sentinels, get rid of the sleazy flea!",
+				"TODO.",
+				"TODO.",
+				"TODO."
+			]
+		}
+	},
+
+    // Rhadur
+
+    {
+		"op": "add",
+		"path": "/accuse/rhadur",
+		"value": {
+			"default" : [
+				"Stealing... FROM US?",
+				"It will take more than \"taste of medicine\" proverb, cretin!",
+				"It's never yours, vermin!",
+				"What fool brought you to take back what was \"theirs\"!",
+				"What a repulsively pathetic attempt to steal anything from us."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/alert/rhadur",
+		"value": {
+			"default" : [
+				"Guards! Feed the thief to our wardogs!",
+				"Guards, get rid of it!",
+				"I've been fed up with this nonsense! GUARDS!!!",
+				"TODO.",
+				"TODO."
+			]
+		}
+	},
+
+    // Dhir'Nakhor
+
+    {
+		"op": "add",
+		"path": "/accuse/dhirnakhor",
+		"value": {
+			"default" : [
+				"What a sad display of theft.",
+				"Really... You think you can get out with this alive?",
+				"This belongs to us, marauder. Put it back.",
+				"We won't tolerate thievery.",
+				"I will surrender you to Andarhans if you keep stealing."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/alert/dhirnakhor",
+		"value": {
+			"default" : [
+				"You reap what you sow... Sentinels, dispose of this miscreant.",
+				"Let guards deal with this.",
+				"TODO.",
+				"TODO.",
+				"TODO."
+			]
+		}
+	},
+
+    // Nhar'Duunr
+
+    {
+		"op": "add",
+		"path": "/accuse/nharduunr",
+		"value": {
+			"default" : [
+				"We don't tolerate theft at all.",
+				"Hey! This is not yours!",
+				"Please stop this nuisance.",
+				"You won't like it if I stole anything from you as well.",
+				"I'd be wary stealing if I were you. Or better yet, not."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/alert/nharduunr",
+		"value": {
+			"default" : [
+				"Guards, eradicate the thief!",
+				"The pity there's no other choices. Guards!",
+				"TODO.",
+				"TODO.",
+				"TODO."
+			]
+		}
+	},
+
+    // Ginr'hin
+
+    {
+		"op": "add",
+		"path": "/accuse/nharduunr",
+		"value": {
+			"default" : [
+				"Alert. Thievery detected.",
+				"Larceny will not be tolerated in this area.",
+				"Theft detected. Further continuation will result in arrest.",
+				"TODO.",
+				"TODO."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/alert/nharduunr",
+		"value": {
+			"default" : [
+				"Reporting the guards. Proposal: Arrest the thief.",
+				"Requesting guard assistance for disposal of the thief.",
+				"TODO.",
+				"TODO.",
+				"TODO."
+			]
+		}
+	}
+]

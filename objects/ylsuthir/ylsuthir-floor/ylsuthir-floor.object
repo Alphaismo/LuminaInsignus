@@ -1,0 +1,30 @@
+{
+  "objectName" : "ylsuthir-floor",
+  "colonyTags" : ["ylsuthir"],
+  "rarity" : "Rare",
+  "category" : "furniture",
+  "price" : 115,
+  "health" : 5,
+  "description" : "I see the reflection...",
+  "shortdescription" : "Yls'Uthiran Floor",
+  "race" : "nharduunr",
+
+  "floranDescription" : "Ssshiny floor.",
+  "glitchDescription" : "Critical. They don't touch the ground! What's the point anyway?",
+  "nharduunrDescription" : "We hover... So this floor is simply for decor.",
+  "ginrhinDescription" : "Floor confirmed.",
+
+
+  "inventoryIcon" : "ylsuthir-flooricon.png",
+  "orientations" : [
+    {
+      "image" : "ylsuthir-floor.png:<color>",
+      "imagePosition" : [-8, 0],
+      "renderLayer" : "Player+6",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid"
+    }
+  ]
+}

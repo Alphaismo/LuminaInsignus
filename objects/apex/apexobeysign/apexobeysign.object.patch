@@ -1,0 +1,37 @@
+[
+    {
+        "op" : "add",
+        "path" : "/boomboxidDescription",
+        "value" : "Pffft... How about y'get sum bitches."
+    },
+    {
+        "op" : "add",
+        "path" : "/ceebeDescription",
+        "value" : "I only obey my mistresses if I wanted to. So tough luck... monkey?"
+    },
+    {
+        "op" : "add",
+        "path" : "/sylethiiDescription",
+        "value" : "Never."
+    },
+    {
+        "op" : "add",
+        "path" : "/andarhanDescription",
+        "value" : "They will have to make me!"
+    },
+    {
+        "op" : "add",
+        "path" : "/dhirnakhorDescription",
+        "value" : "Whoever made this poster demanding anyone's obedience is a spoiled brat, not a true king."
+    },
+    {
+        "op" : "add",
+        "path" : "/nharduunrDescription",
+        "value" : "I will not obey anyone. At all."
+    },
+    {
+        "op" : "add",
+        "path" : "/ginrhinDescription",
+        "value" : "Request for hellbent loyalty rejected. Reason: \"Never!\"."
+    }
+]

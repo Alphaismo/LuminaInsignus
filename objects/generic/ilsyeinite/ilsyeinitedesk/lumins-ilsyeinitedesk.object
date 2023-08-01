@@ -1,0 +1,47 @@
+{
+  "objectName" : "lumins-ilsyeinitedesk",
+  "colonyTags" : ["ilsyeinite","storage","commerce"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "description" : "The durable desk, another one of several odd uses of Ilsyeinite.",
+  "shortdescription" : "Ilsyeinite Desk",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 100,
+  "health" : 2.0,
+
+  "floranDescription" : "Big metal desssk.",
+  "glitchDescription" : "Interested. I wonder if they were making Impervium furnitures as well...?.",
+  "novakidDescription" : "A desk made outta strongest allow known to man.",
+  "ceebeDescription" : "An odd use of Ilsyeinite.",
+  "nharduunrDescription" : "An odd use for Ilsyeinite.",
+  "ginrhinDescription" : "Ilsyeinite Desk.",
+
+  "inventoryIcon" : "lumins-ilsyeinitedeskicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lumins-ilsyeinitedesk.png:<color>",
+      "direction" : "right",
+      "imagePosition" : [-16, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+	  {
+      "dualImage" : "lumins-ilsyeinitedesk.png:<color>",
+      "direction" : "left",
+      "imagePosition" : [-16, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/bunkercabinet_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/bunkercabinet_close.ogg" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

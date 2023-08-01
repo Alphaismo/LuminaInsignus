@@ -1,0 +1,38 @@
+{
+  "itemName" : "neocultist-broadsword",
+  "price" : 5000,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "-- NPC-EXCLUSIVE --",
+  "shortdescription" : "Neo Cultist Broadsword",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword","lumins-neocultist"],
+  "level" : 6,
+
+  "inventoryIcon" : "neocultist-broadsword.png",
+  "animation" : "neocultist-broadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "neocultist-broadsword.png",
+    "bladeFullbright" : "neocultist-broadswordfullbright.png"
+  },
+
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_broadsword_fire1.ogg", "/sfx/melee/swing_broadsword_fire2.ogg", "/sfx/melee/swing_broadsword_fire3.ogg" ],
+      "fire2" : [ "/sfx/melee/swing_broadsword_fire1.ogg", "/sfx/melee/swing_broadsword_fire2.ogg", "/sfx/melee/swing_broadsword_fire3.ogg" ],
+      "fire3" : [ "/sfx/melee/swing_broadsword_fire1.ogg", "/sfx/melee/swing_broadsword_fire2.ogg", "/sfx/melee/swing_broadsword_fire3.ogg" ]
+    } 
+  },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.89,
+    "baseDps" : 15
+  },
+  "altAbilityType" : "parry",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

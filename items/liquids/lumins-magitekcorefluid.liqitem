@@ -1,0 +1,10 @@
+{
+  "itemName" : "lumins-magitekcorefluid",
+  "rarity" : "Legendary",
+  "category" : "liquid",
+  "inventoryIcon" : "lumins-magitekcorefluidicon.png",
+  "shortdescription" : "Magitek Core Fluid",
+  "description" : "Otherworldly mass. It can and will freeze anything to absolute zero.",
+
+  "liquid" : "magitekcore"
+}

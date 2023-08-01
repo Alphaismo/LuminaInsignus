@@ -1,0 +1,178 @@
+[
+	{
+		"op": "add",
+		"path": "/attack/human/boomboxid",
+		"value": [
+            "Haven't listening to absurd music all-day tire you?",
+            "We are the Occasus! You can't stop us, manchild!",
+            "Don't think you can get away, brat!",
+            "If you aren't with us, then you're against us!",
+            "Are you here to stop us? It doesn't matter anyway!",
+            "Game over, parasite!",
+            "You shouldn't have come here!",
+            "You picked a bad time to come here!",
+            "An annoying creep approaches!",
+            "If I kill you, Nox might promote me!",
+            "Don't make us laugh, cretin!",
+            "You won't leave this place!",
+            "You spoiled brats have no power to stop Occasus!",
+            "Your memes end here, cyclops!"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/attack/human/ceebe",
+		"value": [
+            "This just isn't your day!",
+            "We are the Occasus! You can't stop us, whore!",
+            "Don't think you can get away, nonbeliever!",
+            "If you aren't with us, then you're against us!",
+            "Are you here to stop us? It doesn't matter anyway!",
+            "You can't stop us! Don't even try!",
+            "You shouldn't have come here!",
+            "You picked a bad time to come here!",
+            "A pervert approaches!",
+            "If I kill you, Nox might laud me!",
+            "You repulse us by existing, creep!",
+            "You won't leave this place!",
+            "Who in the hell are you, cubehead!",
+            "We will erase Lightbrick City from history as well!"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/attack/human/sylethii",
+		"value": [
+            "This just isn't your day!",
+            "We are the Occasus! You can't stop us, impostor!",
+            "Don't think you can get away, nonbeliever!",
+            "If you aren't with us, then you're against us!",
+            "Are you here to stop us? It doesn't matter anyway!",
+            "You can't stop us! Don't even try!",
+            "You shouldn't have come here!",
+            "You picked a bad time to come here!",
+            "An impostor approaches!",
+            "If I kill you, Nox might promote me!",
+            "You shall not stop our plans!",
+            "You won't leave this place!",
+            "Your mockery of the humans will be your undoing!",
+            "Yeilara will burn!"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/attack/human/valkeidin",
+		"value": [
+            "This just isn't your day!",
+            "We are the Occasus! You can't stop us, hobo!",
+            "Don't think you can get away, nonbeliever!",
+            "If you aren't with us, then you're against us!",
+            "Are you here to stop us? It doesn't matter anyway!",
+            "You can't stop us! Don't even try!",
+            "You shouldn't have come here!",
+            "You picked a bad time to come here!",
+            "An impostor approaches!",
+            "If I kill you, Nox might promote me!",
+            "You shall not stop our plans!",
+            "Join your vermin six feet under, Valkeidin!",
+            "You only found death, monster!"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/attack/human/qkhadran",
+		"value": [
+            "This just isn't your day!",
+            "We are the Occasus! You can't stop us, barbarian!",
+            "Don't think you can get away, nonbeliever!",
+            "If you aren't with us, then you're against us!",
+            "Are you here to stop us? It doesn't matter anyway!",
+            "You can't stop us! Don't even try!",
+            "You shouldn't have come here!",
+            "You picked a bad time to come here!",
+            "A nonbeliever approaches!",
+            "If I kill you, Nox might promote me!",
+            "You shall not stop our plans!",
+            "You're fighting for the wrong side!",
+            "You picked the wrong side, traitor!"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/attack/human/andarhan",
+		"value": [
+            "This just isn't your day!",
+            "We are the Occasus! You can't stop us, robot!",
+            "You can't kill humanity, parasite! Don't even try!",
+            "If you aren't with us, then you're against us!",
+            "Are you here to stop us? It doesn't matter anyway!",
+            "You may have the power, but it will never be enough to stop us!",
+            "Your masters should've dismantled you all!",
+            "They made fatal mistake enslaving you!",
+            "Occasus does not fear you, machine!",
+            "If I dismantle you, Nox might promote me!",
+            "We will not let you stop our plans!",
+            "Without humanity, the universe will degenerate!",
+            "We will destroy you, and S'ytn Vos too!"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/attack/human/rhadur",
+		"value": [
+            "This just isn't your day!",
+            "We are the Occasus! You can't stop us, abomination!",
+            "Don't think you can get away, nonbeliever!",
+            "If you aren't with us, then you're against us!",
+            "Are you here to stop us? It doesn't matter anyway!",
+            "You can't stop us! Don't even try!",
+            "You shouldn't have come here!",
+            "You picked a bad time to come here!",
+            "A nonbeliever approaches!",
+            "If I kill you, Nox might promote me!",
+            "You shall not stop our plans!",
+            "You won't leave this place!",
+            "Not if we pillage you first, slobbering wretch!",
+            "We shall purge the universe of your abominable kind!"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/attack/human/dhirnakhor",
+		"value": [
+            "This just isn't your day!",
+            "We are the Occasus! You can't stop us, parasite!",
+            "Don't think you can get away, blasphemer!",
+            "Your heresy will never be welcome!",
+            "Are you here to stop us? It doesn't matter anyway!",
+            "You can't stop us! Don't even try!",
+            "You shouldn't have come here!",
+            "You picked a bad time to come here!",
+            "A heretic approaches!",
+            "If I kill you, Nox might promote me!",
+            "You shall not stop our plans!",
+            "Assimilate THAT, cretin!",
+            "Occasus will bow to no one!",
+            "We shall purge the universe of your abominable kind!"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/attack/human/nharduunr",
+		"value": [
+            "This just isn't your day!",
+            "We are the Occasus! You can't stop us, abomination!",
+            "Don't think you can get away, blasphemer!",
+            "Your heresy will never be welcome!",
+            "Are you here to stop us? It doesn't matter anyway!",
+            "You can't stop us! Don't even try!",
+            "You should've gone extinct!",
+            "You picked a bad time to come here!",
+            "A heretic approaches!",
+            "If I kill you, Nox might promote me!",
+            "You shall not stop our plans!",
+            "We shall purge the universe of your eldritch kind!",
+            "The universe doesn't need abominate nebula beings!"
+		]
+	}
+]

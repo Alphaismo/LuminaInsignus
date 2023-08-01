@@ -1,0 +1,50 @@
+{
+  "objectName" : "lightbrickcity-brandonmovieposter",
+  "colonyTags" : ["lightbrickcity","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+
+  "shortdescription" : "Bully Movie Poster",
+  "description" : "A framed poster from the very controversial cult film \"Brandon vs The Rainbow Horde\".",
+  "race" : "generic",
+
+  "apexDescription" : "\"Brandon vs The Rainbow Horde\". I know it's not supposed to be anti-LGBT movie, but not even Miniknog would put this as PSA or something. It's just too homophobic.",
+  "avianDescription" : "Not something I'd watch at all.",
+  "floranDescription" : "If Floran thought \"10 Things I Hate About Florans\" isss bad.",
+  "glitchDescription" : "Critical. Of all the references... why homophobic ones. 2.5/10.",
+  "humanDescription" : "\"Brandon vs The Rainbow Horde\"... Never though Lightbrick City would actually dare to mock Hollywood movies.",
+  "hylotlDescription" : "Even if it does expose the dark side of obligatory diversity, it's still extremely controversial.",
+  "novakidDescription" : "A poster of some movie called \"Brandon vs The Rainbow Horde\".",
+
+  "sylethiiDescription" : "It got to be the most strangest movie I've ever seen.",
+  "boomboxidDescription" : "That shit's a guilty pleasure.",
+  "orthiridDescription" : "It got to be the most strangest movie I've ever seen.",
+  "ceebeDescription" : "If you get past the heteronormative references, it's quite actually a good movie with niche efforts.",
+  "valkeidinDescription" : "Well, I like how Brad's gang managed to get rid of a school shooter just by getting him arrested.",
+  "quekhriiDescription" : "It's rather odd that the main protagonist is a literal cliche Hollywood movie bully.",
+  "raegshiaDescription" : "I'd rather pirate the movie and then watch on Old Earth VHS-compatible TV.",
+  "driianDescription" : "The producers must be loving to drink the barrels of Cancel Culture's tears.",
+  "halcyonDescription" : "No.",
+  "qkhadranDescription" : "Well... That's just outright weird.",
+  "andarhanDescription" : "This movie rather shows sad display of humans still not cooperating due to their ideals being vastly different.",
+  "rhadurDescription" : "There's nothing that amuses me...",
+  "dhirnakhorDescription" : "What really concerns me is... this Brandon using the big bad's deadname to draw her ire.",
+  "koaulemDescription" : "(I'd rather forget what I just saw about the movie. Death might do the trick.)",
+  "nharduunrDescription" : "That got to be homophobic, but tolerable enough. Since the movie's focus is on Old Terra, no Nhar'Duunr were ridiculed in the movie ever.",
+  "ginrhinDescription" : "\"Brandon vs The Rainbow Horde\". Hypothesis: Controversy is also the source of the movie's positive popularity.",
+
+  "inventoryIcon" : "lightbrickcity-brandonmoviepostericon.png",
+  "orientations" : [
+    {
+      "image" : "lightbrickcity-brandonmovieposter.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

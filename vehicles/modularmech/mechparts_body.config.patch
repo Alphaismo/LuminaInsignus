@@ -1,0 +1,339 @@
+[	
+    //TIER 3 (starter)
+    {
+      "op" : "add",
+      "path" : "/sylethiiproto",
+      "value" : {
+        "stats" : {
+          "energy" : 3,
+          "protection" : 3
+        },
+        "partParameters" : {},
+        "partImages" : {
+          "bodyBack" : "body/sylethiiproto_back.png",
+          "bodyFront" : "body/sylethiiproto_front.png",
+          "bodyFullbright" : "body/sylethiiproto_fullbright.png"
+        },
+        "defaultPrimaryColors" : ["D8D8D8", "A5A5A5", "707070", "515151"],    //From LIGHT to DARK
+        "defaultSecondaryColors" : ["2C2C2C", "242424", "1C1C1C", "151515"],  //From LIGHT to DARK
+        "animationCustom" : {
+          "animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+            "sitPosition" : [0.25, 1.3]
+          }}}}
+        }
+      }
+    },
+    {
+      "op" : "add",
+      "path" : "/boomboxidproto",
+      "value" : {
+        "stats" : {
+          "energy" : 3,
+          "protection" : 3
+        },
+        "partParameters" : {},
+        "partImages" : {
+          "bodyBack" : "body/boomboxidproto_back.png",
+          "bodyFront" : "body/boomboxidproto_front.png",
+          "bodyFullbright" : "body/boomboxidproto_fullbright.png"
+        },
+        "defaultPrimaryColors" : ["535353", "3E3E3E", "2C2C2C", "1B1B1B"],    //From LIGHT to DARK
+        "defaultSecondaryColors" : ["E8E8E8", "C1C1C1", "8E8E8E", "636363"],  //From LIGHT to DARK
+        "animationCustom" : {
+          "animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+            "sitPosition" : [0.25, 0.3]
+          }}}}
+        }
+      }
+    },
+    {
+      "op" : "add",
+      "path" : "/ceebeproto",
+      "value" : {
+        "stats" : {
+          "energy" : 3,
+          "protection" : 3
+        },
+        "partParameters" : {},
+        "partImages" : {
+          "bodyBack" : "body/ceebeproto_back.png",
+          "bodyFront" : "body/ceebeproto_front.png",
+          "bodyFullbright" : "body/ceebeproto_fullbright.png"
+        },
+        "defaultPrimaryColors" : ["E2E2FF", "AEAEC1", "7D7D8B", "46464C"],    //From LIGHT to DARK
+        "defaultSecondaryColors" : ["373737", "2D2D2D", "212121", "141414"],  //From LIGHT to DARK
+        "animationCustom" : {}
+      }
+    },
+    {
+      "op" : "add",
+      "path" : "/orthiridproto",
+      "value" : {
+        "stats" : {
+          "energy" : 3,
+          "protection" : 3
+        },
+        "partParameters" : {},
+        "partImages" : {
+          "bodyBack" : "body/orthiridproto_back.png",
+          "bodyFront" : "body/orthiridproto_front.png",
+          "bodyFullbright" : "body/orthiridproto_fullbright.png"
+        },
+        "defaultPrimaryColors" : ["D8D8D8", "A5A5A5", "707070", "515151"],    //From LIGHT to DARK
+        "defaultSecondaryColors" : ["2C2C2C", "242424", "1C1C1C", "151515"],  //From LIGHT to DARK
+        "animationCustom" : {
+          "animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+            "sitPosition" : [0.25, 1.3]
+          }}}}
+        }
+      }
+    },
+    {
+      "op" : "add",
+      "path" : "/valkeidinproto",
+      "value" : {
+        "stats" : {
+          "energy" : 3,
+          "protection" : 3
+        },
+        "partParameters" : {},
+        "partImages" : {
+          "bodyBack" : "body/valkeidinproto_back.png",
+          "bodyFront" : "body/valkeidinproto_front.png",
+          "bodyFullbright" : "body/valkeidinproto_fullbright.png"
+        },
+        "defaultPrimaryColors" : ["A7655E", "7A4843", "3E2422", "1F1311"],    //From LIGHT to DARK
+        "defaultSecondaryColors" : ["4B4A4C", "333235", "1C1B1D", "0E0E0F"],  //From LIGHT to DARK
+        "animationCustom" : {
+          "animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+            "sitPosition" : [0.25, 1.3]
+          }}}}
+        }
+      }
+    },
+    {
+      "op" : "add",
+      "path" : "/andarhanproto",
+      "value" : {
+        "stats" : {
+          "energy" : 3,
+          "protection" : 3
+        },
+        "partParameters" : {},
+        "partImages" : {
+          "bodyBack" : "body/andarhanproto_back.png",
+          "bodyFront" : "body/andarhanproto_front.png",
+          "bodyFullbright" : "body/andarhanproto_fullbright.png"
+        },
+        "defaultPrimaryColors" : ["606060", "474747", "333333", "262626"],    //From LIGHT to DARK
+        "defaultSecondaryColors" : ["3A3F58", "2E303A", "202128", "111316"],  //From LIGHT to DARK
+        "animationCustom" : {
+          "animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+            "sitPosition" : [0.25, 1.3]
+          }}}}
+        }
+      }
+    },
+    {
+      "op" : "add",
+      "path" : "/nharduunrproto",
+      "value" : {
+        "stats" : {
+          "energy" : 3,
+          "protection" : 3
+        },
+        "partParameters" : {},
+        "partImages" : {
+          "bodyBack" : "body/nharduunrproto_back.png",
+          "bodyFront" : "body/nharduunrproto_front.png",
+          "bodyFullbright" : "body/nharduunrproto_fullbright.png"
+        },
+        "defaultPrimaryColors" : ["E2D395", "B3A26F", "8C7C55", "615338"],    //From LIGHT to DARK
+        "defaultSecondaryColors" : ["5E5E5E", "454545", "343434", "222222"],  //From LIGHT to DARK
+        "animationCustom" : {
+          "animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+            "sitPosition" : [0.25, 1.3]
+          }}}}
+        }
+      }
+    },
+    
+    //TIER 5
+    {
+      "op" : "add",
+      "path" : "/sylethii",
+      "value" : {
+        "stats" : {
+          "energy" : 5,
+          "protection" : 5
+        },
+        "partParameters" : {
+          "hazardImmunities" : ["biomeradiation", "biomecold"]
+        },
+        "partImages" : {
+          "bodyBack" : "body/sylethii_back.png",
+          "bodyFront" : "body/sylethii_front.png",
+          "bodyFullbright" : "body/sylethii_fullbright.png"
+        },
+        "defaultPrimaryColors" : ["D8D8D8", "A5A5A5", "707070", "515151"],    //From LIGHT to DARK
+        "defaultSecondaryColors" : ["D8D8D8", "A5A5A5", "707070", "515151"],  //From LIGHT to DARK
+        "animationCustom" : {
+          "animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+            "sitPosition" : [0.25, 1.3]
+          }}}}
+        }
+      }
+    },
+    {
+      "op" : "add",
+      "path" : "/boomboxid",
+      "value" : {
+        "stats" : {
+          "energy" : 5,
+          "protection" : 5
+        },
+        "partParameters" : {
+          "hazardImmunities" : ["biomeradiation", "biomecold"]
+        },
+        "partImages" : {
+          "bodyBack" : "body/boomboxid_back.png",
+          "bodyFront" : "body/boomboxid_front.png",
+          "bodyFullbright" : "body/boomboxid_fullbright.png"
+        },
+        "defaultPrimaryColors" : ["535353", "3E3E3E", "2C2C2C", "1B1B1B"],    //From LIGHT to DARK
+        "defaultSecondaryColors" : ["E8E8E8", "C1C1C1", "8E8E8E", "636363"],  //From LIGHT to DARK
+        "animationCustom" : {
+          "animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+            "sitPosition" : [0.25, 0.3]
+          }}}}
+        }
+      }
+    },
+    {
+      "op" : "add",
+      "path" : "/orthirid",
+      "value" : {
+        "stats" : {
+          "energy" : 5,
+          "protection" : 5
+        },
+        "partParameters" : {
+          "hazardImmunities" : ["biomeradiation", "biomecold"]
+        },
+        "partImages" : {
+          "bodyBack" : "body/orthirid_back.png",
+          "bodyFront" : "body/orthirid_front.png",
+          "bodyFullbright" : "body/orthirid_fullbright.png"
+        },
+        "defaultPrimaryColors" : ["D8D8D8", "A5A5A5", "707070", "515151"],    //From LIGHT to DARK
+        "defaultSecondaryColors" : ["2C2C2C", "242424", "1C1C1C", "151515"],  //From LIGHT to DARK
+        "animationCustom" : {
+          "animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+            "sitPosition" : [0.25, 1.3]
+          }}}}
+        }
+      }
+    },
+    {
+      "op" : "add",
+      "path" : "/valkeidin",
+      "value" : {
+        "stats" : {
+          "energy" : 5,
+          "protection" : 5
+        },
+        "partParameters" : {
+          "hazardImmunities" : ["biomeradiation", "biomecold"]
+        },
+        "partImages" : {
+          "bodyBack" : "body/lumins-nothing_back.png",
+          "bodyFront" : "body/valkeidin_front.png",
+          "bodyFullbright" : "body/valkeidin_fullbright.png"
+        },
+        "defaultPrimaryColors" : ["A7655E", "7A4843", "3E2422", "1F1311"],    //From LIGHT to DARK
+        "defaultSecondaryColors" : ["4B4A4C", "333235", "1C1B1D", "0E0E0F"],  //From LIGHT to DARK
+        "animationCustom" : {
+          "animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+            "sitPosition" : [0.25, 1.3]
+          }}}}
+        }
+      }
+    },
+    {
+      "op" : "add",
+      "path" : "/andarhan",
+      "value" : {
+        "stats" : {
+          "energy" : 5,
+          "protection" : 5
+        },
+        "partParameters" : {
+          "hazardImmunities" : ["biomeradiation", "biomecold"]
+        },
+        "partImages" : {
+          "bodyBack" : "body/andarhanproto_back.png",
+          "bodyFront" : "body/andarhan_front.png",
+          "bodyFullbright" : "body/andarhan_fullbright.png"
+        },
+        "defaultPrimaryColors" : ["606060", "474747", "333333", "262626"],    //From LIGHT to DARK
+        "defaultSecondaryColors" : ["3A3F58", "2E303A", "202128", "111316"],  //From LIGHT to DARK
+        "animationCustom" : {
+          "animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+            "sitPosition" : [0.25, 0.3]
+          }}}}
+        }
+      }
+    },
+    {
+      "op" : "add",
+      "path" : "/nharduunr",
+      "value" : {
+        "stats" : {
+          "energy" : 5,
+          "protection" : 5
+        },
+        "partParameters" : {
+          "hazardImmunities" : ["biomeradiation", "biomecold"]
+        },
+        "partImages" : {
+          "bodyBack" : "body/lumins-nothing_back.png",
+          "bodyFront" : "body/nharduunr_front.png",
+          "bodyFullbright" : "body/nharduunr_fullbright.png"
+        },
+        "defaultPrimaryColors" : ["E2D395", "B3A26F", "8C7C55", "615338"],    //From LIGHT to DARK
+        "defaultSecondaryColors" : ["5E5E5E", "454545", "343434", "222222"],  //From LIGHT to DARK
+        "animationCustom" : {
+          "animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+            "sitPosition" : [0.25, 0.3]
+          }}}}
+        }
+      }
+    },
+    
+    //MISC
+    {
+      "op" : "add",
+      "path" : "/neocultist",
+      "value" : {
+        "stats" : {
+          "energy" : 6,
+          "protection" : 7
+        },
+        "partParameters" : {
+          "hazardImmunities" : ["biomeradiation", "biomecold", "biomeheat"]
+        },
+        "partImages" : {
+          "bodyBack" : "body/lumins-nothing_back.png",
+          "bodyFront" : "body/neocultist_front.png",
+          "bodyFullbright" : "body/neocultist_fullbright.png"
+        },
+        "defaultPrimaryColors" : ["BAA5D4", "805FA8", "4A2E6C", "211233"],    //From LIGHT to DARK
+        "defaultSecondaryColors" : ["6C625B", "49413D", "35312F", "1B1A17"],  //From LIGHT to DARK
+        "animationCustom" : {
+          "animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+            "sitPosition" : [0.65, 0.28]
+          }}}}
+        }
+      }
+    }
+]

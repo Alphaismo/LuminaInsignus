@@ -1,0 +1,10 @@
+{
+  "itemName" : "lumins-ancientsolariumdust",
+  "price" : 50,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "lumins-ancientsolariumdust.png",
+  "description" : "Tiny particles of Ancient Solarium, usually gathered by \"delicately\" rubbing across a rock or something.",
+  "shortdescription" : "Ancient Solarium Dust",
+  "itemTags" : [ "reagent" ]
+}

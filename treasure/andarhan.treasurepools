@@ -1,0 +1,19 @@
+{
+  "lumins-andarhantreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.1, "item" : [ "andarhan-geist", 1]},
+        {"weight" : 0.1, "item" : [ "andarhan-weiss", 1]},
+        {"weight" : 0.1, "item" : [ "andarhan-noir", 1]},
+        {"weight" : 0.1, "item" : [ "andarhan-bastionslayer", 1]},
+        {"weight" : 0.1, "item" : [ "andarhan-lux", 1]},
+        {"weight" : 0.1, "item" : [ "andarhan-tenebris", 1]}
+      ],
+      "poolRounds" : [
+        [0.8, 0],
+        [0.2, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+}

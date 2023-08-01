@@ -1,0 +1,37 @@
+{
+  "itemName" : "andarhan-hellbentwillplaceholder",
+  "price" : 1500,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "This legend sword came out of a rock.",
+  "shortdescription" : "XR-3 \"Hellbent Will\"",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "andarhan-hellbentwillplaceholder.png",
+
+  "animation" : "andarhan-hellbentwillplaceholder.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "andarhan-hellbentwillplaceholder.png",
+    "bladeFullbright" : "andarhan-hellbentwillplaceholderfullbright.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.5,
+    "baseDps" : 9.5
+  },
+
+  "altAbilityType" : "risingslash",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

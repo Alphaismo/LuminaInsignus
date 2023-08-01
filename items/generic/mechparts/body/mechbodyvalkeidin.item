@@ -1,0 +1,15 @@
+{
+  "itemName" : "mechbodyvalkeidin",
+  "price" : 9600,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbody",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mechbodyvalkeidin.png",
+  "description" : "A sturdy Lightbrick-made mech body, modeled after ancient \"Grand Whirlwind\".",
+  "shortdescription" : "Whirlwind Mech Body",
+  "itemTags" : [ ],
+
+  "mechPart" : ["body", "valkeidin"]
+}

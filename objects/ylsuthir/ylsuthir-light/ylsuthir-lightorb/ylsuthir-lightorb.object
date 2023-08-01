@@ -1,0 +1,45 @@
+{
+  "objectName" : "ylsuthir-lightorb",
+  "colonyTags" : ["ylsuthir","light","pretty"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+  "lightColor" : [155, 255, 255],
+
+  "description" : "An ancient orb made from sunlight and concentrated Ancient Solarium magic.",
+  "shortdescription" : "Yls'Uthiran Magi-Orb",
+  "race" : "nharduunr",
+
+  "floranDescription" : "Brightessst light! Floran hatesss it!",
+  "glitchDescription" : "Shocked. What light is this...",
+  "raegshiaDescription" : "TODO.",
+  "valkeidinDescription" : "TODO.",
+  "boomboxidDescription" : "I feel funny around these things.",
+  "ceebeDescription" : "The odd GoAnimate logic... If it's literally made of sunlight, why it doesn't burn my hands off?",
+  "sylethiiDescription" : "That kind of magic suppresses mine.",
+  "orthiridDescription" : "TODO.",
+  "driianDescription" : "TODO.",
+  "halcyonDescription" : "TODO.",
+  "quekhriiDescription" : "TODO.",
+  "qkhadranDescription" : "TODO.",
+  "andarhanDescription" : "TODO.",
+  "rhadurDescription" : "TODO.",
+  "dhirnakhorDescription" : "What heretic would think it will kill me...",
+  "koaulemDescription" : "TODO.",
+  "nharduunrDescription" : "TODO.",
+  "ginrhinDescription" : "Light Orb, forged from sunlight and endangered type of Magical Element.",
+
+  "inventoryIcon" : "ylsuthir-lightorbicon.png",
+  "orientations" : [
+    {
+      "image" : "ylsuthir-lightorb.png:<color>.<frame>", "fullbright" : true,
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1
+
+    }
+  ]
+}

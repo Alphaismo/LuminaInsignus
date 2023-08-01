@@ -1,0 +1,75 @@
+{
+  "animationCustom": {
+    "sounds": {
+      "switchmode": [
+        "/sfx/gun/reload/sniper_reload_clip3.ogg"
+      ]
+    }
+  },
+  "ability": {
+    "type": "ilsyeinite-invictusswitch",
+    "name": "Firemode Switch",
+    "scripts": [
+      "/scripts/lumins-firemode.lua"
+    ],
+    "class": "AdaptableAmmo",
+    "adaptedAbilityIndex": 1,
+    "ammoTypes": [
+    {
+      "fireTime" : 0.11,
+      "baseDps" : 20.5,
+      "energyUsage" : 30,
+      "inaccuracy" : 0.01,
+      "projectileCount": 1,
+      "fireType": "auto",
+      "projectileType": "bullet-4",
+      "projectileParameters": {
+        "speed" : 500,
+        "knockback" : 10
+    }
+      },
+      {
+        "fireTime" : 0.11,
+        "baseDps" : 24.5,
+        "energyUsage" : 35,
+        "inaccuracy" : 0.01,
+        "projectileCount": 1,
+        "fireType": "auto",
+        "projectileType": "lumins-ilsyeinitebullet",
+        "projectileParameters": {
+          "speed" : 500,
+          "piercing" : true,
+          "knockback" : 10
+        }
+      }
+    ],
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
+        "frontArmFrame": "run.2",
+        "backArmFrame": "swim.4",
+        "allowRotate": true,
+        "allowFlip": true
+      },
+      "switch": {
+        "aimAngle": 0,
+        "armRotation": 4,
+        "weaponRotation": -5,
+        "weaponAngularVelocity": 0,
+        "armAngularVelocity": 0,
+        "twoHanded": true,
+        "weaponOffset": [
+          0,
+          0
+        ],
+        "duration": 0.4,
+        "frontArmFrame": "swim.4",
+        "backArmFrame": "swim.4",
+        "allowRotate": true,
+        "allowFlip": true
+      }
+    }
+  }
+}

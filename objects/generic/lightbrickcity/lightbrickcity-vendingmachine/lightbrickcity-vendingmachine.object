@@ -1,0 +1,98 @@
+{
+  "objectName" : "lightbrickcity-vendingmachine",
+  "colonyTags" : ["lightbrickcity","commerce"],
+  "rarity" : "Legendary",
+  "category" : "other",
+  "price" : 300,
+  "printable" : false,
+  "description" : "A vending machine, there are some quality snacks in here.",
+  "shortdescription" : "Lightbrick Vending Machine",
+  "race" : "generic",
+
+  "floranDescription" : "Ssstreet snacks!",
+  "glitchDescription" : "Interested. This vending machine seems in working order, it may have supplies.",
+  "novakidDescription" : "This machine is like a robot shopkeeper! I give it money and supplies come out.",
+  "boomboxidDescription" : "Oooooh Nebucola! So cool!",
+  "ceebeDescription" : "It surely serves only the best in Lightbrick City.",
+  "sylethiiDescription" : "Who didn't told me that Exploda is simply cola-diluted vodka!?",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/vendingmachine.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Lightbrick Vending Machine",
+        "subtitle" : " Epic variety yes"
+      }
+    },
+    "buyFactor" : 1,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : "lightbrickcity-nebucola" },
+      { "item" : "lightbrickcity-zadang" },
+      { "item" : "lightbrickcity-exploda" },
+      { "item" : "lightbrickcity-explodanero" },
+      { "item" : "lightbrickcity-lean" },
+      { "item" : "bottledwater", "price" : 3 },
+      { "item" : "yomintbag", "price" : 2000 }
+    ]
+  },
+
+  "inventoryIcon" : "lightbrickcity-vendingmachineicon.png",
+  "orientations" : [
+    {
+      "image" : "lightbrickcity-vendingmachineleft.png:<color>",
+      "imagePosition" : [-16, -0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    },
+    {
+      "image" : "lightbrickcity-vendingmachineright.png:<color>",
+      "imagePosition" : [-16, -0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/shipengine.ogg",
+  "soundEffectRangeMultiplier" : 0.2,
+
+  "scripts" : [
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 60,
+
+  "npcToy" : {
+    "influence" : [
+      "vendingmachineActivate",
+      "vendingmachineCollect",
+      "vendingmachineConsume",
+      "vendingmachineComplete"
+    ],
+    "defaultReactions" : {
+      "vendingmachineActivate" : [
+        [1.0, "pressbutton"]
+      ],
+      "vendingmachineCollect" : [
+        [1.0, "crouchcollect"]
+      ],
+      "vendingmachineConsume" : [
+        [1.0, "drink"]
+      ],
+      "vendingmachineComplete" : [
+        [1.0, "smile"],
+        [0.1, "vomit"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-2.0, 1.0],
+    "preciseStandPositionRight" : [2.0, 1.0],
+    "maxNpcs" : 1
+  }
+}

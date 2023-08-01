@@ -1,0 +1,16 @@
+{
+  "itemName" : "lightbrickcity-lean",
+  "rarity" : "Uncommon",
+  "price" : 80,
+  "category" : "drink",
+  "inventoryIcon" : "lightbrickcity-lean.png",
+  "description" : "I LOVE LEAN!!!!",
+  "shortdescription" : "Lean",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 30
+    }
+  ] ],
+  "emitters" : [ "drinking" ]
+}

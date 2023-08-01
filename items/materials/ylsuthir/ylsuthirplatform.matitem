@@ -1,0 +1,15 @@
+{
+  "itemName" : "ylsuthirplatform",
+  "price" : 0,
+  "category" : "platform",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "ylsuthirplatform.png",
+  "description" : "A simple light platform commonly found in remote outposts.",
+  "shortdescription" : "Yls'Uthiran Platform",
+  "glitchdescription" : "Facinated. These platforms are light and favoured for their portability.",
+  "florandescription" : "Jusst another metal platform.",
+  "novakiddescription" : "Pretty strange lookin' metal platform.",
+  "learnBlueprintsOnPickup" : [ "ylsuthirplatform" ],
+
+  "materialId" : 31389
+}

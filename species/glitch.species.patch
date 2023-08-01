@@ -1,0 +1,297 @@
+[
+    // Female
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-1"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-2"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-3"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-4"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-5"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-6"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-7"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-8"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-fem1"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-fem2"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-fem3"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-fem4"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-fem5"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-fem6"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-fem7"
+    },
+
+    // Male
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-1"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-2"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-3"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-4"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-5"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-6"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-7"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-8"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-male1"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-male2"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-male3"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-male4"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-male5"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-male6"
+    },
+
+    // idk That is supposed to color the other details of a Glitch hair
+    {
+        "op" : "add",
+        "path" : "/bodyColorAsHairSubColor",
+        "value" : "true"
+    },
+
+    // Body
+    {
+        "op" : "add",
+        "path" : "/bodyColor/-",
+        "value" : { "ffca8a" : "A1B1C2", "e0975c" : "8297AD", "a85636" : "414C57", "6f2919" : "21262C" }
+    },
+    {
+        "op" : "add",
+        "path" : "/bodyColor/-",
+        "value" : { "ffca8a" : "64839F", "e0975c" : "30597F", "a85636" : "182D40", "6f2919" : "0C1720" }
+    },
+    {
+        "op" : "add",
+        "path" : "/bodyColor/-",
+        "value" : { "ffca8a" : "6B7485", "e0975c" : "3A455C", "a85636" : "1D232E", "6f2919" : "0F1217" }
+    },
+    {
+        "op" : "add",
+        "path" : "/bodyColor/-",
+        "value" : { "ffca8a" : "6B6470", "e0975c" : "3A3040", "a85636" : "1D1820", "6f2919" : "0F0C10" }
+    },
+    {
+        "op" : "add",
+        "path" : "/bodyColor/-",
+        "value" : { "ffca8a" : "FFA300", "e0975c" : "FF6500", "a85636" : "AF4600", "6f2919" : "823400" }
+    },
+    {
+        "op" : "add",
+        "path" : "/bodyColor/-",
+        "value" : { "ffca8a" : "00FFFF", "e0975c" : "00BEFF", "a85636" : "0094FF", "6f2919" : "00538E" }
+    },
+    {
+        "op" : "add",
+        "path" : "/bodyColor/-",
+        "value" : { "ffca8a" : "FF70EB", "e0975c" : "FF00DC", "a85636" : "A0008B", "6f2919" : "6B005C" }
+    },
+    {
+        "op" : "add",
+        "path" : "/bodyColor/-",
+        "value" : { "ffca8a" : "E2E2FF", "e0975c" : "AEAEC1", "a85636" : "7D7D8B", "6f2919" : "46464C" }
+    },
+    {
+        "op" : "add",
+        "path" : "/bodyColor/-",
+        "value" : { "ffca8a" : "292929", "e0975c" : "1C1C1C", "a85636" : "121212", "6f2919" : "0A0A0A" }
+    },
+    
+    // Lights
+    {
+        "op": "add",
+        "path": "/undyColor/-",
+        "value": {
+        "f32200": "8C66FFFE",
+        "dc1f00": "3300C1FE"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/undyColor/-",
+        "value": {
+        "f32200": "C4FF66FE",
+        "dc1f00": "97FF00FE"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/undyColor/-",
+        "value": {
+        "f32200": "FFCE66FE",
+        "dc1f00": "FFB200FE"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/undyColor/-",
+        "value": {
+        "f32200": "6675FFFE",
+        "dc1f00": "4E5DFFFE"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/undyColor/-",
+        "value": {
+        "f32200": "F4FF66FE",
+        "dc1f00": "EAFF00FE"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/undyColor/-",
+        "value": {
+        "f32200": "60B8EAFE",
+        "dc1f00": "008CD9FE"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/undyColor/-",
+        "value": {
+        "f32200": "F915CFFE",
+        "dc1f00": "9F0483FE"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/undyColor/-",
+        "value": {
+        "f32200": "FDBD01FE",
+        "dc1f00": "FF6A00FE"
+        }
+    },
+
+    // Details
+    {
+        "op" : "add",
+        "path" : "/hairColor/-",
+        "value" : { "f7e7b2" : "7D7171", "d9c189" : "514242", "a38d59" : "292121", "735e3a" : "151111" }
+    },
+    {
+        "op" : "add",
+        "path" : "/hairColor/-",
+        "value" : { "f7e7b2" : "7B7D88", "d9c189" : "4F5160", "a38d59" : "282930", "735e3a" : "141518" }
+    },
+    {
+        "op" : "add",
+        "path" : "/hairColor/-",
+        "value" : { "f7e7b2" : "6B7485", "d9c189" : "3A455C", "a38d59" : "1D232E", "735e3a" : "0F1217" }
+    },
+    {
+        "op" : "add",
+        "path" : "/hairColor/-",
+        "value" : { "f7e7b2" : "6B6470", "d9c189" : "3A3040", "a38d59" : "1D1820", "735e3a" : "0F0C10" }
+    },
+    {
+        "op" : "add",
+        "path" : "/hairColor/-",
+        "value" : { "f7e7b2" : "292929", "d9c189" : "1C1C1C", "a38d59" : "121212", "735e3a" : "0A0A0A" }
+    }
+]

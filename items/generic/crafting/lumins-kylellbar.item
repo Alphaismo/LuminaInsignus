@@ -1,0 +1,10 @@
+{
+  "itemName" : "lumins-kylellbar",
+  "price" : 50,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "lumins-kylellbar.png",
+  "description" : "A durable-enough alloy with properties to repel magic.",
+  "shortdescription" : "Kylell",
+  "itemTags" : [ "reagent" ]
+}

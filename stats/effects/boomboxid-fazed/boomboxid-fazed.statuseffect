@@ -1,0 +1,20 @@
+{
+  "name" : "boomboxid-fazed",
+
+  "effectConfig" : {
+    "activateDelay" : 0.1,
+    "deactivateDelay" : 0.1,
+    "triggerDamageThreshold" : 15,
+    "explosionDamageAmount" : 500
+  },
+  "defaultDuration" : 7,
+
+  "scripts" : [
+    "boomboxid-fazed.lua"
+  ],
+
+  "animationConfig" : "boomboxid-fazed.animation",
+
+  "label" : "Your body became unstable",
+  "icon" : "/interface/statuses/boomboxid-fazed.png"
+}

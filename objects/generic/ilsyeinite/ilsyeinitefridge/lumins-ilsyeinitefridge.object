@@ -1,0 +1,40 @@
+{
+  "objectName" : "lumins-ilsyeinitefridge",
+  "colonyTags" : ["ilsyeinite","storage","cooking"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "fridgeStorage",
+  "price" : 110,
+  "description" : "A fridge, good for keeping food cold.",
+  "shortdescription" : "Ilsyeinite Fridge",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "floranDescription" : "Cold!",
+  "glitchDescription" : "Amused. This fridge works even in power outage, all thanks to mana batteries.",
+  "novakidDescription" : "A fridge! I wonder if anyone left any treats?",
+
+  "inventoryIcon" : "lumins-ilsyeinitefridgeicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "lumins-ilsyeinitefridgeleft.png:<color>",
+      "rightImage" : "lumins-ilsyeinitefridgeright.png:<color>",
+
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "itemAgeMultiplier" : 0.0
+}

@@ -1,0 +1,26 @@
+{
+  "materialId" : 31393,
+  "materialName" : "slopedylsuthirpanel",
+  "particleColor" : [226, 211, 149, 255],
+  "itemDrop" : "slopedylsuthirpanel",
+
+  "description" : "Most common, and most strongest, building used in Yls'Uthiran buildings.",
+  "glitchdescription" : "Observant. This material is why their weird buildings managed to pass the test of time.",
+  "florandescription" : "Shiny sssmooth alien alloy.",
+  "novakiddescription" : "Some thick metal plating, looks mighty solid.",
+  "nharduunrDescription" : "We utilize these alloys to build civilization and create our technology.",
+  "shortdescription" : "Yls'Uthiran Hull Panel",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 24,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "slopedylsuthirpanel.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 5000
+  }
+}

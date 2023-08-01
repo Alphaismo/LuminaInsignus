@@ -1,0 +1,52 @@
+[
+    {
+        "op" : "add",
+        "path" : "/boomboxidDescription",
+        "value" : "Yo this n1664's a dullahan and is missing his head!"
+    },
+    {
+        "op" : "add",
+        "path" : "/ceebeDescription",
+        "value" : "If this thing has a cube for a head, nobody would vandalize it... kinda."
+    },
+    {
+        "op" : "add",
+        "path" : "/sylethiiDescription",
+        "value" : "A comedy gold... To Sekiuj at least."
+    },
+    {
+        "op" : "add",
+        "path" : "/orthiridDescription",
+        "value" : "Even vandalism can bring forth even the insatiable karma, I see. This one is even sweeter."
+    },
+    {
+        "op" : "add",
+        "path" : "/andarhanDescription",
+        "value" : "The tyrant himself. And that's how we ^red;will crown him with for efforts; Decapitation.^reset;"
+    },
+    {
+        "op" : "add",
+        "path" : "/rhadurDescription",
+        "value" : "Glorious leader?.. More like... ^red;HEADLESS leader!^reset; Hahahahahahaaa! Am I right, ancestors? BWAHAHAHAHAHA!"
+    },
+    {
+        "op" : "add",
+        "path" : "/dhirnakhorDescription",
+        "value" : "Off with his head... And that's how his fate will be."
+    },
+    {
+        "op" : "add",
+        "path" : "/koaulemDescription",
+        "value" : "(Or face death by the righteous spear of The Silent King!)"
+    },
+    {
+        "op" : "add",
+        "path" : "/nharduunrDescription",
+        "value" : "I am glad someone vandalized it... In the name of freedom."
+    },
+    {
+        "op" : "add",
+        "path" : "/ginrhinDescription",
+        "value" : "The statue of Miniknog Tyrant Big Ape detected. The cause of vandalism appears to be the Rebellion's efforts."
+    }
+]

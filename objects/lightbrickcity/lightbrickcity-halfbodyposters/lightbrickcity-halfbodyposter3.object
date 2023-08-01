@@ -1,0 +1,40 @@
+{
+  "objectName" : "lightbrickcity-halfbodyposter3",
+  "colonyTags" : ["lightbrickcity","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 55,
+
+  "shortdescription" : "Half-Body Muscle Poster",
+  "description" : "This poster depicts muscular Ceebe.",
+  "race" : "generic",
+
+  "apexDescription" : "Miniknog won't allow suggestive posters like this. They outright punish those who try to sneak that in with death.",
+  "avianDescription" : "I don't want to know why there's bulge in her briefs all of the sudden.",
+  "floranDescription" : "Floran would love to make gainsss too.",
+  "glitchDescription" : "Intriqued. Since this Lightbrick City sternly prohibits censorships... I don't know why, at least now I can see the truly full glory of topless muscular women.",
+  "humanDescription" : "It's kind of weird to see muscular women... let alone topless, and having cubes for heads for Pete's sake.",
+  "hylotlDescription" : "I'm kind of impressed they value the beauty and experimentation of masculinity in women.",
+  "novakidDescription" : "Mighty fine muscles, partner.",
+
+  "boomboxidDescription" : "I'll probably thrust my cucumber into her discharge pipe. Hahah!",
+  "ceebeDescription" : "She's just as beautiful as ever. I surely dreamed to become like this.",
+  "sylethiiDescription" : "We've had Sekiuj women who looked exactly like this... sans cube head of course.",
+  "orthiridDescription" : "There must a significance for women being strong in Lightbrick City, in a very positive light too.",
+  "driianDescription" : "She looks gorgeous, isn't she?",
+  "ginrhinDescription" : "Topless Ceebe bodybuilder confirmed. Very uncomfortable. Hypothesis: \"What the fuck is this...\".",
+
+  "inventoryIcon" : "lightbrickcity-halfbodyposter3icon.png",
+  "orientations" : [
+    {
+      "image" : "lightbrickcity-halfbodyposter3.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+[
+	{
+		"op": "add",
+		"path": "/hail/sylethii",
+		"value": {
+		"default": [
+			"I have an eye on you, stranger.",
+			"Here on important ceremony, stranger?",
+			"Feel free to live here... Just don't cause trouble.",
+			".",
+			".",
+			"Let's hope you're not some marauder."
+		],
+		"sylethii": [
+			"The Enlightened invited you here?",
+			"Welcome, Wanderer <entityname>.",
+			"It's impressive you became a captain.",
+			"As long as you don't cause any trouble, Wanderer.",
+			"So Yl'Veien brought you here.",
+			"."
+		],
+		"human" : [
+			"I have an eye on you, human.",
+			"Pffft... human.",
+			"Cause trouble and I will feed you to the wardogs.",
+			"You don't intimidate me, human.",
+			"For a human, you seem honorable enough.",
+			"Killing you will be a waste of my time, but I won't hesitate doing so."
+		]
+	}
+  },
+	{
+		"op": "add",
+		"path": "/hail/ceebe",
+		"value": {
+		"default": [
+			"We can get along. As long as you don't plan to cause really big ruckus.",
+			"I have an eye on you, stranger.",
+			"L-Look... I'm totally nervous. Just d-don't cause trouble, y'dig?",
+			"I can't wait to kill anyone, so watch out.",
+			"You really don't want to test me.",
+			"If you want to, wanna \"sleep\" with me tonight?"
+		],
+		"ceebe": [
+			"Wassup, Captain <entityname>.",
+			"I still have an eye on you, sis.",
+			"Just behave yourself. Okay, sis?",
+			"Hello, Cap'n. Have a nice day!",
+			"Let's chill peacefully, sis.",
+			"Wanna make out today?",
+			"If we'd have time... wanna get laid somewhere?"
+		]
+	}
+  },
+	{
+		"op": "add",
+		"path": "/hail/andarhan",
+		"value": {
+		"default": [
+			"Cause trouble and you will know death will come for you.",
+			"We won't kill you. Instead we will laugh at you.",
+			"There to witness the glory of our empire?",
+			"Test my patience and I will show you.",
+			"Enjoy your stay if you're comfortable or sure we \"won't\" kill you.",
+			"We are not Sentinels for nothing."
+		],
+		"andarhan": [
+			"Welcome, Rogue Captain-Class.",
+			"I feel pity you've chosen to be against our faith.",
+			"Traitor or no, we will welcome you.",
+			"As long as you won't cause ruckus, captain.",
+			"There will be no place for you, except to hide of course since you are Andarhan.",
+			"S'ytn Vos won't kill you at all, but it doesn't mean you can cause trouble here."
+		]
+	}
+  }
+]

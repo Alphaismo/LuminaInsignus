@@ -1,0 +1,16 @@
+{
+  "itemName" : "ylsuthirglasspanel",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "ylsuthirglasspanel.png",
+  "description" : "I can see my reflection, and safe.",
+  "shortdescription" : "Yls'Uthiran Glass Panel",
+  "glitchDescription" : "Secure. I doubt even Glitch ballistas can penetrate through this glass.",
+  "floranDescription" : "Floran lookss pretty in glasssss.",
+  "novakidDescription" : "That one of a mighty glass, roger.",
+  "nharduunrDescription" : "There is no beauty in other glasses than this.",
+  "ginrhinDescription" : "Glass made of synthetic superdurable material confirmed.",
+
+  "materialId" : 31380
+}

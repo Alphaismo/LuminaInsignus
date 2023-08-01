@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "mechbodycultist2", "count" : 1 },
+    { "item" : "lumins-ancientsolariumstar", "count" : 20 },
+    { "item" : "lumins-platinumbar", "count" : 100 },
+    { "item" : "salvagetier6", "count" : 25 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "mechbodyneocultist", "count" : 1 },
+  "groups" : [ "craftingmech", "mechbody" ]
+}

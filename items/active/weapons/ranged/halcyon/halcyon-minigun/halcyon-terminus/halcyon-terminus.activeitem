@@ -1,0 +1,105 @@
+{
+  "itemName" : "halcyon-terminus",
+  "price" : 2160,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Favored alongside RK-78 \"Behemoth\" by Halcyon Praetorians for it's efficiency.",
+  "shortdescription" : "RK-901 \"Terminus\"",
+  "tooltipKind" : "gun",
+  "category" : "Minigun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","halcyon"],
+  "level" : 6,
+
+  "inventoryIcon" : [
+    { "image" : "halcyon-terminusicon.png" }
+  ],
+
+    "animation": "halcyon-terminus.animation",
+    "animationParts": {
+      "middle": "halcyon-terminus.png",
+      "middleFullbright": "halcyon-terminusfullbright.png",
+       "muzzleFlash": "/items/active/weapons/ranged/halcyon/halcyon-muzzleflash.png"
+    },
+    "animationCustom" : {
+        "sounds" : {
+          "fire" : ["/sfx/gun/andarhanhalcyon-plasma3.ogg"]
+        },
+        "lights" : {
+          "muzzleFlash" : {
+            "color" : [0, 121, 155]
+          }
+        }
+      },
+    
+    "baseOffset": [ 1.5, -0.6 ],
+    "muzzleOffset": [ 2.8, 0.0 ],
+
+    "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+    "elementalType" : "physical",
+
+    "primaryAbility" : {
+      "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+      "class" : "GunFire",
+
+      "fireTime" : 0.03,
+      "baseDps" : 25,
+      "energyUsage" : 65,
+      "inaccuracy" : 0.03,
+      "projectileCount" : 1,
+      "fireType" : "auto",
+
+      "projectileType" : "halcyonbullet",
+      "projectileParameters" : {
+        "speed" : 500,
+        "knockbackRange" : 10
+      },
+      
+      "stances": {
+        "idle": {
+          "armRotation": 0,
+          "weaponRotation": 0,
+          "weaponOffset" : [0, 0],
+          "twoHanded": true,
+          "allowRotate": true,
+          "allowFlip": true,
+          
+          "frontArmFrame" : "swim.2",
+          "backArmFrame" : "rotation"
+        },
+        "fire": {
+          "duration": 0,
+          "armRotation": 0.75,
+          "weaponRotation": 0.75,
+          "weaponOffset" : [-0.1, 0],
+          "twoHanded": true,
+          "recoil" : true,
+          "allowRotate": true,
+          "allowFlip": true,
+  
+          "animationStates" : {
+            "firing" : "fire",
+            "holyshit" : "lmfao"
+          },
+          
+          "frontArmFrame" : "swim.2",
+          "backArmFrame" : "rotation"
+        },
+        "cooldown": {
+          "duration": 0.02,
+          "armRotation": 0.75,
+          "weaponRotation": 0.75,
+          "weaponOffset" : [-0.1, 0],
+          "twoHanded": true,
+          "allowRotate": true,
+          "allowFlip": true,
+          
+          "frontArmFrame" : "swim.2",
+          "backArmFrame" : "rotation"
+        }
+      }
+    },
+  
+    "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,22 @@
+{
+  "projectileName" : "lumins-ilsyeinitebullet",
+  "image" : "lumins-ilsyeinitebullet.png",
+  "physics" : "laser",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKind" : "plasma",
+  "pointLight" : false,
+  "flippable" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "power" : 7.0,
+  "speed" : 500,
+  "knockback" : 0,
+  "lightColor" : [29, 62, 122],
+  "fullbright" : true
+}

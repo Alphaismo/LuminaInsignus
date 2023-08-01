@@ -1,0 +1,67 @@
+{
+  "objectName" : "ylsuthir-largedoor",
+  "colonyTags" : ["ylsuthir","door","pretty"],
+  "rarity" : "Legendary",
+  "category" : "door",
+  "printable" : false,
+  "price" : 175,
+  "description" : "Unusual door.",
+  "shortdescription" : "Yls'Uthiran Large Door",
+  "race" : "nharduunr",
+
+  "floranDescription" : "Floran wantsss to know what's behind the door.",
+  "glitchDescription" : "Jealous. All these times passed, and door still works like a charm.",
+  "novakidDescription" : "Now that's a mighty door, partner!",
+  "nharduunrDescription" : "Our technology is not perfect, but still flawless, even to this day.",
+  "ginrhinDescription" : "The large door of Yls'Uthiran craftsmanship confirmed.",
+
+  "inventoryIcon" : "ylsuthir-largedooricon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "ylsuthir-largedoor.png:default", "fullbright" : true }, { "image" : "ylsuthir-largedoorlit.png:default" } ],
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+     
+      "direction" : "right",
+     
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "ylsuthir-largedoor.png:default", "fullbright" : true }, { "image" : "ylsuthir-largedoorlit.png:default" } ],
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+     
+      "direction" : "right",
+     
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/lumins-fullbrightlockingdoor.animation",
+  
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "ylsuthir-largedoor.png",
+    "doorlit" : "ylsuthir-largedoorlit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "inputNodes" : [ [-1, 7] ],
+  "outputNodes" : [ [1, 0] ]
+}

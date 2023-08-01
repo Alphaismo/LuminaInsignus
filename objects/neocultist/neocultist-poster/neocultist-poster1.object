@@ -1,0 +1,46 @@
+{
+  "objectName" : "neocultist-poster1",
+  "colonyTags" : ["neocultist","evil","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+
+  "shortdescription" : "Neo Occasus Poster",
+  "description" : "A framed poster depicting the Neo Occasus icon.",
+  "race" : "human",
+
+  "apexDescription" : "I heard about several rebels perished defending their bases from this Occasus division. And kind of surprised they brutally lashed out on Miniknog too.",
+  "avianDescription" : "By Kluex... I've never heard about this division causing more casualties than ever... Until now.",
+  "floranDescription" : "Funny eye doesssn't ssscare Floran! Ssstab it! World will ressst with them sssilenced!",
+  "glitchDescription" : "Anxious. I... don't want to know what they're up to now...",
+  "humanDescription" : "There's something more ominous than this eye here...",
+  "hylotlDescription" : "Occasus came back more barbaric and more malevolent than ever... I must prevent them from murdering all of us... by killing them.",
+  "novakidDescription" : "Ahh shit... 'ere we go again, partner.",
+
+  "sylethiiDescription" : "I will NOT let Neo Occasus threaten my kin again!!!",
+  "boomboxidDescription" : "Blast their eardrums to oblivion, muhfugga! Hahaha.",
+  "orthiridDescription" : "They threatened us and Sekiuj. This time I am ready to take them down.",
+  "ceebeDescription" : "I'm pretty sure there's nothing fun about this group at all...",
+  "valkeidinDescription" : "I must stop them all before people get hurt, or worse...",
+  "raegshiaDescription" : "These abominations are up to no good whatsoever... I will kill them all.",
+  "andarhanDescription" : "Occasus returned as \"Neo Occasus\"... only to die again like the old one.",
+  "rhadurDescription" : "I will pillage their mothership and activate self-destruct protocol on it for everyone's good.",
+  "dhirnakhorDescription" : "They captured my kin's kings for their experiments, but they still underestimate us.",
+  "koaulemDescription" : "(The Queen will alter them into our perfect servants.)",
+  "nharduunrDescription" : "Like us, they would never surrender this easy. Putting them all to death will be the only way then.",
+  "ginrhinDescription" : "Neo Occasus Emblem confirmed. Reporting the past criminal records to Hitman Vherul-Khavlenas.",
+
+  "inventoryIcon" : "neocultist-poster1icon.png",
+  "orientations" : [
+    {
+      "image" : "neocultist-poster1.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

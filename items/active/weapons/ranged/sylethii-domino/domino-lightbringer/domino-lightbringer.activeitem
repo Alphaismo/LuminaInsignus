@@ -1,0 +1,53 @@
+{
+  "itemName" : "domino-lightbringer",
+  "price" : 640,
+  "inventoryIcon" : "domino-lightbringericon.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "tooltipKind" : "bow",
+  "category" : "bow",
+  "description" : "The experimental energy bow, recently created as to preserve the cultural use of bows.",
+  "shortdescription" : "D-X4 \"Lightbringer\"",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","sylethii-domino","bow"],
+
+  "level" : 6,
+
+  "animation" : "/items/active/weapons/ranged/animation/lumins-fullbrightbow.animation",
+  "animationParts" : {
+    "bow" : "domino-lightbringer.png",
+    "bowFullbright" : "domino-lightbringerfullbright.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : {
+      "bow" : { "properties" : {
+        "offset" : [0.25, 0.125]
+      }},
+      "bowFullbright" : { "properties" : {
+        "offset" : [0.25, 0.125]
+      }}
+    }},
+    "sounds" : {
+      "draw" : [ "/sfx/melee/charge_up7.ogg" ],
+      "release" : [ "/sfx/gun/andarhanhalcyon-plasma2.ogg" ],
+      "perfectRelease" : [ "/sfx/gun/lumins-plasma5.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+    "fireOffset" : [1.75, 0.125],
+    "projectileType" : "domino-lightbringerarrow",
+    "powerProjectileType" : "domino-lightbringerarrowcharged",
+    "projectileParameters" : {
+      "power" : 12.5,
+      "speed" : 200
+    }
+  },
+  
+  "drawTime" : 3.5,
+
+  "builder" : "/items/buildscripts/buildbow.lua"
+}

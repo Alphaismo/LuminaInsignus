@@ -1,0 +1,160 @@
+{
+  "kind" : "qkhadran",
+
+	"charCreationTooltip" : {
+    "title" : "Q'Khardan",
+    "subTitle" : "Reptilian Human-likes of Ka'Hraadak",
+    "description" : "Reigning from the harsh jungle planet, they are physically and defensively-superior counterparts of Sylethiis and are little different from Florans. Combining their traditions with technology allowed them to prosper further, especially to the space."
+  },
+
+  "nameGen" : [ "/species/qkhadrannamegen.config:names", "/species/qkhadrannamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/qkhadranhurt_male1.ogg", "/sfx/humanoid/qkhadranhurt_female1.ogg" ],
+  "charGenTextLabels" : [ "Skin colour", "Hair style", "Shirt", "Legwear", "Face", "Hair colour", "Shirt colour", "Legwear colour", "Q'KHADRAN", "Personality" ],
+  "skull" : "/humanoid/qkhadran/dead.png",
+  "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=ffea63FF?replace=31a6ffFF=f5bc00FF",
+  "defaultBlueprints" : {
+    "tier1" : [
+
+// Empty Hands
+      { "item" : "flagqkhadran" },
+
+// Anvil
+      { "item" : "humantier1head" },
+      { "item" : "humantier1chest" },
+      { "item" : "humantier1pants" },
+      { "item" : "humantier2head" },
+      { "item" : "humantier2chest" },
+      { "item" : "humantier2pants" },
+      { "item" : "qkhadransword" },
+      { "item" : "ironshortsword" },
+      { "item" : "ironbroadsword" },
+      { "item" : "tungstenaxe" },
+      { "item" : "tungstenhammer" },
+// Anvil2
+      { "item" : "humantier3head" },
+      { "item" : "humantier3chest" },
+      { "item" : "humantier3pants" },
+      { "item" : "humantier4head" },
+      { "item" : "humantier4chest" },
+      { "item" : "humantier4pants" },
+      { "item" : "titaniumdagger" },
+      { "item" : "titaniumspear" },
+      { "item" : "durasteelbroadsword" },
+      { "item" : "durasteelshortsword" },
+// Anvil3
+      { "item" : "humantier5ahead" },
+      { "item" : "humantier5achest" },
+      { "item" : "humantier5apants" },
+      { "item" : "humantier6ahead" },
+      { "item" : "humantier6achest" },
+      { "item" : "humantier6apants" },
+      { "item" : "humantier5mhead" },
+      { "item" : "humantier5mchest" },
+      { "item" : "humantier5mpants" },
+      { "item" : "humantier6mhead" },
+      { "item" : "humantier6mchest" },
+      { "item" : "humantier6mpants" },
+      { "item" : "humantier5shead" },
+      { "item" : "humantier5schest" },
+      { "item" : "humantier5spants" },
+      { "item" : "humantier6shead" },
+      { "item" : "humantier6schest" },
+      { "item" : "humantier6spants" },
+      { "item" : "aegisaltpistol" },
+      { "item" : "aegisaltbow" },
+      { "item" : "feroziumwand" },
+      { "item" : "feroziumstaff" },
+      { "item" : "violiumshortsword" },
+      { "item" : "violiumbroadsword" },
+// Furniture Table 2
+      { "item" : "humanstoragelocker" },
+      { "item" : "qkhadranshipdoor" },
+      { "item" : "qkhadranshiphatch" },
+// Spinning Wheel
+      { "item" : "qkhadranoutfit1chest" },
+      { "item" : "qkhadranoutfit1legs" },
+      { "item" : "qkhadranoutfit2chest" },
+      { "item" : "qkhadranoutfit2legs" },
+      { "item" : "qkhadranoutfit3chest" },
+      { "item" : "qkhadranoutfit3legs" },
+      { "item" : "qkhadranoutfit4chest" },
+      { "item" : "qkhadranoutfit4legs" }
+	  ]
+  },
+
+  "altOptionAsUndyColor" : true,
+  "headOptionAsHairColor" : true,
+  "altOptionAsHairColor" : true,
+  "genders" : [
+    {
+       "name" : "male",
+      "image" : "/interface/title/qkhadranmaleico.png",
+      "characterImage" : "/interface/title/qkhadranmale.png",
+      "hair" : [ "1", "2", "3", "4", "5" ],
+      "shirt" : [ "qkhadranoutfit1chest", "qkhadranoutfit2chest", "qkhadranoutfit3chest", "qkhadranoutfit4chest" ],
+      "pants" : [ "qkhadranoutfit1legs", "qkhadranoutfit2legs", "qkhadranoutfit3legs", "qkhadranoutfit4legs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/qkhadranfemico.png",
+      "characterImage" : "/interface/title/qkhadranfemale.png",
+      "hair" : [ "1", "2", "3", "4", "5" ],
+      "shirt" : [ "qkhadranoutfit1chest", "qkhadranoutfit2chest", "qkhadranoutfit3chest", "qkhadranoutfit4chest" ],
+      "pants" : [ "qkhadranoutfit1legs", "qkhadranoutfit2legs", "qkhadranoutfit3legs", "qkhadranoutfit4legs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ],
+  "bodyColor" : [
+    { "ffe2c5" : "E7D9BF", "ffc181" : "CDC0AA", "d39c6c" : "A89E8B", "c7815b" : "948A7A" },
+    { "ffe2c5" : "A9A3B1", "ffc181" : "96919C", "d39c6c" : "7B7781", "c7815b" : "6B6771" },
+    { "ffe2c5" : "DEE5ED", "ffc181" : "B9C8D8", "d39c6c" : "98A6B2", "c7815b" : "84969F" },
+    { "ffe2c5" : "8B9AA6", "ffc181" : "7B8892", "d39c6c" : "646F77", "c7815b" : "576168" },
+    { "ffe2c5" : "8C8186", "ffc181" : "7C7276", "d39c6c" : "655D60", "c7815b" : "585154" }
+  ],
+  "undyColor" : [
+    { "dc1f00" : "E5E5E5", "be1b00" : "A5A5A5", "951500" : "595959" },
+    { "dc1f00" : "A5A5A5", "be1b00" : "595959", "951500" : "333333" },
+    { "dc1f00" : "595959", "be1b00" : "333333", "951500" : "191919" },
+    { "dc1f00" : "9EB4C2", "be1b00" : "72818B", "951500" : "424B51" },
+    { "dc1f00" : "9095AF", "be1b00" : "64687A", "951500" : "3C3E49" },
+    { "dc1f00" : "C6B2C2", "be1b00" : "8E808B", "951500" : "564E54" },
+    { "dc1f00" : "5D788C", "be1b00" : "33414C", "951500" : "222B33" },
+    { "dc1f00" : "997A7A", "be1b00" : "594747", "951500" : "332828" }
+  ],
+  "hairColor" : [
+    //LIGHT RED
+    { "d9c189" : "E86D46", "a38d59" : "D1422E", "735e3a" : "96201B" },
+    //RED
+    { "d9c189" : "CD1C38", "a38d59" : "982441", "735e3a" : "69243F" },
+    //DARK RED
+    { "d9c189" : "ad2716", "a38d59" : "8f1f1b", "735e3a" : "731a1a" },
+    //RUSTY RED
+    { "d9c189" : "BE471B", "a38d59" : "9B2F0C", "735e3a" : "702710" },
+    //BROWN
+    { "d9c189" : "7d3c1c", "a38d59" : "4d240b", "735e3a" : "2d1606" },
+    //LIGHT BROWN
+    { "d9c189" : "7f5a39", "a38d59" : "5b3523", "735e3a" : "3b1f15" },
+    //BLONDE
+    { "d9c189" : "f1d992", "a38d59" : "daba5e", "735e3a" : "b59a4d" },
+    //BROWN GREY
+    { "d9c189" : "50422f", "a38d59" : "36261e", "735e3a" : "170f0d" },
+    //DARK GREY
+    { "d9c189" : "525252", "a38d59" : "363636", "735e3a" : "161616" },
+    //GREY
+    { "d9c189" : "74726f", "a38d59" : "53504d", "735e3a" : "2a251e" },
+    //GREY BLUE
+    { "d9c189" : "6f6d85", "a38d59" : "525269", "735e3a" : "3e4352" },
+    //LIGHT GREY
+    { "d9c189" : "b8b8b8", "a38d59" : "828282", "735e3a" : "555555" },
+    //WHITE
+    { "d9c189" : "eaeaea", "a38d59" : "b8b8b8", "735e3a" : "828282" }
+  ]
+}
+

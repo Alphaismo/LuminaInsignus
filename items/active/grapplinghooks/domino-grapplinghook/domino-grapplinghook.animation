@@ -1,0 +1,26 @@
+{
+  "animatedParts" : {
+    "parts" : {
+      "rope" : {
+        "properties" : {
+          "centered" : false,
+          "image" : "domino-grapplegun.png",
+          "offset" : [-0.6, -0.5]
+        }
+      },
+      "fullbright" : {
+        "properties" : {
+          "zLevel" : 2,
+          "centered" : false,
+          "fullbright" : true,
+          "image" : "domino-grapplegunfb.png",
+          "offset" : [-0.6, -0.5]
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "fire" : ["/sfx/gun/grapplegun.ogg"]
+  }
+}

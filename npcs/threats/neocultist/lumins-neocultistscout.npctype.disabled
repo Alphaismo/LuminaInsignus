@@ -1,0 +1,32 @@
+{
+  "type" : "lumins-neocultistscout",
+  "baseType" : "hostile",
+
+  "persistent" : true,
+
+  "dropPools" : [ "lumins-neocultisttreasure" ],
+	
+	"identity" : {
+    "species" : "human"
+  },
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : "/dialog/lumins-neocultist.config:attack"
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "lumins-neocultisthead" }, { "name" : "lumins-neocultistjustmask" } ],
+            "chest" : [ { "name" : "lumins-neocultistchest" } ],
+            "legs" : [ { "name" : "lumins-neocultistlegs" } ],
+            "primary" : [ "neocultist-fang" ],
+            "sheathedprimary" : [ "neocultist-sentinel" ]
+          }
+        ] ]
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "objectName" : "ylsuthir-odinbanner",
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 250,
+  "printable" : false,
+
+  "description" : "A large Odin wall banner.",
+  "shortdescription" : "Odin Wall Banner",
+  "race" : "nharduunr",
+
+  "floranDescription" : "Floran likesss thisss.",
+  "glitchDescription" : "Charmed. A large Odin banner...",
+  "nharduunrDescription" : "I am so happy to see the Odin thrive!",  
+
+
+  "inventoryIcon" : "ylsuthir-odinbannericon.png",
+  "orientations" : [
+    {
+      "image" : "ylsuthir-odinbannerright.png:<color>",
+      "imagePosition" : [0, -16],
+      "direction" : "right",
+
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    },
+    {
+      "image" : "ylsuthir-odinbannerleft.png:<color>",
+      "imagePosition" : [0, -16],
+      "direction" : "left",
+
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

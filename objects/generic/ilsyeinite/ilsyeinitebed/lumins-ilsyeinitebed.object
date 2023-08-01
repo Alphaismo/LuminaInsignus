@@ -1,0 +1,43 @@
+{
+  "objectName" : "lumins-ilsyeinitebed",
+  "colonyTags" : ["ilsyeinite"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "description" : "An exceptionally comfortable Ilsyeinite bed.",
+  "shortdescription" : "Ilsyeinite Bed",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 110,
+  "health" : 1.8,
+
+  "floranDescription" : "Bedbugsss die here. Free midnight sssnack.",
+  "glitchDescription" : "Surprised. This bed is very hygeinic and more than durable.",
+  "novakidDescription" : "Such a luxury to sleep on this bed.",
+  "boomboxidDescription" : "I guess I should be wary of drawerbugs right now. Hahah.",
+  "ceebeDescription" : "Teehee... piss drawers.",
+  "nharduunrDescription" : "It totally promises maximum comfort.",
+  "ginrhinDescription" : "This unit finds the drawers on the bed amusing.",
+
+  "inventoryIcon" : "lumins-ilsyeinitebedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lumins-ilsyeinitebed.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-10, 14],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/generic/ilsyeinite/ilsyeinitebed/lumins-ilsyeinitebedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ]
+}

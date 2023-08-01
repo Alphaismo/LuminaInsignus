@@ -1,0 +1,33 @@
+{
+  "id" : "andarhanresearch1",
+  "species" : "andarhan",
+  "title" : "Physiology Research #1029: SYLETHII",
+  "description" : "By Scientist V'uen Sol.",
+  "icon" : "andarhanresearch.png",
+  "contentPages" : [
+  "Since time I've took a research, the Shadowspoken Assassin I recently captured was a male Sylethii,
+
+  These aliens, originating from a Magitek Planet \"Yeilara\", and I'm yet to find the reason for their mass self-exile, are the natural source of Maso. They seem to be able to weaponize it. While primitive in societal levels, their technology is impressive...
+
+  for a flesh bag, at least. Their culture is rank diverse; from hunters and scavengers to legions.",
+
+  "Through my subject's blood, I've learned his ancestry. It was the key to my knowledge; They are created by same ancient species who also created Valkeidins.",
+
+  "But... What nearly made me laugh and repulsed... is that; both male and female of this species have male genitalia, with latter having female one as well and former being... barbed. 
+
+  I have no idea nor I want to know reasons behind all of this. And I'd imagine replacing mine with a cactus.",
+
+  "I can't even calculate the anguish of their kind of reproduction methods; more like corporal punishment than pleasure or maternity, I think. I pity these aliens.
+
+  Well, this is the first time ever in my life I and S'ytn Vos laughed during the research. Like are you serious? Alien women with ^red;HUMAN DICKS???^reset; 
+
+  Back to their potential.",
+
+  "Sylethiis, with Domino and Shadowspoken, entertain me. They are as focused on military as us, making them quite formidable, if not most impressive. Both males and females were involved in one of two factions."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "rare",
+    "price" : 375
+  }
+}

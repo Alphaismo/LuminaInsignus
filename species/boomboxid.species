@@ -1,0 +1,195 @@
+{
+  "kind" : "boomboxid",
+	"charCreationTooltip" : {
+	"title" : "boomboxid",
+	"subTitle" : "O2",
+	"description" : "Alongside Ceebes, they were created in Lightbrick City as [previously extinct] Beethovarts as part of \"Project Boomboxid\". Nearly until Andreas Decade, they evolved to adapt into dubsteps, phonks and various modern genres. They commonly feed on sounds... and radiation."
+  },
+
+  "nameGen" : [ "/species/boomboxidnamegen.config:names", "/species/boomboxidnamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/boomboxidhurt_male1.ogg", "/sfx/humanoid/boomboxidhurt_female1.ogg" ],
+  "charGenTextLabels" : [ "Skin colour", "Horn styles", "Shirt", "Legwear", "Bioluminescent bits", "Headphone Bits", "Shirt colour", "Legwear colour", "BOOMBOXID", "Personality" ],
+  "skull" : "/humanoid/boomboxid/dead.png",
+  "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=C3FF7FFF?replace=31a6ffFF=84FF00FF",
+  "defaultBlueprints" : {
+    "tier1" : [
+	
+  // Empty Hands
+      { "item" : "flagboomboxid" },
+	    
+// Anvil
+      { "item" : "humantier1head" },
+      { "item" : "humantier1chest" },
+      { "item" : "humantier1pants" },
+      { "item" : "humantier2head" },
+      { "item" : "humantier2chest" },
+      { "item" : "humantier2pants" },
+      { "item" : "boomboxidsword" },
+      { "item" : "ironshortsword" },
+      { "item" : "ironbroadsword" },
+      { "item" : "tungstenaxe" },
+      { "item" : "tungstenhammer" },
+// Anvil2
+      { "item" : "humantier3head" },
+      { "item" : "humantier3chest" },
+      { "item" : "humantier3pants" },
+      { "item" : "humantier4head" },
+      { "item" : "humantier4chest" },
+      { "item" : "humantier4pants" },
+      { "item" : "titaniumdagger" },
+      { "item" : "titaniumspear" },
+      { "item" : "durasteelbroadsword" },
+      { "item" : "durasteelshortsword" },
+// Anvil3
+      { "item" : "humantier5ahead" },
+      { "item" : "humantier5achest" },
+      { "item" : "humantier5apants" },
+      { "item" : "humantier6ahead" },
+      { "item" : "humantier6achest" },
+      { "item" : "humantier6apants" },
+      { "item" : "humantier5mhead" },
+      { "item" : "humantier5mchest" },
+      { "item" : "humantier5mpants" },
+      { "item" : "humantier6mhead" },
+      { "item" : "humantier6mchest" },
+      { "item" : "humantier6mpants" },
+      { "item" : "humantier5shead" },
+      { "item" : "humantier5schest" },
+      { "item" : "humantier5spants" },
+      { "item" : "humantier6shead" },
+      { "item" : "humantier6schest" },
+      { "item" : "humantier6spants" },
+      { "item" : "aegisaltpistol" },
+      { "item" : "aegisaltbow" },
+      { "item" : "feroziumwand" },
+      { "item" : "feroziumstaff" },
+      { "item" : "violiumshortsword" },
+      { "item" : "violiumbroadsword" },
+// Furniture Table 2
+      { "item" : "humanstoragelocker" },
+      { "item" : "boomboxidshipdoor" },
+      { "item" : "boomboxidshiphatch" },
+// Spinning Wheel
+      { "item" : "boomboxidoutfit1chest" },
+      { "item" : "boomboxidoutfit1legs" },
+      { "item" : "boomboxidoutfit2chest" },
+      { "item" : "boomboxidoutfit2legs" },
+      { "item" : "boomboxidoutfit3chest" },
+      { "item" : "boomboxidoutfit3legs" },
+      { "item" : "boomboxidoutfit4chest" },
+      { "item" : "boomboxidoutfit4legs" }
+	  ]
+  },
+  
+  "altOptionAsUndyColor" : true,
+  "headOptionAsHairColor" : true,
+  "altOptionAsHairColor" : true,
+  "genders" : [
+    {
+       "name" : "male",
+      "image" : "/interface/title/boomboxidmaleico.png",
+      "characterImage" : "/interface/title/boomboxidmale.png",
+      "hair" : [ "1", "2", "3", "4", "5", "6", "7" ],
+      "shirt" : [ "boomboxidoutfit1chest", "boomboxidoutfit2chest", "boomboxidoutfit3chest", "boomboxidoutfit4chest" ],
+      "pants" : [ "boomboxidoutfit1legs", "boomboxidoutfit2legs", "boomboxidoutfit3legs", "boomboxidoutfit4legs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/boomboxidfemico.png",
+      "characterImage" : "/interface/title/boomboxidfemale.png",
+      "hair" : [ "1", "2", "3", "4", "5", "6", "7" ],
+      "shirt" : [ "boomboxidoutfit1chest", "boomboxidoutfit2chest", "boomboxidoutfit3chest", "boomboxidoutfit4chest" ],
+      "pants" : [ "boomboxidoutfit1legs", "boomboxidoutfit2legs", "boomboxidoutfit3legs", "boomboxidoutfit4legs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ],
+  "bodyColor" : [
+    { "ffe2c5" : "969FB5", "ffc181" : "656B7A", "d39c6c" : "454A54", "c7815b" : "32353D" },
+    { "ffe2c5" : "545063", "ffc181" : "383542", "d39c6c" : "2B2933", "c7815b" : "1C1A21" },
+    { "ffe2c5" : "8C8ACE", "ffc181" : "686699", "d39c6c" : "4C4B70", "c7815b" : "2E2E44" },
+    { "ffe2c5" : "836491", "ffc181" : "614A6B", "d39c6c" : "4E3A55", "c7815b" : "302435" },
+    { "ffe2c5" : "88B1CE", "ffc181" : "6A89A0", "d39c6c" : "415563", "c7815b" : "2A363F" },
+    { "ffe2c5" : "61A1CC", "ffc181" : "457391", "d39c6c" : "2E4C61", "c7815b" : "192A35" },
+    { "ffe2c5" : "837881", "ffc181" : "61585F", "d39c6c" : "373236", "c7815b" : "221F21" },
+    { "ffe2c5" : "564DA5", "ffc181" : "2F2A5B", "d39c6c" : "242044", "c7815b" : "18152D" }
+  ],
+  "undyColor" : [
+    { "dc1f00" : "FFFFFFFE", "be1b00" : "FFA17FFE", "951500" : "FF4600FE" },
+    { "dc1f00" : "FFFFFFFE", "be1b00" : "F2FF93FE", "951500" : "E1FF00FE" },
+    { "dc1f00" : "FFFFFFFE", "be1b00" : "B5C6FFFE", "951500" : "4974FFFE" },
+    { "dc1f00" : "FFFFFFFE", "be1b00" : "FF9BDDFE", "951500" : "FF00AAFE" },
+    { "dc1f00" : "FFFFFFFE", "be1b00" : "FFFFA0FE", "951500" : "FFFF00FE" },
+    { "dc1f00" : "FFFFFFFE", "be1b00" : "A0FFFFFE", "951500" : "00FFFFFE" }
+  ],
+  "hairColor" : [
+    //LIGHT RED
+    { "d9c189" : "E86D46", "a38d59" : "D1422E", "735e3a" : "96201B" },
+    //RED
+    { "d9c189" : "CD1C38", "a38d59" : "982441", "735e3a" : "69243F" },
+    //DARK RED
+    { "d9c189" : "ad2716", "a38d59" : "8f1f1b", "735e3a" : "731a1a" },
+    //RUSTY RED
+    { "d9c189" : "BE471B", "a38d59" : "9B2F0C", "735e3a" : "702710" },
+    //BROWN
+    { "d9c189" : "7d3c1c", "a38d59" : "4d240b", "735e3a" : "2d1606" },
+    //LIGHT BROWN
+    { "d9c189" : "7f5a39", "a38d59" : "5b3523", "735e3a" : "3b1f15" },
+    //DIRTY ORANGE
+    { "d9c189" : "a6671d", "a38d59" : "915622", "735e3a" : "743e1d" },
+    //ORANGE
+    { "d9c189" : "efa838", "a38d59" : "be6d1d", "735e3a" : "834012" },
+    //DIRTY BLONDE
+    { "d9c189" : "eaa758", "a38d59" : "cd8b3d", "735e3a" : "93682c" },
+    //YELLOW
+    { "d9c189" : "e6e756", "a38d59" : "c7ac3f", "735e3a" : "a9882f" },
+    //BLONDE
+    { "d9c189" : "f1d992", "a38d59" : "daba5e", "735e3a" : "b59a4d" },
+    //LIGHT YELLOW
+    { "d9c189" : "f2eba3", "a38d59" : "dcd28c", "735e3a" : "c2b677" },
+    //LIGHT GREEN
+    { "d9c189" : "A7D13D", "a38d59" : "83AD22", "735e3a" : "6B880B" },
+    //GREEN
+    { "d9c189" : "4ece61", "a38d59" : "34ae47", "735e3a" : "228a38" },
+    //DARK GREEN
+    { "d9c189" : "3b7f44", "a38d59" : "2e6a38", "735e3a" : "1d4b28" },
+    //TORQUOISE
+    { "d9c189" : "5BD5B6", "a38d59" : "4AA9AD", "735e3a" : "237082" },
+    //LIGHT TURQUOISE
+    { "d9c189" : "49E193", "a38d59" : "3BA380", "735e3a" : "197C81" },
+    //LIGHT BLUE
+    { "d9c189" : "61BCDE", "a38d59" : "5381CC", "735e3a" : "2C489E" },
+    //BLUE
+    { "d9c189" : "5d8bc7", "a38d59" : "4d55b0", "735e3a" : "2e2a73" },
+    //DARK BLUE
+    { "d9c189" : "425879", "a38d59" : "343965", "735e3a" : "242247" },
+    //DARK PURPLE
+    { "d9c189" : "7f3b6d", "a38d59" : "6a2e53", "735e3a" : "4b1d30" },
+    //PURPLE
+    { "d9c189" : "653b7f", "a38d59" : "562e6a", "735e3a" : "3f1d4b" },
+    //HOT PINK
+    { "d9c189" : "cd72d9", "a38d59" : "ac4da6", "735e3a" : "913b86" },
+    //PINK
+    { "d9c189" : "D26BA4", "a38d59" : "A54669", "735e3a" : "89334D" },
+    //LIGHT PURPLE
+    { "d9c189" : "ad68e2", "a38d59" : "8d41b0", "735e3a" : "6a2980" },
+    //BROWN GREY
+    { "d9c189" : "50422f", "a38d59" : "36261e", "735e3a" : "170f0d" },
+    // DARK GREY
+    { "d9c189" : "525252", "a38d59" : "363636", "735e3a" : "161616" },
+    // GREY
+    { "d9c189" : "74726f", "a38d59" : "53504d", "735e3a" : "2a251e" },
+    // GREY BLUE
+    { "d9c189" : "6f6d85", "a38d59" : "525269", "735e3a" : "3e4352" },
+    // LIGHT GREY
+    { "d9c189" : "b8b8b8", "a38d59" : "828282", "735e3a" : "555555" },
+    // WHITE
+    { "d9c189" : "eaeaea", "a38d59" : "b8b8b8", "735e3a" : "828282" }
+  ]
+}

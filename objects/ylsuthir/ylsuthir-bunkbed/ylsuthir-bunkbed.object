@@ -1,0 +1,65 @@
+{
+  "objectName" : "ylsuthir-bunkbed",
+  "colonyTags" : ["ylsuthir","pretty"],
+  "rarity" : "Rare",
+  "description" : "These cosy beds can stack on top of each other.",
+  "shortdescription" : "Yls'Uthiran Bunk Bed",
+  "race" : "nharduunr",
+  "category" : "furniture",
+  "price" : 125,
+  "printable" : false,
+
+  "floranDescription" : "Sssoft bed, comfortable pillow, bed bugsss die here sso they won't bite.",
+  "glitchDescription" : "Unamused. What's the point with this bunk bed? Do they even sleep?",
+  "novakidDescription" : "What else this bunk bed erects, partner?",
+  "boomboxidDescription" : "Ayy I can charge my phone here! Damn... even my media player! Soundproof wireless charger bunk bed is so cool to invent before the three!",
+  "ceebeDescription" : "Well, at least it's not silly since it works.",
+  "andarhanDescription" : "I feel revitalized after the rest on this bed. I can count my blessings it will never ever break thanks to maso.",
+  "dhirnakhorDescription" : "For an unimpressive bed, it has the most impressively always perfect quality. Well... only enough for humble aristocrats at least.",
+  "nharduunrDescription" : "Well, of course. Even we get tired or need to clean our minds with.",
+  "ginrhinDescription" : "Detected wireless charging component inside. It charges the unit's battery to full capacity for 1-3 hours.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/ylsuthir/ylsuthir-bunkbed/ylsuthir-bunkbedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "ylsuthir-bunkbedicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "ylsuthir-bunkbed.png:<color>", "fullbright" : true }, { "image" : "ylsuthir-bunkbedlit.png:<color>" } ],
+      "flipImages" : true,
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      
+      "sitPosition" : [-4, 14.3],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "ylsuthir-bunkbed.png:<color>", "fullbright" : true }, { "image" : "ylsuthir-bunkbedlit.png:<color>"} ],
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      
+      "sitPosition" : [-12, 14.3],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "collision" : "platform"
+    }
+    
+  ]
+}

@@ -1,0 +1,53 @@
+[
+    { "op" : "add", "path" : "/defaultCodexes/sylethii", "value" : [ "protectorate1", "protectorate2" ] },
+    { "op" : "add", "path" : "/defaultCodexes/orthirid", "value" : [ "protectorate1", "protectorate2" ] },
+    { "op" : "add", "path" : "/defaultCodexes/boomboxid", "value" : [ "protectorate1", "protectorate2" ] },
+    { "op" : "add", "path" : "/defaultCodexes/ceebe", "value" : [ "protectorate1", "protectorate2" ] },
+    { "op" : "add", "path" : "/defaultCodexes/qkhadran", "value" : [ "protectorate1", "protectorate2" ] },
+    { "op" : "add", "path" : "/defaultCodexes/valkeidin", "value" : [ "protectorate1", "protectorate2" ] },
+    { "op" : "add", "path" : "/defaultCodexes/andarhan", "value" : [ "protectorate1", "protectorate2" ] },
+    { "op" : "add", "path" : "/defaultCodexes/nharduunr", "value" : [ "protectorate1", "protectorate2" ] },
+
+    // NO CLOTHES
+
+    { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lumins-noclotheshead" } },
+    { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lumins-noclotheschest" } },
+    { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lumins-noclotheslegs" } },
+    { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lumins-noclothesback" } },
+
+    // GENERIC
+
+    { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lumins-inventorplaceholder" } },
+	  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lumins-platinumbar" } },
+
+    // MECH STARTER BODIES
+
+    { "op" : "add",
+      "path" : "/deploymentConfig/speciesStarterMechBody/sylethii",
+      "value" : "mechbodysylethiiproto"
+    },
+    { "op" : "add",
+      "path" : "/deploymentConfig/speciesStarterMechBody/orthirid",
+      "value" : "mechbodyorthiridproto"
+    },
+    { "op" : "add",
+      "path" : "/deploymentConfig/speciesStarterMechBody/boomboxid",
+      "value" : "mechbodyboomboxidproto"
+    },
+    { "op" : "add",
+      "path" : "/deploymentConfig/speciesStarterMechBody/ceebe",
+      "value" : "mechbodyceebeproto"
+    },
+    { "op" : "add",
+      "path" : "/deploymentConfig/speciesStarterMechBody/valkeidin",
+      "value" : "mechbodyvalkeidinproto"
+    },
+    { "op" : "add",
+      "path" : "/deploymentConfig/speciesStarterMechBody/andarhan",
+      "value" : "mechbodyandarhanproto"
+    },
+    { "op" : "add",
+      "path" : "/deploymentConfig/speciesStarterMechBody/nharduunr",
+      "value" : "mechbodynharduunrproto"
+    }
+]

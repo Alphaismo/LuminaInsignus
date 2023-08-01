@@ -1,0 +1,44 @@
+{
+  "objectName" : "flagceebe",
+  "colonyTags" : ["ceebe"],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "objectType" : "teleporter",
+  "category" : "teleportMarker",
+  "price" : 70,
+  "radioMessagesOnPickup" : [ "pickupflag" ],
+  
+  "description" : "The flag of the Prote- Wait a second... It's a TITANIUM BOX!",
+  "shortdescription" : "Ceebe Box",
+  "race" : "ceebe",
+  "floranDescription" : "Floran wantsss to live in a box.",
+  "glitchDescription" : "Observant. It's supposedly one of Ceebe boxes... I wonder who came out of it.",
+  "novakidDescription" : "Odd looker has johnson? Y'all genius, partner!",
+  "azelfDescription" : "Where is Ceebe there? Meh... free metal box then! lmao",
+  "ceebeDescription" : "I modified it into navigation mark, so I can ^green;[E]^white; to get there pretty quick.",
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
+  "inventoryIcon" : "flagceebeicon.png",
+  "orientations" : [
+    {
+      "image" : "flagceebe.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [-17, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "flagceebe.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [1, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+  //"soundEffect" : "/sfx/objects/flag_flap_loop.ogg"
+}

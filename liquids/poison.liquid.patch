@@ -1,0 +1,9 @@
+[
+  { "op" : "add",
+	"path" : "/interactions/-",
+	"value" : {
+      "liquid" : 40,
+      "liquidResult" : 40
+    }
+  }
+]

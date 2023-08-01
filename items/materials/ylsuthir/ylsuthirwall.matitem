@@ -1,0 +1,14 @@
+{
+  "itemName" : "ylsuthirwall",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "ylsuthirwall.png",
+  "description" : "A sleek metal wall panel.",
+  "shortdescription" : "Yls'Uthiran Wall Panel",
+  "glitchdescription" : "Impressed. These removable panels are smooth and strong.",
+  "florandescription" : "Metal panel makess ssmooth wall.",
+  "novakiddescription" : "A panel made outta metal.",
+
+  "materialId" : 31391
+}

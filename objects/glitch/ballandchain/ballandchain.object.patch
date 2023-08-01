@@ -1,0 +1,32 @@
+[
+    {
+        "op" : "add",
+        "path" : "/boomboxidDescription",
+        "value" : "Why not strap these to necks. I mean... why the fuck do I need balls to slow anyone the fuck down by the legs?"
+    },
+    {
+        "op" : "add",
+        "path" : "/ceebeDescription",
+        "value" : "We don't strap these to legs, nor as form of punishment. ~We have better the use of that personally."
+    },
+    {
+        "op" : "add",
+        "path" : "/sylethiiDescription",
+        "value" : "During my captivity in Dhir'Nakhor dungeons, I have that on my leg."
+    },
+    {
+        "op" : "add",
+        "path" : "/andarhanDescription",
+        "value" : "Unimpressive attempt at immobilization by meatbags. And god help you if they weaponize it against you."
+    },
+    {
+        "op" : "add",
+        "path" : "/dhirnakhorDescription",
+        "value" : "It's commonly attached to some prisoners. We don't do it painfully"
+    },
+    {
+        "op" : "add",
+        "path" : "/nharduunrDescription",
+        "value" : "In ancient times, we strap these to lawbreakers' arms instead."
+    }
+]

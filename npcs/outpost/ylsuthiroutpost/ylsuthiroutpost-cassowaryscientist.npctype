@@ -1,0 +1,91 @@
+{
+    "type" : "ylsuthiroutpost-cassowaryscientist",
+    "baseType" : "outpostcivilian",
+  
+    "scriptConfig" : {
+      "reactions" : {
+        "spontaneous" : [
+        ]
+      },
+  
+      "personalities" : [
+          [1.0, { "personality" : "normal", "reactions" : {} }]
+      ],
+  
+      "dialogMode": "tutorial",
+      "dialog" : {
+        "converse" : {
+          "default" : {
+            "default" : [
+                "You shouldn't be seeing this."
+            ]
+          },
+          "human" : {
+            "default" : [
+                "We are killing two birds with one stone; we help Apex permanently destroy Miniknog, and we may use that against USCM remnants as well.",
+                "If not for Lehi and Hopebolt that helped us with the progresses, we wouldn't be able to launch the virus on true Miniknog Stronghold in time.",
+                "Impressed with our \"Operation Apeslayer\", Captain <entityname>?",
+                "We may thank Velrui-Thareu for uplifting us Cassowary scientists and IT-specialists with sufficient knowledge we haven't been taught in colleges.",
+                "."
+            ],
+            "human" : [
+                "We also plan to avert Apex's physical devolution while ensuring that intellectual evolution remains enhanced. Dreams of seeing great-great-great-grandsons of Einstein will soon come true.",
+                "We are in the progress of helping Apex achieve freedom by the only option; Miniknog's slow and painful extermination.",
+                "Oh, Captain <entityname>. William really worried you've met the maker like the rest of Terrene Protectorate Institute. We're glad you've managed to escape.",
+                "We've found Big Ape's vulnerabilities. If not for your efforts to distract that son of a bitch, that would've never happened.",
+                "."
+            ],
+            "apex" : [
+                "We also plan to avert Apex's physical devolution while ensuring that intellectual evolution remains enhanced. Dreams of seeing great-great-great-grandsons of Einstein will soon come true.",
+                "We are in the progress of helping Apex achieve freedom by the only option; Miniknog's slow and painful extermination.",
+                "Mr. Ruslan knew you were the only one of the rebel group who managed to escape alive.",
+                "Buckle up, rebel. The \"Operation Apeslayer\" ain't gonna work itself.",
+                "If you've seen Miniknog drones and robots going ape shit, that's the \"Apeslayer\" virus' potential."
+            ]
+          },
+          "apex" : {
+            "default" : [
+                "We are developing an aggressive counterattack on the Miniknog, both physically and digitally. It will be super violent, but surprisingly effective.",
+                "Too long Big Ape held us slaves. Now he will die, and his clones will. Or in other words; We will take him to suffer with us!",
+                "If you've seen Miniknog drones and machines going haywire, that's the \"Apeslayer\" virus' potential.",
+                "In the future, the ancient \"Operation Apeslayer\" will be the Miniknog's final nail in the coffin. Only then we will finally rest... Seeing the insanity, caused by our people being tortured and killed come to it's end.",
+                "If only our fallen friends and families could finally see the inevitable fall of tyranny that plagued us centuries ago...",
+                "There may be other ways of resistance than violence. With Velrui-Thareu, Athena, and Cassowary scientists and IT-specialists standing together with us, we finally have the power to stop the Miniknog once and for all!",
+                "We collaborated with Athena to create a superpowerful \"Apeslayer\" virus against Big Ape as well. It will take hundreds of years, but one day or another, our society will be free from the Miniknog."
+            ],
+            "apex" : [
+                "We are running out of time. The Miniknog may one day find Vervas Tharaau and kill everyone, including Velrui-Thareu.",
+                "He knew you would come here, rebel. Have any information reporting about outside worlds.",
+                "We are using Miniknog's knowledge we stole from them, and weaponize it.",
+                "If you've seen Miniknog drones and machines going haywire, that's the \"Apeslayer\" virus' potential.",
+                "If only our fallen friends and families could finally see the inevitable fall of tyranny that plagued us centuries ago...",
+                "In the future, the ancient \"Operation Apeslayer\" will be the remembered for it's legendary service. No more will our people suffer.",
+                "Even without Lana Blake to protect us, we will not fail. We cannot guarantee \"Operation Apeslayer\" to never succeed!",
+                "There may be other ways of resistance than violence. With Velrui-Thareu, Athena, and Cassowary scientists and IT-specialists standing together with us, we finally have the power to stop the Miniknog once and for all!",
+                "We collaborated with Athena to create a superpowerful \"Apeslayer\" virus against Big Ape as well, rebel. We won't live long enough to see it in action, but one day, our sacrifice will bring our people to freedom."
+            ],
+            "human" : [
+                "We will make sure the Miniknog won't come back ever. People, free from it's chains, and our children's children, may remember us as martyrs who led people to freedom while sacrificing their lives.",
+                "We are using Miniknog's knowledge we stole from them, and weaponize it.",
+                "In the future, the ancient \"Operation Apeslayer\" will be remembered for it's legendary service. No more will our people suffer.",
+                "We are developing an aggressive counterattack on the Miniknog, both physically and digitally. It will be super violent, but surprisingly effective.",
+                "There may be other ways of resistance than violence. With Velrui-Thareu, Athena, and Cassowary scientists and IT-specialists standing together with us, we finally have the power to stop the Miniknog once and for all!",
+                "If you've seen Miniknog drones and machines going haywire, that's the \"Apeslayer\" virus' potential."
+            ]
+          }
+        }
+      }
+    },
+  
+    "items" : {
+      "override" : [
+        [0, [
+            {
+              "chest" : [ { "name" : "scientistchest", "parameters" : { "colorIndex" : 4 } } ],
+              "legs" : [ { "name" : "scientistlegs", "parameters" : { "colorIndex" : 1 } } ]
+            }
+          ] ]
+      ]
+    }
+  }
+  

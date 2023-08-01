@@ -1,0 +1,104 @@
+{
+  "itemName" : "ceebe-veritas",
+  "price" : 2160,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "All when Truth itself had enough of being shunned to oblivion.",
+  "shortdescription" : "^red;UNKWN-???^reset; \"Veritas\"",
+  "tooltipKind" : "gun",
+  "category" : "Minigun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","lightbrickcity"],
+  "level" : 6,
+
+  "inventoryIcon" : [
+    { "image" : "ceebe-veritasicon.png" }
+  ],
+
+    "animation": "ceebe-veritas.animation",
+    "animationParts": {
+      "middle": "ceebe-veritas.png",
+      "middleFullbright": "ceebe-veritasfullbright.png",
+       "muzzleFlash": "/items/active/weapons/ranged/lightbrickcity/ceebe-muzzleflash.png"
+    },
+    "animationCustom" : {
+        "sounds" : {
+          "fire" : ["/sfx/gun/lumins-plasma2.ogg"]
+        },
+        "lights" : {
+          "muzzleFlash" : {
+            "color" : [127, 72, 110]
+          }
+        }
+      },
+    
+    "baseOffset": [ 1.0, -0.9 ],
+    "muzzleOffset": [ 3.3, 0.2 ],
+
+    "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+    "elementalType": "physical",
+
+    "primaryAbility": {
+      "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+      "class" : "GunFire",
+
+      "fireTime": 0.03,
+      "baseDps": 25,
+      "energyUsage": 65,
+      "inaccuracy": 0.03,
+      "projectileCount": 1,
+      "fireType": "auto",
+
+      "projectileType": "ceebebullet",
+      "projectileParameters": {
+        "speed": 500,
+        "knockbackRange" : 10
+      },
+      "stances": {
+        "idle": {
+          "armRotation": 0,
+          "weaponRotation": 0,
+          "weaponOffset" : [0, 0],
+          "twoHanded": true,
+          "allowRotate": true,
+          "allowFlip": true,
+          
+          "frontArmFrame" : "swim.2",
+          "backArmFrame" : "rotation"
+        },
+        "fire": {
+          "duration": 0,
+          "armRotation": 0.75,
+          "weaponRotation": 0.75,
+          "weaponOffset" : [-0.1, 0],
+          "twoHanded": true,
+          "recoil" : true,
+          "allowRotate": true,
+          "allowFlip": true,
+  
+          "animationStates" : {
+            "firing" : "fire",
+            "holyshit" : "lmfao"
+          },
+          
+          "frontArmFrame" : "swim.2",
+          "backArmFrame" : "rotation"
+        },
+        "cooldown": {
+          "duration": 0.02,
+          "armRotation": 0.75,
+          "weaponRotation": 0.75,
+          "weaponOffset" : [-0.1, 0],
+          "twoHanded": true,
+          "allowRotate": true,
+          "allowFlip": true,
+          
+          "frontArmFrame" : "swim.2",
+          "backArmFrame" : "rotation"
+        }
+      }
+    },
+  
+    "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

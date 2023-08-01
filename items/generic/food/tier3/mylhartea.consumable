@@ -1,0 +1,27 @@
+{
+  "itemName" : "mylhartea",
+  "rarity" : "Uncommon",
+  "price" : 440,
+  "category" : "drink",
+  "inventoryIcon" : "mylhartea.png",
+  "description" : "Refreshing, zesty red tea made of Mylhar leaves, served on a large teabowl.",
+  "shortdescription" : "Mylhar Tea",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 158
+    },
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 158
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

@@ -1,0 +1,30 @@
+{
+    "objectName" : "neocultist-platform2",
+    "colonyTags" : ["neocultist"],
+    "rarity" : "Rare",
+    "category" : "furniture",
+    "price" : 550,
+    "health" : 12,
+    "description" : "A raised platform. And it's super durable too.",
+    "shortdescription" : "Neo Cultist Platform",
+    "race" : "human",
+  
+    "floranDescription" : "Funny masssked men make metal platformsss.",
+    "glitchDescription" : "Interested. What purpose does a platform like this serve?",
+    "novakidDescription" : "This mighty rockin' platform can take lotta weight.",
+  
+    "inventoryIcon" : "neocultist-platform2icon.png",
+    "orientations" : [
+      {
+        "dualImage" : "neocultist-platform2.png:<color>",
+        "imagePosition" : [-40, 0],
+        "frames" : 1,
+        "animationCycle" : 0.5,
+  
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ],
+        "collision" : "platform"
+      }
+    ]
+  }
+  

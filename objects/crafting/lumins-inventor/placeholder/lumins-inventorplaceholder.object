@@ -1,0 +1,53 @@
+{
+  "objectName" : "lumins-inventorplaceholder",
+  "colonyTags" : ["crafting"],
+  "category" : "crafting",
+  "rarity" : "Uncommon",
+  "description" : "???",
+  "shortdescription" : "^orange;Master's Circle?^reset;",
+  "race" : "generic",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/lumins-inventorcrafter.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Master's Circle",
+        "subtitle" : " ^#b9b5b2;???",
+        "icon" : {
+          "file" : "/interface/crafting/craftinglumins-inventor.png"
+        }
+      }
+    },
+    "filter" : [ "lumins-inventorcrafter", "lumins-inventorcrafter2", "lumins-inventorcrafter3" ]
+  },
+  "printable" : false,
+  "price" : 65,
+  "apexDescription" : "?",
+  "avianDescription" : "?",
+  "floranDescription" : "?",
+  "glitchDescription" : "Inspired. Crafting module activated.",
+  "humanDescription" : "?",
+  "hylotlDescription" : "A chance to create.",
+  "novakidDescription" : "?",
+  "inventoryIcon" : "lumins-inventorplaceholdericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "lumins-inventorplaceholder.png:<color>", "fullbright" : true }, { "image" : "lumins-inventorplaceholderlit.png:<color>" } ],
+      "imagePosition" : [-8, 0],
+  
+      "spaceScan" : 0.1,
+      "flipImages" : true,
+      "direction" : "left",
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "lumins-inventorplaceholder.png:<color>", "fullbright" : true }, { "image" : "lumins-inventorplaceholderlit.png:<color>" } ],
+      "imagePosition" : [-8, 0],
+  
+      "spaceScan" : 0.1,
+      "direction" : "right",
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "npcToy" : {}
+}

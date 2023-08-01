@@ -1,0 +1,23 @@
+{
+  "projectileName" : "ylsuthirlargebullet",
+  "image" : "ylsuthirlargebullet.png",
+  "physics" : "laser",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKind" : "plasma",
+  "pointLight" : false,
+  "flippable" : true,
+  "piercing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "power" : 8.0,
+  "speed" : 75,
+  "knockback" : 0,
+  "lightColor" : [0, 127, 127],
+  "fullbright" : true
+}

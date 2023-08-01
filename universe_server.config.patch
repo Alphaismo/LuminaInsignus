@@ -1,0 +1,105 @@
+[
+	// BOOMBOXID
+	
+	{ "op" : "add",
+		"path" : "/speciesShips/boomboxid",
+		"value" : [
+		    "/ships/boomboxid/boomboxidt0.structure",
+			"/ships/boomboxid/boomboxidt1.structure",
+			"/ships/boomboxid/boomboxidt2.structure",
+			"/ships/boomboxid/boomboxidt3.structure",
+			"/ships/boomboxid/boomboxidt4.structure",
+			"/ships/boomboxid/boomboxidt5.structure",
+			"/ships/boomboxid/boomboxidt6.structure",
+			"/ships/boomboxid/boomboxidt7.structure",
+			"/ships/boomboxid/boomboxidt8.structure"
+		]
+	},
+
+	// CEEBE
+
+	{ "op" : "add",
+		"path" : "/speciesShips/ceebe",
+		"value" : [
+		    "/ships/ceebe/ceebet0.structure",
+			"/ships/ceebe/ceebet1.structure",
+			"/ships/ceebe/ceebet2.structure",
+			"/ships/ceebe/ceebet3.structure",
+			"/ships/ceebe/ceebet4.structure",
+			"/ships/ceebe/ceebet5.structure",
+			"/ships/ceebe/ceebet6.structure",
+			"/ships/ceebe/ceebet7.structure",
+			"/ships/ceebe/ceebet8.structure"
+		]
+	},
+
+	// SYLETHII
+	
+    { "op" : "add",
+		"path" : "/speciesShips/sylethii",
+		"value" : [
+		    "/ships/sylethii/sylethiit0.structure",
+			"/ships/sylethii/sylethiit1.structure",
+			"/ships/sylethii/sylethiit2.structure",
+			"/ships/sylethii/sylethiit3.structure",
+			"/ships/sylethii/sylethiit4.structure",
+			"/ships/sylethii/sylethiit5.structure",
+			"/ships/sylethii/sylethiit6.structure",
+			"/ships/sylethii/sylethiit7.structure",
+			"/ships/sylethii/sylethiit8.structure"
+		]
+	},
+
+	// ORTHIRID
+
+	// VALKEIDIN
+
+	{ "op" : "add",
+		"path" : "/speciesShips/valkeidin",
+		"value" : [
+		    "/ships/valkeidin/valkeidint0.structure",
+			"/ships/valkeidin/valkeidint1.structure",
+			"/ships/valkeidin/valkeidint2.structure",
+			"/ships/valkeidin/valkeidint3.structure",
+			"/ships/valkeidin/valkeidint4.structure",
+			"/ships/valkeidin/valkeidint5.structure",
+			"/ships/valkeidin/valkeidint6.structure",
+			"/ships/valkeidin/valkeidint7.structure",
+			"/ships/valkeidin/valkeidint8.structure"
+		]
+	},
+
+	// ANDARHAN
+
+    { "op" : "add",
+		"path" : "/speciesShips/andarhan",
+		"value" : [
+		    "/ships/andarhan/andarhant0.structure",
+			"/ships/andarhan/andarhant1.structure",
+			"/ships/andarhan/andarhant2.structure",
+			"/ships/andarhan/andarhant3.structure",
+			"/ships/andarhan/andarhant4.structure",
+			"/ships/andarhan/andarhant5.structure",
+			"/ships/andarhan/andarhant6.structure",
+			"/ships/andarhan/andarhant7.structure",
+			"/ships/andarhan/andarhant8.structure"
+		]
+	},
+
+	// NHAR'DUUNR
+
+    { "op" : "add",
+		"path" : "/speciesShips/nharduunr",
+		"value" : [
+		    "/ships/nharduunr/nharduunrt0.structure",
+			"/ships/nharduunr/nharduunrt1.structure",
+			"/ships/nharduunr/nharduunrt2.structure",
+			"/ships/nharduunr/nharduunrt3.structure",
+			"/ships/nharduunr/nharduunrt4.structure",
+			"/ships/nharduunr/nharduunrt5.structure",
+			"/ships/nharduunr/nharduunrt6.structure",
+			"/ships/nharduunr/nharduunrt7.structure",
+			"/ships/nharduunr/nharduunrt8.structure"
+		]
+	}
+]

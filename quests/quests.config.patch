@@ -1,0 +1,123 @@
+[
+	{
+		"op": "add",
+		"path": "/initialquests/boomboxid",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/initialquests/ceebe",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/initialquests/sylethii",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/initialquests/orthirid",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/initialquests/qkhadran",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/initialquests/valkeidin",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/initialquests/andarhan",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/initialquests/nharduunr",
+		"value": [
+			"protectorate"
+		]
+	},
+
+	{
+		"op": "add",
+		"path": "/pronounGenders/boomboxid",
+		"value": {
+			"male": "male",
+			"female": "female"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/ceebe",
+		"value": {
+			"male": "male",
+			"female": "female"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/sylethii",
+		"value": {
+			"male": "male",
+			"female": "female"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/orthirid",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/qkhadran",
+		"value": {
+			"male": "male",
+			"female": "female"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/valkeidin",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/andarhan",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/nharduunr",
+		"value": {
+			"male": "male",
+			"female": "male"
+		}
+	}
+]

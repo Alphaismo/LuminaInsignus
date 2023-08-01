@@ -1,0 +1,18 @@
+{
+  "itemName" : "lightbrickcity-yomintchocolate",
+  "rarity" : "Legendary",
+  "price" : 120,
+  "category" : "food",
+  "inventoryIcon" : "lightbrickcity-yomintchocolate.png",
+  "description" : "What's better than these two? Both of them combined into mouth-puckering sensation!",
+  "shortdescription" : "Yomint Chocolate",
+  "foodValue" : 40,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

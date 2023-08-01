@@ -1,0 +1,37 @@
+[
+    {
+        "op" : "add",
+        "path" : "/boomboxidDescription",
+        "value" : "Oh okay that wasn't as I'd expected. Well... WHAT THE FUCK?!?!?!"
+    },
+    {
+        "op" : "add",
+        "path" : "/ceebeDescription",
+        "value" : "Too bad it's not cock and ball torture bed. This one's even worse."
+    },
+    {
+        "op" : "add",
+        "path" : "/sylethiiDescription",
+        "value" : "Some Shadowspoken monasteries have similar torture bed... Only more barbaric and without all these inconvenient permanently built-in tools."
+    },
+    {
+        "op" : "add",
+        "path" : "/orthiridDescription",
+        "value" : "Some Shadowspoken monasteries have similar torture bed... Only more barbaric and without all these inconvenient permanently built-in tools."
+    },
+    {
+        "op" : "add",
+        "path" : "/andarhanDescription",
+        "value" : "Us Andarhans always prefer killing our targets head-on, never with oversized primitive devices with restraints."
+    },
+    {
+        "op" : "add",
+        "path" : "/rhadurDescription",
+        "value" : "Drill? Buzzsaw? I'll sell 'em both!"
+    },
+    {
+        "op" : "add",
+        "path" : "/nharduunrDescription",
+        "value" : "I'd dismantle this bed to oblivion. it's so barbaric... and inefficient."
+    }
+]

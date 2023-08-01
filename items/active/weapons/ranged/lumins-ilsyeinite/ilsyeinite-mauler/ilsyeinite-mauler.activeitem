@@ -1,0 +1,105 @@
+{
+  "itemName" : "ilsyeinite-mauler",
+  "price" : 960,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Fires a spread that's lethal at close range.",
+  "shortdescription" : "\"Mauler\"",
+  "tooltipKind" : "gun",
+  "category" : "shotgun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","shotgun","ilsyeinite"],
+  "level" : 6,
+
+  "inventoryIcon" : [
+    { "image" : "ilsyeinite-maulericon.png" }
+  ],
+
+  "animation" : "ilsyeinite-mauler.animation",
+  "animationParts" : {
+    "middle" : "ilsyeinite-mauler.png",
+    "middleFullbright" : "ilsyeinite-maulerfullbright.png",
+    "muzzleFlash" : "/items/active/weapons/ranged/lumins-ilsyeinite/ilsyeinite-muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/lumins-plasma1.ogg"]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [29, 62, 122]
+      }
+    }
+  },
+
+  "baseOffset" : [0.6, 0.1],
+  "muzzleOffset" : [2.125, 0.27],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 1.2,
+    "baseDps" : 12.5,
+    "energyUsage" : 34.5,
+    "inaccuracy" : 0.10,
+
+    "projectileCount" : 6,
+    "fireType" : "auto",
+
+    "projectileType" : "lumins-ilsyeinitebullet",
+    "projectileParameters" : {
+      "piercing" : true,
+      "damageKind" : "shotgunbullet",
+      "knockbackRange" : [10, 40]
+    },
+    "muzzleFlashVariants" : 3,
+    
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponOffset" : [0, 0],
+        "twoHanded": true,
+        "allowRotate": true,
+        "allowFlip": true,
+        
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false,
+          
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+        "animationStates" : {
+          "firing" : "reload"
+        },
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      }
+    }
+  },
+
+  "altAbilityType" : "shrapnelbomb",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

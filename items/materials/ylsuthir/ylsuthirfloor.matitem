@@ -1,0 +1,16 @@
+{
+  "itemName" : "ylsuthirfloor",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "ylsuthirfloor.png",
+  "description" : "I see the reflection...",
+  "shortdescription" : "Yls'Uthiran Flooring",
+  "floranDescription" : "Ssshiny floor.",
+  "glitchDescription" : "Critical. They don't touch the ground! What's the point anyway?",
+  "novakidDescription" : "Mighty clean floor.",
+  "nharduunrDescription" : "We hover... So this floor is simply for decor.",
+  "ginrhinDescription" : "Floor confirmed.",
+
+  "materialId" : 31388
+}

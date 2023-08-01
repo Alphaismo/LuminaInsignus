@@ -1,0 +1,10 @@
+{
+  "itemName" : "lumins-koaulemchitin",
+  "price" : 50,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "lumins-koaulemchitin.png",
+  "description" : "A husk, torn off K'Oaulem by either force or surgery. It's as hard as a diamond.",
+  "shortdescription" : "^#FFFF00;K'Oaulem Chitin^reset;",
+  "itemTags" : [ "reagent" ]
+}

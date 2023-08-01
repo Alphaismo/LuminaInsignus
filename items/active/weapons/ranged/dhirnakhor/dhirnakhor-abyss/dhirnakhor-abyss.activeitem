@@ -1,0 +1,102 @@
+{
+  "itemName" : "dhirnakhor-abyss",
+  "price" : 1280,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "",
+  "shortdescription" : "\"Abyss\"",
+  "tooltipKind" : "gun",
+  "category" : "Light Machine Gun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","dhirnakhor"],
+  "level" : 6,
+
+  "inventoryIcon" : [
+    { "image" : "dhirnakhor-abyss.png" }
+  ],
+
+  "animation" : "/items/active/weapons/ranged/animation/lumins-fullbrightranged.animation",
+  "animationParts" : {
+    "middle" : "dhirnakhor-abyss.png",
+    "middleFullbright" : "dhirnakhor-abyssfullbright.png",
+    "muzzleFlash" : "/items/active/weapons/ranged/dhirnakhor/dhirnakhor-muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/andarhanhalcyon-plasma3.ogg"]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [94, 77, 127]
+      }
+    }
+  },
+
+  "baseOffset" : [1.4, 0.2],
+  "muzzleOffset" : [2.6, 0.24],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.12,
+    "baseDps" : 26.5,
+    "energyUsage" : 35,
+    "projectileCount" : 1,
+    "inaccuracy" : 0.01,
+    "fireType" : "auto",
+
+    "projectileType" : "dhirnakhorlargebullet",
+    "projectileParameters" : {
+      "knockbackRange" : 10
+    },
+    "muzzleFlashVariants" : 1,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "weaponOffset" : [-0.1, 0],
+        "recoil" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      },
+      "cooldown" : {
+        "duration" : 0.05,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+        "weaponOffset" : [-0.1, 0],
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

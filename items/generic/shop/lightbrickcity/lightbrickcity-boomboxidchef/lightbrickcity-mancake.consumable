@@ -1,0 +1,18 @@
+{
+  "itemName" : "lightbrickcity-mancake",
+  "rarity" : "Legendary",
+  "price" : 80,
+  "category" : "food",
+  "inventoryIcon" : "lightbrickcity-mancake.png",
+  "description" : "Just face it! Even real men deserve cake! We've got the sweet and spicy answer.",
+  "shortdescription" : "Man Cake",
+  "foodValue" : 70,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 10,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

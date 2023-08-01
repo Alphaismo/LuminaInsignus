@@ -1,0 +1,94 @@
+{
+    "type" : "andarhan-soldier",
+    "baseType" : "hostile",
+  
+    "dropPools" : [ "lumins-andarhantreasure" ],
+	
+	"identity" : {
+    "species" : "andarhan"
+  },
+  
+    "scriptConfig" : {
+      "dialog" : {
+        "attack" : {
+          "default" : {
+            "default" : [
+              "Attack!"
+            ]
+          },
+          "andarhan" : {
+            "default" : [
+              "For S'ytn Vos!",
+              "Struggle all you want!",
+              "DIE.",
+              "Perish, cretin.",
+              "Your extinction will bring us forward to paradise.",
+              "You will burn!",
+              "You will die!",
+              "The weak will perish!"
+            ],
+            "andarhan" : [
+              "There will be noone to save you.",
+              "Prepare to be extinguished!",
+              "The pity you've chosen to be against us.",
+              "S'ytn Vos took notice of your betrayal."
+            ],
+            "orthirid" : [
+              "I hope you can entertain me, Orthirid.",
+              "They deceived you.",
+              "The pity you've chosen to be against us.",
+              "It's time to leave your body prison."
+            ],
+            "halcyon" : [
+              "I hope you can entertain me, Halcyon.",
+              "They deceived you.",
+              "The pity you've chosen to be against us.",
+              "Such primitive civilization."
+            ],
+            "glitch" : [
+              "I hope you can entertain me, Glitch.",
+              "They deceived you.",
+              "The pity you've chosen to be against us.",
+              "Such primitive civilization."
+            ]
+          }
+        }
+      }
+    },
+  
+    "items" : {
+      "override" : [
+        [0, [
+            {
+              "head" : [ { "name" : "lumins-noclotheshead" } ],
+              "chest" : [ { "name" : "lumins-noclotheschest" } ],
+              "legs" : [ { "name" : "lumins-noclotheslegs" } ],
+              "primary" : [ "andarhan-geist", "andarhan-bastionslayer" ]
+            }
+          ] ]
+      ]
+    },
+    "innateStatusEffects": [
+      {
+        "stat": "maxEnergy",
+        "amount": 150
+      }
+    ],
+    "statusControllerSettings" : {
+      "stats" : {
+        "maxHealth" : {
+          "baseValue" : 80.0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 2.55
+        },
+        "protection" : {
+          "baseValue" : 1.2
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        }
+      }
+    }
+  }
+  

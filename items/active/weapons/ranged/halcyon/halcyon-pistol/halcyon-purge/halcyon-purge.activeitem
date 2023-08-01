@@ -1,0 +1,90 @@
+{
+  "itemName" : "halcyon-purge",
+  "price" : 1080,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "The classic uzi, now with laser rounds. Of course.",
+  "shortdescription" : "K-Ti2 \"Purge\"",
+  "category" : "machinePistol",
+  "tooltipKind" : "gun",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","halcyon"],
+  "level" : 6,
+
+  "inventoryIcon" : [
+    { "image" : "halcyon-purge.png" }
+  ],
+
+  "animation" : "/items/active/weapons/ranged/animation/lumins-fullbrightranged.animation",
+  "animationParts" : {
+    "middle" : "halcyon-purge.png",
+    "middleFullbright" : "halcyon-purgefullbright.png",
+    "muzzleFlash" : "/items/active/weapons/ranged/halcyon/halcyon-muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/andarhanhalcyon-plasma1.ogg"]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [0, 121, 155]
+      }
+    }
+  },
+
+  "baseOffset" : [0.4, 0.1],
+  "muzzleOffset" : [1.5, 0.40],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.050,
+    "baseDps" : 6.5,
+    "energyUsage" : 15,
+    "inaccuracy" : 0.04,
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "halcyonbullet",
+    "projectileParameters" : {
+      "speed": 500
+    },
+    "muzzleFlashVariants" : 1,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

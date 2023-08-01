@@ -1,0 +1,10 @@
+[ 
+    { "op" : "add", "path" : "/speciesOrdering/-", "value" : "sylethii" },
+    { "op" : "add", "path" : "/speciesOrdering/-", "value" : "orthirid" },
+    { "op" : "add", "path" : "/speciesOrdering/-", "value" : "qkhadran" },
+    { "op" : "add", "path" : "/speciesOrdering/-", "value" : "valkeidin" },
+    { "op" : "add", "path" : "/speciesOrdering/-", "value" : "boomboxid" },
+    { "op" : "add", "path" : "/speciesOrdering/-", "value" : "ceebe" },
+    { "op" : "add", "path" : "/speciesOrdering/-", "value" : "andarhan" },
+    { "op" : "add", "path" : "/speciesOrdering/-", "value" : "nharduunr" }
+]

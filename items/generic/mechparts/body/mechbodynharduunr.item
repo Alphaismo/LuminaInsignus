@@ -1,0 +1,15 @@
+{
+  "itemName" : "mechbodynharduunr",
+  "price" : 9600,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbody",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mechbodynharduunr.png",
+  "description" : "A sturdy mech body, originally designed by the Ylhr toh Rahthan.",
+  "shortdescription" : "Seraphim Mech Body",
+  "itemTags" : [ ],
+
+  "mechPart" : ["body", "nharduunr"]
+}

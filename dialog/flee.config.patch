@@ -1,0 +1,31 @@
+[
+	{
+		"op": "add",
+		"path": "/helpme/ceebe",
+		"value": {
+			"default": [
+				"Aaah! Help me!",
+				"!",
+				"!",
+				"!",
+				"!",
+				"!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/helpme/andarhan",
+		"value": {
+			"default": [
+				"I need backup!",
+				"I'm yet to receive a weapon!",
+				"Sentinels! Help!",
+				"I can't fight yet!",
+				"Guards! Help us!",
+				"Do I look like I can defend myself!?",
+				"!"
+			]
+		}
+	}
+]

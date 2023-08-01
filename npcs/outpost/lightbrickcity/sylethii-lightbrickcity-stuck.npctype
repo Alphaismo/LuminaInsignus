@@ -1,0 +1,71 @@
+{
+  "type" : "sylethii-lightbrickcity-stuck",
+  "baseType" : "outpostcivilian",
+  
+  "npcname" : "Usje",
+  "identity" : {
+    "gender" : "female",
+    "personality" : "fast",
+    "hairGroup" : "hair",
+    "hairType" : "6",
+    "bodyDirectives" : "?replace;ffc181=86644a;d39c6c=684431;c7815b=40271d;ffe2c5=ab8c77?replace;be1b00=00FEE4FE;dc1f00=94FCF0FE;951500=00DBC1FE",
+    "emoteDirectives" : "?replace;ffc181=86644a;d39c6c=684431;c7815b=40271d;ffe2c5=ab8c77?replace;be1b00=00FEE4FE;dc1f00=94FCF0FE;951500=00DBC1FE",
+    "hairDirectives" : "?replace;735e3a=3e4352;d9c189=6f6d85;a38d59=525269?replace;be1b00=00FEE4FE;dc1f00=94FCF0FE;951500=00DBC1FE"
+  },
+
+  "scriptConfig" : {
+    "offeredQuests" : [ ],
+    "turnInQuests" : [ ],
+
+    "reactions" : { "spontaneous" : [ ] },
+    "personalities" : [
+    [1.0, { "personality" : "fast", "reactions" : {} }]
+    ],
+    "behaviorConfig" : {
+      "alwaysRun" : true,
+      "greetingChance" : 0
+    },
+
+    "dialogMode": "tutorial",
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "ASSHOLE UL'VEHREL USED MAGIC TO LOCK ME THE FUCK UP HERE!!!",
+            "I SWEAR I WILL RAPE HIS ASS UNTIL HE DIES!!!",
+            "I'D BE GLAD IF YOU FOUND OUT THERE'S STILL MAGIC IN THIS FUCKING WALL!",
+            "FUCKING HELL SHIT! I'M RUNNING OUT OF TIME TO MEET MY SIS NEJU!",
+            "I'M GONNA SHOVE A RUSTY IRON PIPE UP USEN'S URETHRA IF HE DOES SOMETHING WITH NEJU! AND ITENLEN'S TOO... INTENTIONALLY!!!",
+            "REVENGE IS THE DISH BEST SERVED COLD, UL'VEHREL! I NEVER FORGET!",
+            "KEEP BITCHING! I HAVE 2 MOMS AND ZERO DADS, FUCK YOU!"
+          ],
+          "sylethii" : [
+            "OH. FAMILIAR-ASS MANWHORE!",
+            "IF YOU FIND MY PARCEL, SEND IT TO MY SISTER IN VERVAS THARAAU! I DON'T WANT HER TO SEE ME THIS ANGRY!",
+            "IF SHE WANTS YOU TO FUCK HER DICK ROUGHLY, DO IT! I WOULDN'T GIVE A SHIT!",
+            ".",
+            ".",
+            "."
+          ],
+          "orthirid" : [
+            "YOU... HAVE no idea. I'm truly one of your kind... I'm a Replicant Type, R1-9301.",
+            "HOW'S YOUR DATA, BITCHASS SCRAP METAL?",
+            ".",
+            "."
+          ]
+        }
+      }
+    }
+  },
+  
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "workoutchest", "parameters" : { "colorIndex" : 3 } } ],
+            "legs" : [ { "name" : "jeans3legs", "parameters" : { "colorIndex" : 1 } } ]
+          }
+        ] ]
+    ]
+  }
+}

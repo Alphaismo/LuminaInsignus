@@ -1,0 +1,44 @@
+{
+  "itemName" : "domino-tenaciousd",
+  "level" : 6,
+  "price" : 1800,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "It has nothing to do with a two-man band of the same name though...",
+  "shortdescription" : "\"Tenacious D\"",
+  "tooltipKind" : "gun",
+  "category" : "Flamethrower",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","sylethii-domino"],
+
+  "inventoryIcon" : "domino-tenaciousd.png",
+
+  "animation" : "/items/active/weapons/ranged/animation/lumins-fullbrightranged.animation",
+  "animationParts" : {
+    "middle" : "domino-tenaciousd.png",
+    "middleFullbright" : "domino-tenaciousdfullbright.png",
+    "muzzleFlash" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fireStart" : [ "/sfx/gun/flamethrower_start.ogg" ],
+      "fireLoop" : [ "/sfx/gun/flamethrower_loop.ogg" ],
+      "fireEnd" : [ "/sfx/gun/flamethrower_stop.ogg" ]
+    }
+  },
+  "baseOffset" : [1.2, -0.6],
+  "muzzleOffset" : [3.0, 0.1],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbilityType" : "domino-tenaciousd",
+    "primaryAbility" : {
+      "baseDps" : 22.5,
+      "energyUsage" : 40,
+      "speed" : 150.5
+    },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

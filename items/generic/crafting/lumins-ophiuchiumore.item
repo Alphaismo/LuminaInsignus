@@ -1,0 +1,10 @@
+{
+  "itemName" : "lumins-ophiuchiumore",
+  "price" : 80,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "lumins-ophiuchiumore.png",
+  "description" : "It feels more like a gemstone than the actual metal.",
+  "shortdescription" : "Ophiuchium Ore",
+  "itemTags" : [ "reagent" ]
+}

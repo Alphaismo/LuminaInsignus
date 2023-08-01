@@ -1,0 +1,104 @@
+{
+    "itemName" : "neocultist-tiamat",
+    "price" : 1080,
+    "maxStack" : 1,
+    "rarity" : "Legendary",
+    "description" : "Dreadful shoulder-mounted AMR issued by Neo Occasus.",
+    "shortdescription" : "\"Tiamat\"",
+    "tooltipKind" : "gun",
+    "category" : "sniperRifle",
+    "twoHanded" : true,
+    "itemTags" : ["weapon","ranged","neocultist"],
+    "level" : 7,
+  
+    "inventoryIcon" : [
+      { "image" : "neocultist-tiamat.png" }
+    ],
+  
+    "animation" : "/items/active/weapons/ranged/animation/lumins-fullbrightranged.animation",
+      "animationParts" : {
+        "middle" : "neocultist-tiamat.png",
+        "middleFullbright" : "neocultist-tiamatfullbright.png",
+        "muzzleFlash" : "/items/active/weapons/ranged/lumins-neocultist/neocultist-muzzleflash.png"
+      },
+      "animationCustom" : {
+          "sounds" : {
+            "fire" : ["/sfx/gun/lumins-plasma7.ogg"]
+          },
+          "lights" : {
+            "muzzleFlash" : {
+              "color" : [127, 105, 39]
+            }
+          }
+        },
+  
+    "baseOffset" : [0.1, 0.40],
+    "muzzleOffset" : [2.9, 0.0],
+  
+    "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  
+    "elementalType" : "physical",
+  
+    "primaryAbility" : {
+      "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+      "class" : "GunFire",
+  
+      "fireTime" : 4.0,
+      "baseDps" : 55.0,
+      "energyUsage" : 150.0,
+      "inaccuracy" : 0,
+  
+      "projectileCount" : 1,
+      "fireType" : "auto",
+  
+      "projectileType" : "neocultistsniperbullet",
+      "projectileParameters" : {
+        "knockbackRange" : 10
+      },
+      "muzzleFlashVariants" : 3,
+      
+      "stances" : {
+        "idle" : {
+          "armRotation" : 0,
+          "weaponRotation" : 0,
+          "twoHanded" : true,
+  
+          "allowRotate" : true,
+          "allowFlip" : true,
+            
+          "frontArmFrame" : "run.2",
+              "backArmFrame" : "swim.4"
+        },
+        "fire" : {
+          "duration" : 0,
+          "armRotation" : 2,
+          "weaponRotation" : 1,
+          "twoHanded" : true,
+          "weaponOffset" : [-0.3, 0],
+          "recoil" : true,
+  
+          "allowRotate" : false,
+          "allowFlip" : false,
+            
+          "frontArmFrame" : "run.2",
+              "backArmFrame" : "swim.4"
+        },
+        "cooldown" : {
+          "duration" : 0.25,
+          "armRotation" : 2,
+          "weaponRotation" : 1,
+          "twoHanded" : true,
+          "weaponOffset" : [-0.3, 0],
+  
+          "allowRotate" : false,
+          "allowFlip" : false,
+            
+          "frontArmFrame" : "run.2",
+              "backArmFrame" : "swim.4"
+        }
+      }
+    },
+  
+    "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  }
+  

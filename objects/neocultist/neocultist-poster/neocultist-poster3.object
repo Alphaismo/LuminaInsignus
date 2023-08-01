@@ -1,0 +1,46 @@
+{
+  "objectName" : "neocultist-poster3",
+  "colonyTags" : ["neocultist","evil","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+
+  "shortdescription" : "Neo Occasus Poster",
+  "description" : "A framed poster depicting Eris Lux and his valiant soldiers.",
+  "race" : "human",
+
+  "apexDescription" : "Back in my days as a slave to Miniknog, we have similar posts like this, but it was a promotional poster to be one of Miniknog's proudest soldiers instead.",
+  "avianDescription" : "Even I will put him in rabbit sarcophagus, and watch him suffer with designated \"heretics\" in Aether.",
+  "floranDescription" : "Tasssty treatsss!",
+  "glitchDescription" : "Overwhelmed. By the gods... Is this...",
+  "humanDescription" : "...",
+  "hylotlDescription" : "I believe this man above is \"Eris Lux\" himself, the mastermind behind Neo Occasus.",
+  "novakidDescription" : "I saw the main man over 'ere in one of bounty lists at saloon. I'm gonna be really rich.",
+
+  "sylethiiDescription" : "...",
+  "boomboxidDescription" : "Gonna give him a little trolling too lol.",
+  "orthiridDescription" : "Eris Lux still gives me nightmares... even if I didn't saw him in person.",
+  "ceebeDescription" : "Oh no...",
+  "valkeidinDescription" : "How many of my fighters and friends would fall to his bloodstained iron fist.",
+  "raegshiaDescription" : "If I ever see him and his pawns again, I will eat them alive.",
+  "andarhanDescription" : "I will put his head onto a spear for his Neo Occasus pawns to glance at in sheer horror.",
+  "rhadurDescription" : "I will sell his mask for big bags of gold!",
+  "dhirnakhorDescription" : "Former Occasus General sending his pawns against us...",
+  "koaulemDescription" : "(Eris will serve us. There will be no other ways ever.)",
+  "nharduunrDescription" : "The leader...",
+  "ginrhinDescription" : "Leader Eris Lux identified. Alert: Heavily Armed and Guarded.",
+
+  "inventoryIcon" : "neocultist-poster3icon.png",
+  "orientations" : [
+    {
+      "image" : "neocultist-poster3.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

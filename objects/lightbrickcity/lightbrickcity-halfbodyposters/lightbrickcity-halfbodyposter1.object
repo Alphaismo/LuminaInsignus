@@ -1,0 +1,40 @@
+{
+  "objectName" : "lightbrickcity-halfbodyposter1",
+  "colonyTags" : ["lightbrickcity","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 55,
+
+  "shortdescription" : "Half-Body Muscle Poster",
+  "description" : "This poster depicts muscular Glitch.",
+  "race" : "generic",
+
+  "apexDescription" : "I doubt Miniknog would allow androgyny.",
+  "avianDescription" : "Lightbrick City allows effeminacy?",
+  "floranDescription" : "Floran would love to make gainsss too.",
+  "glitchDescription" : "Amused. I've never seen any androgynous Glitch... until now.",
+  "humanDescription" : "Good sweet lord. He's so badass!",
+  "hylotlDescription" : "So... \"real men wear pink\" gambits flow furiously here, am I right?",
+  "novakidDescription" : "Mighty fine muscles, partner.",
+
+  "boomboxidDescription" : "Fem-MAN.",
+  "ceebeDescription" : "He looks pretty and strong, especially like this.",
+  "sylethiiDescription" : "We value this body type and androgyny as much as Lightbrick City does.",
+  "orthiridDescription" : "He looks very amusing, and strong.",
+  "driianDescription" : "He is really marvelous like this.",
+  "ginrhinDescription" : "Androgynous Glitch confirmed.",
+
+  "inventoryIcon" : "lightbrickcity-halfbodyposter1icon.png",
+  "orientations" : [
+    {
+      "image" : "lightbrickcity-halfbodyposter1.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

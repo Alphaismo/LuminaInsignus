@@ -1,0 +1,193 @@
+{
+    "objectName" : "lumins-inventor",
+    "colonyTags" : ["crafting"],
+    "rarity" : "Legendary",
+    "race" : "generic",
+    "category" : "crafting",
+  
+    //this is handled by the lua
+    "breakDropOptions" : [],
+  
+    "price" : 250,
+    "printable" : false,
+  
+    "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],
+  
+    "animation" : "lumins-inventor.animation",
+    "animationPosition" : [4, 12],
+  
+    "inventoryIcon" : "lumins-inventoricon.png",
+    "placementImage" : "lumins-inventor.png:default.default",
+    "placementImagePosition" : [-8, 0],    
+  
+    "description" : "???.",
+    "shortdescription" : "^orange;Master's Circle^reset;",
+  
+    "apexDescription" : "A table with a bunch of tools for a craftsman.",
+    "avianDescription" : "A chance to display one's ability to create.",
+    "floranDescription" : "Floran ussse table. Make nice thingss.",
+    "glitchDescription" : "Inspired. Crafting module activated.",
+    "humanDescription" : "I can use materials I've found here to create new things.",
+    "hylotlDescription" : "A chance to create.",
+    "novakidDescription" : "I can use materials I've found here to create new things.",
+  
+    "learnBlueprintsOnPickup" : [],
+  
+    "startingUpgradeStage" : 1,
+    "maxUpgradeStage" : 3,
+  
+    "upgradeStages" : [
+      {
+        "animationState" : "lumins-inventor",
+  
+        "itemSpawnParameters" : {
+          "inventoryIcon" : "lumins-inventoricon.png",
+          "placementImage" : "lumins-inventor.png:default.default",
+          "placementImagePosition" : [-8, 0],    
+  
+          "description" : "The primitive furnace is used to turn ores and other materials into crafting ingredients.",
+          "shortdescription" : "^orange;Master's Circle^reset;",
+  
+          "apexDescription" : "A table with a bunch of tools for a craftsman.",
+          "avianDescription" : "A chance to display one's ability to create.",
+          "floranDescription" : "Floran ussse table. Make nice thingss.",
+          "glitchDescription" : "Inspired. Crafting module activated.",
+          "humanDescription" : "I can use materials I've found here to create new things.",
+          "hylotlDescription" : "A chance to create.",
+          "novakidDescription" : "I can use materials I've found here to create new things."
+        },
+  
+        "interactData" : {
+          "config" : "/interface/windowconfig/lumins-inventorcrafter.config",
+          "paneLayoutOverride" : {
+            "windowtitle" : {
+              "title" : " Primitive Furnace",
+              "subtitle" : " ^#b9b5b2;Bars and ingredients",
+              "icon" : {
+                "file" : "/interface/crafting/craftingfurnace.png"
+              }
+            }
+          },
+  
+          "filter" : [ "lumins-inventorcrafter" ],
+          "initialRecipeUnlocks" : [],
+          "upgradeMaterials" : [
+            { "item" : "durasteelbar", "count" : 15 },
+            { "item" : "lumins-platinumbar", "count" : 8 },
+            { "item" : "diamond", "count" : 6 }
+          ]
+        },
+  
+        "learnBlueprintsOnPickup" : [],
+  
+        "upgradeSoundEffect" : "fanfare",
+        "upgradeParticleEffect" : "dust"
+      },
+  
+      {
+        "animationState" : "lumins-inventor2",
+  
+        "itemSpawnParameters" : {
+          "price" : 400,
+          "inventoryIcon" : "lumins-inventor2icon.png",
+          "placementImage" : "lumins-inventor2.png:default.default",
+          "placementImagePosition" : [-8, 0],    
+  
+          "description" : "The industrial furnace is used to turn ores and other materials into crafting ingredients.",
+          "shortdescription" : "^orange;The Monolith of Invention^reset;",
+  
+          "apexDescription" : "These devices strapped to it. It must meant that they're this thing's limiters.",
+          "avianDescription" : "This monolith. It's power rivals that of Kluex's.",
+          "floranDescription" : "Weird monolith.",
+          "glitchDescription" : "Confused. How am I supposed to use it to craft anything?",
+          "humanDescription" : "I can use materials I've found here to create new things.",
+          "hylotlDescription" : "A chance to create.",
+          "novakidDescription" : "I can use materials I've found here to create new things."
+        },
+  
+        "interactData" : {
+          "config" : "/interface/windowconfig/lumins-inventorcrafter.config",
+          "paneLayoutOverride" : {
+            "windowtitle" : {
+              "title" : " Industrial Furnace",
+              "subtitle" : " ^#b9b5b2;Bars and ingredients",
+              "icon" : {
+                "file" : "/interface/crafting/craftingfurnace2.png"
+              }
+            }
+          },
+          "filter" : [ "lumins-inventorcrafter", "lumins-inventorcrafter2" ],
+          "initialRecipeUnlocks" : [],
+          "upgradeMaterials" : [
+            { "item" : "lumins-ilsyeinitebar", "count" : 8 },
+            { "item" : "lumins-ancientsolariumstar", "count" : 10 },
+            { "item" : "essence", "count" : 2500 }
+          ]
+        },
+  
+        "learnBlueprintsOnPickup" : [],
+  
+        "upgradeSoundEffect" : "fanfare2",
+        "upgradeParticleEffect" : "dust"
+      },
+  
+      {
+        "animationState" : "lumins-inventor3",
+  
+        "itemSpawnParameters" : {
+          "price" : 750,
+          "inventoryIcon" : "lumins-inventor3icon.png",
+          "placementImage" : "lumins-inventor3.png:default.default",
+          "placementImagePosition" : [-8, 0],    
+  
+          "description" : "The anomalous crucible, hidden below Lumina Insignus in a cave.",
+          "shortdescription" : "^#3A7CF4;Celestial Crucible^reset;",
+  
+          "apexDescription" : "Not even Miniknog knows what this thing is capable of nor where the real crucible is. I'm quite relieved.",
+          "avianDescription" : "An atomic furnace. Perfect for making even stronger alloys.",
+          "floranDescription" : "Ssstrange goop flowsss. And it feelsss funny when Floran touchesss it.",
+          "glitchDescription" : "Amazed. This atomic furnace is advanced enough to combine ores into alloys.",
+          "humanDescription" : "An atomic furnace. This device is powerful enough to create refined ore and alloys.",
+          "hylotlDescription" : "This fluid. It feels mesmerizing.",
+          "novakidDescription" : "Could refine some mighty powerful alloys with this 'ere atomic furnace."
+        },
+  
+        "interactData" : {
+          "config" : "/interface/windowconfig/lumins-inventorcrafter.config",
+          "paneLayoutOverride" : {
+            "windowtitle" : {
+              "title" : " Celestial Crucible",
+              "subtitle" : " ^#b9b5b2;Bars and ingredients",
+              "icon" : {
+                "file" : "/interface/crafting/craftingfurnace3.png"
+              }
+            }
+          },
+          "filter" : [ "lumins-inventorcrafter", "lumins-inventorcrafter2", "lumins-inventorcrafter3" ],
+          "craftingSound" : "/sfx/interface/crafting_furnacetech.ogg",
+          "initialRecipeUnlocks" : []
+        },
+  
+        "learnBlueprintsOnPickup" : []
+      }
+    ],
+  
+    "orientations" : [
+      {
+        "image" : "lumins-inventor.png:default.<frame>",
+        "imagePosition" : [-8, 0],    
+        "direction" : "left",
+        "flipImages" : true,
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      },
+      {
+        "image" : "lumins-inventor.png:default.<frame>",
+        "imagePosition" : [-8, 0],    
+        "direction" : "right",
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      }
+    ]
+  }
+  

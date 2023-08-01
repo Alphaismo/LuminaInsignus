@@ -1,0 +1,22 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000,
+      "crewSize" : 10
+    }
+  },
+  "backgroundOverlays" : [
+    {
+      "image" : "ceebeT7.png",
+      "position" : [8.39, 3.875],
+      "fullbright" : true
+    },
+    {
+      "image" : "ceebeT7lit.png",
+      "position" : [8.39, 3.875]
+    }
+  ],
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "ceebeT7blocks.png"
+}

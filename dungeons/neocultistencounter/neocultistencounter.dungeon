@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "name" : "neocultistencounter",
+    "species" : "human",
+    "rules" : [
+    ],
+
+    "anchor" : [ "neocultistcamp1" ],
+
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "neocultistcamp1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "neocultistcamp1.json" ]
+    }
+  ]
+}

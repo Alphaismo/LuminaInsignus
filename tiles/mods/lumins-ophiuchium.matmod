@@ -1,0 +1,21 @@
+{
+  "modId" : 202,
+  "modName" : "lumins-ophiuchium",
+  "itemDrop" : "lumins-ophiuchiumore",
+  "description" : "Ophiuchium.",
+  "health" : 8,
+  "harvestLevel" : 6,
+  "breaksWithTile" : true,
+
+  "miningSounds" : [ "/sfx/tools/pickaxe_ore.ogg", "/sfx/tools/pickaxe_ore2.ogg" ],
+  "miningParticle" : "orespark",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lumins-ophiuchium.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0,
+    "radiantLight" : [85, 28, 16]
+  }
+}

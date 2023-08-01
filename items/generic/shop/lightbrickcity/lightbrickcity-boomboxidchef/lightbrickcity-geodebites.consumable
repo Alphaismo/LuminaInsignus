@@ -1,0 +1,18 @@
+{
+  "itemName" : "lightbrickcity-geodebites",
+  "rarity" : "Uncommon",
+  "price" : 50,
+  "category" : "food",
+  "inventoryIcon" : "lightbrickcity-geodebites.png",
+  "description" : "With magic, these shattered geodes now taste amazing also to non-Glitches.",
+  "shortdescription" : "Geode Bites",
+  "foodValue" : 43,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 10,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

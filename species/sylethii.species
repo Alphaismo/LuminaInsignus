@@ -1,0 +1,157 @@
+{
+  "kind" : "sylethii",
+
+	"charCreationTooltip" : {
+    "title" : "Sylethii / Sekiuj",
+    "subTitle" : "Amphibian Human-likes of Yeilara",
+    "description" : "A race of human-like nombads who exodused from their home as a result of Dhir'Nakhor invasion 4 decades ago, most of them adapted to either New Earth or across the stars. Unlike Q'Khadrans, they use everything in their surroundings to gain the advantage and triumph."
+  },
+
+  "nameGen" : [ "/species/sylethiinamegen.config:names", "/species/sylethiinamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/sylethiihurt_male1.ogg", "/sfx/humanoid/sylethiihurt_female1.ogg" ],
+  "charGenTextLabels" : [ "Skin colour", "Hair style", "Shirt", "Legwear", "Magic Element", "Hair colour", "Shirt colour", "Legwear colour", "SYLETHII", "Personality" ],
+  "skull" : "/humanoid/sylethii/dead.png",
+  "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=BFE4FFFF=AAFFFFFF?replace=59B9FFFF=00FFFFFF",
+  "defaultBlueprints" : {
+    "tier1" : [
+	
+// Empty Hands
+      { "item" : "flagsylethii" },
+	    
+// Anvil
+      { "item" : "humantier1head" },
+      { "item" : "humantier1chest" },
+      { "item" : "humantier1pants" },
+      { "item" : "humantier2head" },
+      { "item" : "humantier2chest" },
+      { "item" : "humantier2pants" },
+      { "item" : "sylethiisword" },
+      { "item" : "ironshortsword" },
+      { "item" : "ironbroadsword" },
+      { "item" : "tungstenaxe" },
+      { "item" : "tungstenhammer" },
+// Anvil2
+      { "item" : "humantier3head" },
+      { "item" : "humantier3chest" },
+      { "item" : "humantier3pants" },
+      { "item" : "sylethiitier4head" },
+      { "item" : "sylethiitier4chest" },
+      { "item" : "sylethiitier4pants" },
+      { "item" : "titaniumdagger" },
+      { "item" : "titaniumspear" },
+      { "item" : "durasteelbroadsword" },
+      { "item" : "durasteelshortsword" },
+// Anvil3
+      { "item" : "humantier5ahead" },
+      { "item" : "humantier5achest" },
+      { "item" : "humantier5apants" },
+      { "item" : "humantier6ahead" },
+      { "item" : "humantier6achest" },
+      { "item" : "humantier6apants" },
+      { "item" : "humantier5mhead" },
+      { "item" : "humantier5mchest" },
+      { "item" : "humantier5mpants" },
+      { "item" : "humantier6mhead" },
+      { "item" : "humantier6mchest" },
+      { "item" : "humantier6mpants" },
+      { "item" : "humantier5shead" },
+      { "item" : "humantier5schest" },
+      { "item" : "humantier5spants" },
+      { "item" : "humantier6shead" },
+      { "item" : "humantier6schest" },
+      { "item" : "humantier6spants" },
+      { "item" : "aegisaltpistol" },
+      { "item" : "aegisaltbow" },
+      { "item" : "feroziumwand" },
+      { "item" : "feroziumstaff" },
+      { "item" : "violiumshortsword" },
+      { "item" : "violiumbroadsword" },
+// Furniture Table 2
+      { "item" : "humanstoragelocker" },
+      { "item" : "sylethiishipdoor" },
+      { "item" : "sylethiishiphatch" },
+// Spinning Wheel
+      { "item" : "sylethiioutfit1chest" },
+      { "item" : "sylethiioutfit1legs" },
+      { "item" : "sylethiioutfit2chest" },
+      { "item" : "sylethiioutfit2legs" },
+      { "item" : "sylethiioutfit3chest" },
+      { "item" : "sylethiioutfit3legs" },
+      { "item" : "sylethiioutfit4chest" },
+      { "item" : "sylethiioutfit4legs" }
+	  ]
+  },
+  
+  "altOptionAsUndyColor" : true,
+  "headOptionAsHairColor" : true,
+  "altOptionAsHairColor" : true,
+  "genders" : [
+    {
+       "name" : "male",
+      "image" : "/interface/title/sylethiimaleico.png",
+      "characterImage" : "/interface/title/sylethiimale.png",
+      "hair" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ],
+      "shirt" : [ "sylethiioutfit1chest", "sylethiioutfit2chest", "sylethiioutfit3chest", "sylethiioutfit4chest" ],
+      "pants" : [ "sylethiioutfit1legs", "sylethiioutfit2legs", "sylethiioutfit3legs", "sylethiioutfit4legs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/sylethiifemico.png",
+      "characterImage" : "/interface/title/sylethiifemale.png",
+      "hair" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ],
+      "shirt" : [ "sylethiioutfit1chest", "sylethiioutfit2chest", "sylethiioutfit3chest", "sylethiioutfit4chest" ],
+      "pants" : [ "sylethiioutfit1legs", "sylethiioutfit2legs", "sylethiioutfit3legs", "sylethiioutfit4legs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ],
+  "bodyColor" : [
+    { "ffe2c5" : "ab8c77", "ffc181" : "86644a", "d39c6c" : "684431", "c7815b" : "40271d" },
+    { "ffe2c5" : "c5ad98", "ffc181" : "a47a59", "d39c6c" : "865d40", "c7815b" : "66412e" },
+    { "ffe2c5" : "e1b98d", "ffc181" : "c88959", "d39c6c" : "9e6a4d", "c7815b" : "784930" },
+    { "ffe2c5" : "c9b181", "ffc181" : "ac8348", "d39c6c" : "87633f", "c7815b" : "694c31" },
+    { "ffe2c5" : "e8cebc", "ffc181" : "cfa97d", "d39c6c" : "ae774b", "c7815b" : "804e34" },
+    { "ffe2c5" : "f4e0ba", "ffc181" : "e9b768", "d39c6c" : "c18f54", "c7815b" : "a2683d" },
+    { "ffe2c5" : "ffe9d3", "ffc181" : "ffc181", "d39c6c" : "d39c6c", "c7815b" : "b97551" },
+    { "ffe2c5" : "fbe1d4", "ffc181" : "f6baa2", "d39c6c" : "cc9582", "c7815b" : "ac7261" },
+    { "ffe2c5" : "fff7ec", "ffc181" : "f9d3a9", "d39c6c" : "d3a57c", "c7815b" : "b37c5d" },
+    { "ffe2c5" : "fff6f6", "ffc181" : "f7d5d3", "d39c6c" : "d1aaa1", "c7815b" : "a27f70" }
+  ],
+  "undyColor" : [
+    { "dc1f00" : "AAFFFFFE", "be1b00" : "66FFFFFE", "951500" : "00FFFFFE" },
+    { "dc1f00" : "E0FF93FE", "be1b00" : "D4FF68FE", "951500" : "B6FF00FE" },
+    { "dc1f00" : "FFAAAAFE", "be1b00" : "FF7575FE", "951500" : "FF0000FE" },
+    { "dc1f00" : "DB8EFFFE", "be1b00" : "C851FFFE", "951500" : "B200FFFE" },
+    { "dc1f00" : "FFF0A8FE", "be1b00" : "FFE97CFE", "951500" : "FFD800FE" },
+    { "dc1f00" : "FFD1B2FE", "be1b00" : "FFA468FE", "951500" : "FF6A00FE" },
+    { "dc1f00" : "94FCF0FE", "be1b00" : "00FEE4FE", "951500" : "00DBC1FE" }
+  ],
+  "hairColor" : [
+    // LIGHT BLUE
+    { "d9c189" : "61BCDE", "a38d59" : "5381CC", "735e3a" : "2C489E" },
+    // BLUE
+    { "d9c189" : "5d8bc7", "a38d59" : "4d55b0", "735e3a" : "2e2a73" },
+    // DARK BLUE
+    { "d9c189" : "425879", "a38d59" : "343965", "735e3a" : "242247" },
+    // DARK PURPLE
+    { "d9c189" : "7f3b6d", "a38d59" : "6a2e53", "735e3a" : "4b1d30" },
+    // PURPLE
+    { "d9c189" : "653b7f", "a38d59" : "562e6a", "735e3a" : "3f1d4b" },
+    // DARK GREY
+    { "d9c189" : "525252", "a38d59" : "363636", "735e3a" : "161616" },
+    // GREY
+    { "d9c189" : "74726f", "a38d59" : "53504d", "735e3a" : "2a251e" },
+    // GREY BLUE
+    { "d9c189" : "6f6d85", "a38d59" : "525269", "735e3a" : "3e4352" },
+    // LIGHT GREY
+    { "d9c189" : "b8b8b8", "a38d59" : "828282", "735e3a" : "555555" },
+    // WHITE
+    { "d9c189" : "eaeaea", "a38d59" : "b8b8b8", "735e3a" : "828282" }
+  ]
+}

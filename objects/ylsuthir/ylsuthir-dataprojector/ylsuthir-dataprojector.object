@@ -1,0 +1,58 @@
+{
+  "objectName" : "ylsuthir-dataprojector",
+  "colonyTags" : ["nharduunr","ylsuthir","projector"],
+  "rarity" : "Rare",
+  "description" : "It currently displays the information stored within Andarhan Interceptor... \nand Interceptor itself.",
+  "shortdescription" : "Yls'Uthiran Data Hologram Projector",
+  "race" : "nharduunr",
+
+  "category" : "light",
+  "price" : 120,
+  "lightColor" : [0, 85, 85],
+
+  "floranDescription" : "Sssstrange alien machine. But Floran heard they sssstab other Floran. Floran isss prey to them...",
+  "glitchDescription" : "Shocked. These machines... I've never seen any other Glitch-like machines like these ones before.",
+  "valkeidinDescription" : "My god... Is that... \nAndarhan?",
+  "boomboxidDescription" : "Oooooh... a robot straight from cliche Hollywood mo- \nHoly shit... an Andarhan?",
+  "ceebeDescription" : "No Lightbrick City wanted to know anything about Andarhans.",
+  "sylethiiDescription" : "Looks oddly familiar. However they don't come close to Dhir'Nakhor marauders who took everything from me.",
+  "orthiridDescription" : "I have no idea why they ignore us and focus solely on exterminating non-machine life.",
+  "raegshiaDescription" : "I cannot withstand but agree we are afraid of them more than they afraid of us.",
+  "driianDescription" : "We surely aren't a cup of tea to these robots.",
+  "halcyonDescription" : "I've seen an Andarhan before. They just passed through me as I am in fact a machine, like them.",
+  "quekhriiDescription" : "And I thought Rhadurs were bad... \nI had nightmares about getting shot alive by these machines.",
+  "qkhadranDescription" : "I've never seen something even worse than our gods.",
+  "andarhanDescription" : "They have... exposed us. \nThey surely will know how powerful we are.",
+  "rhadurDescription" : "I will kill every last of these vermin, and sell their carcasses for swift profit.",
+  "dhirnakhorDescription" : "Such familiar visage...",
+  "nharduunrDescription" : "Not even our research can comprehend but confirm, in their eyes, organic life is done for.",
+  "ginrhinDescription" : "Projecting Data of Andarhan Unit. Interceptor Class Confirmed.",
+
+  "inventoryIcon" : "ylsuthir-dataprojectoricon.png",
+  "orientations" : [
+    {
+	    "imageLayers" : [ { "image" : "ylsuthir-dataprojector.png:<color>.<frame>", "fullbright" : true }, { "image" : "ylsuthir-dataprojectorlit.png:<color>.<frame>" } ],
+	  
+      "imagePosition" : [-24, 0],
+      "frames" : 10,
+      "animationCycle" : 1.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+
+    },
+    {
+      "imageLayers" : [ { "image" : "ylsuthir-dataprojector.png:<color>.<frame>", "fullbright" : true }, { "image" : "ylsuthir-dataprojectorlit.png:<color>.<frame>" } ],
+	  
+      "imagePosition" : [-24, 0],
+      "frames" : 10,
+      "animationCycle" : 1.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+
+    }
+  ]
+}

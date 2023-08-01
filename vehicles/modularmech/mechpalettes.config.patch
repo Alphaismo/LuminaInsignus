@@ -1,0 +1,50 @@
+[
+    // GRYIDHAK
+    {
+        "op" : "add",
+        "path" : "/swapSets/-",
+        "value" : [ "5E5E5E", "454545", "343434", "222222" ]
+    },
+    // SYLETHIIAN IVORY
+    {
+        "op" : "add",
+        "path" : "/swapSets/-",
+        "value" : [ "D8D8D8", "A5A5A5", "707070", "515151" ]
+    },
+    // SYLETHIIAN SHADOWSPOKEN PURPLE
+    {
+        "op" : "add",
+        "path" : "/swapSets/-",
+        "value" : [ "282239", "1D1829", "14111D", "0D0B13" ]
+    },
+    // SYLETHIIAN EBONY
+    {
+        "op" : "add",
+        "path" : "/swapSets/-",
+        "value" : [ "2C2C2C", "242424", "1C1C1C", "151515" ]
+    },
+    // YLS'UTHIRAN OMNIMETAL
+    {
+        "op" : "add",
+        "path" : "/swapSets/-",
+        "value" : [ "E2D395", "B3A26F", "8C7C55", "615338" ]
+    },
+    // HALCYON
+    {
+        "op" : "add",
+        "path" : "/swapSets/-",
+        "value" : [ "7CA2C1", "4678A3", "27425A", "152432" ]
+    },
+    // ANDARHAN OSMITANIUM
+    {
+        "op" : "add",
+        "path" : "/swapSets/-",
+        "value" : [ "606060", "474747", "333333", "262626" ]
+    },
+    // ANDARHAN NANOFRAME
+    {
+        "op" : "add",
+        "path" : "/swapSets/-",
+        "value" : [ "3A3F58", "2E303A", "202128", "111316" ]
+    }
+]

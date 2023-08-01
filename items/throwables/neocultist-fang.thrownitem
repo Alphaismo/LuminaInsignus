@@ -1,0 +1,30 @@
+{
+  "itemName" : "neocultist-fang",
+  "rarity" : "Rare",
+  "category" : "dagger",
+  "inventoryIcon" : "neocultist-fang.png",
+  "image" : "neocultist-fang.png",
+  "shortdescription" : "\"Wolf's Fang\"",
+  "description" : "They were coated with corrosive poison too, but what poison is unknown",
+  "maxStack" : 1,
+
+  "ammoUsage" : 0,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.5,
+  "projectileType" : "neocultist-fangprojectile",
+  "projectileConfig" : {
+    "speed" : 140,
+    "power" : 22,
+    "knockback" : 20,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

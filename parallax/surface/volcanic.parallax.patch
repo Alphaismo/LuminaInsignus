@@ -1,0 +1,15 @@
+[
+    {
+      "op": "add",
+      "path": "/layers/1",
+      "value": {
+        "kind": "tile/magmarockunlit",
+        "nohueshift": true,
+        "lightMapped": true,
+        "unlit": true,
+        "repeatY": true,
+        "tileLimitTop": 275,
+        "parallax": 1.001
+      }
+    }
+  ]

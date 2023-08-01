@@ -1,0 +1,51 @@
+{
+  "objectName" : "ylsuthir-monolith",
+  "colonyTags" : ["nharduunr","ylsuthir","monolith"],
+  "rarity" : "Legendary",
+  "description" : "Eons have passed, and it's still intact in a several time it's supposed to be defunct.",
+  "shortdescription" : "Yls'Uthiran Monolith",
+  "race" : "nharduunr",
+
+  "category" : "Strange Device",
+  "price" : 240,
+  "lightColor" : [0, 255, 255],
+
+  "floranDescription" : "Big monolith. Scares even Floran.",
+  "glitchDescription" : "Error. It interferes with my circuits!",
+  "orthiridDescription" : "I feel an itch when I'm near this monolith.",
+  "raegshiaDescription" : "Intimidating monolith-like pillar...",
+  "valkeidinDescription" : "I'd consider this a waste of divine technology.",
+  "sylethiiDescription" : "I heard they're sometimes mentioned by Yls'Uthir's religions.",
+  "driianDescription" : "So fabulous, for a monolith.",
+  "quekhriiDescription" : "Such an odd device. I wouldn't call it a 'monolith'.",
+  "qkhadranDescription" : "Demonic monolith... But there's no one of my kin who can destroy it.",
+  "ceebeDescription" : "I'm, luckily, not a robot to suffer complaints coming from this... thing.",
+  "nharduunrDescription" : "Million-Year Monolith. One of our ancestors' creation, as a memory, and message to descendants.",
+  "ginrhinDescription" : "Registration Failed: Data Unknown.",
+
+  "inventoryIcon" : "ylsuthir-monolithicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ylsuthir-monolith.png",
+      "imagePosition" : [-20, 0],
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "ylsuthir-monolith.png",
+    "fg" : "ylsuthir-monolithlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [-1, 3] ]
+}

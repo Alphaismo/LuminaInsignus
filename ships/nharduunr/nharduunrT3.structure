@@ -1,0 +1,22 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000,
+      "crewSize" : 2
+    }
+  },
+  "backgroundOverlays" : [
+    {
+      "image" : "nharduunrT3.png",
+      "position" : [8, 14],
+      "fullbright" : true
+    },
+    {
+      "image" : "nharduunrT3lit.png",
+      "position" : [8, 14]
+    }
+  ],
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "nharduunrT3blocks.png"
+}

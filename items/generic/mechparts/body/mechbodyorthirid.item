@@ -1,0 +1,15 @@
+{
+  "itemName" : "mechbodyorthirid",
+  "price" : 9600,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbody",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mechbodyorthirid.png",
+  "description" : "This Domino-issue mech body was manufactured for Orthirid pilots.",
+  "shortdescription" : "Legionnaire Mech Body",
+  "itemTags" : [ ],
+
+  "mechPart" : ["body", "orthirid"]
+}

@@ -1,0 +1,37 @@
+[
+    {
+        "op" : "add",
+        "path" : "/boomboxidDescription",
+        "value" : "Pretty much boring on their own, but damn... how are we supposed to survive without potatoes."
+    },
+    {
+        "op" : "add",
+        "path" : "/ceebeDescription",
+        "value" : "I love potatoes when they are cooked in many ways. For me, I prefer mashed."
+    },
+    {
+        "op" : "add",
+        "path" : "/sylethiiDescription",
+        "value" : "I'd prefer to cook these things in any way before eating it... Pretty much a guilty pleasure."
+    },
+    {
+        "op" : "add",
+        "path" : "/orthiridDescription",
+        "value" : "I deliver alien vegetables like these to Sekiuj settlements, for I can't eat them, let alone without a mouth."
+    },
+    {
+        "op" : "add",
+        "path" : "/andarhanDescription",
+        "value" : "So these are solids that aliens call \"potatoes\"."
+    },
+    {
+        "op" : "add",
+        "path" : "/nharduunrDescription",
+        "value" : "Even if I can digest them without consequences, I... can't stomach alien vegetables, especially potatoes."
+    },
+    {
+        "op" : "add",
+        "path" : "/ginrhinDescription",
+        "value" : "Old Terra Potato confirmed."
+    }
+]

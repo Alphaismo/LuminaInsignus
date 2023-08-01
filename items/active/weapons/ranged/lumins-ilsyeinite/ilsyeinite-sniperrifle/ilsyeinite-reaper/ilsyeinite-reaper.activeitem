@@ -1,0 +1,105 @@
+{
+    "itemName" : "ilsyeinite-reaper",
+    "price" : 1080,
+    "maxStack" : 1,
+    "rarity" : "Legendary",
+    "description" : "TODO.",
+    "shortdescription" : "\"Reaper\"",
+    "tooltipKind" : "gun",
+    "category" : "sniperRifle",
+    "twoHanded" : true,
+    "itemTags" : ["weapon","ranged","ilsyeinite"],
+    "level" : 7,
+  
+    "inventoryIcon" : [
+      { "image" : "ilsyeinite-reaper.png" }
+    ],
+  
+    "animation" : "/items/active/weapons/ranged/animation/lumins-fullbrightranged.animation",
+      "animationParts" : {
+        "middle" : "ilsyeinite-reaper.png",
+        "middleFullbright" : "ilsyeinite-reaperfullbright.png",
+        "muzzleFlash" : "/items/active/weapons/ranged/lumins-ilsyeinite/ilsyeinite-muzzleflash.png"
+      },
+      "animationCustom" : {
+          "sounds" : {
+            "fire" : ["/sfx/gun/lumins-plasma5.ogg"]
+          },
+          "lights" : {
+            "muzzleFlash" : {
+              "color" : [29, 62, 122]
+            }
+          }
+        },
+  
+    "baseOffset" : [0.1, 0.40],
+    "muzzleOffset" : [2.9, 0.0],
+  
+    "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  
+    "elementalType" : "physical",
+  
+    "primaryAbility" : {
+      "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+      "class" : "GunFire",
+  
+      "fireTime" : 2.7,
+      "baseDps" : 53.5,
+      "energyUsage" : 110.0,
+      "inaccuracy" : 0,
+  
+      "projectileCount" : 1,
+      "fireType" : "auto",
+  
+      "projectileType" : "lumins-ilsyeinitelargebullet",
+      "projectileParameters" : {
+        "speed": 500,
+        "knockbackRange" : 10
+      },
+      "muzzleFlashVariants" : 3,
+      
+      "stances" : {
+        "idle" : {
+          "armRotation" : 0,
+          "weaponRotation" : 0,
+          "twoHanded" : true,
+  
+          "allowRotate" : true,
+          "allowFlip" : true,
+            
+          "frontArmFrame" : "run.2",
+              "backArmFrame" : "swim.4"
+        },
+        "fire" : {
+          "duration" : 0,
+          "armRotation" : 2,
+          "weaponRotation" : 1,
+          "twoHanded" : true,
+          "weaponOffset" : [-0.3, 0],
+          "recoil" : true,
+  
+          "allowRotate" : false,
+          "allowFlip" : false,
+            
+          "frontArmFrame" : "run.2",
+              "backArmFrame" : "swim.4"
+        },
+        "cooldown" : {
+          "duration" : 0.25,
+          "armRotation" : 2,
+          "weaponRotation" : 1,
+          "twoHanded" : true,
+          "weaponOffset" : [-0.3, 0],
+  
+          "allowRotate" : false,
+          "allowFlip" : false,
+            
+          "frontArmFrame" : "run.2",
+              "backArmFrame" : "swim.4"
+        }
+      }
+    },
+  
+    "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  }
+  

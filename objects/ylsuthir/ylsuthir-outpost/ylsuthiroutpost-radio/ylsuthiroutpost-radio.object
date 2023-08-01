@@ -1,0 +1,82 @@
+{
+  "objectName" : "ylsuthiroutpost-radio",
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 50,
+  "printable" : false,
+
+  "description" : "William set this radio to club music. Odd.",
+  "shortdescription" : "Protectorate Radio",
+  "race" : "generic",
+
+  "apexDescription" : "Hold on... It plays something different.",
+  "avianDescription" : "Hold on... It plays something different.",
+  "floranDescription" : "This music make Floran want to move hipsss!",
+  "glitchDescription" : "Positive. This music is pleasant.",
+  "humanDescription" : "Hold on... It plays something different... It plays really cool music!",
+  "hylotlDescription" : "This simple radio plays music. I like it.",
+  "novakidDescription" : "Ain't heard anythin' like this before. Not sure it's my kinda tune.",
+
+  "boomboxidDescription" : "Yoooooo it plays music! Now I can relieve!",
+  "sylethiiDescription" : "Since I've grown rather fond of Lightbrick's taste of music, I find it satisfying.",
+  "ceebeDescription" : "Ёкарный бабай.",
+  "orthiridDescription" : "This music is oddly unpleasant for me. The shame anyone else likes it, but I don't.",
+  "valkeidinDescription" : "This music reminds me back in my days, where Boomboxids blasted musics like one of this, but really loud.",
+  "andarhanDescription" : "Never knew what alien music sounded like.",
+  "nharduunrDescription" : "Even if not pleasant, others enjoyed it.",
+  "ginrhinDescription" : "Alien radio confirmed. Plays club music from now on.",
+
+  "lightColor" : [0, 0, 0],
+
+  "inventoryIcon" : "ylsuthiroutpost-radioicon.png",
+  "orientations" : [
+    {
+      "image" : "ylsuthiroutpost-radio.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+      "lightPosition" : [-1, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : []
+
+    },
+    {
+      "image" : "ylsuthiroutpost-radio.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "direction" : "right",
+      "lightPosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : []
+    }
+  ],
+
+  "animation" : "ylsuthiroutpost-radio.animation",
+  "animationParts" : {
+    "bg" : "ylsuthiroutpost-radio.png",
+    "fg" : "ylsuthiroutpost-radiolit.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/speaker_toggle.ogg" ],
+      "off" : [ "/sfx/objects/speaker_toggle.ogg" ]
+    }
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [
+    "/objects/wired/light/light.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ],
+  "defaultLightState" : false,
+
+  "soundEffect" : "/sfx/objects/clubdecks1.ogg",
+
+  "npcToy" : {}
+}

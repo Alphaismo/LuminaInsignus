@@ -1,0 +1,91 @@
+{
+    "projectileName" : "lumins-napalmbullet",
+    "image" : "lumins-napalmbullet.png",
+    "animationCycle" : 0.25,
+    "frameNumber" : 1,
+    "damageKind" : "standardbullet",
+    "piercing" : true,
+    "physics" : "bullet",
+    "pointLight" : false,
+    "flippable" : true,
+    "actionOnReap" : [
+      {
+        "action" : "config",
+        "file" : "/projectiles/explosions/regularexplosion2/fireexplosionknockback.config"
+      },
+      {
+        "action" : "projectile",
+        "type" : "molotovflame",
+        "fuzzAngle" : 0,
+        "inheritDamageFactor" : 0.05,
+        "angleAdjust" : 35
+      },
+      {
+        "action" : "projectile",
+        "type" : "molotovflame",
+        "fuzzAngle" : 0,
+        "inheritDamageFactor" : 0.05,
+        "angleAdjust" : -35
+      },
+      {
+        "action" : "projectile",
+        "type" : "molotovflame",
+        "fuzzAngle" : 0,
+        "inheritDamageFactor" : 0.05,
+        "angleAdjust" : 1
+      },
+      {
+        "action" : "projectile",
+        "type" : "molotovflame",
+        "fuzzAngle" : 0,
+        "inheritDamageFactor" : 0.05,
+        "angleAdjust" : -18
+      },
+      {
+        "action" : "projectile",
+        "type" : "molotovflame",
+        "fuzzAngle" : 0,
+        "inheritDamageFactor" : 0.05,
+        "angleAdjust" : 18
+      },
+      {
+        "action" : "projectile",
+        "type" : "molotovflame",
+        "fuzzAngle" : 0,
+        "inheritDamageFactor" : 0.05,
+        "angleAdjust" : 55
+      },
+      {
+        "action" : "projectile",
+        "type" : "molotovflame",
+        "fuzzAngle" : 0,
+        "inheritDamageFactor" : 0.05,
+        "angleAdjust" : -55
+      },
+      {
+        "action" : "projectile",
+        "type" : "molotovflame",
+        "fuzzAngle" : 0,
+        "inheritDamageFactor" : 0.05,
+        "angleAdjust" : -1
+      },
+      {
+        "action" : "projectile",
+        "type" : "molotovflame",
+        "fuzzAngle" : 0,
+        "inheritDamageFactor" : 0.05,
+        "angleAdjust" : -65
+      },
+      {
+        "action" : "projectile",
+        "type" : "molotovflame",
+        "fuzzAngle" : 0,
+        "inheritDamageFactor" : 0.05,
+        "angleAdjust" : 65
+      }
+    ],
+    "power" : 5.0,
+    "speed" : 500,
+    "knockback" : 0
+  }
+  

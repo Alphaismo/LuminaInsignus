@@ -1,0 +1,42 @@
+{
+  "itemName" : "andarhan-bastionslayer",
+  "price" : 780,
+  "level" : 8,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "No mercy for the vile flesh that infest the universe.",
+  "shortdescription" : "ST-R7 \"Bastionslayer\"",
+  "tooltipKind" : "sword",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon", "melee", "shortsword"],
+
+  "inventoryIcon" : "andarhan-bastionslayericon.png",
+
+  "animation" : "andarhan-bastionslayer.animation",
+  "animationParts" : {
+    "handle": "handle.png",
+    "handleFullbright" : "handlefullbright.png",
+    "blade" : "blade.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/melee/mech_energysword_swing1.ogg", "/sfx/melee/mech_energysword_swing2.ogg", "/sfx/melee/mech_energysword_swing3.ogg", "/sfx/melee/mech_energysword_swing4.ogg"],
+      "fire2" : ["/sfx/melee/mech_energysword_swing1.ogg", "/sfx/melee/mech_energysword_swing2.ogg", "/sfx/melee/mech_energysword_swing3.ogg", "/sfx/melee/mech_energysword_swing4.ogg"]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/energymeleeweapon.lua"],
+
+  "activeTime" : 3.0,
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.4,
+    "baseDps" : 8.5
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

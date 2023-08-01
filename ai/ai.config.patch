@@ -1,0 +1,65 @@
+[
+	{
+		"op" : "add",
+		"path" : "/species/boomboxid",
+		"value" : {
+			"aiFrames" : "boomboxidAI.png",
+			"portraitFrames" : "portraits/boomboxidportrait.png",
+			"staticFrames" : "staticboomboxid.png"	
+		}
+	},
+	{
+		"op" : "add",
+		"path" : "/species/ceebe",
+		"value" : {
+			"aiFrames" : "ceebeAI.png",
+			"portraitFrames" : "portraits/ceebeportrait.png",
+			"staticFrames" : "staticceebe.png"	
+		}
+	},
+	{
+		"op" : "add",
+		"path" : "/species/sylethii",
+		"value" : {
+			"aiFrames" : "sylethiiAI.png",
+			"portraitFrames" : "portraits/sylethiiportrait.png",
+			"staticFrames" : "staticsylethii.png"	
+		}
+	},
+	{
+		"op" : "add",
+		"path" : "/species/orthirid",
+		"value" : {
+			"aiFrames" : "orthiridAI.png",
+			"portraitFrames" : "portraits/orthiridportrait.png",
+			"staticFrames" : "staticorthirid.png"	
+		}
+	},
+	{
+		"op" : "add",
+		"path" : "/species/valkeidin",
+		"value" : {
+			"aiFrames" : "valkeidinAI.png",
+			"portraitFrames" : "portraits/valkeidinportrait.png",
+			"staticFrames" : "staticvalkeidin.png"	
+		}
+	},
+	{
+		"op" : "add",
+		"path" : "/species/nharduunr",
+		"value" : {
+			"aiFrames" : "nharduunrAI.png",
+			"portraitFrames" : "portraits/nharduunrportrait.png",
+			"staticFrames" : "staticnharduunr.png"	
+		}
+	},
+	{
+		"op" : "add",
+		"path" : "/species/andarhan",
+		"value" : {
+			"aiFrames" : "andarhanAI.png",
+			"portraitFrames" : "portraits/andarhanportrait.png",
+			"staticFrames" : "staticandarhan.png"	
+		}
+	}
+]

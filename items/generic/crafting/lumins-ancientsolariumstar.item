@@ -1,0 +1,10 @@
+{
+  "itemName" : "lumins-ancientsolariumstar",
+  "price" : 120,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "lumins-ancientsolariumstar.png",
+  "description" : "The most powerful and critically unstable material, used for Soldrive eons ago.",
+  "shortdescription" : "Ancient Solarium Star",
+  "itemTags" : [ "reagent" ]
+}

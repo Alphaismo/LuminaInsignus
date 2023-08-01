@@ -1,0 +1,23 @@
+{
+  "projectileName" : "andarhanweissbullet",
+  "image" : "andarhanweissbullet.png",
+  "physics" : "laser",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKind" : "plasma",
+  "pointLight" : false,
+  "flippable" : true,
+  "piercing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "power" : 20.0,
+  "speed" : 150,
+  "knockback" : 0,
+  "lightColor" : [155, 53, 0],
+  "fullbright" : true
+}

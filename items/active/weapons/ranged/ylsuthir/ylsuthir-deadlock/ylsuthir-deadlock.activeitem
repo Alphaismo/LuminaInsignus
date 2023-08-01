@@ -1,0 +1,106 @@
+{
+    "itemName" : "ylsuthir-deadlock",
+    "price" : 1080,
+    "maxStack" : 1,
+    "rarity" : "Rare",
+    "description" : "TODO.",
+    "shortdescription" : "\"Deadlock\"",
+    "tooltipKind" : "gun",
+    "category" : "Automatic Shotgun",
+    "twoHanded" : true,
+    "itemTags" : ["weapon","ranged","ylsuthir"],
+    "level" : 6,
+  
+    "inventoryIcon" : [
+      { "image" : "ylsuthir-deadlockicon.png" }
+    ],
+  
+    "animation" : "ylsuthir-deadlock.animation",
+    "animationParts" : {
+      "middle" : "ylsuthir-deadlock.png",
+      "middleFullbright" : "ylsuthir-deadlockfullbright.png",
+      "muzzleFlash" : "/items/active/weapons/ranged/ylsuthir/ylsuthir-muzzleflash.png"
+    },
+    "animationCustom" : {
+      "sounds" : {
+        "fire" : ["/sfx/gun/lumins-plasma1.ogg"]
+      },
+      "lights" : {
+        "muzzleFlash" : {
+          "color" : [0, 127, 127]
+        }
+      }
+    },
+  
+    "baseOffset" : [0.6, 0.3],
+    "muzzleOffset" : [2.25, 0.25],
+  
+    "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  
+    "elementalType" : "physical",
+  
+    "primaryAbility" : {
+      "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+      "class" : "GunFire",
+  
+      "fireTime" : 0.08,
+      "baseDps" : 26,
+      "energyUsage" : 45,
+      "inaccuracy" : 0.06,
+      "projectileCount" : 5,
+      "fireType" : "auto",
+  
+      "projectileType" : "ylsuthirbullet",
+      "projectileParameters" : {
+        "speed" : 500,
+        "knockbackRange" : 10
+      },
+  
+      "stances": {
+        "idle": {
+          "armRotation": 0,
+          "weaponRotation": 0,
+          "weaponOffset" : [0, 0],
+          "twoHanded": true,
+          "allowRotate": true,
+          "allowFlip": true,
+          
+          "frontArmFrame" : "run.2",
+          "backArmFrame" : "swim.4"
+        },
+        "fire": {
+          "duration": 0,
+          "armRotation": 0.75,
+          "weaponRotation": 0.75,
+          "weaponOffset" : [-0.1, 0],
+          "twoHanded": true,
+          "recoil" : true,
+          "allowRotate": true,
+          "allowFlip": true,
+  
+          "animationStates" : {
+            "firing" : "fire",
+            "holyshit" : "lmfao"
+          },
+          
+          "frontArmFrame" : "run.2",
+          "backArmFrame" : "swim.4"
+        },
+        "cooldown": {
+          "duration": 0.02,
+          "armRotation": 0.75,
+          "weaponRotation": 0.75,
+          "weaponOffset" : [-0.1, 0],
+          "twoHanded": true,
+          "allowRotate": true,
+          "allowFlip": true,
+          
+          "frontArmFrame" : "run.2",
+          "backArmFrame" : "swim.4"
+        }
+      }
+    },
+  
+    "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  }
+  

@@ -1,0 +1,46 @@
+{
+  "objectName" : "neocultist-poster2",
+  "colonyTags" : ["neocultist","evil","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+
+  "shortdescription" : "Neo Occasus Poster",
+  "description" : "A framed poster depicting the Neo Occasus striking from above at alien life... and the Ruin.",
+  "race" : "human",
+
+  "apexDescription" : "Looks more like Big Ape gazing at Miniknog soldiers slaughtering my rebel comrades... And it still gives me flashbacks.",
+  "avianDescription" : "Stargazers will consider this glance an unforgivable heresy.",
+  "floranDescription" : "Bring' em! Floran'll ssstab them all!",
+  "glitchDescription" : "Valorous. Not if I shall put an end to their calamity!",
+  "humanDescription" : "Please god no...",
+  "hylotlDescription" : "Let alone lashing out at Ruin, I can't let these kinds of humanity bloom again to threaten us.",
+  "novakidDescription" : "Nuh-uh... Try nuclear weaponry, cowboy.",
+
+  "sylethiiDescription" : "I will kill them all, before it will be too late.",
+  "boomboxidDescription" : "Then we'll endlessly torture deez incels' ears with female moaning sounds lmfao. And what are these hentai tentacles?",
+  "orthiridDescription" : "It will be an uncontrollable catastrophe if this kind of humanity rose.",
+  "ceebeDescription" : "Okay...? But I don't like what it will go...",
+  "valkeidinDescription" : "I'd hate what it will result.",
+  "raegshiaDescription" : "Even if this is the case, I will not die to them easily!",
+  "andarhanDescription" : "\"The time of wait is over. Humanity will r-\" Like hell they will rise again. Universe never belongs to them!",
+  "rhadurDescription" : "We will kill them as well!",
+  "dhirnakhorDescription" : "Not if we assimilate them into my kin.",
+  "koaulemDescription" : "(Resistance is futile.)",
+  "nharduunrDescription" : "Pathetic display of extreme overconfidence...",
+  "ginrhinDescription" : "The text reads: \"The Time Of Wait Is OVER. Humanity Will Rise NOW!\". Response: Not under our watch.",
+
+  "inventoryIcon" : "neocultist-poster2icon.png",
+  "orientations" : [
+    {
+      "image" : "neocultist-poster2.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

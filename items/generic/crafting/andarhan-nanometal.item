@@ -1,0 +1,10 @@
+{
+  "itemName" : "andarhan-nanometal",
+  "price" : 600,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "andarhan-nanometal.png",
+  "description" : "The same material used to create nanofabric.",
+  "shortdescription" : "Andarhan Nanometal",
+  "itemTags" : [ "reagent" ]
+}

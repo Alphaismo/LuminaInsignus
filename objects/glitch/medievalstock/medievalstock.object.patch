@@ -1,0 +1,32 @@
+[
+    {
+        "op" : "add",
+        "path" : "/boomboxidDescription",
+        "value" : "We don't \"troll\" anybody strapped to stupid stonks by throwing rotten tomatoes or somethin'."
+    },
+    {
+        "op" : "add",
+        "path" : "/ceebeDescription",
+        "value" : "Maybe that's where we could sometimes strap another there bellyside up for anyone to \"play with\"."
+    },
+    {
+        "op" : "add",
+        "path" : "/sylethiiDescription",
+        "value" : "No Sekiuj will ever disrespect those hapless enough to be straped there."
+    },
+    {
+        "op" : "add",
+        "path" : "/orthiridDescription",
+        "value" : "Are they trying to do something very despicable to me... or what. I don't get it."
+    },
+    {
+        "op" : "add",
+        "path" : "/andarhanDescription",
+        "value" : "*Facepalm*"
+    },
+    {
+        "op" : "add",
+        "path" : "/nharduunrDescription",
+        "value" : "Such inconvenient stocks."
+    }
+]

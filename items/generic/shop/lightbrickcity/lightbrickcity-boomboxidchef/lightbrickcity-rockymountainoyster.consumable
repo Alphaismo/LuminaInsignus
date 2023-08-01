@@ -1,0 +1,18 @@
+{
+  "itemName" : "lightbrickcity-rockymountainoyster",
+  "rarity" : "Rare",
+  "price" : 70,
+  "category" : "food",
+  "inventoryIcon" : "lightbrickcity-rockymountainoyster.png",
+  "description" : "Oh don't worry, they aren't bull's balls; they're actual species suddenly found in Lightbrick City's shores. Also tastes the same!",
+  "shortdescription" : "Rocky Mountain Oysters",
+  "foodValue" : 69,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 10,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

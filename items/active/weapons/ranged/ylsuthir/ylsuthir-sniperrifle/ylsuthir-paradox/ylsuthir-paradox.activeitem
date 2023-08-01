@@ -1,0 +1,101 @@
+{
+  "itemName" : "ylsuthir-paradox",
+  "price" : 2880,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Powerfully strong to cover long distances.",
+  "shortdescription" : "The Paradox",
+  "tooltipKind" : "gun",
+  "category" : "sniperRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","ylsuthir"],
+  "level" : 6,
+
+  "inventoryIcon" : [
+    { "image" : "ylsuthir-paradox.png" }
+  ],
+
+  "animation" : "/items/active/weapons/ranged/animation/lumins-fullbrightranged.animation",
+  "animationParts" : {
+    "middle" : "ylsuthir-paradox.png",
+    "middleFullbright" : "ylsuthir-paradoxfullbright.png",
+    "muzzleFlash" : "/items/active/weapons/ranged/ylsuthir/ylsuthir-muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/andarhan-weiss.ogg"]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [0, 127, 127]
+      }
+    }
+  },
+
+  "baseOffset" : [0.6, 0.1],
+  "muzzleOffset" : [2.9, 0.4],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 3.5,
+    "baseDps" : 85.0,
+    "energyUsage" : 28.550,
+    "inaccuracy" : 0.0,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "ylsuthirlargebullet",
+    "projectileParameters" : {
+      "speed": 500,
+      "knockbackRange" : 5
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      },
+      "cooldown" : {
+        "duration" : 0.05,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      }
+    }
+  },
+
+  // "altAbilityType" : "piercingshot",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

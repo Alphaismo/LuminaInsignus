@@ -1,0 +1,66 @@
+{
+  "objectName" : "ylsuthir-largecrate",
+  "colonyTags" : ["ylsuthir","nharduunr","storage"],
+  "rarity" : "Rare",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "description" : "A crate of unknown origin... But I can't get it open.",
+  "shortdescription" : "Yls'Uthiran Large Crate",
+  "race" : "nharduunr",
+  "price" : 625,
+
+  "health" : 6,
+
+  "floranDescription" : "Floran can't pry it open.",
+  "glitchDescription" : "Frustrated. I can't get it open.",
+  "novakidDescription" : "Ain't any crate stayin' shut as mighty good as this.",
+  "orthiridDescription" : "That would be tedious to figure out how to open this kind of crate.",
+  "raegshiaDescription" : "I'd kill anyone who thought an ID-card only crate was a good idea.",
+  "valkeidinDescription" : "TODO.",
+  "boomboxidDescrription" : "A crate with the idioticly inconvenient method of opening. Pfft...",
+  "sylethiiDescription" : "Nobody told me I was supposed to tap at the sheets..? To open it?",
+  "driianDescription" : "TODO.",
+  "quekhriiDescription" : "TODO.",
+  "qkhadranDescription" : "TODO.",
+  "ceebeDescription" : "TODO.",
+  "andarhanDescription" : "There must be a valuable artifacts that S'ytn might get a good use from.",
+  "rhadurDescription" : "TODO.",
+  "dhirnakhorDescription" : "TODO.",
+  "nharduunrDescription" : "TODO.",
+  "ginrhinDescription" : "Contents unknown. The crate is secured with proper ID card.",
+  
+
+  "inventoryIcon" : "ylsuthir-largecrateicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "ylsuthir-largecrate.png:<color>.<key>", "fullbright" : true }, { "image" : "ylsuthir-largecratelit.png:<color>.<key>" } ],
+      "imagePosition" : [-24, 0],
+  
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ],
+        "collision" : "platform",
+        "flipImages" : true,
+        "direction" : "left"
+  
+      },
+      {
+      "imageLayers" : [ { "image" : "ylsuthir-largecrate.png:<color>.<key>", "fullbright" : true }, { "image" : "ylsuthir-largecratelit.png:<color>.<key>" } ],
+        "imagePosition" : [-24, 0],
+  
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ],
+        "collision" : "platform",
+        "direction" : "right"
+  
+      }
+  ],
+
+  "openSounds" : [ "/sfx/objects/gunchest_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/gunchest_close.ogg" ],
+  "slotCount" : 48,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "openFrameIndex" : 4,
+  "autoCloseCooldown" : 3600
+}

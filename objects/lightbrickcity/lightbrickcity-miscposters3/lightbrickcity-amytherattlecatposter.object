@@ -1,0 +1,50 @@
+{
+  "objectName" : "lightbrickcity-amytherattlecatposter",
+  "colonyTags" : ["lightbrickcity","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+
+  "shortdescription" : "Girl-Show Poster",
+  "description" : "A framed poster from the cartoon (If you would call it cartoon) \"Amy the Rattlecat\".",
+  "race" : "generic",
+
+  "apexDescription" : "I doubt if actual little girls would enjoy this \"cartoon\".",
+  "avianDescription" : "Producers must've been on drugs to literally aim this grotesque show to girls.",
+  "floranDescription" : "Funny cat ssstabs lots of bad guysss.",
+  "glitchDescription" : "Amused. Quite the memorable show... if you would ignore the propotions of that Amy and the \"Grimdark Cyberpunk\" setting she's in...",
+  "humanDescription" : "The most gruesome girl show ever dated yet. And in a neat way too.",
+  "hylotlDescription" : "For a girl-show, it's horrendously violent... if not worse.",
+  "novakidDescription" : "A poster of some show called \"Amy the Rattlecat\".",
+
+  "sylethiiDescription" : "It's kind of hillarious to see a girl-show that's not shy to bring out as much gore as it delivers.",
+  "boomboxidDescription" : "There's a merch spiraling around le Amy.",
+  "orthiridDescription" : "The series started off as a plush merch, then dug onto the animation era.",
+  "ceebeDescription" : "I enjoyed watching all seasons of \"Amy the Rattlecat\" since my childhood. Well... pink blood is not outta question.",
+  "valkeidinDescription" : "Whatever those villains from the show are, they won't be out of place in Cyberpunk and Dungeons and Dragons genres respectively.",
+  "quekhriiDescription" : "I kind of approve of their efforts to make the show not boring. Although the cliche was inevitable.",
+  "raegshiaDescription" : "The antagonists in this franchise seem to be diverse, and dangerous as well since most wield magic against the muggle main protagonist.",
+  "driianDescription" : "Eh this show is edgy at best.",
+  "halcyonDescription" : "\"Amy the Rattlecat\"... I never expected this show to be a middle finger to girl-show guidelines.",
+  "qkhadranDescription" : "A little-ish furry girl who kills anyone she stumbles. Sign me in!",
+  "andarhanDescription" : "I'd assassinate anyone who think that underage female protagonists and voluptuous bodies mix.",
+  "rhadurDescription" : "Not worth even digitally pirating it. Like, at all...",
+  "dhirnakhorDescription" : "What even is this?",
+  "koaulemDescription" : "(It's some kind of strange sensation... I start to enjoy this show one episode after another.)",
+  "nharduunrDescription" : "I doubt I would recommend alien daughters to watch this show; probably for the best.",
+  "ginrhinDescription" : "\"Amy the Rattlecat\". Established in 1968 as plushie merchandise by female Hylotl director \"Setsuko Nagai\".",
+
+  "inventoryIcon" : "lightbrickcity-amytherattlecatpostericon.png",
+  "orientations" : [
+    {
+      "image" : "lightbrickcity-amytherattlecatposter.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "itemName" : "slopedylsuthirpanel2",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "slopedylsuthirpanel2.png",
+  "shortdescription" : "Yls'Uthiran Hull Panel+",
+  "description" : "Most common, and most strongest, building used in Yls'Uthiran buildings.",
+  "glitchdescription" : "Observant. This material is why their weird buildings managed to pass the test of time.",
+  "florandescription" : "Shiny sssmooth alien alloy.",
+  "novakiddescription" : "Some thick metal plating, looks mighty solid.",
+  "nharduunrDescription" : "We utilize these alloys to build civilization and create our technology.",
+  "ginrhinDescription" : "Dyr'kuuhr-Omnimetal alloy confirmed. Common building material in Yls'Uthir.",
+
+  "materialId" : 31394
+}

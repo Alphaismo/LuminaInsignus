@@ -1,0 +1,51 @@
+{
+  "itemName" : "ilsyeinite-valkyrie",
+  "price" : 640,
+  "inventoryIcon" : "ilsyeinite-valkyrieicon.png",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "tooltipKind" : "bow",
+  "category" : "bow",
+  "description" : "As primitive as it may seem for a bow made out of it, it works really well.",
+  "shortdescription" : "IL-0918 \"Valkyrie\"",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","ilsyeinite","bow"],
+
+  "level" : 6,
+
+  "animation" : "/items/active/weapons/ranged/animation/lumins-fullbrightbow.animation",
+  "animationParts" : {
+    "bow" : "ilsyeinite-valkyrie.png",
+    "bowFullbright" : "ilsyeinite-valkyriefullbright.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : {
+      "bow" : { "properties" : {
+        "offset" : [0.25, 0.125]
+      }},
+      "bowFullbright" : { "properties" : {
+        "offset" : [0.25, 0.125]
+      }}
+    }},
+    "sounds" : {
+      "draw" : [ "/sfx/gun/bow_draw1.ogg", "/sfx/gun/bow_draw2.ogg", "/sfx/gun/bow_draw3.ogg" ],
+      "release" : [ "/sfx/gun/bow_loose.ogg" ],
+      "perfectRelease" : [ "/sfx/gun/bow_loose_perfect.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+    "fireOffset" : [1.75, 0.125],
+    "projectileType" : "ilsyeinite-arrow",
+    "powerProjectileType" : "ilsyeinite-arrowcharged",
+    "projectileParameters" : {
+      "power" : 15.0,
+      "speed" : 200
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildbow.lua"
+}

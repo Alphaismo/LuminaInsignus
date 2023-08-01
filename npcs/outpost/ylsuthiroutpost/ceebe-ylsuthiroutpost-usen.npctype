@@ -1,0 +1,84 @@
+{
+  "type" : "ceebe-ylsuthiroutpost-usen",
+  "baseType" : "outpostcivilian",
+
+  "npcname" : "Usen",
+  "identity" : {
+    "hairDirectives" : "?replace;a38d59=982441;d9c189=CD1C38;735e3a=69243F?replace;dc1f00=e6e6e6;be1b00=979797;951500=6f6f6f",
+    "bodyDirectives" : "?replace;ffc181=f7d5d3;d39c6c=d1aaa1;ffe2c5=fff6f6;c7815b=a27f70?replace;dc1f00=e6e6e6;be1b00=979797;951500=6f6f6f",
+    "emoteDirectives" : "?replace;ffc181=f7d5d3;d39c6c=d1aaa1;ffe2c5=fff6f6;c7815b=a27f70?replace;dc1f00=e6e6e6;be1b00=979797;951500=6f6f6f",
+    "gender" : "male"
+  },
+
+  "scriptConfig" : {
+    "offeredQuests" : [ ],
+    "turnInQuests" : [ ],
+
+    "reactions" : { "spontaneous" : [ ] },
+    "personalities" : [
+    [1.0, { "personality" : "anxious", "reactions" : {} }]
+    ],
+
+    "dialogMode": "tutorial",
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Hello."
+          ]
+        },
+        "ceebe" : {
+          "default" : [
+            "I... I don't know what happened to our mom in Rhevaa. I wonder why they and the rest of New Earth hate Lightbrick City and it's citizens, including our mom obviously, so much and for no reason?..",
+            "I love my brothers, who were, respectively, esteemed hunter and engineer.",
+            "It's really cool to see an actual Nhar'Duunr for the first time. Ever since I am a Nhar'Duunrist who sees these guys as gods.",
+            "W-What? No!.. I do respect these guys' decision building an ancient skyscraper... I'm just afraid of heights!",
+            "I really wish to be on the date with Neju...",
+            "Even they here think that all Ceebes are nothing but \"lecherous humanoids\". Surely enough they're wrong.",
+            "I love my brothers. They really do treat me well, like another human being. Sometimes we go outside and hunt for food, resources... or even both.",
+            "I really like Velrui-Thareu, he's a really kind Nhar'Duunr, and the one above all else who pleases me the most! I loved it.",
+            "Everyone in Vervas Tharaau is kind and caring to us. Which... it's kind of something we never got elsewhere, where we instead were humiliated and ostracized... except in Lightbrick, I suppose.",
+            "It's so cold here... Do you happen to bring any furcoat?",
+            "I gathered mushrooms, and oh god... Who didn't told me they move everywhere and around?"
+          ],
+          "ceebe" : [
+            "Oh... hi.",
+            "It's so cool to see yet another Ceebe to come to visit.",
+            "We aren't that many in this place. It's kinda surprising to see another face.",
+            "W-What? No!.. I do respect these guys' decision building an ancient skyscraper... I'm just afraid of heights!",
+            "Billy told me we have weapons in Lightbrick City, produced for us. Kinda cool.",
+            "I love Nebucola. It's a shame there's none of it in Vervas Tharaau.",
+            "Rhevaan propaganda doesn't have any effect on me. I'm not a medical expert, but I speak from experience; Nebucola nor Zadang doesn't do any trash to your body, \nwhat they've said against Lightbrick City's popular drinks are blatant lies.",
+            "I've dreamt to sleep with Ceebe girls once, but I already found a girl for my dream; a Sylethii who's as same as me.",
+            "It's so cold here... Do you happen to bring any furcoat?",
+            "I gathered mushrooms, and oh god... Who didn't told me they move everywhere and around?"
+          ],
+          "andarhan" : [
+            "Thank god... I thought you were going to kill me and all...",
+            "Wait. You've had even worse? Jeez...",
+            "Oh, another middle finger to racial stereotypes. Wanna be... ummmm... friends? Rivals even?",
+            "W-What? No!.. I do respect these guys' decision building an ancient skyscraper... I'm just afraid of heights!",
+            "I've heard 'bout S'ytn Vos... The one of facts that he's always involved in armies and winning everytime makes him really... REALLY scary.",
+            "Hi, big metal guy!",
+            "D-Don't hurt me... Okay?",
+            "We may create a society where we can give those Andarhans a better, proper life.",
+            "It's so cold here... Do you happen to bri- Oh, so sorry... you wear mechanical bodies instead. Ah well that's a shame they aren't a furcoat.",
+            "I gathered mushrooms, and oh god... Who didn't told me they move everywhere and around?"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "ceebetier1head" } ],
+            "chest" : [ { "name" : "lumins-noclotheschest" } ],
+            "legs" : [ { "name" : "steamgreylegs", "parameters" : { "colorIndex" : 1 } } ]
+          }
+        ] ]
+    ]
+  }
+}

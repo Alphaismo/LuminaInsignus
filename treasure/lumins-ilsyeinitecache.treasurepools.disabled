@@ -1,0 +1,42 @@
+  // ==============================================================================================
+  //                           Most Otherwise-Unreleased Weapons
+  // ==============================================================================================
+  {
+    "ilsyeiniteCache" : [
+      [1, {
+        "poolRounds" : 1,
+        "pool" : [
+          {"weight" : 1.0, "item" : "andarhan-weiss"},
+          {"weight" : 1.0, "item" : "andarhan-geist"},
+          {"weight" : 1.0, "item" : "andarhan-endoftheunknown"},
+          {"weight" : 1.0, "item" : "andarhan-noir"},
+          {"weight" : 1.0, "item" : "driian-maelstrom"},
+          {"weight" : 1.0, "item" : "driian-monsooncrescendo"},
+          {"weight" : 1.0, "item" : "driian-poseidon"},
+          {"weight" : 1.0, "item" : "halcyon-arbiter"},
+          {"weight" : 1.0, "item" : "halcyon-hyperion"},
+          {"weight" : 1.0, "item" : "halcyon-talon"},
+          {"weight" : 1.0, "item" : "halcyon-behemoth"},
+          {"weight" : 1.0, "item" : "halcyon-harbingersblade"},
+          {"weight" : 1.0, "item" : "halcyon-terminus"},
+          {"weight" : 1.0, "item" : "boomboxid-rave"},
+          {"weight" : 1.0, "item" : "boomboxid-arkham"},
+          {"weight" : 1.0, "item" : "boomboxid-gotham"},
+          {"weight" : 1.0, "item" : "ceebe-dread"},
+          {"weight" : 1.0, "item" : "ceebe-lancer"},
+          {"weight" : 1.0, "item" : "ceebe-veritas"},
+          {"weight" : 1.0, "item" : "domino-trailblaze"},
+          {"weight" : 1.0, "item" : "ylsuthir-predator"},
+          {"weight" : 1.0, "item" : "ylsuthir-riftbroken"},
+          {"weight" : 1.0, "item" : "ylsuthir-nocturn"},
+          {"weight" : 1.0, "item" : "ylsuthir-valor"},
+          {"weight" : 1.0, "item" : "ylsuthir-deadlock"},
+          {"weight" : 1.0, "item" : "brotherhood-hellhound"},
+          {"weight" : 1.0, "item" : "neocultist-sunkiller"},
+          {"weight" : 1.0, "item" : "neocultist-sentinel"},
+          {"weight" : 1.0, "item" : "neocultist-tenebris"},
+          {"weight" : 1.0, "item" : "neocultist-megalodon"}
+        ]
+      }]
+    ]
+  }

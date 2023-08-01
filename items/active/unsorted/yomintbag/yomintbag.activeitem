@@ -1,0 +1,24 @@
+{
+  "itemName" : "yomintbag",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mysteriousReward",
+  "description" : "Pack of face-kicking sourest caramel breath mints. Lightbrick 's favorite!",
+  "shortdescription" : "Yomint Bag",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "yomintbagicon.png",
+  "animation" : "yomintbag.animation",
+  "animationCustom" : {},
+  "scripts" : ["yomintbag.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "yomintBag",
+    "level" : 1
+  }
+}

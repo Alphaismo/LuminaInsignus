@@ -1,0 +1,46 @@
+{
+  "objectName" : "flagandarhan",
+  "colonyTags" : ["andarhan"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "teleporter",
+  "category" : "teleportMarker",
+  "price" : 70,
+  "radioMessagesOnPickup" : [ "pickupflag" ],
+  
+  "description" : "The flag of the Protectorate. Use ^green;[E]^white; to bookmark a teleportation location.",
+  "shortdescription" : "andarhan Flag",
+  "race" : "andarhan",
+  "apexDescription" : "A andarhan flag. I can use this as a waypoint for teleportation.",
+  "avianDescription" : "This andarhan flag can be bookmarked as a destination for my ship teleporter.",
+  "floranDescription" : "andarhan flag makess good point to teleport back to ussing teleporter",
+  "glitchDescription" : "Observant. A small locator module attached to this andarhan flag allows it to be bookmarked for teleportation.",
+  "humanDescription" : "This andarhan flag can be saved as a location for my teleporter. Then I can return to it at any time.",
+  "hylotlDescription" : "This andarhan flag can act as a way point, enabling me to return to this point using a teleporter.",
+  "novakidDescription" : "I can bookmark this andarhan flag for quick teleportin'.",
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
+  "inventoryIcon" : "flagandarhanicon.png",
+  "orientations" : [
+    {
+      "image" : "flagandarhan.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [-17, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "flagandarhan.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [1, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+  //"soundEffect" : "/sfx/objects/flag_flap_loop.ogg"
+}

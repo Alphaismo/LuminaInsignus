@@ -1,0 +1,97 @@
+{
+  "itemName" : "driian-maelstrom",
+  "price" : 1080,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "TODO.",
+  "shortdescription" : "\"Maelstrom\"",
+  "tooltipKind" : "gun",
+  "category" : "sniperRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","driian"],
+  "level" : 6,
+
+  "inventoryIcon" : [
+    { "image" : "driian-maelstrom.png" }
+  ],
+
+  "animation" : "/items/active/weapons/ranged/animation/lumins-fullbrightranged.animation",
+    "animationParts" : {
+      "middle" : "driian-maelstrom.png",
+      "middleFullbright" : "driian-maelstromfullbright.png",
+      "muzzleFlash" : "/items/active/weapons/ranged/driian/magitek/driian-muzzleflash.png"
+    },
+    "animationCustom" : {
+        "sounds" : {
+          "fire" : ["/sfx/gun/lumins-plasma3.ogg"]
+        }
+      },
+
+  "baseOffset" : [1.6, 0.35],
+  "muzzleOffset" : [2.9, -0.2],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 1.3,
+    "baseDps" : 28.5,
+    "energyUsage" : 30,
+    "inaccuracy" : 0,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "driiansniperbullet",
+    "projectileParameters" : {
+      "speed": 500,
+      "knockbackRange" : 10
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+          
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+        "weaponOffset" : [-0.15, 0],
+        "recoil" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false,
+          
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      },
+      "cooldown" : {
+        "duration" : 0.25,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+        "weaponOffset" : [-0.15, 0],
+
+        "allowRotate" : false,
+        "allowFlip" : false,
+          
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

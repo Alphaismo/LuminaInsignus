@@ -1,0 +1,10 @@
+{
+  "itemName" : "lumins-soldriveaccumulator",
+  "price" : 180,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "lumins-soldriveaccumulator.png",
+  "description" : "This one is used for specific Soldrive weapons crafted by the Ancients.",
+  "shortdescription" : "^#D39AE9;Soldrive Accumulator^reset;",
+  "itemTags" : [ "reagent" ]
+}

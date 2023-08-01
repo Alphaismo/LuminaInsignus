@@ -1,0 +1,70 @@
+{
+  "type" : "human-lightbrickcityclementine",
+  "baseType" : "outpostcivilian",
+  
+  "npcname" : "Clementine",
+  "identity" : {
+    "gender" : "female",
+    "hairGroup" : "hair",
+    "hairType" : "lumins-fem2"
+  },
+
+  "scriptConfig" : {
+    "offeredQuests" : [ ],
+    "turnInQuests" : [ ],
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+
+    "dialogMode": "tutorial",
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Hello."
+          ]
+        },
+        "human" : {
+          "default" : [
+            "Oh, me?.. I'm just taking a break from Girlana Institute's library, and decided to go touch some grass... literally.",
+            "If you didn't have your manhood being pounded to hell for any men's pleasure, you haven't knew the thrill. Trust me, it's really worth it.",
+            "They ask \"Why would a librarian sell her exhaust pipe to cucumbers for whopping 300 kromer?\". I'd always say; I can.",
+            "I alwaya wanted to get my hands on grimoire with forbidden spells.",
+            "My cat and rear end are off-limits, dumbass.",
+            "Wanna hear the jokes about my dad? He's in your ass tonight.",
+            "I surely used warping to get from Lightbrick City to Lumina Insignus. Worth permanently melting the fuck out of your fingernails... \nI guess. Ow...",
+            "There's a magical diamond orb in my bladder.",
+            "\"Poop grimoire\"? \nSeriously... What gives you such an idiotic idea!? WTF is wrong with you?",
+            "I even have full archives of \"USCM Project Zenithbreach\" documents for fucking sale.",
+            "I surely wanna see beautiful masterpieces of myself being me drawn. They really love who I am.",
+            "There's a magical diamond orb in my bladder. And yes, that's my secret why I didn't have any urinary issues since 8 months.",
+            "No I didn't shave off my leg hair. Fuck you.",
+            "Blah blah blah \"Where's poop grimoire, madam?\" go fuck yourself + L + ratio + cope.",
+            "Some Mozambique kid who doesn't want you to shut the fuck us is dead, moron. So shut the fuck up.",
+            "My dad, being a grease monke, is extremely busy. And has a reason why he spends so little time with me.",
+            "Seriously... Why would anyone misgender my dad as female so much? It's like referring my mom with male pronouns!.. if I actually had a mom...",
+            "Nobody stopped bitching about poop grimoires... What the fuck is wrong with them! They don't exist!",
+            "I fucking love collecting mangas and comics! I wanna see these ancient masterpieces be seen and readed by future generations!",
+            "Tangie told me how at my age she lost her parents to Brotherhood of Ares.",
+            "I'm still practicing Yeilaran. So one day I may surprise Finn with that language of her ancestors'.",
+            "I've heard of news on TV about \"Brotherhood of Ares\" causing ruckus somewhere in cities in Ve'Uliiyn... as some kind of so-called \"blood sacrifice\". I can't fathom when they will get us as well.",
+            "I won't forget what Evis did to turn me into promiscuous twat I am now. I'll prepare an \"accident\" for her.",
+            "Didn't knew that Finn and Keji married 17 months ago and now have 2 daughters. As for \"Replicant Type\" Orthirid being one of their children... She's really special...",
+            "I have a recipe paper for \"<selfname>'s Special\". But it's deep up my kidney from within... I can only give you a clue; it's candied bacon nebulime tanghulu cake.",
+            "Thanks, but I'm allergic to vegetables and mushrooms... except corn, enoki... and potatoes.",
+            "I don't know how many weeks- no... months I've been without electricity. But I don't want to know what living without tap water at all as well feels like.",
+            "I love my grandma and daddy. Grandpa too.",
+            "When I was a child, I enjoyed collecting scrap metal and delivering it to my dad to make action figures for me. Nostalgia...",
+            "Shit... My right eye... Why it won't stop aching...",
+            "Radio BigAssRobot is awesome. Give it a listen; you won't regret it.",
+            "BoozySaturn FN is dope. Give it a listen; you won't regret it.",
+            "Ever listened to Radio Phonkhaven? It ебашит only the most amazing phonk.",
+            "Tenebris Bass Kingdom is amazing. Give it a listen; you won't regret it.",
+            "Watch out for Cock Marauders, if you're a... specific virgin, outsider or no.",
+            "Bitch I've got Barrett M82A1, and I won't regret blasting your brains off in every direction if you piss me off."
+          ]
+        }
+      }
+    }
+  }
+}

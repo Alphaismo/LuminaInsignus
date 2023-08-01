@@ -1,0 +1,50 @@
+{
+  "objectName" : "lightbrickcity-vaarelemovieposter",
+  "colonyTags" : ["lightbrickcity","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+
+  "shortdescription" : "Sci-Fi Action Movie Poster",
+  "description" : "A framed poster from the movie \"Vaar'ele: The Requiem\".",
+  "race" : "generic",
+
+  "apexDescription" : "The antagonist faction from this movie reminds me of the Miniknog.",
+  "avianDescription" : "TODO.",
+  "floranDescription" : "There's ssstabbing too. Perfect.",
+  "glitchDescription" : "Intrigued. Quite the most fascinating robot movie, if you ask me. 8.5/10.",
+  "humanDescription" : "Even if this movie is fantastic; why are humans villified?",
+  "hylotlDescription" : "The villains of this movie tend to use violent tactics as attempts to exterminate the heroes. But it's quite fitting for a movie about the futuristic dystopia.",
+  "novakidDescription" : "TODO.",
+
+  "sylethiiDescription" : "I can agree with these producers; three laws of robotics, except third law for my own reason, really kills the amusement for a movie about heroic robots.",
+  "boomboxidDescription" : "Pass me the popcorn for September 25th!",
+  "orthiridDescription" : "The mooks of this movie really don't fuck around placing few shots at heroes. It's pretty cool.",
+  "ceebeDescription" : "TODO.",
+  "valkeidinDescription" : "TODO.",
+  "quekhriiDescription" : "TODO.",
+  "raegshiaDescription" : "TODO.",
+  "driianDescription" : "TODO.",
+  "halcyonDescription" : "Most of the movie, even if cliche, is well-made, but it's nice to see heroic machines fighting against the oppressive megacorp full of humans.",
+  "qkhadranDescription" : "I'm not surprised they glorify devils of steel in a movie... But there's always a bigger fish here, I guess.",
+  "andarhanDescription" : "To depict machines as heroes and humans as villains, Lightbrick City's movie industry really loves to piss Hollywood off. I love it!",
+  "rhadurDescription" : "TODO.",
+  "dhirnakhorDescription" : "TODO.",
+  "koaulemDescription" : "(Either of the sides are pests of the universe to stomp beneath our feet.)",
+  "nharduunrDescription" : "TODO.",
+  "ginrhinDescription" : "\"Vaar'ele: The Requiem\". The movie plot is about two machine outcasts taking revenge against tyrannical megacorp \"Aeon\".",
+
+  "inventoryIcon" : "lightbrickcity-vaarelemoviepostericon.png",
+  "orientations" : [
+    {
+      "image" : "lightbrickcity-vaarelemovieposter.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

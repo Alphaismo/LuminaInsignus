@@ -1,0 +1,23 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "crewSize" : 4
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "qkhadranT4.png",
+      "position" : [4.63, 16.37],
+      "fullbright" : true
+    },
+    {
+      "image" : "qkhadranT4lit.png",
+      "position" : [4.63, 16.37]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "qkhadranT4blocks.png"
+}

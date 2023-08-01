@@ -1,0 +1,16 @@
+{
+  "itemName" : "lightbrickcity-nebucola",
+  "rarity" : "Common",
+  "price" : 40,
+  "category" : "drink",
+  "inventoryIcon" : "lightbrickcity-nebucola.png",
+  "description" : "A tangy, satisfyingly soothing cola in Lightbrick City. Bliss in a brink indeed.",
+  "shortdescription" : "Nebucola",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 30
+    }
+  ] ],
+  "emitters" : [ "drinking" ]
+}

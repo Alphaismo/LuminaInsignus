@@ -1,0 +1,60 @@
+[
+	// Space Encounter
+	{
+		"op" : "add",
+		"path" : "/lumins-spaceencounter",
+		"value" : {
+			"primaryDungeon" : "lumins-spaceencounter",
+			"threatLevel" : 6,
+			"gravity" : 0,
+			"airless" : true,
+			"worldSize" : [1200, 200],
+			"dungeonBaseHeight" : 150,
+			"dungeonSurfaceHeight" : 150,
+			"ambientLightLevel" : [32, 32, 32],
+			"ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+			"musicTrack" : "/music/lava-exploration1.ogg",
+			"environmentStatusEffects" : ["biomeairless", "dontstarve"],
+			"worldEdgeForceRegions" : "TopAndBottom",
+			"biome" : "space"
+		}
+	},
+	// Vervas Tharaau
+	{
+		"op" : "add",
+		"path" : "/ylsuthiroutpost",
+		"value" : {
+		  "primaryDungeon" : "ylsuthiroutpost",
+		  "weatherPool" : [
+			[1.0, "clear"]
+		  ],
+		  "threatLevel" : 10,
+		  "gravity" : 80,
+		  "worldSize" : [1400, 800],
+		  "dungeonBaseHeight" : 800,
+		  "dungeonSurfaceHeight" : 200,
+		  "ambientLightLevel" : [174, 89, 47],
+		  "biome" : "ylsuthiroutpostclouds",
+		  "musicTrack" : "/music/the-eternal-tide.ogg"
+		}
+	},
+	// Lightbrick City
+	{
+		"op" : "add",
+		"path" : "/lightbrickcity",
+		"value" : {
+		  "primaryDungeon" : "lightbrickcity",
+		  "weatherPool" : [
+			[1.0, "clear"]
+		  ],
+		  "threatLevel" : 6,
+		  "gravity" : 80,
+		  "worldSize" : [2500, 800],
+		  "dungeonBaseHeight" : 800,
+		  "dungeonSurfaceHeight" : 200,
+		  "ambientLightLevel" : [128, 128, 128],
+		  "biome" : "garden",
+		  "musicTrack" : "/music/planetarium.ogg"
+		}
+	}
+]

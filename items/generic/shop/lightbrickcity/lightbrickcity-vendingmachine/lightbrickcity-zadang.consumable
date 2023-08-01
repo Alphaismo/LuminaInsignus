@@ -1,0 +1,16 @@
+{
+  "itemName" : "lightbrickcity-zadang",
+  "rarity" : "Common",
+  "price" : 40,
+  "category" : "drink",
+  "inventoryIcon" : "lightbrickcity-zadang.png",
+  "description" : "Although inferior to Yomint, it still gained popularity for being the sourest soda ever.",
+  "shortdescription" : "Zadang",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 30
+    }
+  ] ],
+  "emitters" : [ "drinking" ]
+}

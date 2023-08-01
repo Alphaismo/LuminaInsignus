@@ -1,0 +1,10 @@
+{
+  "itemName" : "lumins-omnimetal",
+  "price" : 60,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "lumins-omnimetal.png",
+  "description" : "It's made out of a specific diamond, but thanks to such it's extremely durable.",
+  "shortdescription" : "Omnimetal Alloy",
+  "itemTags" : [ "reagent" ]
+}

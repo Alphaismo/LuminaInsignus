@@ -1,0 +1,247 @@
+{
+  "objectName" : "ylsuthir-lasertrap",
+  "colonyTags" : ["nharduunr","nharduunrtemple","trap"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "description" : "A mysterious trap designed to swiftly annihilate invaders.",
+  "shortdescription" : "Yls'Uthiran Laser Trap",
+  "race" : "nharduunr",
+
+  "floranDescription" : "Crystal beam hurtsss Floran.",
+  "glitchDescription" : "Intrigued. I must be very careful... Whatever magic coming from, it could even disintegrate a Glitch.",
+  "novakidDescription" : "I'd better watch out, these beams of light could fry me.",
+
+  "category" : "trap",
+  "price" : 500,
+
+  "inventoryIcon" : "ylsuthir-lasertrapicon.png",
+  "orientations" : [
+    {
+      "image" : "ylsuthir-lasertrapground.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-8, 0],
+      "animationParts" : {
+        "bg" : "ylsuthir-lasertrapground.png",
+        "fg" : "ylsuthir-lasertrapground.png"
+      },
+
+      "renderLayer" : "Object+50",
+      "lightPosition" : [0, 1],
+
+      "beamDirection" : [0, 1],
+      "beamStartOffset" : [0, 1.5],
+      "maxBeamLength" : 50,
+      "metaBoundBox" : [-4, -4, 4, 54],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "left", "right" ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "ylsuthir-lasertrapground.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "ylsuthir-lasertrapground.png",
+        "fg" : "ylsuthir-lasertrapground.png"
+      },
+
+      "renderLayer" : "Object+50",
+      "lightPosition" : [0, 1],
+
+      "beamDirection" : [0, 1],
+      "beamStartOffset" : [1, 1.5],
+      "maxBeamLength" : 50,
+      "metaBoundBox" : [-4, -4, 4, 54],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "left", "right" ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "ylsuthir-lasertrap.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-8, 0],
+      "animationParts" : {
+        "bg" : "ylsuthir-lasertrap.png",
+        "fg" : "ylsuthir-lasertrap.png"
+      },
+
+      "renderLayer" : "Object+50",
+      "lightPosition" : [-1, 0],
+
+      "beamDirection" : [-1, 0],
+      "beamStartOffset" : [-0.5, 1],
+      "maxBeamLength" : 50,
+      "metaBoundBox" : [-54, -4, 4, 4],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "ylsuthir-lasertrap.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "ylsuthir-lasertrap.png",
+        "fg" : "ylsuthir-lasertrap.png"
+      },
+
+      "renderLayer" : "Object+50",
+      "lightPosition" : [1, 0],
+
+      "beamDirection" : [1, 0],
+      "beamStartOffset" : [1.5, 1],
+      "maxBeamLength" : 50,
+      "metaBoundBox" : [-54, -4, 4, 4],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "ylsuthir-lasertrapceiling.png:<color>.<frame>",
+      "imagePosition" : [-8, -8],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-8, -8],
+      "animationParts" : {
+        "bg" : "ylsuthir-lasertrapceiling.png",
+        "fg" : "ylsuthir-lasertrapceiling.png"
+      },
+
+      "renderLayer" : "Object+50",
+      "lightPosition" : [0, -1],
+
+      "beamDirection" : [0, -1],
+      "beamStartOffset" : [0, -0.5],
+      "maxBeamLength" : 50,
+      "metaBoundBox" : [-4, -54, 4, 4],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "ylsuthir-lasertrapceiling.png:<color>.<frame>",
+      "imagePosition" : [0, -8],
+      "direction" : "right",
+      
+      "animationPosition" : [0, -8],
+      "animationParts" : {
+        "bg" : "ylsuthir-lasertrapceiling.png",
+        "fg" : "ylsuthir-lasertrapceiling.png"
+      },
+
+      "renderLayer" : "Object+50",
+      "lightPosition" : [0, -1],
+
+      "beamDirection" : [0, -1],
+      "beamStartOffset" : [1, -0.5],
+      "maxBeamLength" : 50,
+      "metaBoundBox" : [-4, -54, 4, 4],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "ylsuthir-lasertrapground.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-8, 0],
+      "animationParts" : {
+        "bg" : "ylsuthir-lasertrapground.png",
+        "fg" : "ylsuthir-lasertrapground.png"
+      },
+
+      "renderLayer" : "Object+50",
+      "lightPosition" : [0, 1],
+
+      "beamDirection" : [0, 1],
+      "beamStartOffset" : [0, 1.5],
+      "maxBeamLength" : 50,
+      "metaBoundBox" : [-4, -4, 4, 54],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "ylsuthir-lasertrapground.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "ylsuthir-lasertrapground.png",
+        "fg" : "ylsuthir-lasertrapground.png"
+      },
+
+      "renderLayer" : "Object+50",
+      "lightPosition" : [0, 1],
+
+      "beamDirection" : [0, 1],
+      "beamStartOffset" : [1, 1.5],
+      "maxBeamLength" : 50,
+      "metaBoundBox" : [-4, -4, 4, 54],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid"
+    }
+  ],
+
+  "animation" : "/objects/wired/projectiletrap/projectiletrap.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "shoot" : [ ],
+      "on" : [ "/sfx/objects/crystaltrap_on1.ogg" ],
+      "off" : [ "/sfx/objects/crystaltrap_off.ogg" ]
+    }
+  },
+  "animationScripts" : [ "/objects/wired/projectiletrap/beamtraprendering.lua" ],
+  
+  "health" : 7,
+
+  "scripts" : [ "/objects/wired/projectiletrap/beamtrap.lua" ],
+  "scriptDelta" : 5,
+
+  "soundEffect" : "/sfx/objects/crystaltrap_loop.ogg",
+
+  "inputNodes" : [ [0, 0] ],
+
+  "inactiveLightColor" : [0, 0, 0],
+  "activeLightColor" : [80, 255, 255],
+
+  "beamLight" : [135, 255, 255],
+  "beamImages" : {
+    "first" : "/objects/ylsuthir/ylsuthir-lasertrap/beamstart.png",
+    "body" : "/objects/ylsuthir/ylsuthir-lasertrap/beambody.png",
+    "last" : "/objects/ylsuthir/ylsuthir-lasertrap/beamend.png"
+  },
+
+  "beamDamage" : {
+    "damage" : 60,
+
+    "teamType" : "enemy",
+    "damageSourceKind" : "plasma",
+    "damageType" : "Environment",
+    "knockback" : 0,
+    "damageRepeatTimeout" : 0.5
+  }
+}

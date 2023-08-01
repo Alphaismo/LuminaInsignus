@@ -1,0 +1,15 @@
+{
+  "itemName" : "mechbodysylethiiproto",
+  "price" : 6400,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbody",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mechbodysylethiiproto.png",
+  "description" : "A prototype open-top mech body, designed by Domino Arsenal.",
+  "shortdescription" : "Onslaught-00 Mech Body",
+  "itemTags" : [ ],
+
+  "mechPart" : ["body", "sylethiiproto"]
+}

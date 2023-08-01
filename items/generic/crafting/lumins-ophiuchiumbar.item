@@ -1,0 +1,11 @@
+{
+    "itemName" : "lumins-ophiuchiumbar",
+    "price" : 200,
+    "rarity" : "Rare",
+    "category" : "craftingMaterial",
+    "inventoryIcon" : "lumins-ophiuchiumbar.png",
+    "description" : "Dense and magically unstable bar of Ophiuchium, it continuously glows.",
+    "shortdescription" : "Ophiuchium Bar",
+    "itemTags" : [ "reagent" ]
+  }
+  

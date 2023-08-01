@@ -1,0 +1,10 @@
+{
+  "itemName" : "lumins-carbonatedplatisteelbar",
+  "price" : 110,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "lumins-carbonatedplatisteelbar.png",
+  "description" : "What lost it's known shimmering look makes up for more durability and light absorption.",
+  "shortdescription" : "Carbonated Platisteel Bar",
+  "itemTags" : [ "reagent" ]
+}

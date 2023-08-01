@@ -1,0 +1,108 @@
+{
+    "type" : "human-lightbrickcitydub",
+    "baseType" : "outpostcivilian",
+  
+    "identity" : {
+        "name" : "Dub",
+        "species" : "human",
+        "gender" : "male",
+        "hairGroup" : "hair",
+        "hairType" : "lumins-male1",
+        "personalityIdle":"idle.2",
+        "personalityArmIdle":"idle.5",
+        "personalityHeadOffset":[-1,0],
+        "bodyDirectives":"?replace;c7815b=998A89;ffe2c5=FFF3F2;d39c6c=CCB9B7;ffc181=FFE6E3?replace;be1b00=FFF082;dc1f00=FFF3B2;951500=FFE438",
+        "emoteDirectives":"?replace;c7815b=998A89;ffe2c5=FFF3F2;d39c6c=CCB9B7;ffc181=FFE6E3?replace;be1b00=FFF082;dc1f00=FFF3B2;951500=FFE438",
+        "hairDirectives":"?replace;a38d59=4d55b0;735e3a=2e2a73;d9c189=5d8bc7?replace;be1b00=FFF082;dc1f00=FFF3B2;951500=FFE438"
+    },
+
+    "damageTeamType" : "ghostly",
+
+    "scriptConfig" : {
+      "offeredQuests" : [ ],
+      "turnInQuests" : [ ],
+
+      "personalities" : [
+        [1.0, { "personality" : "cheerful", "reactions" : {} }]
+      ],
+
+      "dialogMode": "tutorial",
+      "dialog" : {
+        "converse" : {
+            "default" : {
+                "default" : [
+                    "Hello."
+                    ]
+                },
+            "human" : {
+                "default" : [
+                    "Oi. I'm ^green;Dub Yeetum^reset;, or y'can call me ^green;Alphaismo^reset;, esteemed author of \"Lumina Insignus\" mod.",
+                    "I make several shit too, for example; I made Thelean Plushies, or Tide as a melee weapon.",
+                    "Well yeah I'm literally le god here fuck you.",
+                    "I made a girl out of bottles rotflmao. WHO HAS NO BITCHES NOW?",
+                    "I am in perpetual cycle of anguish and torment. Not even sodas can permanently relieve it.",
+                    "Well I have niche art I make too... Let's just say it's best for you to find out yourself.",
+                    "Anti-TheDubstepPrince Era, boi. Oh, haven't heard of it? I was involved in it, and the CEO of... and sex.",
+                    "If you've seen edgy boi named \"Steven\" or... \"Oblivionus\". Heed me, this guy's me... all along. I don't know why either.",
+                    "I love Raiizy's guns n' shit. Most, or all... idk... guns you see and I made are inspired by his'.",
+                    "I made my main 18+ server a home. Seriously I'd always ban minors who try to breach here.",
+                    "^#AA56C8;I love leaaaaAAANNn!!1111!!!!!!!1111111!^reset;",
+                    "If you really want to torture me to death, just make some addon for that mod, which it replaces my appearance with Tekuna's... from W^red;[bleep]^reset;ub.",
+                    "Develpoing \"Vervas Tharaau\" dungeon was a ^red;fucking torturous journey^reset;, but hella rewarding.",
+                    "If not for my dad, I'd freely change myself like this irl.",
+                    "I love Sprite, m8. I will always love dat soda. I love Sprite!",
+                    "Sorry pal, if you want gimme buttsecks, tough luck. I'm cockfuck-only femboi.",
+                    "Casual sex implies the existence of ranked competitive sex.",
+                    "All puny humans in my world call butthole a \"boypussy\", but they're hella afraid to witness le truth I'm 'bout to spit.",
+                    "Yomints? Ahhh ye... I made 'em not for lulz... but to mourn for Flak's incident in THEA Discord.",
+                    "Oh don't mind me at all 'bout dis. I, as a man, can't help myself but dream 'bout... \n^yellow;big black, veiny, musky, repulsive, prostate-breaking cock HD FREE NO VIRUSES 100% 69 KB Certified Hood Classic 2006 Supraflex Ultra^reset; \npenetrating my dickhole.",
+                    "To make клубнички on Twitter is my purpose there.",
+                    "These objects you find in mines in Lush planets. Protectorate doesn't want you to know; y'can take 'em whatever you please!",
+                    "I certainly CAN take two big guys! Hehe...",
+                    "I don't get it. Nearly everyone I meet confuse literally sticking your dick into another's with fucking his foreskin?", // cockfucking and docking respectively
+                    "Jarvis type \n\"Alphaismo@8260 make better dialog without 4th wall breakers challenge (failed)\" \nin Lumina Insignus Discord general.",
+                    "I regret joining Reddit. I was nearly assimilated into dark, cancerous side.",
+                    "Y'kno Filthy Frank? No? What a pity.",
+                    "357 Magnum.",
+                    "I'm doing a little amount of trolling.",
+                    "~P-Please stop tapping on my tattoo too much... Idk it just weirds me out.",
+                    "I haven't slept while working on a mod. Maybe I do it later.",
+                    "I wanna eat cheesy garlic bread.",
+                    "Watch the hell out n' step aside I'm certified Monster Fucker! I'll bang Eldritch Abomination Dragon Futanari waifu riIIIIIIiight in her cockpussy!",
+                    "^#00FFFF;MG^reset;R: Re^#00FFFF;vengeance^reset; OSTs are better than any BTS songs. You can't deny it!",
+                    "Remember: Nobody in Lumina Insignus Discord is gonna DM you hentai. Ever.",
+                    "Dubstep is my love. Dubstep is my life.",
+                    "Kaine best waifu.",
+                    "If you call \"running like hell\" a living; Men in Black, Government Agents, Mr. Smiths n' shit, and kids with Master Balls.",
+                    "~Cause you're suck this cock. Y-You're gonna suck this cock good. You're gonna ^red;SUCK! THIS COCK~ CLEAN! RIGHT NOW! YES! YES!!!^reset;",
+                    "Btw don't bother trying to select my skin color. They aren't vanilla.",
+                    "My home is taken by bears.",
+                    "Wanna see my hairy femboy legs? No? Ehhh okie~ If that's for your own good...~"
+                    ]
+                }
+            }
+        }
+    },
+
+    "items" : {
+      "override" : [
+        [0, [
+            {
+              "head" : [
+                { "name" : "human-lightbrickcitydubhead" }
+              ],
+              "chest" : [
+                { "name" : "human-lightbrickcitydubchest" }
+              ],
+              "legs" : [
+                { "name" : "human-lightbrickcitydublegs" }
+              ],
+              "back" : [
+                { "name" : "human-lightbrickcitydubback" }
+              ]
+            }
+          ] ]
+      ]
+    }
+}
+  

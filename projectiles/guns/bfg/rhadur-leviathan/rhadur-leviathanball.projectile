@@ -1,0 +1,20 @@
+{
+  "projectileName" : "rhadur-leviathanball",
+  "image" : "rhadur-leviathanball.png",
+  "fullbright" : true,
+  "animationCycle" : 0.55,
+  "frameNumber" : 6,
+  "physics" : "laser",
+  "timeToLive" : 4,
+  "power" : 100,
+  "speed" : 45,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/rhadur-leviathanexplosion/rhadur-leviathanexplosion.config"
+    }
+  ],
+  "lightColor" : [155, 0, 0],
+  "damageKind" : "plasmabullet",
+  "statusEffects" : ["burning"]
+}

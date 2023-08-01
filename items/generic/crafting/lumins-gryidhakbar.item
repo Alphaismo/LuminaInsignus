@@ -1,0 +1,10 @@
+{
+  "itemName" : "lumins-gryidhakbar",
+  "price" : 100,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "lumins-gryidhakbar.png",
+  "description" : "An alloy of Platisteel and Durasteel. Usually used for crafting.",
+  "shortdescription" : "Gryidhak Bar",
+  "itemTags" : [ "reagent" ]
+}

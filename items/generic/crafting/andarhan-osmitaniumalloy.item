@@ -1,0 +1,10 @@
+{
+  "itemName" : "andarhan-osmitaniumalloy",
+  "price" : 600,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "andarhan-osmitaniumalloy.png",
+  "description" : "An enigmatic alloy of two metals. They are very light, but super durable.",
+  "shortdescription" : "Andarhan Osmitanium Alloy",
+  "itemTags" : [ "reagent" ]
+}

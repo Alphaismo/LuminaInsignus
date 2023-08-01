@@ -1,0 +1,10 @@
+{
+  "itemName" : "andarhan-soldriveaccumulator",
+  "price" : 180,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "andarhan-soldriveaccumulator.png",
+  "description" : "This one is used for eons solely to power up Andarhan weaponry and frames.",
+  "shortdescription" : "^#FDBD01;Soldrive Accumulator^reset;",
+  "itemTags" : [ "reagent" ]
+}

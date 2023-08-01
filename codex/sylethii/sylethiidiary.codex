@@ -1,0 +1,19 @@
+{
+	"id" : "sylethiidiary",
+	"title" : "Survivors Log",
+	"description" : "The diary of a lost soul.",
+	"icon" : "humancover7.png",
+	"contentPages" : [
+    "You managed to escape death at the hands of Dhir'Nakhor Centurions, but you lost your memories in the process as one of them bludgeoned your skull, even if you survive.
+
+Sooner, the Protectorate finds your unconscious body and rescues you. You suddenly wake up, surrounded by them, and want to thank them for the rescue.",
+
+	"But... you feel uncomfortable socializing with these unfamiliar faces. And what's most weird, they're so alien.
+
+The worst of all, rescuers tell you that only you survived, as your fellows all perished."
+	],
+		"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

@@ -1,0 +1,150 @@
+[
+    // Female
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-1"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-2"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-3"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-4"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-5"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-6"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-7"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-8"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-fem1"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-fem2"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-fem3"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-fem4"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/1/hair/-",
+        "value" : "lumins-fem5"
+    },
+
+    // Male
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-1"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-2"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-3"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-4"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-5"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-6"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-7"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-8"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-male1"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-male2"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-male3"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-male4"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-male5"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-male6"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-male7"
+    },
+    {
+        "op" : "add",
+        "path" : "/genders/0/hair/-",
+        "value" : "lumins-ukrainian"
+    }
+]

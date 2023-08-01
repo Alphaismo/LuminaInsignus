@@ -1,0 +1,37 @@
+[
+    // RANGED ABILITIES
+    {
+        "op": "add",
+        "path": "/lumins-napalm",
+        "value": "/items/active/weapons/ranged/abilities/lumins-napalm/lumins-napalm.weaponability"
+    },
+    {
+        "op": "add",
+        "path": "/lumins-flashlight",
+        "value": "/items/active/weapons/ranged/abilities/lumins-flashlight/lumins-flashlight.weaponability"
+    },
+    {
+        "op": "add",
+        "path": "/halcyon-grenadelauncher",
+        "value": "/items/active/weapons/ranged/abilities/halcyon-grenadelauncher/halcyon-grenadelauncher.weaponability"
+    },
+    {
+        "op": "add",
+        "path": "/domino-flamethrower",
+        "value": "/items/active/weapons/ranged/abilities/domino-flamethrower/domino-flamethrower.weaponability"
+    },
+    {
+        "op": "add",
+        "path": "/domino-tenaciousd",
+        "value": "/items/active/weapons/ranged/abilities/domino-flamethrower/domino-tenaciousd.weaponability"
+    },
+    {
+        "op": "add",
+        "path": "/ilsyeinite-invictusswitch",
+        "value": "/items/active/weapons/ranged/lumins-ilsyeinite/ilsyeinite-invictus/ilsyeinite-invictusfiremode.weaponability"
+    }
+
+    // MELEE ABILITIES
+
+    // WAND/STAFF ABILITIES
+]

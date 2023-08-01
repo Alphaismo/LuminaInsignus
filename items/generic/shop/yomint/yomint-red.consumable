@@ -1,0 +1,26 @@
+{
+  "itemName" : "yomint-red",
+  "rarity" : "Rare",
+  "price" : 110,
+  "category" : "food",
+  "inventoryIcon" : "yomint-red.png",
+  "description" : "Really sour breath mint. A Lightbrick's favorite.",
+  "shortdescription" : "Yomint",
+  "effects" : [ [
+    {
+        "effect" : "ragefood",
+        "duration" : 240
+    },
+    {
+        "effect" : "regeneration4",
+        "duration" : 240
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

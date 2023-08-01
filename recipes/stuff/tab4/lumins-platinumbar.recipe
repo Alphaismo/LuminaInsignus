@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "lumins-platinumore", "count" : 2 }
+  ],
+  "output" : { "item" : "lumins-platinumbar", "count" : 1 },
+  "duration" : 0.15,
+	"groups" : [ "lumins-inventorcrafter", "lumins-inventortab4" ]
+}

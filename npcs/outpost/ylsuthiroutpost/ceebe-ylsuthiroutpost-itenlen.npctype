@@ -1,0 +1,87 @@
+{
+  "type" : "ceebe-ylsuthiroutpost-itenlen",
+  "baseType" : "outpostcivilian",
+
+  "npcname" : "Itenlen",
+  "identity" : {
+    "bodyDirectives" : "?replace;d39c6c=87633f;ffc181=ac8348;c7815b=694c31;ffe2c5=c9b181?replace;be1b00=979797;dc1f00=e6e6e6;951500=6f6f6f",
+    "facialHairDirectives" : "?replace;d39c6c=87633f;ffc181=ac8348;c7815b=694c31;ffe2c5=c9b181?replace;be1b00=979797;dc1f00=e6e6e6;951500=6f6f6f",
+    "gender" : "male"
+  },
+
+  "scriptConfig" : {
+    "offeredQuests" : [ ],
+    "turnInQuests" : [ ],
+
+    "dialogMode": "tutorial",
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "My little brother? To forsake his virginity and be bisexual just so he can make big bucks for our crippling debts? \nI can respect that.",
+            "Actually I like homosexual people, like that dude, Velrui-Thareu, over there.",
+            "\"Raiizy\"? \nOooh you surely are talking business and are a certified badass person for knowing him, as the god of guns he is.",
+            "I and this Floran woman most-times go hunting. She's that bitch of my dreams to marry one day; the one that can hunt and give no shit.",
+            "Couldn't any dumbfuck here live without calling us \"pansies\"? We were trying to live peaceful lives, I swear to god!",
+            "I love how Phonk, my best friend, watches... this girly-ass show... in front of whole Vervas Tharaau, and doesn't cringe at all.",
+            "Dimetrescu? You mean a stupider and un-badass way of saying \"lady super-sized bitch\"?",
+            "It's really cool my PDA doesn't overheat the fuck up, since it's so fucking cold in 183rd Floor in Vervas Tharaau.",
+            "Hurt either Usen or Rineuell and I'm gonna kick your ass like there's no tomorrow, you dig?",
+            "Finn? FINN?! Duh... I have no words about this Sylethii bitch. \nAlso don't mention me this fucking twat's name ever again.",
+            "I've killed several Dhir'Nakhors and Rhadurs with bare hands.",
+            "I rided Vre'Khii once. It was awesome as hell!",
+            "I dreamed of becoming an arms dealer one day.",
+            "Emasculate my brothers for not being like me? Like hell! It irreversibly ruins my image!",
+            "Fuck you I'm not some sex-craving Ceebe, I'm a family man's shadow after my human dad died from tuberculosis.",
+            "That cantaloupe-like fruit found on this planet tastes eldritch.",
+            "I need Cock Slayer!",
+            "Ёкарный бабай. I forgot my fucking ammo box back home.",
+            "Dumbfuck tried to decapitate me with an axe. \nHe doesn't know I have a fucking shotgun.",
+            "Yeah I helped Rineuell do ^red;a little amount of trolling^reset;. \nWhat else you know?"
+          ],
+          "boomboxid" : [
+            "Blasting music with everyone around you... Why don't you blast music with some bitches!?",
+            "Whatever, loud fuck.",
+            "Thank god I haven't grown with foreign stereotype or some shit. You and yo fellas really aren't always loud.",
+            "That cantaloupe-like fruit found on this planet tastes eldritch.",
+            "Your bf's писюн is weird. Like really weird.",
+            "I dreamed of becoming an arms dealer one day. And no unfortunately, I won't sell music.",
+            "Nice motherfucking horns, bro.",
+            "If you've got yomints, let me know."
+          ],
+          "ceebe" : [
+            "Great to see another kind here. Welcome to Vervas fucking Tharaau, <entityname>. \nWe can perhaps relax, get laid... well... bollocks! We can do basically anything!",
+            "How's life as a captain, mate.",
+            "That's some sickass name you've got there.",
+            "Wassup babe. How's life in Lightbrick? I haven't seen anything there for like long ago.",
+            "Don't mind my erection. No I don't consent... yet. I'm just fucking surprised to see fourth Ceebe.",
+            "Enjoying your luxury? I've got mine too...",
+            "We really can party in the fucking forests. I can and will scare these cuck guards to let us pass.",
+            "That cantaloupe-like fruit found on this planet tastes eldritch.",
+            "Yeah I helped Rineuell do ^red;a little amount of trolling^reset;. \nWhat else you know?"
+          ],
+          "andarhan" : [
+            "Like fucking hell you Andarhans can be trusted. But at least there are someone else who does exactly that.",
+            "You surely aren't these robot mooks I've seen on TV shows. \nReality be damned indeed.",
+            "Holy shit, gonna pull out Noir on my head?",
+            "\"It's game over man!\" my ass.",
+            "You should kill yourself... NOW!",
+            "(Oxxxymiron swear lines)",
+            "If you want to fight me, we can do it in the forest."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "apextier6achest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "apextier6apants", "parameters" : { "colorIndex" : 1 } } ]
+          }
+        ] ]
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+    "itemName" : "brotherhood-hellhound",
+    "price" : 1080,
+    "maxStack" : 1,
+    "rarity" : "Legendary",
+    "description" : "A Twigun, altered by the Brotherhood- No! STFU fuck your 1812 Overture! We real men play BFG Division! Period!",
+    "shortdescription" : "\"Hellhound\"",
+    "category" : "Wait... a R.Y.N.O.?",
+    "twoHanded" : true,
+    "itemTags" : ["weapon","ranged","brotherhood"],
+    "level" : 7,
+  
+    "inventoryIcon" : [
+      { "image" : "brotherhood-hellhoundicon.png" }
+    ],
+  
+    "animation" : "brotherhood-hellhound.animation",
+    "animationParts" : {
+      "middle" : "brotherhood-hellhound.png",
+      "middleFullbright" : "brotherhood-hellhoundfullbright.png",
+      "muzzleFlash" : "/items/active/weapons/ranged/rhadur/rhadur-muzzleflash.png"
+    },
+    "animationCustom" : {
+      "sounds" : {
+        "fire" : ["/sfx/gun/lumins-plasma4.ogg"],
+        "persistentAudio" : [ "/sfx/gun/brotherhoodhellhound-loop.ogg" ]
+      },
+      "lights" : {
+        "muzzleFlash" : {
+          "color" : [127, 33, 20]
+        }
+      }
+    },
+  
+    "baseOffset" : [0.15, 0.1],
+    "muzzleOffset" : [2.25, 0.1],
+  
+    "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  
+    "elementalType" : "physical",
+  
+    "primaryAbility" : {
+      "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+      "class" : "GunFire",
+  
+      "fireTime" : 0.08,
+      "baseDps" : 30,
+      "energyUsage" : 55,
+      "inaccuracy" : 0.13,
+      "projectileCount" : 6,
+      "fireType" : "auto",
+  
+      "projectileType" : "rhadurbullet",
+      "projectileParameters" : {
+        "speed" : 500,
+        "knockbackRange" : 10
+      },
+  
+      "stances": {
+        "idle": {
+          "armRotation": 0,
+          "weaponRotation": 0,
+          "weaponOffset" : [0, 0],
+          "twoHanded": true,
+          "allowRotate": true,
+          "allowFlip": true,
+          
+          "frontArmFrame" : "run.2",
+          "backArmFrame" : "swim.4"
+        },
+        "fire": {
+          "duration": 0,
+          "armRotation": 0.75,
+          "weaponRotation": 0.75,
+          "weaponOffset" : [-0.1, 0],
+          "twoHanded": true,
+          "recoil" : true,
+          "allowRotate": true,
+          "allowFlip": true,
+  
+          "animationStates" : {
+            "firing" : "fire",
+            "holyshit" : "lmfao"
+          },
+          
+          "frontArmFrame" : "run.2",
+          "backArmFrame" : "swim.4"
+        },
+        "cooldown": {
+          "duration": 0.02,
+          "armRotation": 0.75,
+          "weaponRotation": 0.75,
+          "weaponOffset" : [-0.1, 0],
+          "twoHanded": true,
+          "allowRotate": true,
+          "allowFlip": true,
+          
+          "frontArmFrame" : "run.2",
+          "backArmFrame" : "swim.4"
+        }
+      }
+    },
+  
+    "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  }
+  

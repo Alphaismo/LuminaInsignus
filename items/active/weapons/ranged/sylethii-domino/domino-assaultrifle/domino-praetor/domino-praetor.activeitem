@@ -1,0 +1,105 @@
+{
+  "itemName" : "domino-praetor",
+  "price" : 1080,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "One of standard-issue Domino rifles.",
+  "shortdescription" : "D-3 \"Praetor\"",
+  "tooltipKind" : "gun",
+  "category" : "assaultRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","sylethii"],
+  "level" : 6,
+
+  "inventoryIcon" : [
+    { "image" : "domino-praetor.png" }
+  ],
+
+  "animation" : "domino-praetor.animation",
+  "animationParts" : {
+    "middle" : "domino-praetor.png",
+    "middleFullbright" : "domino-praetorfullbright.png",
+    "muzzleFlash" : "/items/active/weapons/ranged/sylethii-domino/domino-muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/plasma_ar1.ogg"]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [26, 221, 227]
+      }
+    }
+  },
+
+  "baseOffset" : [1.4, 0.125],
+  "muzzleOffset" : [1.1, 0.5],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.085,
+    "baseDps" : 15,
+    "energyUsage" : 29,
+    "projectileCount" : 1,
+    "inaccuracy" : 0.03,
+    "fireType" : "auto",
+
+    "projectileType" : "dominobullet",
+    "projectileParameters" : {
+      "speed": 500,
+      "knockbackRange" : 15
+    },
+    "muzzleFlashVariants" : 1,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+        "weaponOffset" : [-0.1, 0],
+        "recoil" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      },
+      "cooldown" : {
+        "duration" : 0.05,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+        "weaponOffset" : [-0.1, 0],
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "frontArmFrame" : "run.2",
+            "backArmFrame" : "swim.4"
+      }
+    }
+  },
+
+  // "altAbilityType" : "flurry",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

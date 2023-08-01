@@ -1,0 +1,107 @@
+{
+  "itemName" : "rhadur-leviathan",
+  "price" : 1080,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "The infamous weapon repurposed from dismantled dreadnought cannon. None of the user's enemies survived.",
+  "shortdescription" : "Leviathan",
+  // "tooltipKind" : "xraiizy_base",
+  "category" : "BFG",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","bfg"],
+  "level" : 8,
+
+  "inventoryIcon" : [
+    { "image" : "rhadur-leviathan.png" }
+  ],
+
+  "animation" : "rhadur-leviathan.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "rhadur-leviathan.png",
+    "middleFullbright" : "rhadur-leviathanfullbright.png",
+    "barrel" : "",
+    "muzzleFlash" : "muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/bfg/boomboxidfaze-rhadurleviathan.ogg"]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [155, 0, 0]
+      }
+    }
+  },
+
+  "baseOffset" : [0.85, 0.0],
+  "muzzleOffset" : [1.95, 0.10],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 2.5,
+    "baseDps" : 50,
+    "energyUsage" : 45.5,
+    "projectileCount" : 1,
+    "inaccuracy" : 0.0,
+    "fireType" : "auto",
+
+    "projectileType" : "rhadur-leviathanball",
+    "projectileParameters" : {
+      "knockback" : 20
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "backArmFrame" : "swim.4"
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "backArmFrame" : "swim.4"
+      },
+      "cooldown" : {
+        "duration" : 0.2,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+        "backArmFrame" : "swim.4"
+      }
+    }
+  },
+
+  "altAbilityType" : "grenadelauncher",
+  "altAbility" : {
+    "elementalConfig" : {
+      "physical" : { "projectileType" : "rhadur-leviathangrenade" }
+    },
+    "energyUsage" : 5000,
+    "projectileCount" : 5,
+    "inaccuracy" : 0.3
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

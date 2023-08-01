@@ -1,0 +1,34 @@
+{
+  "objectName" : "lumins-ilsyeinitechair",
+  "colonyTags" : ["ilsyeinite"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "description" : "One of several weird uses of Ilsyeinite..",
+  "shortdescription" : "Ilsyeinite Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 150,
+  "health" : 1.5,
+
+  "floranDescription" : "Chair durable. Floran happy.",
+  "glitchDescription" : "Amused. It feels like a luxury to sit on chairs made out of this.",
+  "novakidDescription" : "A mighty chair.",
+  "ceebeDescription" : "I can sit on this chair for days. It's so comfortable",
+  "nharduunrDescription" : "The one of examples of delicately crafted furniture made with Ilsyeinite.",
+  "ginrhinDescription" : "Ilsyeinite Chair confirmed.",
+
+  "inventoryIcon" : "lumins-ilsyeinitechairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lumins-ilsyeinitechair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+}

@@ -1,0 +1,15 @@
+{
+  "itemName" : "mechbodyneocultist",
+  "price" : 11200,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbody",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mechbodyneocultist.png",
+  "description" : "A perfected mech body, designed by the Neo Occasus cult.",
+  "shortdescription" : "Neo Occasus Mech Body",
+  "itemTags" : [ ],
+
+  "mechPart" : ["body", "neocultist"]
+}

@@ -1,0 +1,60 @@
+{
+  "type" : "human-ylsuthiroutpostobsessed",
+  "baseType" : "outpostcivilian",
+
+  "npcname" : "Isaac",
+  "identity" : {
+    "gender" : "male",
+    "hairGroup" : "hair",
+    "hairType" : "lumins-male3"
+  },
+
+  "scriptConfig" : {
+    "offeredQuests" : [ ],
+    "turnInQuests" : [ ],
+    "personalities" : [
+    [1.0, { "personality" : "cheerful", "reactions" : {} }]
+    ],
+
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+
+    "dialogMode": "tutorial",
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Hello."
+          ]
+        },
+        "human" : {
+          "default" : [
+            "Thank goodness for these rooms! It's like living in a 5-star Luxury hotels!",
+            "Velrui-Thareu told me there's even a toilet! What? An ancient toilet? Awesome!!!",
+            "I bless Cultivator for gifting me the amazing \"hotel\" rooms to lounge on!",
+            "At least I will finally have something to rest on! Thank god!",
+            "I don't care if there's no Wi-Fi! All I want is to sleep on comfortable beds!",
+            "This sector used to be barracks for Tideturners and Elite Guards, he told me. That's even more awesome!",
+            "I feel like at home again! So many beds to sleep at!",
+            "These beds always remain clean! Just so I won't have to clean each one by one!",
+            "Imagine 5-Michelin stars hotel and military base barracks having a baby! Oh my, this one is the answer!",
+            "."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "winterscarfhead", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "jumpsuitchest", "parameters" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "jumpsuitlegs", "parameters" : { "colorIndex" : 6 } } ]
+          }
+        ] ]
+    ]
+  }
+}

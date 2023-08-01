@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ironore", "count" : 1 },
+    { "item" : "lumins-platinumore", "count" : 1 }
+  ],
+  "output" : { "item" : "lumins-kylellbar", "count" : 1 },
+  "duration" : 0.15,
+  "groups" : [ "lumins-inventorcrafter", "lumins-inventortab4", "craftingfurnace", "bars", "all" ]
+}

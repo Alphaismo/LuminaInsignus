@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "copperbar", "count" : 2 },
+    { "item" : "darkwoodmaterial", "count" : 1 },
+    { "item" : "cobblestonematerial", "count" : 2 }
+  ],
+  "output" : { "item" : "qkhadransword", "count" : 1 },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

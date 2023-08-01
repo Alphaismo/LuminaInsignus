@@ -1,0 +1,37 @@
+{
+  "objectName" : "ylsuthir-wallhexagon2",
+  "colonyTags" : ["nharduunr"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 250,
+  "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "shortdescription" : "Yls'Uthiran Hexagon Wall",
+  "race" : "nharduunr",
+
+  "floranDescription" : "Weird architecture.",
+  "glitchDescription" : "Surprised. Such fascinating architecture these guys had! Surely one day it will become a Glitch trend...",
+  "nharduunrDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "ginrhinDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+  "inventoryIcon" : "ylsuthir-wallhexagon2icon.png",
+  "orientations" : [
+	{
+	  "imageLayers" : [ { "image" : "ylsuthir-wallhexagon2.png:<color>", "fullbright" : true }, { "image" : "ylsuthir-wallhexagon2lit.png:<color>" } ],
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "flipImages" : true,
+      "direction" : "left",
+      "anchors" : [ "background" ]
+    },
+	{
+	  "imageLayers" : [ { "image" : "ylsuthir-wallhexagon2.png:<color>", "fullbright" : true }, { "image" : "ylsuthir-wallhexagon2lit.png:<color>" } ],
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "direction" : "right",
+      "anchors" : [ "background" ]
+    }
+  ]
+}

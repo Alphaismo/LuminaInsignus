@@ -1,0 +1,10 @@
+{
+  "itemName" : "lumins-exaltiumbar",
+  "price" : 200,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "lumins-exaltiumbar.png",
+  "description" : "Compressed into a calamitous alloy, it's ready to be used for weaponry.",
+  "shortdescription" : "Exaltium Bar",
+  "itemTags" : [ "reagent" ]
+}

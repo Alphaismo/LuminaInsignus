@@ -1,0 +1,128 @@
+{
+  "type" : "crewmembersylethii-domino",
+  "baseType" : "crewmember",
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "emptyHands" : false
+    },
+
+	"crew" : {
+	  "defaultUniform" : {
+		"chest" : "sylethiitier4chest",
+		"legs" : "sylethiitier4pants"
+	  },
+	  
+      "uniformSlots" : ["chest", "chestCosmetic", "legs", "legsCosmetic", "back", "backCosmetic"]
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "offer" : {
+          "sylethii" : {
+            "default" : [
+              "My entire squad died. May I join you, so I can regain my strength?",
+              "I lost my comrades to Dhir'Nakhor legion years ago. I was the only one to retreat alive.",
+              "I will offer protection for your crew. I'm ready to join you.",
+              "I am confident becoming one of your crew. I totally promise!"
+            ],
+            "sylethii" : [
+              "I knew I'm not the only one who wanders. We can be together stronger!",
+              "We can become stronger. I will join you, and it will be.",
+              "Any fancy hiring me? We can do many great things.",
+              "I wouldn't mind joining wanderers, I had no choices.",
+              "You remind me of a squad member I valued the most. Can I join you?"
+            ],
+            "andarhan" : [
+              "I'll just hope you won't kill me. I'd rather die to anyone else.",
+              "An Andarhan? Seems worth joining you.",
+              "Your trust issues is something that buggers me, but I'll treat you with highest respect I could offer."
+            ],
+            "nharduunr" : [
+              "So you're that one of legendary \"Nethith'Thuyinn\". I will join you with greatest grace.",
+              "I feel sorry for your kind being on the brink of extinction. You may use me for... niche options.",
+              "I fight for Yeiloj's liberation, but I can use my skills to guide you to Yls'Uthir.",
+              "Our kind and yours could form an alliance and eliminate Dhir'Nakhor empire together. But I guess that potential is yet to exist."
+            ],
+            "apex" : [
+              "I've seen familiar rebels like you fighting against Miniknog.",
+              "I can aid your rebellion.",
+              "This tyrant you knew disclosed us and Domino, but is frightened for what we are capable of.",
+              "We've had terrible relationships with Miniknog and USCM before. I may help you liberate your society."
+            ],
+            "human" : [
+              "I guess I'll have to rely on fighting for you...",
+              "So you have honor? That's unexpectedly rare for human scum. Mind if I join you, so I can show you what real honor looks like?",
+              "I'd rather befriend an actual cockroach as a pet than you, but I would never regret joining.",
+              "You're lucky that you're not my target... yet. Mind if I, well, join you?"
+            ]
+          }
+        },
+		"roleDescription" : {
+          "sylethii" : {
+            "default" : [
+              "I will try my best in this new \"squad\".",
+              "Thanks. Now I feel connected again.",
+              "If you ever need me, I'll be right there.",
+              "I will not fail!"
+            ]
+          }
+        },
+		"respawned" : {
+          "sylethii" : {
+            "default" : [
+              "I feel funny.",
+              "Death will not hold me hostage.",
+              "Felt like stepping on Ul'Ethoss Ivin for brief moments...",
+              "I'm fine..."
+            ]
+          }
+        },
+		"unfollow" : {
+          "sylethii" : {
+            "default" : [
+              "Just don't make me wait, okay?",
+              "I'm always eager to fight. Don't go out for too long.",
+              "If you wanted me rest... alright then.",
+              "You surely are teasing me, aren't you?"
+            ]
+          }
+        },
+		"follow" : {
+          "sylethii" : {
+            "default" : [
+              "Let's go.",
+              "I'm ready.",
+              "The time has come.",
+              "For my comrades."
+            ]
+          }
+        },
+		"cantreach" : {
+          "sylethii" : {
+            "default" : [
+              "Wait! You forgot me!",
+              "Hey!.. I don't want to be lost again!",
+              "W-wait!",
+              "Don't worry. I'll find the other way."
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "sylethiitier4head" }, { "name" : "lumins-noclotheshead" } ],
+            "chest" : [ { "name" : "sylethiitier4chest" } ],
+            "legs" : [ { "name" : "sylethiitier4pants" } ],
+            "primary" : [ "domino-strider", "domino-hearteater", "domino-praetor" ],
+            "sheathedprimary" : [ "sylethii-dominospear", "sylethii-dominospear2" ]
+          }
+        ] ]
+    ]
+  }
+}

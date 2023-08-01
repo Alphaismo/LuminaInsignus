@@ -1,0 +1,65 @@
+{
+    "type" : "cassowaryscientist-glitch",
+    "baseType" : "outpostcivilian",
+  
+    "npcname" : "Hopebolt",
+    "identity" : {
+      "gender" : "male",
+      "hairGroup" : "hair",
+      "hairType" : "lumins-1",
+      "bodyDirectives" : "?replace;a85636=434343;e0975c=696969;6f2919=0f0f0f;ffca8a=949494?replace;735e3a=1e2518;d9c189=6a7c53;a38d59=4b583a;f7e7b2=9fb385?replace;f32200=F4FF66FE;dc1f00=EAFF00FE?replace;f32200=F4FF66FE;dc1f00=EAFF00FE",
+      "emoteDirectives" : "?replace;a85636=434343;e0975c=696969;6f2919=0f0f0f;ffca8a=949494?replace;735e3a=1e2518;d9c189=6a7c53;a38d59=4b583a;f7e7b2=9fb385?replace;f32200=F4FF66FE;dc1f00=EAFF00FE?replace;f32200=F4FF66FE;dc1f00=EAFF00FE",
+      "hairDirectives" : "?replace;a85636=434343;e0975c=696969;6f2919=0f0f0f;ffca8a=949494?replace;735e3a=1e2518;d9c189=6a7c53;a38d59=4b583a;f7e7b2=9fb385?replace;f32200=F4FF66FE;dc1f00=EAFF00FE?replace;f32200=F4FF66FE;dc1f00=EAFF00FE"
+    },
+
+    "personalities" : [
+        [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+    
+    "scriptConfig" : {
+      "behaviorConfig" : {
+        "greetingChance" : 0
+      },
+  
+      "dialogMode": "tutorial",
+      "dialog" : {
+        "converse" : {
+            "default" : {
+              "default" : [
+                "Hello."
+              ]
+            },
+          "glitch" : {
+            "default" : [
+              "Intrigued. Velrui-Thareu gave our crew, including me, a necessary knowledge to \"resurrect\" Parasprite's brain.",
+              "Hysteric. This room, the Bioengineer Lab, used to be some kind of room to lock the guilty or accused Nhar'Duunr to this glass cage for everyone to watch.",
+              "Smug. We're the ones who banned Kevin from ever entering the Bioengineer Lab. And the rest of Fuckin' Science Outpost as well for... Best to find out yourself.",
+              "Sorrowful. I was one of Apex prisoners like these in Miniknog concetration camp. The guards treated me like I'm fucking automaton...",
+              "Ambitious. To permanently destroy the Miniknog physically and digitally is no easy task, it's do or die, captain!",
+              "Apologetic. Oh, don't mind me... My pinky finger fell off. It always falls off...",
+              "Concerned. I worry about this whole operation failing. I can't allow it to happen."
+            ]
+          }
+        }
+      }
+    },
+  
+    "items" : {
+      "override" : [
+        [0, [
+            {
+              "head" : [
+                { "name" : "industrialcrewhead" }
+              ],
+              "chest" : [
+                { "name" : "scientistchest" , "parameters" : { "colorIndex" : 5 } }
+              ],
+              "legs" : [
+                { "name" : "scientistlegs", "parameters" : { "colorIndex" : 1 } }
+              ]
+            }
+          ] ]
+      ]
+    }
+  }
+  

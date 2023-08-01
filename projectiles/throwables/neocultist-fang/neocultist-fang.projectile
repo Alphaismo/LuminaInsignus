@@ -1,0 +1,26 @@
+{
+  "projectileName" : "neocultist-fangprojectile",
+  "image" : "neocultist-fang.png",
+  "animationCycle" : 0.25,
+  "physics" : "grenade",
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "flippable" : true,
+  "speed" : 180,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 120.0,
+  "knockback" : 10,
+  "statusEffects" : [
+    "weakpoison"
+  ],
+  "damageKind" : "dagger",
+  "emitters" : [ "daggerblue" ],
+  "damagePoly" : [ [-2, -3], [8, -3], [8, 2], [-2, 2] ]
+}
+
+

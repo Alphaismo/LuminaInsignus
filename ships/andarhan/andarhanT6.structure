@@ -1,0 +1,22 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000,
+      "crewSize" : 8
+    }
+  },
+  "backgroundOverlays" : [
+    {
+      "image" : "andarhanT6.png",
+      "position" : [8.39, 3.125],
+      "fullbright" : true
+    },
+    {
+      "image" : "andarhanT6lit.png",
+      "position" : [8.39, 3.125]
+    }
+  ],
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "andarhanT6blocks.png"
+}

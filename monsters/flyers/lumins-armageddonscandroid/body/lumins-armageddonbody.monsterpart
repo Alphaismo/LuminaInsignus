@@ -1,0 +1,10 @@
+{
+  "name" : "scandroid",
+  "category" : "lumins-armageddonscandroid",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "lumins-armageddonscandroid.png",
+    "bodynobright" : "lumins-armageddonscandroidnobright.png"
+  }
+}
