@@ -1,9 +1,9 @@
 {
-  "itemName" : "lumins-platinumbar",
+  "itemName" : "lumins-platisteelbar",
   "price" : 110,
   "rarity" : "Uncommon",
   "category" : "craftingMaterial",
-  "inventoryIcon" : "lumins-platinumbar.png",
+  "inventoryIcon" : "lumins-platisteelbar.png",
   "description" : "A shining, shimmering platisteel bar.",
   "shortdescription" : "Platisteel Bar",
   "itemTags" : [ "reagent" ]

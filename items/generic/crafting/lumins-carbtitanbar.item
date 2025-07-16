@@ -1,0 +1,10 @@
+{
+  "itemName" : "lumins-carbtitanbar",
+  "price" : 100,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "lumins-carbtitanbar.png",
+  "description" : "Also known to Nhar'Duunrs as Gryidhak. Usually used for crafting.",
+  "shortdescription" : "Carbonated Titanium Bar",
+  "itemTags" : [ "reagent" ]
+}
