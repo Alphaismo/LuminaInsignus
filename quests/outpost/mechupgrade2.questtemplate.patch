@@ -2,7 +2,7 @@
   {
     "op" : "add",
     "path" : "/scriptConfig/giveSpeciesBlueprints/boomboxid",
-    "value" : ["mechbodyboomboxids"]
+    "value" : ["mechbodyboomboxid"]
   },
   {
     "op" : "add",
