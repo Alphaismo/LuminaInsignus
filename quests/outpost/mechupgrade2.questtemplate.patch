@@ -1,0 +1,32 @@
+[	
+  {
+    "op" : "add",
+    "path" : "/scriptConfig/giveSpeciesBlueprints/boomboxid",
+    "value" : ["mechbodyboomboxids"]
+  },
+  {
+    "op" : "add",
+    "path" : "/scriptConfig/giveSpeciesBlueprints/valkeidin",
+    "value" : ["mechbodyvalkeidin"]
+  },
+  {
+    "op" : "add",
+    "path" : "/scriptConfig/giveSpeciesBlueprints/sylethii",
+    "value" : ["mechbodysylethii"]
+  },
+  {
+    "op" : "add",
+    "path" : "/scriptConfig/giveSpeciesBlueprints/orthirid",
+    "value" : ["mechbodyorthirid"]
+  },
+  {
+    "op" : "add",
+    "path" : "/scriptConfig/giveSpeciesBlueprints/andarhan",
+    "value" : ["mechbodyandarhan"]
+  },
+  {
+    "op" : "add",
+    "path" : "/scriptConfig/giveSpeciesBlueprints/nharduunr",
+    "value" : ["mechbodynharduunr"]
+  }
+]
