@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "titaniumore", "count" : 2 },
+    { "item" : "coalore", "count" : 1 },
+    { "item" : "diamond", "count" : 1 }
+  ],
+  "output" : { "item" : "lumins-carbtitanbar", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "lumins-inventorcrafter", "lumins-inventortab4", "craftingfurnace", "bars", "all" ]
+}
