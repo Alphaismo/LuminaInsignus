@@ -12,22 +12,27 @@
     {
         "op" : "add",
         "path" : "/sylethiiDescription",
-        "value" : "Some Shadowspoken monasteries have similar torture bed... Only more barbaric and without all these inconvenient permanently built-in tools."
+        "value" : "Such a crude contraption, if not the most barbaric."
     },
     {
         "op" : "add",
         "path" : "/orthiridDescription",
-        "value" : "Some Shadowspoken monasteries have similar torture bed... Only more barbaric and without all these inconvenient permanently built-in tools."
+        "value" : "I'd rather not waste my functional time talking about it."
     },
     {
         "op" : "add",
         "path" : "/andarhanDescription",
-        "value" : "Us Andarhans always prefer killing our targets head-on, never with oversized primitive devices with restraints."
+        "value" : "Our kin always prefer killing our targets head-on, never with oversized primitive devices with restraints."
     },
     {
         "op" : "add",
         "path" : "/rhadurDescription",
         "value" : "Drill? Buzzsaw? I'll sell 'em both!"
+    },
+    {
+        "op" : "add",
+        "path" : "/dhirnakhorDescription",
+        "value" : "This contraption is extremely ridiculous."
     },
     {
         "op" : "add",

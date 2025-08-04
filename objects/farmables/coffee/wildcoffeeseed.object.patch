@@ -1,0 +1,32 @@
+[
+    {
+        "op" : "add",
+        "path" : "/boomboxidDescription",
+        "value" : "Too bitter to eat on their own, but somehow they taste great as beverage. What science is this?"
+    },
+    {
+        "op" : "add",
+        "path" : "/ceebeDescription",
+        "value" : "Don't tell anyone, for what I'm about to do."
+    },
+    {
+        "op" : "add",
+        "path" : "/sylethiiDescription",
+        "value" : "Well, I might not want to risk eating or drinking what came from it. I-I've felt lightheaded after consuming it...!"
+    },
+    {
+        "op" : "add",
+        "path" : "/orthiridDescription",
+        "value" : "For Sekiuj, alien caffeine are like the mother of all aphrodisiac."
+    },
+    {
+        "op" : "add",
+        "path" : "/valkeidinDescription",
+        "value" : "If I remember right, is this what humans drinked usually in the morning?"
+    },
+    {
+        "op" : "add",
+        "path" : "/nharduunrDescription",
+        "value" : "I could stomach caffeine, so this shouldn't be an issue."
+    }
+]

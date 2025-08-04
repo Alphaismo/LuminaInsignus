@@ -1,0 +1,47 @@
+[
+    {
+        "op" : "add",
+        "path" : "/boomboxidDescription",
+        "value" : "Oww, my autism ears! (Sarcasm)"
+    },
+    {
+        "op" : "add",
+        "path" : "/ceebeDescription",
+        "value" : "Ummm... i-is that it? Could I poke the water?"
+    },
+    {
+        "op" : "add",
+        "path" : "/sylethiiDescription",
+        "value" : "How could come Florans be so... frightened by water?"
+    },
+    {
+        "op" : "add",
+        "path" : "/orthiridDescription",
+        "value" : "How could come Florans be so... frightened by water?"
+    },
+    {
+        "op" : "add",
+        "path" : "/qkhadranDescription",
+        "value" : "It must be having Naegleria fowleri cultivated inside it to be actually scary."
+    },
+    {
+        "op" : "add",
+        "path" : "/valkeidinDescription",
+        "value" : "*Yawn.*"
+    },
+    {
+        "op" : "add",
+        "path" : "/andarhanDescription",
+        "value" : "They call this a torture device? ...Really? How pathetic."
+    },
+    {
+        "op" : "add",
+        "path" : "/rhadurDescription",
+        "value" : "I'd sell it for gold."
+    },
+    {
+        "op" : "add",
+        "path" : "/nharduunrDescription",
+        "value" : "I see no big deal, however."
+    }
+]

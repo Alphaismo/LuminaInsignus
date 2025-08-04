@@ -2,7 +2,7 @@
     {
         "op" : "add",
         "path" : "/boomboxidDescription",
-        "value" : "Yo this n1664's a dullahan and is missing his head!"
+        "value" : "Yo this fella's a dullahan and is missing his head!"
     },
     {
         "op" : "add",
@@ -12,7 +12,7 @@
     {
         "op" : "add",
         "path" : "/sylethiiDescription",
-        "value" : "A comedy gold... To Sekiuj at least."
+        "value" : "A comedy gold... To me, at least."
     },
     {
         "op" : "add",
@@ -27,7 +27,7 @@
     {
         "op" : "add",
         "path" : "/rhadurDescription",
-        "value" : "Glorious leader?.. More like... ^red;HEADLESS leader!^reset; Hahahahahahaaa! Am I right, ancestors? BWAHAHAHAHAHA!"
+        "value" : "Glorious leader?.. More like... ^red;HEADLESS leader!^reset; Hahahahahahaaa! Am I right, brothers and sisters!? BWAHAHAHAHAHA!"
     },
     {
         "op" : "add",
@@ -47,6 +47,6 @@
     {
         "op" : "add",
         "path" : "/ginrhinDescription",
-        "value" : "The statue of Miniknog Tyrant Big Ape detected. The cause of vandalism appears to be the Rebellion's efforts."
+        "value" : "The statue of Miniknog Tyrant Big Ape detected. The cause of vandalism appears to be the Rebellion's effort."
     }
 ]

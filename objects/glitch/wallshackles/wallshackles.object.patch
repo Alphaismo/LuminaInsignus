@@ -2,7 +2,7 @@
     {
         "op" : "add",
         "path" : "/boomboxidDescription",
-        "value" : "Oh fuck no. Handcuffs and iron pipe is better than these pieces of shit."
+        "value" : "Oh hell no. Handcuffs and iron pipe would work better than this."
     },
     {
         "op" : "add",
@@ -12,21 +12,21 @@
     {
         "op" : "add",
         "path" : "/sylethiiDescription",
-        "value" : "It's so painful to have these attached to your hands. But Shadowspoken adapted these such methods as one of forms of either punishment or interrogation."
+        "value" : "Very impractical. Plus, I could slowly corrode them due to being wet."
     },
     {
         "op" : "add",
         "path" : "/orthiridDescription",
-        "value" : "These wall shackles appear to be resilient to physical strength of any Orthirid units."
+        "value" : "These wall shackles appear to be resilient to physical strength of any Olthiniht units."
     },
     {
         "op" : "add",
         "path" : "/andarhanDescription",
-        "value" : "H'ojn Ition would consider these wall shackles inconvenient and unimpressive at holding his test subjects."
+        "value" : "H'ojn Ilthion would consider these wall shackles inconvenient and unimpressive at holding his test subjects."
     },
     {
         "op" : "add",
         "path" : "/nharduunrDescription",
-        "value" : "My physiology would rather corrode them to being frail. Hah."
+        "value" : "My physiology would rather corrode them to being frail."
     }
 ]

@@ -2,22 +2,27 @@
     {
         "op" : "add",
         "path" : "/boomboxidDescription",
-        "value" : "Maybe he'll see me pissing on this sign? For lulz?"
+        "value" : "Maybe he'll see me peeing on this sign? For lulz?"
     },
     {
         "op" : "add",
         "path" : "/ceebeDescription",
-        "value" : "What a pervert!"
+        "value" : "Eep! Stop watching me shower, please!"
+    },
+    {
+        "op" : "add",
+        "path" : "/valkeidinDescription",
+        "value" : "My ancestors had seen enough surveillance."
     },
     {
         "op" : "add",
         "path" : "/sylethiiDescription",
-        "value" : "My people will consider this heresy. Only Yl'Veien is truly all-seeing."
+        "value" : "Some of my people would consider this heresy, as they believe only Yl'Veien is truly all-seeing."
     },
     {
         "op" : "add",
         "path" : "/orthiridDescription",
-        "value" : "From the Yl'Veienists' informational data, they were right about declaring it the worst of all blasphemies."
+        "value" : "From the informational data of most religious Sekiuj, they are right about declaring it the worst of all blasphemies."
     },
     {
         "op" : "add",
@@ -42,6 +47,6 @@
     {
         "op" : "add",
         "path" : "/ginrhinDescription",
-        "value" : "Miniknog propaganda confirmed."
+        "value" : "Miniknog propaganda detected."
     }
 ]

@@ -12,7 +12,7 @@
     {
         "op" : "add",
         "path" : "/sylethiiDescription",
-        "value" : "I'd prefer to cook these things in any way before eating it... Pretty much a guilty pleasure."
+        "value" : "I'd prefer to cook these things in any way before eating it. Pretty much a guilty pleasure."
     },
     {
         "op" : "add",
@@ -22,7 +22,7 @@
     {
         "op" : "add",
         "path" : "/andarhanDescription",
-        "value" : "So these are solids that aliens call \"potatoes\"."
+        "value" : "So these are solids that flesh vermin call \"potatoes\"."
     },
     {
         "op" : "add",

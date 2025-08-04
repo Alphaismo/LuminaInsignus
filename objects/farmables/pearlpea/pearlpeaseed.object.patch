@@ -2,17 +2,17 @@
     {
         "op" : "add",
         "path" : "/boomboxidDescription",
-        "value" : "Pretty much boring on their own, but damn... how are we supposed to survive without potatoes."
+        "value" : "These guys must be WAY tougher than these ancient post-'Late 20th Century' Slavic rusk snacks."
     },
     {
         "op" : "add",
         "path" : "/ceebeDescription",
-        "value" : "I love potatoes when they are cooked in many ways. For me, I prefer mashed."
+        "value" : "Don't tell anyone, for what I'm about to do."
     },
     {
         "op" : "add",
         "path" : "/sylethiiDescription",
-        "value" : "I'd prefer to cook these things in any way before eating it. Pretty much a guilty pleasure."
+        "value" : "Huh... I must boil them first?"
     },
     {
         "op" : "add",
@@ -22,16 +22,16 @@
     {
         "op" : "add",
         "path" : "/andarhanDescription",
-        "value" : "So these are solids that flesh vermin call \"potatoes\"."
+        "value" : "I had no idea, let alone how to use these \"berries\" as makeshift munition."
     },
     {
         "op" : "add",
         "path" : "/nharduunrDescription",
-        "value" : "Even if I can digest them without consequences, I... can't stomach alien vegetables, especially potatoes."
+        "value" : "I can digest them easily if I wish to."
     },
     {
         "op" : "add",
         "path" : "/ginrhinDescription",
-        "value" : "Old Terra Potato confirmed."
+        "value" : "FDA designated these plants as Pearlpea centuries ago."
     }
 ]

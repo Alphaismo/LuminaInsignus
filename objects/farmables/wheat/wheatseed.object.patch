@@ -1,0 +1,37 @@
+[
+    {
+        "op" : "add",
+        "path" : "/boomboxidDescription",
+        "value" : "Hella versatile grain."
+    },
+    {
+        "op" : "add",
+        "path" : "/ceebeDescription",
+        "value" : "They look very funny."
+    },
+    {
+        "op" : "add",
+        "path" : "/sylethiiDescription",
+        "value" : "Is that me or why am I being addicted to what humans call wheat?"
+    },
+    {
+        "op" : "add",
+        "path" : "/orthiridDescription",
+        "value" : "Wheat's gluten triggered an addiction on Sekiuj, let alone like the most of the rest originating from Old Earth."
+    },
+    {
+        "op" : "add",
+        "path" : "/andarhanDescription",
+        "value" : "We may have the similar grown in Tarvul, though it's different."
+    },
+    {
+        "op" : "add",
+        "path" : "/nharduunrDescription",
+        "value" : "So I figured out that humans don't eat wheat on it's own. Correct?"
+    },
+    {
+        "op" : "add",
+        "path" : "/ginrhinDescription",
+        "value" : "Old Terra Wheat confirmed."
+    }
+]

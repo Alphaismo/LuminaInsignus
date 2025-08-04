@@ -2,7 +2,7 @@
     {
         "op" : "add",
         "path" : "/boomboxidDescription",
-        "value" : "Why not strap these to necks. I mean... why the fuck do I need balls to slow anyone the fuck down by the legs?"
+        "value" : "Why not strap these to necks. I mean... why do I need balls to slow anyone down by the legs?"
     },
     {
         "op" : "add",
@@ -12,7 +12,12 @@
     {
         "op" : "add",
         "path" : "/sylethiiDescription",
-        "value" : "During my captivity in Dhir'Nakhor dungeons, I have that on my leg."
+        "value" : "This got to be one of them most inefficient use of metal I've ever seen yet."
+    },
+    {
+        "op" : "add",
+        "path" : "/valkeidinDescription",
+        "value" : "Who thought this was a good idea to waste metal on restraint device? Why not handcuffs, of all things?"
     },
     {
         "op" : "add",
@@ -21,8 +26,13 @@
     },
     {
         "op" : "add",
+        "path" : "/rhadurDescription",
+        "value" : "."
+    },
+    {
+        "op" : "add",
         "path" : "/dhirnakhorDescription",
-        "value" : "It's commonly attached to some prisoners. We don't do it painfully"
+        "value" : "It's commonly attached to some prisoners. We don't do it painfully."
     },
     {
         "op" : "add",

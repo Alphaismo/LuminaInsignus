@@ -1,7 +1,7 @@
 {
-  "objectName" : "domino-largedoor",
+  "objectName" : "sdomino-largedoor",
   "colonyTags" : ["sylethii-domino","door","pretty"],
-  "rarity" : "Legendary",
+  "rarity" : "Rare",
   "category" : "door",
   "printable" : false,
   "price" : 175,
@@ -12,15 +12,16 @@
   "floranDescription" : "Ssshiny door.",
   "glitchDescription" : "Intrigued. Is it used for like... a bunker?",
   "novakidDescription" : "Such mighty tech for something as humbly simple as a door.",
+  
   "sylethiiDescription" : "These doors surely can and will survive even blast from Dhir'Nakhorian tanks.",
   "orthiridDescription" : "The standard-issue airlock door of Domino Arsenal. It has it's many uses.",
   "andarhanDescription" : "It's still laughably pathetic against the Soldrive beam drills.",
   "ginrhinDescription" : "The much-promised durability of the otherwise reverse-engineered Yls'Uthiran design.",
 
-  "inventoryIcon" : "domino-largedooricon.png",
+  "inventoryIcon" : "sdomino-largedooricon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "domino-largedoor.png:default", "fullbright" : true }, { "image" : "domino-largedoorlit.png:default" } ],
+      "imageLayers" : [ { "image" : "sdomino-largedoor.png:default", "fullbright" : true }, { "image" : "sdomino-largedoorlit.png:default" } ],
       "flipImages" : true,
       "imagePosition" : [-8, 0],
      
@@ -30,7 +31,7 @@
       "anchors" : [ "bottom", "top" ]
     },
     {
-      "imageLayers" : [ { "image" : "domino-largedoor.png:default", "fullbright" : true }, { "image" : "domino-largedoorlit.png:default" } ],
+      "imageLayers" : [ { "image" : "sdomino-largedoor.png:default", "fullbright" : true }, { "image" : "sdomino-largedoorlit.png:default" } ],
       "flipImages" : true,
       "imagePosition" : [-8, 0],
      

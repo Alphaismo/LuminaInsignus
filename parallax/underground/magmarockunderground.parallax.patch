@@ -7,7 +7,7 @@
       "nohueshift": true,
       "lightMapped": true,
       "unlit": true,
-      "parallax": 1.2,
+      "parallax": 1.0009,
       "repeatY": true
     }
   }

@@ -12,26 +12,26 @@
     {
         "op" : "add",
         "path" : "/sylethiiDescription",
-        "value" : "This thing is too barbaric. And we only behead corpses of highly-prestiged Sekiuj for memorium."
+        "value" : "This thing is too barbaric. And we only behead corpses of highly-prestiged brethren for memorium."
     },
     {
         "op" : "add",
         "path" : "/orthiridDescription",
-        "value" : "Decapitation, and guillotines obviously, is illegal in Yeiloj."
+        "value" : "I had no idea, but there's no device like this in Yeiloj."
     },
     {
         "op" : "add",
         "path" : "/andarhanDescription",
-        "value" : "Andarhans have several efficient forms of target disposal, but the primitive guillotine is not one of them. And it never will be."
+        "value" : "We have several efficient forms of target disposal, and the primitive guillotine is not one of them. And it never will be."
     },
     {
         "op" : "add",
         "path" : "/dhirnakhorDescription",
-        "value" : "We only behead heretics and beyond-disobedient prisoners. But as for sadistic entertainment for Glitch to witness? It's MORAL EVENT HORIZON!"
+        "value" : "We only behead heretics and beyond-redemption prisoners. But as for sadistic entertainment for Glitch to witness? It's ridiculous."
     },
     {
         "op" : "add",
         "path" : "/nharduunrDescription",
-        "value" : "I can't die by being beheaded, so this thing against the Nhar'Duunr is ineffective."
+        "value" : "I can't die by being beheaded, so this thing against me is ineffective."
     }
 ]

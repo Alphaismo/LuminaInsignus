@@ -1,0 +1,37 @@
+[
+    {
+        "op" : "add",
+        "path" : "/boomboxidDescription",
+        "value" : "Hella versatile grain."
+    },
+    {
+        "op" : "add",
+        "path" : "/ceebeDescription",
+        "value" : "I love when certain folks use these to make fantasy maps for worldbuilding."
+    },
+    {
+        "op" : "add",
+        "path" : "/sylethiiDescription",
+        "value" : "While the rice back in Yeiloj isn't the same kind as this, I can eat these as well."
+    },
+    {
+        "op" : "add",
+        "path" : "/orthiridDescription",
+        "value" : "They almost feel like a sand in Yeilojian desert, color-wise."
+    },
+    {
+        "op" : "add",
+        "path" : "/andarhanDescription",
+        "value" : "So these are sand-like produce that flesh vermin call \"rice\"."
+    },
+    {
+        "op" : "add",
+        "path" : "/nharduunrDescription",
+        "value" : "Well... I already know they are not sand."
+    },
+    {
+        "op" : "add",
+        "path" : "/ginrhinDescription",
+        "value" : "Old Terra Rice confirmed."
+    }
+]

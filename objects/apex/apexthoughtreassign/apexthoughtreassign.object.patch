@@ -7,7 +7,7 @@
     {
         "op" : "add",
         "path" : "/ceebeDescription",
-        "value" : "Judging by the smiley face; nothing good ever comes off it, especially since it's made by Miniknog."
+        "value" : "Judging by the smiley faces; nothing good ever comes off it, especially since it's made by Miniknog."
     },
     {
         "op" : "add",
@@ -32,7 +32,7 @@
     {
         "op" : "add",
         "path" : "/andarhanDescription",
-        "value" : "."
+        "value" : "Make them disappear?... I'd rather witnesses suffer as I've struck down their rotten vermin."
     },
     {
         "op" : "add",
@@ -46,13 +46,8 @@
     },
     {
         "op" : "add",
-        "path" : "/koaulemDescription",
-        "value" : "(.)"
-    },
-    {
-        "op" : "add",
         "path" : "/nharduunrDescription",
-        "value" : "."
+        "value" : "If they've thought out on using lobotomy, too bad for them I am impervious to it."
     },
     {
         "op" : "add",
