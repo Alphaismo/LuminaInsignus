@@ -31,9 +31,9 @@
       { "item" : "tungstenaxe" },
       { "item" : "tungstenhammer" },
 // Anvil2
-      { "item" : "humantier3head" },
-      { "item" : "humantier3chest" },
-      { "item" : "humantier3pants" },
+      { "item" : "sylethiitier3head" },
+      { "item" : "sylethiitier3chest" },
+      { "item" : "sylethiitier3pants" },
       { "item" : "sylethiitier4head" },
       { "item" : "sylethiitier4chest" },
       { "item" : "sylethiitier4pants" },

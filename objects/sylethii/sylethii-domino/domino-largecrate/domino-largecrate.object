@@ -1,5 +1,5 @@
 {
-  "objectName" : "sdomino-largecrate",
+  "objectName" : "domino-largecrate",
   "colonyTags" : ["sylethii","storage"],
   "printable" : false,
   "rarity" : "Uncommon",
@@ -21,10 +21,10 @@
   "andarhanDescription" : "I must sabotage this crate.",
   "ginrhinDescription" : "Crate of Sylethiian military faction origin.",
 
-  "inventoryIcon" : "sdomino-largecrateicon.png",
+  "inventoryIcon" : "domino-largecrateicon.png",
   "orientations" : [
     {
-      "dualImage" : "sdomino-largecrate.png:<color>.<key>",
+      "dualImage" : "domino-largecrate.png:<color>.<key>",
       "imagePosition" : [-8, 0],
 
       "spaceScan" : 0.1,

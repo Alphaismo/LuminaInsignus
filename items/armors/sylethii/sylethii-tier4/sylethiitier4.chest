@@ -48,8 +48,8 @@
   "itemTags" : [ "tier4armour" ],
 
   "colorOptions" : [
-    // SYLETHII IVORY
-    { "ffca8a" : "D8D8D8", "e0975c" : "A5A5A5", "a85636" : "707070", "6f2919" : "515151" },
+    // DEFAULT - WHITE
+    { "ffca8a" : "e6e6e6", "e0975c" : "b6b6b6", "a85636" : "7b7b7b", "6f2919" : "373737" },
     // BLACK
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     // GREY

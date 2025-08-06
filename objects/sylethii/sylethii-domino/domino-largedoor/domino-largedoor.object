@@ -1,5 +1,5 @@
 {
-  "objectName" : "sdomino-largedoor",
+  "objectName" : "domino-largedoor",
   "colonyTags" : ["sylethii-domino","door","pretty"],
   "rarity" : "Rare",
   "category" : "door",
@@ -18,10 +18,10 @@
   "andarhanDescription" : "It's still laughably pathetic against the Soldrive beam drills.",
   "ginrhinDescription" : "The much-promised durability of the otherwise reverse-engineered Yls'Uthiran design.",
 
-  "inventoryIcon" : "sdomino-largedooricon.png",
+  "inventoryIcon" : "domino-largedooricon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "sdomino-largedoor.png:default", "fullbright" : true }, { "image" : "sdomino-largedoorlit.png:default" } ],
+      "imageLayers" : [ { "image" : "domino-largedoor.png:default", "fullbright" : true }, { "image" : "domino-largedoorlit.png:default" } ],
       "flipImages" : true,
       "imagePosition" : [-8, 0],
      
@@ -31,7 +31,7 @@
       "anchors" : [ "bottom", "top" ]
     },
     {
-      "imageLayers" : [ { "image" : "sdomino-largedoor.png:default", "fullbright" : true }, { "image" : "sdomino-largedoorlit.png:default" } ],
+      "imageLayers" : [ { "image" : "domino-largedoor.png:default", "fullbright" : true }, { "image" : "domino-largedoorlit.png:default" } ],
       "flipImages" : true,
       "imagePosition" : [-8, 0],
      

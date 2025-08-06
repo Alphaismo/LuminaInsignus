@@ -14,7 +14,7 @@
           "bodyFront" : "body/sylethiiproto_front.png",
           "bodyFullbright" : "body/sylethiiproto_fullbright.png"
         },
-        "defaultPrimaryColors" : ["D8D8D8", "A5A5A5", "707070", "515151"],    //From LIGHT to DARK
+        "defaultPrimaryColors" : ["E6E6E6", "B6B6B6", "7B7B7B", "373737"],    //From LIGHT to DARK
         "defaultSecondaryColors" : ["2C2C2C", "242424", "1C1C1C", "151515"],  //From LIGHT to DARK
         "animationCustom" : {
           "animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
@@ -175,7 +175,7 @@
           "bodyFront" : "body/sylethii_front.png",
           "bodyFullbright" : "body/sylethii_fullbright.png"
         },
-        "defaultPrimaryColors" : ["D8D8D8", "A5A5A5", "707070", "515151"],    //From LIGHT to DARK
+        "defaultPrimaryColors" : ["E6E6E6", "B6B6B6", "7B7B7B", "373737"],    //From LIGHT to DARK
         "defaultSecondaryColors" : ["D8D8D8", "A5A5A5", "707070", "515151"],  //From LIGHT to DARK
         "animationCustom" : {
           "animatedParts" : { "parts" : { "bodyFront" : { "properties" : {

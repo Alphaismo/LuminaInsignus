@@ -6,8 +6,9 @@
       "kind": "tile/magmarockunlit",
       "nohueshift": true,
       "lightMapped": true,
+      "noRandomOffset": true,
       "unlit": true,
-      "parallax": 1.0009,
+      "parallax": 1.199,
       "repeatY": true
     }
   }

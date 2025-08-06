@@ -18,7 +18,9 @@
     // GENERIC
 
     { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lumins-inventorplaceholder" } },
-	  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lumins-platinumbar" } },
+	  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lumins-platisteelbar" } },
+	  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lumins-carbtitanbar" } },
+	  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lumins-ilsyeinitebar" } },
 
     // MECH STARTER BODIES
 

@@ -1,27 +1,15 @@
 [
-    // GRYIDHAK
+    // CARBONATED TITANIUM
     {
         "op" : "add",
         "path" : "/swapSets/-",
         "value" : [ "5E5E5E", "454545", "343434", "222222" ]
-    },
-    // SYLETHIIAN IVORY
-    {
-        "op" : "add",
-        "path" : "/swapSets/-",
-        "value" : [ "D8D8D8", "A5A5A5", "707070", "515151" ]
     },
     // SYLETHIIAN SHADOWSPOKEN PURPLE
     {
         "op" : "add",
         "path" : "/swapSets/-",
         "value" : [ "282239", "1D1829", "14111D", "0D0B13" ]
-    },
-    // SYLETHIIAN EBONY
-    {
-        "op" : "add",
-        "path" : "/swapSets/-",
-        "value" : [ "2C2C2C", "242424", "1C1C1C", "151515" ]
     },
     // YLS'UTHIRAN OMNIMETAL
     {
