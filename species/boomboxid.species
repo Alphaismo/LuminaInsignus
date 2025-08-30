@@ -3,7 +3,7 @@
 	"charCreationTooltip" : {
 	"title" : "boomboxid",
 	"subTitle" : "O2",
-	"description" : "Alongside Ceebes, they were created in Lightbrick City as [previously extinct] Beethovarts as part of \"Project Boomboxid\". Nearly until Andreas Decade, they evolved to adapt into dubsteps, phonks and various modern genres. They commonly feed on sounds... and radiation."
+	"description" : "Alongside Ceebes but unlike them who are created after a sabotage, these cyclopses are created in Lightbrick City as part of \"Project Boomboxid\". They feed on sounds, which they find it a strength as long as they've got music playing... and they also feed on radiation. That's a shame that their sound-based powers trigger the sound sensitivity of most autistic majority in Lightbrick."
   },
 
   "nameGen" : [ "/species/boomboxidnamegen.config:names", "/species/boomboxidnamegen.config:names" ],

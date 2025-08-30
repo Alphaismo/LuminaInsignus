@@ -3,8 +3,8 @@
 
 	"charCreationTooltip" : {
     "title" : "Q'Khardan",
-    "subTitle" : "Reptilian Human-likes of Ka'Hraadak",
-    "description" : "Reigning from the harsh jungle planet, they are physically and defensively-superior counterparts of Sylethiis and are little different from Florans. Combining their traditions with technology allowed them to prosper further, especially to the space."
+    "subTitle" : "Reptilian Humanoids of Ka'Hraadak",
+    "description" : "While reigning from the harsh jungle planet, they are little different from Florans. Combining their traditions with technology allowed them to prosper further, especially to the space. Due to their horns, they are mistaken as Oni by both Humans and Hylotls."
   },
 
   "nameGen" : [ "/species/qkhadrannamegen.config:names", "/species/qkhadrannamegen.config:names" ],

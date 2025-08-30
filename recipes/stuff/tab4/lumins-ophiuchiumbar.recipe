@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "lumins-ophiuchiumore", "count" : 2 }
+  ],
+  "output" : { "item" : "lumins-ophiuchiumbar", "count" : 1 },
+  "duration" : 0.15,
+	"groups" : [ "lumins-inventorcrafter2", "lumins-inventortab4", "craftingfurnace3", "bars", "all" ]
+}

@@ -1,10 +1,12 @@
 {
   "kind" : "valkeidin",
+
 	"charCreationTooltip" : {
-	"title" : "valkeidin",
-	"subTitle" : "O2",
-	"description" : "Resilient and cunning species originating from Savannahs of Usheri, they are one of Lightbrick's most known, particularly for adapting some alien technology into theirs."
+	  "title" : "valkeidin",
+	  "subTitle" : "O2",
+	  "description" : "Resilient and cunning species originating from Savannahs of Usheri, they are one of Lightbrick's most known, particularly for adapting some alien technology into theirs."
   },
+  
   "nameGen" : [ "/species/valkeidinnamegen.config:names", "/species/valkeidinnamegen.config:names" ],
   "ouchNoises" : [ "/sfx/humanoid/valkeidinhurt_male1.ogg", "/sfx/humanoid/valkeidinhurt_female1.ogg" ],
   "charGenTextLabels" : [ "Skin color", "N/A", "Shirt", "Legwear", "Essence color", "N/A", "Shirt color", "Legwear color", "VALKEIDIN", "Personality" ],

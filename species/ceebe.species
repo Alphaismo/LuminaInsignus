@@ -1,10 +1,12 @@
 {
   "kind" : "ceebe",
+
 	"charCreationTooltip" : {
-	"title" : "Ceebe",
-	"subTitle" : "Fetish-Overwhelmed Cubeheaded Humanoids",
-	"description" : "Absolutely sentient naughty dolls in Lightbrick City. It's best not to ask neither anyone nor them why they have cubes for a head."
+	  "title" : "Ceebe",
+	  "subTitle" : "I don't know what to describe them...",
+	  "description" : "Absolutely sentient dolls with... *ahem* peculiar past, in Lightbrick City. It's best not to ask neither anyone nor them why they have cubes for a head."
   },
+
   "nameGen" : [ "/species/ceebenamegen.config:names", "/species/ceebenamegen.config:names" ],
   "ouchNoises" : [ "/sfx/humanoid/ceebehurt_male1.ogg", "/sfx/humanoid/ceebehurt_female1.ogg" ],
   "charGenTextLabels" : [ "Skin color", "NOPE", "Shirt", "Legwear", "Head", "NOPE", "Shirt color", "Legwear color", "CEEBE", "Personality" ],
