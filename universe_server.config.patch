@@ -51,6 +51,21 @@
 	},
 
 	// ORTHIRID
+	
+    { "op" : "add",
+		"path" : "/speciesShips/sylethii",
+		"value" : [
+		    "/ships/sylethii/sylethiit0.structure",
+			"/ships/sylethii/sylethiit1.structure",
+			"/ships/sylethii/sylethiit2.structure",
+			"/ships/sylethii/sylethiit3.structure",
+			"/ships/sylethii/sylethiit4.structure",
+			"/ships/sylethii/sylethiit5.structure",
+			"/ships/sylethii/sylethiit6.structure",
+			"/ships/sylethii/sylethiit7.structure",
+			"/ships/sylethii/sylethiit8.structure"
+		]
+	},
 
 	// VALKEIDIN
 

@@ -3,23 +3,23 @@
     {
       "op": "add",
       "path": "/depth2/0/1/-",
-      "value": [ "lumins-platisteel", 0.75 ]
+      "value": [ "lumins-rhodium", 0.75 ]
     },
     {
       "op": "add",
       "path": "/depth3/0/1/-",
-      "value": [ "lumins-platisteel", 0.90 ]
+      "value": [ "lumins-rhodium", 0.90 ]
     },
     // TIER 2 
     {
       "op": "add",
       "path": "/depth2/1/1/-",
-      "value": [ "lumins-platisteel", 0.75 ]
+      "value": [ "lumins-rhodium", 0.75 ]
     },
     {
       "op": "add",
       "path": "/depth3/1/1/-",
-      "value": [ "lumins-platisteel", 0.90 ]
+      "value": [ "lumins-rhodium", 0.90 ]
     },
     // TIER 3
     
@@ -29,17 +29,17 @@
     {
       "op": "add",
       "path": "/depth1/4/1/-",
-      "value": [ "lumins-platisteel", 0.80 ]
+      "value": [ "lumins-rhodium", 0.80 ]
     },
     {
       "op": "add",
       "path": "/depth2/4/1/-",
-      "value": [ "lumins-platisteel", 0.90 ]
+      "value": [ "lumins-rhodium", 0.90 ]
     },
     {
       "op": "add",
       "path": "/depth3/4/1/-",
-      "value": [ "lumins-platisteel", 1.00 ]
+      "value": [ "lumins-rhodium", 1.00 ]
     },
     {
       "op": "add",

@@ -1,0 +1,10 @@
+{
+  "itemName" : "lumins-rhodiumore",
+  "price" : 65,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "lumins-rhodiumore.png",
+  "description" : "The unrefined, pure rhodium ore, it may use a wash to gloss again.",
+  "shortdescription" : "Rhodium Ore",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "lumins-platisteelore", "count" : 2 }
+    { "item" : "lumins-rhodiumore", "count" : 2 }
   ],
-  "output" : { "item" : "lumins-platisteelbar", "count" : 1 },
+  "output" : { "item" : "lumins-rhodiumbar", "count" : 1 },
   "duration" : 0.15,
 	"groups" : [ "lumins-inventorcrafter", "lumins-inventortab4", "craftingfurnace", "bars", "all" ]
 }

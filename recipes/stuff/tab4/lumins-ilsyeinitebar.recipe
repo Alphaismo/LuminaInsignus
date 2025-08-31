@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "lumins-ancientsolariumstar", "count" : 2 },
     { "item" : "solariumstar", "count" : 2 },
-    { "item" : "lumins-platisteelbar", "count" : 1 },
+    { "item" : "lumins-rhodiumbar", "count" : 1 },
     { "item" : "lumins-ophiuchiumbar", "count" : 1 },
     { "item" : "essence", "count" : 50 }
   ],

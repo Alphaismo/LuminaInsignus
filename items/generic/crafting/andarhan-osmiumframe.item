@@ -1,0 +1,10 @@
+{
+  "itemName" : "andarhan-osmiumframe",
+  "price" : 600,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "andarhan-osmiumframe.png",
+  "description" : "Modern for Andarhans post-1100 BC, ancient for everyone else. Small traces of Titanium are also found.",
+  "shortdescription" : "Andarhan Osmium Frame",
+  "itemTags" : [ "reagent" ]
+}

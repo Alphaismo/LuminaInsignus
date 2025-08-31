@@ -73,7 +73,7 @@
           "initialRecipeUnlocks" : [],
           "upgradeMaterials" : [
             { "item" : "durasteelbar", "count" : 15 },
-            { "item" : "lumins-platinumbar", "count" : 8 },
+            { "item" : "lumins-rhodiumbar", "count" : 8 },
             { "item" : "diamond", "count" : 6 }
           ]
         },

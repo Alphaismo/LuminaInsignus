@@ -1,0 +1,10 @@
+{
+  "itemName" : "lumins-rhodiumbar",
+  "price" : 110,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "lumins-rhodiumbar.png",
+  "description" : "A shining, shimmering rhodium bar.",
+  "shortdescription" : "Rhodium Bar",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,22 +1,22 @@
 {
   "modId" : 200,
-  "modName" : "lumins-platinum",
-  "itemDrop" : "lumins-platinumore",
-  "description" : "Platisteel.",
+  "modName" : "lumins-rhodium",
+  "itemDrop" : "lumins-rhodiumore",
+  "description" : "Rhodium.",
   "health" : 4,
   "harvestLevel" : 6,
   "breaksWithTile" : true,
 
   "ceebeDescription" : "Well, it looks shiny. Now, if...",
   "nharduunrDescription" : "Despite it's delicate look, it is incredibly strong and dense.",
-  "ginrhinDescription" : "33% Platinum, 34% Carbon and 33% Iron confirmed.",
+  "ginrhinDescription" : "Rh-45. Belongs to PGMs.",
 
   "miningSounds" : [ "/sfx/tools/pickaxe_ore.ogg", "/sfx/tools/pickaxe_ore2.ogg" ],
   "miningParticle" : "orespark",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "lumins-platinum.png",
+    "texture" : "lumins-rhodium.png",
     "variants" : 8,
     "multiColored" : false,
     "zLevel" : 0
