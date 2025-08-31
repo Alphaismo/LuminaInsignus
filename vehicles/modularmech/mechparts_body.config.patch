@@ -271,7 +271,7 @@
           "hazardImmunities" : ["biomeradiation", "biomecold"]
         },
         "partImages" : {
-          "bodyBack" : "body/andarhanproto_back.png",
+          "bodyBack" : "body/lumins-nothing_back.png",
           "bodyFront" : "body/andarhan_front.png",
           "bodyFullbright" : "body/andarhan_fullbright.png"
         },
