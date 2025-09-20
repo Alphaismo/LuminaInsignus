@@ -39,19 +39,19 @@
   "chatPortrait" : "/ai/portraits/nharduunrportrait.png:yell.1",
   "dialog" : {
     "wakeUp" : [
-      [ "ODIN ONLINE.", "/ai/portraits/nharduunrportrait.png:unique.1" ],
-      [ "I am Khar'thass, your ODIN-Based Operator. I manage the maintainance of your ship.", "/ai/portraits/nharduunrportrait.png:talk.0" ],
-      [ "I am also programmed to offer you information and advice.", "/ai/portraits/nharduunrportrait.png:talk.1" ],
-      [ "Earth was attacked by Ruin, but I have found no reason of the assault on the planet.", "/ai/portraits/nharduunrportrait.png:talk.0" ],
-      [ "The ship's navigation systems were damaged in our escape. Our location is currently unknown.", "/ai/portraits/nharduunrportrait.png:talk.1" ]
+      [ "REBOOT COMPLETE. CONNECTION RESTORED. INCOMING CONTACT.", "/ai/portraits/nharduunrportrait.png:unique.1" ],
+      [ "If anyone finds the message and I don't reply, I am either absent at best or dead at worst But if you forgot about me, allow me to give a refresher.", "/ai/portraits/nharduunrportrait.png:talk.0" ],
+      [ "I am Vherul-Dhess. I designed Khar'thass, an ODIN-based S.A.I.L, by reverse engineering the aliens'. And no, I am not the digital avatar I've created out of my own likeness.", "/ai/portraits/nharduunrportrait.png:talk.1" ],
+      [ "But... Apprentice? I am surprised you got out of Earth as soon as possible after some unknown entity designated as Ruin has devastated it in an ambush.", "/ai/portraits/nharduunrportrait.png:talk.0" ],
+      [ "The ship's navigation systems were damaged in our escape. If you must find a way to repair it, I would be glad to know. Khar'thass, switch to assistance mode... and take care of the Apprentice. Vherul-Dhess out.", "/ai/portraits/nharduunrportrait.png:talk.1" ]
     ],
     "wakePlayer" : [
       [ "FATAL ERROR OCCURED.", "/ai/portraits/nharduunrportrait.png:unique.1"],
       [ "RESTART FAILED.", "/ai/portraits/nharduunrportrait.png:unique.1"],
       [ "ERROR ERROR ERROR.", "/ai/portraits/nharduunrportrait.png:unique.1"],
-      [ "To make use of your S.A.I.L please reboot.", "/ai/portraits/nharduunrportrait.png:unique.1" ],
-      [ "Rebooting has shown to improve ship interaction satisfaction levels by 73%.", "/ai/portraits/nharduunrportrait.png:unique.1"],
-      [ "Rebooting requires a conscious entity to interact with the S.A.I.L console.", "/ai/portraits/nharduunrportrait.png:unique.1" ]
+      [ "MALFUNCTION DETECTED.", "/ai/portraits/nharduunrportrait.png:unique.1" ],
+      [ "A FATAL ERROR OCCURED WHEN ATTEMPTING AUTOMATIC REBOOT.", "/ai/portraits/nharduunrportrait.png:unique.1"],
+      [ "MANUAL REBOOTING REQUIRED.", "/ai/portraits/nharduunrportrait.png:unique.1" ]
     ]
   },
   "uniqueId" : "techstation"

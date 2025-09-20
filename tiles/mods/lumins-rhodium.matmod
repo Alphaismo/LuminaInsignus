@@ -8,7 +8,7 @@
   "breaksWithTile" : true,
 
   "ceebeDescription" : "Well, it looks shiny. Now, if...",
-  "nharduunrDescription" : "Despite it's delicate look, it is incredibly strong and dense.",
+  "nharduunrDescription" : "It appears to be unimpressively brittle, but does provide resistance against corrosions. Mortals are making do with this metal's properties.",
   "ginrhinDescription" : "Rh-45. Belongs to PGMs.",
 
   "miningSounds" : [ "/sfx/tools/pickaxe_ore.ogg", "/sfx/tools/pickaxe_ore2.ogg" ],
