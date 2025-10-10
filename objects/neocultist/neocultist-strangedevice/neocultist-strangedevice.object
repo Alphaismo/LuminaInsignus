@@ -8,15 +8,22 @@
     "shortdescription" : "Strange Device",
     "race" : "human",
   
+    "genericDescription" : "A terraforming device that Occasus Nullus has created...",
     "floranDescription" : "Ridiculousssly ssstupid-looking machine.",
     "glitchDescription" : "Horrified. I don't want to know what this does.",
     "novakidDescription" : "This bucket o' bolts ain't gonna work without proper ID card luckily.",
+
+    "sylethiiDescription" : "It requires a proper ID... not that it matters, as I'd rather want to dismantle it instead.",
+    "boomboxidDescription" : "Okay... that isn't cool. At all.",
+    "orthiridDescription" : "What is that purpose of this device?",
     "ceebeDescription" : "What is this thing?",
-    "orthiridDescription" : "What is tha purpose of this device.",
-    "andarhanDescription" : "We have similar \"Planetary Euthanasia\"-classed device like this, but we only use it against K'Oaulem-infested planets.",
+    "andarhanDescription" : "Not even my sisters would allow it to be placed on Tarvul.",
     "rhadurDescription" : "I don't want to know what is this metal scrap's function! I want to dismantle and sell every pieces of it!",
-    "nharduunrDescription" : "It appears to be a Planet Destabilizer, which renders a target planet fully uninhabitable.",
-    "ginrhinDescription" : "Planet Destabilizer of Neo Occasus origin confirmed. Destroy immediately.",
+    "nharduunrDescription" : "It appears to be a Planet Destabilizer... it terraforms the planet into the Doomed Wasteland.",
+    "ginrhinDescription" : "Planet Destabilizer of Occasus Nullus origin confirmed. Destroy immediately.",
+
+    "avikanDescription" : "Not even Thell would ever allow it to exist.",
+    "drodenDescription" : "Alert. Terraforming device detected. Reporting in to Vanguard for study of it's flaws.",
   
     "inventoryIcon" : "neocultist-strangedeviceicon.png",
     "orientations" : [

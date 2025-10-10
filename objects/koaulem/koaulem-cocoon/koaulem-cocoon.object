@@ -1,0 +1,50 @@
+{
+    "objectName" : "koaulem-cocoon",
+    "colonyTags" : ["koaulem","evil"],
+    "rarity" : "Legendary",
+    "category" : "breakable",
+    "price" : 300,
+    "description" : "Something must've come out of it.",
+    "shortdescription" : "K'Oaulem Cocoon",
+    "race" : "koaulem",
+    "printable" : false,
+  
+    "floranDescription" : "Ssscary looking egg.",
+    "glitchDescription" : "Cautious. I don't know what will come out of it.",
+    "novakidDescription" : "O god... This reeks trouble.",
+
+    "sylethiiDescription" : "This broods trouble. I must be on the alert.",
+    "boomboxidDescription" : "A they/them monster delivery service. But damn.",
+    "orthiridDescription" : "It bloomed after crashing. But what unleashed that?",
+    "ceebeDescription" : "It appears to have crashed like a meteor and split open. I'm not sure what to do now.",
+    "andarhanDescription" : "Parasites are now here?... I will kill them all or die trying.",
+    "nharduunrDescription" : "It doesn't seem to contain any K'Oaulem, but this is not good if they are now roaming.",
+    "ginrhinDescription" : "K'Oaulem Cocoon. Attempting to report to nearest civilization for PSA.",
+  
+    "inventoryIcon" : "koaulem-cocoonicon.png",
+    "orientations" : [
+        {
+          "imageLayers" : [ { "image" : "koaulem-cocoon.png:<color>", "fullbright" : true }, { "image" : "koaulem-cocoonlit.png:<color>" } ],
+          "imagePosition" : [-16, 0],
+    
+          "spaceScan" : 0.1,
+          "flipImages" : true,
+          "direction" : "left",
+          "anchors" : [ "bottom" ]
+        },
+        {
+          "imageLayers" : [ { "image" : "koaulem-cocoon.png:<color>", "fullbright" : true }, { "image" : "koaulem-cocoonlit.png:<color>" } ],
+          "imagePosition" : [-16, 0],
+    
+          "spaceScan" : 0.1,
+          "direction" : "right",
+          "anchors" : [ "bottom" ]
+        }
+      ],
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/rock_break1.ogg", "/sfx/objects/rock_break2.ogg", "/sfx/objects/rock_break3.ogg", "/sfx/objects/rock_break4.ogg", "/sfx/objects/rock_break5.ogg", "/sfx/objects/rock_crumble1.ogg", "/sfx/objects/rock_crumble2.ogg", "/sfx/objects/rock_crumble3.ogg", "/sfx/objects/rock_crumble4.ogg", "/sfx/objects/rock_crumble5.ogg" ],
+  "smashDropOptions" : [
+    [ [ "lumins-koaulemchitin", 5, { } ], [ "lumins-koaulemchitin", 6, { } ] ]
+  ]
+  }
+  
